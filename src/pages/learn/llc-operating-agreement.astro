@@ -1,0 +1,296 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'LLC Operating Agreement: What It Is and Why You Need One';
+const description =
+  'Learn what an LLC operating agreement is, why every LLC needs one, key provisions to include, and the difference between single-member and multi-member agreements.';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  datePublished: '2026-03-22',
+  dateModified: '2026-03-22',
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-300">Learning Center</p>
+      <h1 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        LLC Operating Agreement
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        The most important internal document your LLC will have — what it is, why you need one, and exactly what to include.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Disclaimer -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-5 text-sm leading-relaxed text-gray-700">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal advice. Operating agreement requirements vary by state. Consult a qualified attorney to draft or review an operating agreement tailored to your specific situation.
+      </p>
+    </div>
+
+    <!-- Affiliate disclosure -->
+    <div class="mb-10 rounded-xl border border-slate-200 bg-slate-50/50 p-5 text-sm leading-relaxed text-gray-600">
+      <p>{siteConfig.disclosureText}</p>
+    </div>
+
+    <!-- TOC -->
+    <nav class="mb-12 rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+      <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href="#what-is-it" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">What Is an LLC Operating Agreement?</a></li>
+        <li><a href="#why-you-need-one" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Why Every LLC Needs an Operating Agreement</a></li>
+        <li><a href="#key-provisions" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Key Provisions to Include</a></li>
+        <li><a href="#single-vs-multi" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Single-Member vs Multi-Member Agreements</a></li>
+        <li><a href="#state-requirements" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">State Requirements</a></li>
+        <li><a href="#templates-vs-attorney" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Templates vs Attorney-Drafted Agreements</a></li>
+        <li><a href="#common-mistakes" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Common Mistakes to Avoid</a></li>
+        <li><a href="#faq" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+
+    <!-- What Is It -->
+    <section id="what-is-it" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">What Is an LLC Operating Agreement?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          An <strong>LLC operating agreement</strong> is a legal document that outlines the ownership structure, management rules, and operating procedures of a Limited Liability Company. Think of it as the rulebook for how your LLC will be run.
+        </p>
+        <p>
+          While your Articles of Organization create the LLC with the state, the operating agreement governs the internal affairs of the business. It covers everything from how profits are divided to what happens if a member wants to leave.
+        </p>
+        <p>
+          The operating agreement is a private document — it is not filed with the state. It is kept internally by the members and only shared with banks, lenders, or courts when needed.
+        </p>
+        <p>
+          Even if your state does not legally require an operating agreement, having one is considered a best practice for every LLC, whether you are the sole member or share ownership with others.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why You Need One -->
+    <section id="why-you-need-one" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why Every LLC Needs an Operating Agreement</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          There are several compelling reasons to have an operating agreement, even if you are the only member:
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">1. Protect Your Limited Liability</h3>
+        <p>
+          Courts are more likely to respect the separation between you and your LLC if you have a formal operating agreement. Without one, it becomes easier for a creditor or plaintiff to argue that your LLC is not a real, separate entity — and "pierce the corporate veil" to reach your personal assets.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">2. Override Default State Rules</h3>
+        <p>
+          If you do not have an operating agreement, your LLC is governed by your state's default LLC laws. These default rules may not align with what you want. For example, many states default to equal profit splitting among members regardless of their capital contributions. An operating agreement lets you set your own terms.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">3. Prevent and Resolve Disputes</h3>
+        <p>
+          For multi-member LLCs, an operating agreement is essential for preventing conflicts. It clearly spells out each member's rights, responsibilities, and share of profits. When disagreements arise, the operating agreement serves as the reference document.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">4. Bank and Lender Requirements</h3>
+        <p>
+          Many banks require an operating agreement to open a business bank account. Lenders and investors often want to see one before extending credit or investment to the LLC.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">5. Clarify Tax Treatment</h3>
+        <p>
+          The operating agreement can specify how the LLC will be taxed and how distributions will be handled, ensuring all members are on the same page regarding tax obligations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Key Provisions -->
+    <section id="key-provisions" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Key Provisions to Include</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          A thorough operating agreement should address the following areas:
+        </p>
+      </div>
+      <div class="mt-6 space-y-4">
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Organization Details</h3>
+          <p class="mt-2 text-sm text-gray-600">LLC name, purpose, principal office address, date of formation, and duration (perpetual or fixed term).</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Member Information and Ownership</h3>
+          <p class="mt-2 text-sm text-gray-600">Names of all members, their capital contributions, and each member's ownership percentage (sometimes called "membership interest" or "units").</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Profit and Loss Distribution</h3>
+          <p class="mt-2 text-sm text-gray-600">How profits and losses are allocated among members. This can follow ownership percentages or be custom (for example, one member gets a preferred return before profits are split).</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Management Structure</h3>
+          <p class="mt-2 text-sm text-gray-600">Whether the LLC is member-managed (all members participate in decisions) or manager-managed (designated managers run the business). Specify who has authority to sign contracts, open accounts, and make financial decisions.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Voting Rights and Decision-Making</h3>
+          <p class="mt-2 text-sm text-gray-600">How votes are counted (per capita or by ownership percentage), what requires a simple majority vs unanimous consent, and how deadlocks are resolved.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Transfer of Membership Interests</h3>
+          <p class="mt-2 text-sm text-gray-600">Rules about whether members can sell or transfer their interest, right of first refusal provisions, and how new members can be admitted.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Dissolution and Wind-Down</h3>
+          <p class="mt-2 text-sm text-gray-600">What triggers dissolution of the LLC, how assets are distributed during wind-down, and the process for members to voluntarily withdraw.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Buyout and Exit Provisions</h3>
+          <p class="mt-2 text-sm text-gray-600">What happens when a member dies, becomes disabled, or wants to leave the business. How the departing member's interest is valued and who has the right to buy it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Single vs Multi -->
+    <section id="single-vs-multi" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Single-Member vs Multi-Member Agreements</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Single-Member LLC Operating Agreement</h3>
+        <p>
+          Even though you are the only owner, a single-member operating agreement serves important purposes. It reinforces the legal separation between you and the LLC, which strengthens your liability protection. It also satisfies bank requirements and puts basic rules in writing — such as how the LLC is taxed, who manages it, and what happens if you pass away.
+        </p>
+        <p>
+          Single-member agreements are simpler and typically 2 to 5 pages long. They focus on confirming the sole member's authority, capital contribution, and basic dissolution procedures.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Multi-Member LLC Operating Agreement</h3>
+        <p>
+          Multi-member operating agreements are more complex and typically 10 to 30+ pages. They need to address profit splitting, decision-making authority, dispute resolution, exit procedures, and many other scenarios that can arise when multiple people share ownership of a business.
+        </p>
+        <p>
+          For multi-member LLCs, we strongly recommend having an attorney review or draft the operating agreement. The cost of legal help upfront (typically $500 to $2,000) is far less than the cost of litigation if disputes arise later.
+        </p>
+      </div>
+    </section>
+
+    <!-- State Requirements -->
+    <section id="state-requirements" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">State Requirements</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Operating agreement requirements vary by state. Here is a general overview:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>States that require an operating agreement:</strong> New York, California, Delaware, Maine, and Missouri all have laws that either require or strongly expect LLCs to have an operating agreement.</li>
+          <li><strong>States that do not require one but recommend it:</strong> Most other states do not legally require an operating agreement but strongly recommend them. State default rules apply in the absence of one.</li>
+        </ul>
+        <p>
+          Regardless of whether your state requires it, having one is always recommended. The cost and effort are minimal compared to the protection and clarity it provides.
+        </p>
+      </div>
+    </section>
+
+    <!-- Templates vs Attorney -->
+    <section id="templates-vs-attorney" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Templates vs Attorney-Drafted Agreements</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          You have several options for creating your operating agreement:
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Free Templates from Formation Services</h3>
+        <p>
+          Many LLC formation services include a basic operating agreement template. For example, ZenBusiness includes one in their Starter plan, and <a href="/reviews/northwest-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Northwest Registered Agent</a> provides one with their formation package. These are adequate for simple, single-member LLCs.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Online Legal Platforms</h3>
+        <p>
+          Services like LegalZoom offer customizable operating agreement templates for $100 to $200. These are a step up from free templates and include some customization options.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Attorney-Drafted Agreements</h3>
+        <p>
+          For multi-member LLCs, complex ownership structures, or businesses with significant assets, hiring an attorney is the best choice. Expect to pay $500 to $2,000 for a custom operating agreement. Services like <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC Attorney</a> include attorney-drafted operating agreements as part of their formation package.
+        </p>
+
+        <div class="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p class="text-sm font-semibold text-gray-900">Our recommendation:</p>
+          <p class="mt-1 text-sm text-gray-700">Single-member LLCs can usually get by with a template from a formation service. Multi-member LLCs should invest in an attorney-drafted agreement — the upfront cost is a fraction of what you would spend resolving disputes later.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Common Mistakes -->
+    <section id="common-mistakes" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Common Mistakes to Avoid</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <ol class="ml-6 list-decimal space-y-3">
+          <li><strong>Not having one at all.</strong> This is the biggest mistake. Without an operating agreement, your LLC is governed by state default rules that may not reflect your intentions.</li>
+          <li><strong>Using a generic template without customization.</strong> Every LLC is different. A one-size-fits-all template may not address your specific needs, especially for multi-member LLCs.</li>
+          <li><strong>Failing to address exit scenarios.</strong> What happens when a member dies, gets divorced, or simply wants out? Without clear buyout and exit provisions, these situations can become extremely contentious and expensive to resolve.</li>
+          <li><strong>Not updating it as circumstances change.</strong> If you add new members, change profit-sharing arrangements, or alter the management structure, your operating agreement should be amended to reflect those changes.</li>
+          <li><strong>Ignoring tax provisions.</strong> The operating agreement should clearly state how the LLC will be taxed and how distributions will be handled, especially if they differ from ownership percentages.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions</h2>
+      <div class="mt-6 space-y-6">
+        <div>
+          <h3 class="font-bold text-gray-900">Do I need an operating agreement for a single-member LLC?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Yes, we recommend it. Even though you are the sole owner, an operating agreement strengthens your liability protection and is often required by banks to open a business account.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Can I write my own operating agreement?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Yes, but proceed with caution for multi-member LLCs. A template is fine for a simple single-member LLC. For anything more complex, an attorney review is strongly recommended.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Do I need to file my operating agreement with the state?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">No. The operating agreement is an internal document. It is not filed with any government agency. Keep it with your LLC records and provide copies to your bank, accountant, and any members.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Can I change my operating agreement later?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Yes. Operating agreements can be amended at any time, typically by a vote of the members as specified in the agreement itself. Document all amendments in writing and have all members sign.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">What happens if members disagree and there is no operating agreement?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Without an operating agreement, disputes are resolved according to your state's default LLC laws — which may not be favorable to either party. This often leads to costly litigation. An operating agreement with clear dispute resolution procedures can prevent this.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-14">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-extrabold text-gray-900">Need an Operating Agreement?</h2>
+        <p class="mt-2 text-gray-700 leading-relaxed">
+          Many formation services include a free operating agreement template. Compare your options to find the best fit.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-[#1e3a5f] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#1e3a5f]/90 transition-colors"
+        >
+          Compare LLC Formation Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>Last updated: {siteConfig.lastUpdated}</p>
+    </div>
+  </article>
+</BaseLayout>

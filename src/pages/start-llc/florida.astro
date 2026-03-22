@@ -1,0 +1,244 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'How to Start an LLC in Florida (2026 Guide)';
+const description =
+  'Step-by-step guide to forming an LLC in Florida. Learn about the $125 filing fee, sunbiz.org registration, annual report requirements, and everything you need for your Florida LLC.';
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        How to Start an LLC in Florida
+      </h1>
+      <p class="mt-2 text-sm font-medium text-blue-200">Updated for 2026</p>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        Florida offers a combination of low filing fees, no state income tax, and a strong business ecosystem that makes it an excellent state for forming your LLC.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Quick Facts -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+        <h2 class="text-xl font-bold text-gray-900">Florida LLC Quick Facts</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { label: 'Filing Fee', value: '$125' },
+            { label: 'State Agency', value: 'FL Division of Corporations' },
+            { label: 'Formation Document', value: 'Articles of Organization' },
+            { label: 'State Income Tax', value: 'None (personal)' },
+            { label: 'Annual Report Fee', value: '$138.75' },
+            { label: 'Filing Website', value: 'sunbiz.org' },
+          ].map((fact) => (
+            <div class="rounded-lg bg-gray-50 p-3">
+              <span class="text-xs font-semibold uppercase tracking-wide text-gray-500">{fact.label}</span>
+              <p class="mt-1 text-sm font-bold text-gray-900">{fact.value}</p>
+            </div>
+          ))}
+        </div>
+        <p class="mt-4 text-xs text-gray-500">
+          Fees and requirements shown are based on our most recent review. Always verify current information at <a href="https://dos.fl.gov/sunbiz/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">sunbiz.org</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-gray-600">
+      {siteConfig.disclosureText}
+    </div>
+
+    <!-- Why Florida -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why Form an LLC in Florida?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Florida is one of the fastest-growing states in the U.S. for business formation. It offers entrepreneurs several advantages that make it an attractive place to start and operate an LLC.
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>No personal state income tax:</strong> Florida does not tax personal income, which means LLC members keep more of their pass-through profits.</li>
+          <li><strong>Affordable filing fee:</strong> At $125, Florida's LLC filing fee is lower than many other popular business states.</li>
+          <li><strong>Simple online filing:</strong> Florida's sunbiz.org platform makes it straightforward to file formation documents, search business names, and manage your annual reports online.</li>
+          <li><strong>Large consumer market:</strong> With over 22 million residents and a massive tourism industry, Florida offers a vast customer base.</li>
+          <li><strong>No franchise tax for LLCs:</strong> Unlike some states, Florida does not impose a separate franchise tax on LLCs (though there is a corporate income tax on C-corps).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Steps to Form Your Florida LLC</h2>
+
+      <div class="mt-8 space-y-8">
+
+        <!-- Step 1 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">1</span>
+            <h3 class="text-xl font-bold text-gray-900">Choose a Name for Your Florida LLC</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Your LLC name must be distinguishable from other entities registered in Florida. It must include "Limited Liability Company," "LLC," or "L.L.C."
+            </p>
+            <p>
+              Search for name availability at <a href="https://dos.fl.gov/sunbiz/search/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">sunbiz.org</a>. Florida does not offer a formal name reservation for LLCs, so it is best to file your Articles of Organization promptly after confirming your name is available.
+            </p>
+            <p>
+              You may also want to register a fictitious name (DBA) if you plan to do business under a name different from your LLC's legal name. This is filed with the Florida Division of Corporations.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">2</span>
+            <h3 class="text-xl font-bold text-gray-900">Appoint a Registered Agent</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Every Florida LLC must designate a registered agent with a physical street address in Florida. The registered agent receives legal documents and official state correspondence on behalf of your LLC.
+            </p>
+            <p>
+              You can act as your own registered agent or appoint a professional registered agent service. A professional service offers privacy (their address appears on public filings instead of yours) and ensures someone is always available to accept important documents.
+            </p>
+            <p>
+              Many of our <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">recommended LLC formation services</a> include registered agent service with formation.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">3</span>
+            <h3 class="text-xl font-bold text-gray-900">File Articles of Organization</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              File your Articles of Organization with the Florida Division of Corporations through the <a href="https://dos.fl.gov/sunbiz/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">sunbiz.org</a> website. The filing fee is <strong>$125</strong>.
+            </p>
+            <p><strong>Information required on the form:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>LLC name</li>
+              <li>Principal office address</li>
+              <li>Mailing address</li>
+              <li>Registered agent name and address</li>
+              <li>Name and address of each LLC manager or managing member</li>
+              <li>Effective date (can be the filing date or a future date)</li>
+            </ul>
+            <p>
+              Online filings are generally processed within a few business days. You will receive a confirmation from the Division of Corporations once your LLC is officially formed.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">4</span>
+            <h3 class="text-xl font-bold text-gray-900">Create an Operating Agreement</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Florida does not require LLCs to have an operating agreement, but it is highly recommended. This document establishes ownership percentages, member rights and responsibilities, management structure, profit distribution, and procedures for adding or removing members.
+            </p>
+            <p>
+              Having an operating agreement protects your personal liability by clearly separating the LLC as its own entity. It also prevents disputes between members by establishing clear rules in advance.
+            </p>
+            <p>
+              For more details, see our <a href="/learn/llc-operating-agreement/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">operating agreement guide</a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">5</span>
+            <h3 class="text-xl font-bold text-gray-900">Get an EIN</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Apply for a free Employer Identification Number from the IRS. You need an EIN to open a business bank account, hire employees, and file taxes. The application is free and takes just a few minutes online at irs.gov.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Annual Report -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Florida Annual Report</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Florida requires every LLC to file an annual report between January 1 and May 1 each year. The filing fee is <strong>$138.75</strong> (as of our last review). If you miss the deadline, a late fee of $400 is added, and failure to file can result in your LLC being administratively dissolved.
+        </p>
+        <p>
+          The annual report is filed online through sunbiz.org and primarily serves to update or confirm your LLC's information, including the registered agent, principal address, and member or manager details.
+        </p>
+        <p class="text-sm text-gray-500">
+          Annual report fees may change. Check the current fee at <a href="https://dos.fl.gov/sunbiz/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">sunbiz.org</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- After Formation -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">After You Form Your Florida LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Open a business bank account:</strong> Maintain separation between personal and business finances.</li>
+          <li><strong>Get necessary licenses and permits:</strong> Florida requires a general business license in many counties. Some industries have additional state requirements.</li>
+          <li><strong>Register for sales tax:</strong> If you sell taxable goods or services, register with the Florida Department of Revenue for a sales tax certificate.</li>
+          <li><strong>Consider business insurance:</strong> Protect your LLC with general liability or professional liability insurance depending on your business type.</li>
+          <li><strong>Remember your annual report:</strong> Mark your calendar for the January 1 to May 1 filing window each year.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-bold text-gray-900">Start Your Florida LLC Today</h2>
+        <p class="mt-2 text-sm text-gray-700">
+          A formation service can handle the filing, act as your registered agent, and keep you compliant with Florida's annual report requirements.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800"
+        >
+          Compare the Best LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Links -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-gray-900">Related Guides</h2>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="/learn/what-is-an-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">What Is an LLC?</a>
+        <a href="/learn/llc-operating-agreement/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">LLC Operating Agreement Guide</a>
+        <a href="/best-llc-services/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">Best LLC Services 2026</a>
+        <a href="/start-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">All State Guides</a>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-5 text-xs leading-relaxed text-gray-500">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal or tax advice. Filing fees, annual report requirements, and state regulations change periodically. Always verify current information at <a href="https://dos.fl.gov/sunbiz/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">sunbiz.org</a> or consult a qualified attorney or tax professional.
+      </p>
+    </div>
+
+    <div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>{siteConfig.name} is operated by {siteConfig.operator}.</p>
+    </div>
+  </article>
+</BaseLayout>

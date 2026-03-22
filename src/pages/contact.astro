@@ -1,0 +1,123 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'Contact Us';
+const description =
+  'Get in touch with the TopBestLLCService.com team. Reach us by email for questions about our reviews, guides, or partnership inquiries.';
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        Contact Us
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        Have a question, suggestion, or business inquiry? We would love to hear from you.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Contact Info -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Get in Touch</h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        The best way to reach us is by email. We aim to respond to all inquiries within two business days.
+      </p>
+
+      <div class="mt-8 grid gap-6 sm:grid-cols-2">
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">General Inquiries</h3>
+          </div>
+          <p class="mt-3 text-sm text-gray-600">
+            Questions about our reviews, guides, content, or general feedback.
+          </p>
+          <a
+            href="mailto:info@topbestllcservice.com"
+            class="mt-4 inline-block text-sm font-semibold text-teal-700 underline underline-offset-2 hover:text-teal-900"
+          >
+            info@topbestllcservice.com
+          </a>
+        </div>
+
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">Legal & Compliance</h3>
+          </div>
+          <p class="mt-3 text-sm text-gray-600">
+            Legal notices, DMCA requests, privacy inquiries, or compliance-related matters.
+          </p>
+          <a
+            href="mailto:legal@topbestllcservice.com"
+            class="mt-4 inline-block text-sm font-semibold text-teal-700 underline underline-offset-2 hover:text-teal-900"
+          >
+            legal@topbestllcservice.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Can Help With -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">What We Can Help With</h2>
+      <div class="mt-6 space-y-3">
+        {[
+          'Questions about our reviews or comparison methodology',
+          'Suggestions for new LLC services to review',
+          'Corrections or updates to our content',
+          'Partnership and advertising inquiries',
+          'Press and media requests',
+          'Privacy or data-related requests',
+        ].map((item) => (
+          <div class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mt-0.5 h-5 w-5 shrink-0 text-teal-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+            <span class="text-gray-700">{item}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Important Note -->
+    <section class="mb-16">
+      <div class="rounded-xl border border-amber-200 bg-amber-50/50 p-6">
+        <h3 class="text-lg font-bold text-gray-900">Please Note</h3>
+        <p class="mt-2 text-sm leading-relaxed text-gray-700">
+          {siteConfig.name} is an informational and review website. We do not provide legal advice, tax advice, or LLC formation services directly. If you need help with your specific LLC, please contact the formation service provider you are working with or consult a qualified attorney or tax professional.
+        </p>
+      </div>
+    </section>
+
+    <!-- Operator Info -->
+    <section class="mb-8">
+      <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-6">
+        <h3 class="text-lg font-bold text-gray-900">Site Operator</h3>
+        <p class="mt-2 text-sm leading-relaxed text-gray-700">
+          {siteConfig.name} is operated by <strong>{siteConfig.operator}</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>&copy; {siteConfig.currentYear} {siteConfig.name}. All rights reserved.</p>
+    </div>
+  </article>
+</BaseLayout>

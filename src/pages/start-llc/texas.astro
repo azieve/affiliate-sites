@@ -1,0 +1,259 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'How to Start an LLC in Texas (2026 Guide)';
+const description =
+  'Step-by-step guide to forming an LLC in Texas. Learn about the $300 filing fee, registered agent requirements, franchise tax, and everything you need to start your Texas LLC.';
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        How to Start an LLC in Texas
+      </h1>
+      <p class="mt-2 text-sm font-medium text-blue-200">Updated for 2026</p>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        Texas is one of the best states to form an LLC, with no state income tax, a $300 filing fee, and a business-friendly regulatory environment. Here is everything you need to know.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Quick Facts -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+        <h2 class="text-xl font-bold text-gray-900">Texas LLC Quick Facts</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { label: 'Filing Fee', value: '$300' },
+            { label: 'State Agency', value: 'Texas Secretary of State' },
+            { label: 'Formation Document', value: 'Certificate of Formation' },
+            { label: 'State Income Tax', value: 'None' },
+            { label: 'Annual Report', value: 'No annual report required' },
+            { label: 'Franchise Tax', value: 'Varies (see below)' },
+          ].map((fact) => (
+            <div class="rounded-lg bg-gray-50 p-3">
+              <span class="text-xs font-semibold uppercase tracking-wide text-gray-500">{fact.label}</span>
+              <p class="mt-1 text-sm font-bold text-gray-900">{fact.value}</p>
+            </div>
+          ))}
+        </div>
+        <p class="mt-4 text-xs text-gray-500">
+          Fees and requirements shown are based on our most recent review. Always verify current information at the <a href="https://www.sos.state.tx.us" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">Texas Secretary of State website</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-gray-600">
+      {siteConfig.disclosureText}
+    </div>
+
+    <!-- Why Texas -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why Form an LLC in Texas?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Texas is consistently ranked among the top states for business formation. With a population exceeding 30 million and a gross state product that rivals many countries, the Lone Star State offers entrepreneurs a massive market and a supportive business environment.
+        </p>
+        <p>
+          Key advantages of forming a Texas LLC include:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>No state income tax:</strong> Texas does not impose a personal income tax, which means LLC members who live in Texas keep more of their pass-through income.</li>
+          <li><strong>Favorable franchise tax threshold:</strong> Texas LLCs with total revenue below $2.47 million (as of our last review) owe no franchise tax. Many small businesses fall below this threshold.</li>
+          <li><strong>No annual report:</strong> Unlike many states, Texas does not require an annual report filing, reducing your ongoing compliance burden.</li>
+          <li><strong>Strong legal protections:</strong> Texas provides solid personal liability protection for LLC members and has well-established business law.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Steps to Form Your Texas LLC</h2>
+
+      <div class="mt-8 space-y-8">
+
+        <!-- Step 1 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">1</span>
+            <h3 class="text-xl font-bold text-gray-900">Choose a Name for Your Texas LLC</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Your LLC name must be distinguishable from all other business entities registered in Texas. It must include "Limited Liability Company," "LLC," or "L.L.C." at the end.
+            </p>
+            <p>
+              You can search for available names using the Texas Secretary of State's SOSDirect database. If you find the perfect name but are not ready to file, you can reserve it for 120 days by filing a name reservation application with a $40 fee.
+            </p>
+            <p><strong>Tips for choosing a name:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>Check that a matching domain name is available for your website.</li>
+              <li>Make sure the name does not infringe on existing trademarks (search the USPTO database).</li>
+              <li>Avoid restricted words like "bank," "insurance," or "university" unless you have the required licenses.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">2</span>
+            <h3 class="text-xl font-bold text-gray-900">Appoint a Registered Agent</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Texas requires every LLC to designate a registered agent. This is a person or business entity authorized to receive legal documents, government correspondence, and service of process on behalf of your LLC.
+            </p>
+            <p>
+              Your registered agent must have a physical street address in Texas (P.O. boxes are not accepted) and be available during normal business hours.
+            </p>
+            <p>
+              You can serve as your own registered agent, but many business owners prefer to use a professional registered agent service for privacy and reliability. Most LLC formation services include at least one year of registered agent service.
+            </p>
+            <p>
+              See our <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">best LLC services</a> for providers that include registered agent service with formation.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">3</span>
+            <h3 class="text-xl font-bold text-gray-900">File a Certificate of Formation</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              In Texas, the formation document for an LLC is called the Certificate of Formation (Form 205). You file this with the Texas Secretary of State. The filing fee is <strong>$300</strong>.
+            </p>
+            <p>
+              You can file online through the SOSDirect system or by mail. Online filing is faster, with typical processing times of a few business days. Mail filings can take several weeks.
+            </p>
+            <p><strong>Information you will need:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>LLC name</li>
+              <li>Registered agent name and address</li>
+              <li>Whether the LLC is member-managed or manager-managed</li>
+              <li>Names and addresses of governing persons (managers or members)</li>
+              <li>The LLC's purpose (a general statement is acceptable)</li>
+              <li>Duration of the LLC (perpetual is the default)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">4</span>
+            <h3 class="text-xl font-bold text-gray-900">Create an Operating Agreement</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Texas does not legally require an operating agreement, but creating one is strongly recommended for every LLC. This internal document defines the ownership structure, member roles, profit-sharing arrangements, voting procedures, and what happens if a member leaves.
+            </p>
+            <p>
+              Without an operating agreement, your LLC defaults to the rules in the Texas Business Organizations Code, which may not match your intentions. An operating agreement also helps establish your LLC as a separate legal entity, which strengthens your personal liability protection.
+            </p>
+            <p>
+              Learn more in our <a href="/learn/llc-operating-agreement/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">guide to LLC operating agreements</a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">5</span>
+            <h3 class="text-xl font-bold text-gray-900">Get an EIN (Employer Identification Number)</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              An EIN is essentially a Social Security number for your business. You will need one to open a business bank account, hire employees, and file federal taxes. Applying for an EIN is free and can be done online through the IRS website in a matter of minutes.
+            </p>
+            <p>
+              If your LLC has more than one member, an EIN is required. Even single-member LLCs benefit from having one, as it keeps your personal Social Security number off business documents and bank accounts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Texas Franchise Tax -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Texas Franchise Tax</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          While Texas has no state income tax, it does impose a franchise tax (also called a margin tax) on most businesses, including LLCs. However, there is a generous "no tax due" threshold.
+        </p>
+        <p>
+          As of our most recent review, Texas LLCs with total revenue at or below <strong>$2.47 million</strong> owe no franchise tax. You must still file a franchise tax report each year (due May 15), but if you are below the threshold, you simply file a "no tax due" report.
+        </p>
+        <p>
+          For LLCs above the threshold, the tax rate is generally 0.375% for retail and wholesale businesses and 0.75% for other businesses, calculated on the LLC's taxable margin.
+        </p>
+        <p class="text-sm text-gray-500">
+          Franchise tax thresholds and rates can change. Verify the current figures with the <a href="https://comptroller.texas.gov/taxes/franchise/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">Texas Comptroller website</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- After Formation -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">After You Form Your Texas LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>Once your LLC is officially formed, take these additional steps to set your business up for success:</p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Open a business bank account:</strong> Keep personal and business finances separate to maintain your liability protection.</li>
+          <li><strong>Obtain necessary licenses and permits:</strong> Check with your city and county for local business license requirements. Some industries require state-level licenses as well.</li>
+          <li><strong>File your franchise tax report:</strong> Even if you owe no tax, you must file an annual report with the Texas Comptroller by May 15.</li>
+          <li><strong>Consider business insurance:</strong> General liability insurance, professional liability insurance, or other coverage depending on your industry.</li>
+          <li><strong>Keep records:</strong> Maintain detailed records of financial transactions, member meetings, and major business decisions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-bold text-gray-900">Start Your Texas LLC Today</h2>
+        <p class="mt-2 text-sm text-gray-700">
+          A formation service can handle the paperwork, act as your registered agent, and help you avoid common mistakes. Compare the top options.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800"
+        >
+          Compare the Best LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Links -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-gray-900">Related Guides</h2>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="/learn/what-is-an-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">What Is an LLC?</a>
+        <a href="/learn/llc-operating-agreement/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">LLC Operating Agreement Guide</a>
+        <a href="/best-llc-services/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">Best LLC Services 2026</a>
+        <a href="/start-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">All State Guides</a>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-5 text-xs leading-relaxed text-gray-500">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal or tax advice. Filing fees, tax thresholds, and state requirements change periodically. Always verify current information with the <a href="https://www.sos.state.tx.us" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">Texas Secretary of State</a> and the <a href="https://comptroller.texas.gov" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">Texas Comptroller</a>, or consult a qualified attorney or tax professional.
+      </p>
+    </div>
+
+    <div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>{siteConfig.name} is operated by {siteConfig.operator}.</p>
+    </div>
+  </article>
+</BaseLayout>

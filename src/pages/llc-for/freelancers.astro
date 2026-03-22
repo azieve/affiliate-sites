@@ -1,0 +1,258 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+import { services, getAllServicesSorted } from '@/data/services';
+
+const title = 'Best LLC Service for Freelancers (2026 Guide)';
+const description =
+  'Find the best LLC formation service for freelancers. Learn why freelancers need an LLC, what to look for in a formation service, and our top picks for 2026.';
+
+const topPicks = [
+  {
+    service: services.northwest,
+    whyFreelancers: 'Northwest is our top pick for freelancers because it combines a low $39 formation fee with free registered agent service and excellent privacy protection. Your personal address stays off public filings, which is particularly valuable for freelancers who work from home.',
+  },
+  {
+    service: services.zenbusiness,
+    whyFreelancers: 'ZenBusiness offers $0 formation, making it the most affordable entry point for freelancers just getting started. The clean, intuitive interface is ideal if you have never formed a business before. The Pro plan adds compliance monitoring, which helps busy freelancers stay on track.',
+  },
+  {
+    service: services.bizee,
+    whyFreelancers: 'Bizee provides $0 formation plus free registered agent service for the first year, giving freelancers the most features at the lowest upfront cost. The compliance tracking dashboard is a nice bonus for freelancers managing everything themselves.',
+  },
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        Best LLC Service for Freelancers
+      </h1>
+      <p class="mt-2 text-sm font-medium text-blue-200">Updated for 2026</p>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        As a freelancer, forming an LLC can protect your personal assets, save you money on taxes, and make your business look more professional. Here is how to choose the right formation service.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Affiliate Disclosure -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-gray-600">
+      {siteConfig.disclosureText}
+    </div>
+
+    <!-- Why Freelancers Need an LLC -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why Freelancers Should Form an LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          If you are freelancing as a sole proprietor, your personal assets — home, car, savings — are legally exposed if something goes wrong with a client engagement. An LLC creates a legal separation between you and your business, providing a layer of protection that sole proprietorships simply cannot offer.
+        </p>
+        <p>
+          Here are the key reasons freelancers benefit from forming an LLC:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Personal liability protection:</strong> If a client sues your business or you face an unexpected debt, your personal assets are generally protected. Without an LLC, a lawsuit against your freelance business could put your personal savings, home, and other assets at risk.</li>
+          <li><strong>Tax flexibility:</strong> LLCs offer pass-through taxation by default, meaning business income flows to your personal tax return without double taxation. You can also elect S-corp taxation, which may reduce self-employment taxes once your income reaches a certain level.</li>
+          <li><strong>Professional credibility:</strong> Clients and companies often prefer to work with LLCs rather than individual sole proprietors. Having an LLC can make it easier to land contracts, especially with larger organizations that have vendor requirements.</li>
+          <li><strong>Easier banking and invoicing:</strong> An LLC allows you to open a dedicated business bank account and invoice clients under your business name, keeping your finances organized.</li>
+          <li><strong>Separation of finances:</strong> Maintaining separate business and personal finances is much simpler with an LLC structure. This makes tax preparation easier and strengthens your liability protection.</li>
+        </ul>
+        <p>
+          For a deeper dive into the differences, read our guide on <a href="/learn/llc-vs-sole-proprietorship/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC vs sole proprietorship</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- What to Look For -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">What Freelancers Should Look for in an LLC Service</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Not every LLC formation service is created equal, and freelancers have specific needs. Here is what matters most when choosing a provider:
+        </p>
+
+        <div class="mt-6 space-y-4">
+          {[
+            {
+              title: 'Affordable pricing',
+              desc: 'Most freelancers are budget-conscious, especially when starting out. Look for services that offer $0 or low-cost formation with transparent pricing and minimal upselling.',
+            },
+            {
+              title: 'Registered agent service included',
+              desc: 'A registered agent is required in every state. Having it included in the formation package saves you from paying a separate fee and keeps your home address off public records.',
+            },
+            {
+              title: 'Privacy protection',
+              desc: 'If you work from home, you probably do not want your home address on public business filings. Some services use their own address on filings for your privacy.',
+            },
+            {
+              title: 'Operating agreement template',
+              desc: 'Even as a single-member LLC, you need an operating agreement. Look for services that include a template so you do not have to draft one from scratch.',
+            },
+            {
+              title: 'EIN filing assistance',
+              desc: 'You will need an EIN to open a business bank account. Some services handle this for you, saving time and ensuring it is done correctly.',
+            },
+            {
+              title: 'Compliance reminders',
+              desc: 'As a busy freelancer, it is easy to miss deadlines for annual reports or franchise tax filings. Services with compliance monitoring help you stay on track.',
+            },
+          ].map((item) => (
+            <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+              <h3 class="font-bold text-gray-900">{item.title}</h3>
+              <p class="mt-1 text-sm leading-relaxed text-gray-600">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Picks -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Our Top Picks for Freelancers</h2>
+      <p class="mt-3 text-gray-600">
+        Based on our research and testing, these are the best LLC formation services for freelancers in 2026.
+      </p>
+
+      <div class="mt-8 space-y-6">
+        {topPicks.map((pick, i) => (
+          <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div class="flex items-start justify-between">
+              <div>
+                <div class="flex items-center gap-3">
+                  <span class="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-xs font-bold text-white">
+                    {i + 1}
+                  </span>
+                  <h3 class="text-xl font-bold text-gray-900">{pick.service.name}</h3>
+                </div>
+                <p class="mt-1 ml-11 text-sm font-medium text-teal-600">{pick.service.bestFor}</p>
+              </div>
+              <div class="text-right">
+                <span class="text-2xl font-bold text-gray-900">{pick.service.rating}</span>
+                <span class="text-sm text-gray-500">/10</span>
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap gap-4">
+              <div class="rounded-lg bg-gray-50 px-3 py-1.5 text-xs">
+                <span class="text-gray-500">Formation:</span>
+                <span class="ml-1 font-bold text-gray-900">{pick.service.formationPrice}</span>
+              </div>
+              <div class="rounded-lg bg-gray-50 px-3 py-1.5 text-xs">
+                <span class="text-gray-500">Registered Agent:</span>
+                <span class="ml-1 font-bold text-gray-900">{pick.service.registeredAgentPrice}</span>
+              </div>
+              <div class="rounded-lg bg-gray-50 px-3 py-1.5 text-xs">
+                <span class="text-gray-500">Processing:</span>
+                <span class="ml-1 font-bold text-gray-900">{pick.service.processingTime}</span>
+              </div>
+            </div>
+
+            <p class="mt-4 text-sm leading-relaxed text-gray-700">{pick.whyFreelancers}</p>
+
+            <a
+              href={`/reviews/${pick.service.reviewSlug}/`}
+              class="mt-4 inline-block text-sm font-semibold text-teal-700 underline underline-offset-2 hover:text-teal-900"
+            >
+              Read our full {pick.service.shortName} review &rarr;
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- How to Form Your LLC -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How to Form Your Freelancer LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The process of forming an LLC is the same whether you are a freelancer, consultant, or any other type of business owner. Here is a quick overview:
+        </p>
+        <ol class="ml-6 list-decimal space-y-2">
+          <li><strong>Choose your state:</strong> Most freelancers should form their LLC in the state where they live and work. This avoids the cost and complexity of registering as a foreign LLC in multiple states.</li>
+          <li><strong>Pick a name:</strong> Your LLC name must be unique in your state and include "LLC" or "Limited Liability Company."</li>
+          <li><strong>File formation documents:</strong> Submit your Articles of Organization (or equivalent) to your state's filing office, along with the required fee.</li>
+          <li><strong>Get an EIN:</strong> Apply for a free Employer Identification Number from the IRS.</li>
+          <li><strong>Open a business bank account:</strong> Separate your business and personal finances from day one.</li>
+          <li><strong>Create an operating agreement:</strong> Define your business structure, even as a single-member LLC.</li>
+        </ol>
+        <p>
+          For detailed instructions, check our <a href="/start-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">state-by-state LLC formation guides</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Common Questions -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Common Questions from Freelancers</h2>
+
+      <div class="mt-6 space-y-4">
+        {[
+          {
+            q: 'How much does it cost to form a freelancer LLC?',
+            a: 'The total cost depends on your state\'s filing fee (typically $50 to $300) plus any service fees from your formation provider. Many providers offer $0 formation where you only pay the state fee. Budget for $100 to $500 total for the first year, including registered agent service.',
+          },
+          {
+            q: 'Can I be a single-member LLC as a freelancer?',
+            a: 'Yes. A single-member LLC is the most common structure for freelancers. You get the liability protection of an LLC while keeping the simplicity of pass-through taxation on your personal tax return.',
+          },
+          {
+            q: 'Do I need an LLC if I only freelance part-time?',
+            a: 'Even part-time freelancers can benefit from an LLC. The liability protection applies regardless of how many hours you work. If you are earning income from clients, you have potential exposure that an LLC helps mitigate.',
+          },
+          {
+            q: 'When should I form my LLC?',
+            a: 'The sooner the better. You are personally liable for all business activities conducted before forming your LLC. Ideally, form your LLC before you start taking on clients or signing contracts.',
+          },
+        ].map((item) => (
+          <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <h3 class="font-bold text-gray-900">{item.q}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-gray-600">{item.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-bold text-gray-900">Ready to Protect Your Freelance Business?</h2>
+        <p class="mt-2 text-sm text-gray-700">
+          Compare all of the top LLC formation services and find the best fit for your freelance business.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800"
+        >
+          Compare the Best LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Links -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-gray-900">Related Guides</h2>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="/learn/what-is-an-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">What Is an LLC?</a>
+        <a href="/learn/llc-vs-sole-proprietorship/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">LLC vs Sole Proprietorship</a>
+        <a href="/best-llc-services/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">Best LLC Services 2026</a>
+        <a href="/start-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">State-by-State Guides</a>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-5 text-xs leading-relaxed text-gray-500">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal or tax advice. Forming an LLC has legal and tax implications that vary by state and individual circumstance. Consult a qualified attorney or tax professional before making business decisions.
+      </p>
+    </div>
+
+    <div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>{siteConfig.name} is operated by {siteConfig.operator}.</p>
+    </div>
+  </article>
+</BaseLayout>

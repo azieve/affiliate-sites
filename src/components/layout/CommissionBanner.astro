@@ -5,11 +5,92 @@ import { siteConfig } from '@/data/site';
 <div class="bg-surface-muted border-b border-border-light">
   <div class="container flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2 text-xs text-text-secondary">
     <p class="m-0">{siteConfig.commissionBannerText}</p>
-    <a
-      href="/affiliate-disclosure/"
-      class="shrink-0 font-medium text-brand-navy underline underline-offset-2 hover:text-brand-navy-light"
+    <button
+      id="disclosure-trigger"
+      class="shrink-0 cursor-pointer border-none bg-transparent p-0 font-medium text-brand-navy underline underline-offset-2 hover:text-brand-navy-light text-xs"
     >
       Advertising Disclosure
-    </a>
+    </button>
   </div>
 </div>
+
+<!-- Disclosure Modal Overlay -->
+<div
+  id="disclosure-modal"
+  class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 backdrop-blur-sm"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="disclosure-modal-title"
+>
+  <div class="relative mx-4 max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-xl bg-white p-6 shadow-2xl sm:p-8">
+    <!-- Close button -->
+    <button
+      id="disclosure-close"
+      class="absolute top-4 right-4 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-none bg-gray-100 text-gray-500 transition hover:bg-gray-200 hover:text-gray-700"
+      aria-label="Close disclosure"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+
+    <h2 id="disclosure-modal-title" class="mb-4 text-xl font-bold text-brand-navy">Advertising Disclosure</h2>
+
+    <div class="space-y-4 text-sm leading-relaxed text-text-secondary">
+      <p>
+        <strong class="text-text-primary">How We Earn Money:</strong>
+        {siteConfig.name} earns commissions from the LLC formation services featured on this site. When you click an affiliate link and make a purchase, we may receive a commission at no additional cost to you.
+      </p>
+
+      <p>
+        <strong class="text-text-primary">How This Affects Our Content:</strong>
+        Compensation may influence which services appear on our site, where they appear, and in what order. However, it does not affect our ratings, reviews, or editorial opinions. Our assessments are based on independent research, hands-on testing, and objective evaluation criteria.
+      </p>
+
+      <p>
+        <strong class="text-text-primary">Our Commitment:</strong>
+        We only recommend services we have thoroughly researched and genuinely believe will help our readers. Our editorial team evaluates each service based on pricing, features, ease of use, customer support, and reputation — not on the commission we receive.
+      </p>
+
+      <p>
+        <strong class="text-text-primary">You Never Pay Extra:</strong>
+        Using our affiliate links costs you nothing additional. The price you pay is the same whether you use our link or go directly to the service provider.
+      </p>
+
+      <p class="text-xs text-text-muted">
+        For our complete disclosure policy, visit our <a href="/affiliate-disclosure/" class="text-brand-teal underline hover:text-brand-teal-dark">full Advertising Disclosure page</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  const trigger = document.getElementById('disclosure-trigger');
+  const modal = document.getElementById('disclosure-modal');
+  const closeBtn = document.getElementById('disclosure-close');
+
+  function openModal() {
+    modal?.classList.remove('hidden');
+    modal?.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    modal?.classList.add('hidden');
+    modal?.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  trigger?.addEventListener('click', openModal);
+  closeBtn?.addEventListener('click', closeModal);
+
+  // Close on backdrop click
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+</script>

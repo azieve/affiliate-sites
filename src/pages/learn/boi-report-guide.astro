@@ -1,0 +1,310 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'BOI Report Guide: Beneficial Ownership Information Filing Explained';
+const description =
+  'Everything you need to know about BOI (Beneficial Ownership Information) reports — who must file, deadlines, penalties, and how to submit your report to FinCEN.';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  datePublished: '2026-03-22',
+  dateModified: '2026-03-22',
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-300">Learning Center</p>
+      <h1 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        BOI Report Guide
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        What the Beneficial Ownership Information report is, who needs to file, and how to stay compliant with FinCEN requirements.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- IMPORTANT NOTICE -->
+    <div class="mb-10 rounded-xl border-2 border-red-300 bg-red-50 p-6 text-sm leading-relaxed text-gray-800">
+      <p class="font-bold text-red-800 text-base">Important: BOI Requirements Are Subject to Change</p>
+      <p class="mt-2">
+        The Beneficial Ownership Information (BOI) reporting requirements under the Corporate Transparency Act have been subject to significant legal challenges, court rulings, and regulatory changes. The information below reflects our understanding as of the date of this article, but <strong>the rules may have changed since publication</strong>.
+      </p>
+      <p class="mt-2">
+        <strong>Always check <a href="https://www.fincen.gov/boi" class="text-red-700 underline underline-offset-2 hover:text-red-900" rel="noopener noreferrer" target="_blank">FinCEN.gov/boi</a> for the most current filing requirements, deadlines, and enforcement status before making any filing decisions.</strong>
+      </p>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-5 text-sm leading-relaxed text-gray-700">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal, tax, or financial advice. BOI reporting requirements are complex and evolving. Consult a qualified attorney for advice specific to your situation.
+      </p>
+    </div>
+
+    <!-- Affiliate disclosure -->
+    <div class="mb-10 rounded-xl border border-slate-200 bg-slate-50/50 p-5 text-sm leading-relaxed text-gray-600">
+      <p>{siteConfig.disclosureText}</p>
+    </div>
+
+    <!-- TOC -->
+    <nav class="mb-12 rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+      <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href="#what-is-boi" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">What Is a BOI Report?</a></li>
+        <li><a href="#corporate-transparency-act" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">The Corporate Transparency Act</a></li>
+        <li><a href="#who-must-file" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Who Must File a BOI Report?</a></li>
+        <li><a href="#exemptions" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Exemptions: Who Does Not Need to File</a></li>
+        <li><a href="#what-information" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">What Information Is Required</a></li>
+        <li><a href="#deadlines" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Filing Deadlines</a></li>
+        <li><a href="#penalties" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Penalties for Non-Compliance</a></li>
+        <li><a href="#how-to-file" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How to File Your BOI Report</a></li>
+        <li><a href="#faq" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+
+    <!-- What Is BOI -->
+    <section id="what-is-boi" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">What Is a BOI Report?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          A <strong>Beneficial Ownership Information (BOI) report</strong> is a filing that identifies the real people who own or control a company. It is submitted to the Financial Crimes Enforcement Network (FinCEN), a bureau of the U.S. Department of the Treasury.
+        </p>
+        <p>
+          The purpose of the BOI report is to combat money laundering, tax evasion, terrorism financing, and other financial crimes by creating a national registry of who actually owns and controls American companies. Before this requirement, it was possible to create anonymous shell companies in the U.S. with virtually no disclosure of real ownership.
+        </p>
+        <p>
+          The BOI report is not a tax filing and is not submitted to the IRS. It goes exclusively to FinCEN, and the information is stored in a secure, non-public database accessible only to authorized government agencies and, in certain cases, financial institutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Corporate Transparency Act -->
+    <section id="corporate-transparency-act" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">The Corporate Transparency Act</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The BOI reporting requirement was established by the <strong>Corporate Transparency Act (CTA)</strong>, which was signed into law on January 1, 2021, as part of the National Defense Authorization Act. The CTA directed FinCEN to create a beneficial ownership registry and establish filing rules.
+        </p>
+        <p>
+          FinCEN published its final rule in September 2022, and the reporting requirements were initially set to begin on January 1, 2024. However, the implementation has faced significant legal challenges, including federal court cases that temporarily halted enforcement.
+        </p>
+        <p>
+          Because of these ongoing legal developments, the deadlines and enforcement status of BOI reporting have changed multiple times. This is why it is critical to check the FinCEN website directly for the most current information.
+        </p>
+      </div>
+    </section>
+
+    <!-- Who Must File -->
+    <section id="who-must-file" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Who Must File a BOI Report?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Under the CTA, <strong>reporting companies</strong> are required to file BOI reports. A reporting company generally includes:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Domestic reporting companies:</strong> Any corporation, LLC, or other entity created by filing a document with a state or tribal authority. This includes most LLCs, corporations, limited partnerships, and similar entities.</li>
+          <li><strong>Foreign reporting companies:</strong> Any foreign entity registered to do business in the U.S. by filing with a state or tribal authority.</li>
+        </ul>
+        <p>
+          In practical terms, if you formed an LLC or corporation in any U.S. state and you do not qualify for one of the 23 exemptions (discussed below), you are likely required to file a BOI report.
+        </p>
+      </div>
+    </section>
+
+    <!-- Exemptions -->
+    <section id="exemptions" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Exemptions: Who Does Not Need to File</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The CTA identifies 23 types of entities that are exempt from BOI reporting. Most exemptions apply to entities that are already subject to significant federal or state regulation. The most relevant exemptions for small business owners include:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Large operating companies:</strong> Companies that have more than 20 full-time employees in the U.S., have more than $5 million in gross receipts or sales reported on their prior year's tax return, and have an operating presence at a physical office in the U.S.</li>
+          <li><strong>Tax-exempt entities:</strong> Organizations described in Section 501(c) of the Internal Revenue Code.</li>
+          <li><strong>Publicly traded companies:</strong> Entities whose securities are registered under the Securities Exchange Act.</li>
+          <li><strong>Banks, credit unions, and other financial institutions</strong> already regulated by federal agencies.</li>
+          <li><strong>Insurance companies, broker-dealers, and registered investment advisors</strong> subject to SEC regulation.</li>
+          <li><strong>Certain inactive entities</strong> that were in existence before January 1, 2020, are not engaged in active business, and meet other specific criteria.</li>
+        </ul>
+        <p>
+          The "large operating company" exemption is the most relevant for growing businesses. However, most new and small LLCs will not qualify for any exemption and will need to file.
+        </p>
+      </div>
+    </section>
+
+    <!-- What Information -->
+    <section id="what-information" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">What Information Is Required</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          A BOI report requires two categories of information:
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Company Information</h3>
+        <ul class="ml-6 list-disc space-y-2">
+          <li>Full legal name of the company</li>
+          <li>Any trade names or DBAs</li>
+          <li>Business address</li>
+          <li>State or tribal jurisdiction of formation (or registration for foreign entities)</li>
+          <li>Taxpayer Identification Number (EIN or SSN)</li>
+        </ul>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Beneficial Owner Information</h3>
+        <p>For each beneficial owner, you must report:</p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li>Full legal name</li>
+          <li>Date of birth</li>
+          <li>Residential address</li>
+          <li>An identifying document number (e.g., passport, state-issued driver's license, or ID card) and an image of that document</li>
+        </ul>
+        <p>
+          A <strong>beneficial owner</strong> is any individual who directly or indirectly exercises substantial control over the company, or who owns or controls at least 25% of the company's ownership interests.
+        </p>
+        <p>
+          For companies created on or after January 1, 2024 (when the rule initially took effect), you must also report information about the <strong>company applicant</strong> — the person who filed the formation document.
+        </p>
+      </div>
+    </section>
+
+    <!-- Deadlines -->
+    <section id="deadlines" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Filing Deadlines</h2>
+      <div class="mt-4 rounded-xl border-2 border-amber-300 bg-amber-50 p-5 text-sm leading-relaxed text-gray-800">
+        <p class="font-bold text-amber-800">Deadlines have changed multiple times. Verify current deadlines at <a href="https://www.fincen.gov/boi" class="text-amber-700 underline underline-offset-2 hover:text-amber-900" rel="noopener noreferrer" target="_blank">FinCEN.gov/boi</a>.</p>
+      </div>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The original deadlines established by FinCEN were:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Companies formed before January 1, 2024:</strong> Must file by January 1, 2025.</li>
+          <li><strong>Companies formed in 2024:</strong> Must file within 90 days of formation.</li>
+          <li><strong>Companies formed on or after January 1, 2025:</strong> Must file within 30 days of formation.</li>
+        </ul>
+        <p>
+          However, due to legal challenges and court orders, these deadlines have been extended and modified. FinCEN has issued multiple announcements adjusting compliance timelines. As of this writing, the situation remains fluid.
+        </p>
+        <p>
+          Additionally, if any previously reported information changes (for example, a beneficial owner moves to a new address or a new person acquires 25% ownership), an updated report must be filed within 30 days of the change.
+        </p>
+      </div>
+    </section>
+
+    <!-- Penalties -->
+    <section id="penalties" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Penalties for Non-Compliance</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The penalties for failing to comply with BOI reporting requirements are significant:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Civil penalties:</strong> Up to $591 per day for each day a violation continues (amount adjusted for inflation).</li>
+          <li><strong>Criminal penalties:</strong> Willful failure to file, or filing false information, can result in up to 2 years in prison and fines up to $10,000.</li>
+        </ul>
+        <p>
+          Note that penalties apply not only for failing to file but also for providing false or fraudulent information. The CTA imposes liability on the individual who causes the failure, not just the company.
+        </p>
+        <p>
+          There is a safe harbor provision for individuals who voluntarily correct inaccurate information within 90 days of the original filing deadline, provided the original filing was not made with actual knowledge of the inaccuracy.
+        </p>
+      </div>
+    </section>
+
+    <!-- How to File -->
+    <section id="how-to-file" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How to File Your BOI Report</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          You have several options for filing your BOI report:
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">1. File Directly with FinCEN (Free)</h3>
+        <p>
+          FinCEN provides a free online filing system called the Beneficial Ownership Secure System (BOSS) at <a href="https://boiefiling.fincen.gov" class="text-teal-700 underline underline-offset-2 hover:text-teal-900" rel="noopener noreferrer" target="_blank">boiefiling.fincen.gov</a>. You can file the report yourself at no cost. The process typically takes 20 to 30 minutes if you have all the required information ready.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">2. Use Your LLC Formation Service</h3>
+        <p>
+          Several LLC formation services offer BOI filing as part of their packages or as an add-on. For example, Northwest Registered Agent includes BOI filing in their formation package. This can be convenient if you want a single provider to handle all your compliance needs.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">3. Hire an Attorney or CPA</h3>
+        <p>
+          For companies with complex ownership structures or multiple beneficial owners, hiring a professional to handle the filing can ensure accuracy and compliance.
+        </p>
+
+        <div class="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p class="text-sm font-semibold text-gray-900">What you will need to file:</p>
+          <ul class="mt-2 ml-4 list-disc text-sm text-gray-700 space-y-1">
+            <li>Company legal name, EIN, and formation state</li>
+            <li>Each beneficial owner's full legal name, date of birth, and residential address</li>
+            <li>A clear image of each beneficial owner's identifying document (driver's license, passport, or state ID)</li>
+            <li>For newer companies: information about the company applicant</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions</h2>
+      <div class="mt-6 space-y-6">
+        <div>
+          <h3 class="font-bold text-gray-900">Does my single-member LLC need to file a BOI report?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Most likely, yes. Single-member LLCs are generally considered reporting companies unless they qualify for one of the 23 exemptions. The most common exemption for small businesses (the "large operating company" exemption) requires more than 20 employees and over $5 million in revenue.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Is the BOI report public?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">No. The information filed in BOI reports is stored in a secure, non-public database maintained by FinCEN. Access is restricted to authorized government agencies, law enforcement, and in limited circumstances, financial institutions verifying customer information.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Do I need to file a BOI report every year?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">No. The BOI report is not an annual filing. You file an initial report and then only file updates if any of the reported information changes (such as a change in beneficial owners or their personal information). Updates must be filed within 30 days of the change.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">What if I am not sure whether I need to file?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">FinCEN provides a <a href="https://www.fincen.gov/boi" class="text-teal-700 underline underline-offset-2 hover:text-teal-900" rel="noopener noreferrer" target="_blank">helpful FAQ and guidance</a> on their website. If you are still unsure, consult an attorney. Given the penalties involved, it is better to file when in doubt than to risk non-compliance.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Can I get a FinCEN Identifier instead of filing personal details each time?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Yes. Individuals can apply for a FinCEN Identifier (FinCEN ID) — a unique number that can be used on BOI reports in lieu of providing personal information repeatedly. This is especially useful for people who are beneficial owners of multiple companies.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-14">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-extrabold text-gray-900">Need Help With BOI Filing?</h2>
+        <p class="mt-2 text-gray-700 leading-relaxed">
+          Several formation services include BOI filing in their packages. Compare your options.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-[#1e3a5f] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#1e3a5f]/90 transition-colors"
+        >
+          Compare LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>Last updated: {siteConfig.lastUpdated}</p>
+    </div>
+  </article>
+</BaseLayout>

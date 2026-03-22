@@ -1,0 +1,354 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'LLC vs S-Corp: Differences, Tax Savings, and How to Choose (2026)';
+const description =
+  'Understand the key differences between an LLC and an S-Corp, how the S-Corp election can reduce self-employment taxes, and when it makes sense for your business.';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  datePublished: '2026-03-22',
+  dateModified: '2026-03-22',
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-300">Learning Center</p>
+      <h1 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        LLC vs S-Corp
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        A clear explanation of how LLCs and S-Corps differ, when the S-Corp tax election saves you money, and how to make the switch.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Disclaimer -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-5 text-sm leading-relaxed text-gray-700">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal, tax, or financial advice. Tax implications depend on your specific circumstances. Consult a qualified CPA or tax attorney before making tax elections.
+      </p>
+    </div>
+
+    <!-- Affiliate disclosure -->
+    <div class="mb-10 rounded-xl border border-slate-200 bg-slate-50/50 p-5 text-sm leading-relaxed text-gray-600">
+      <p>{siteConfig.disclosureText}</p>
+    </div>
+
+    <!-- TOC -->
+    <nav class="mb-12 rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+      <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href="#key-distinction" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">The Key Distinction Most People Miss</a></li>
+        <li><a href="#comparison" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Side-by-Side Comparison</a></li>
+        <li><a href="#how-llc-taxed" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How a Default LLC Is Taxed</a></li>
+        <li><a href="#how-scorp-taxed" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How an S-Corp Is Taxed</a></li>
+        <li><a href="#tax-savings" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Self-Employment Tax Savings Explained</a></li>
+        <li><a href="#requirements" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">S-Corp Requirements and Restrictions</a></li>
+        <li><a href="#additional-costs" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Additional Costs of S-Corp Status</a></li>
+        <li><a href="#when-scorp-makes-sense" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">When S-Corp Election Makes Sense</a></li>
+        <li><a href="#how-to-elect" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How to Elect S-Corp Taxation</a></li>
+        <li><a href="#faq" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+
+    <!-- Key Distinction -->
+    <section id="key-distinction" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">The Key Distinction Most People Miss</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Before diving into details, it is crucial to understand one thing: <strong>an LLC and an S-Corp are not the same type of thing</strong>.
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li>An <strong>LLC</strong> is a <em>legal structure</em> — a type of business entity you create under state law.</li>
+          <li>An <strong>S-Corp</strong> is a <em>tax classification</em> — a way the IRS treats your business for tax purposes.</li>
+        </ul>
+        <p>
+          You do not have to choose between an LLC and an S-Corp. Instead, you can form an LLC and then <em>elect</em> to have it taxed as an S-Corp. You get the legal benefits of the LLC structure (flexibility, simplicity, liability protection) combined with the potential tax benefits of S-Corp taxation.
+        </p>
+        <p>
+          This is the most common setup for profitable small businesses. You keep your LLC with the state but file IRS Form 2553 to be taxed as an S-Corp. Your legal structure does not change — only your tax treatment does.
+        </p>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="comparison" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Side-by-Side Comparison</h2>
+      <div class="mt-6 overflow-x-auto rounded-xl border border-gray-200">
+        <table class="w-full text-sm">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Feature</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">LLC (Default Tax)</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">LLC Taxed as S-Corp</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Legal structure</td><td class="px-4 py-3 text-gray-700">LLC</td><td class="px-4 py-3 text-gray-700">LLC</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Tax classification</td><td class="px-4 py-3 text-gray-700">Disregarded entity / Partnership</td><td class="px-4 py-3 text-gray-700">S-Corporation</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Pass-through taxation</td><td class="px-4 py-3 text-gray-700">Yes</td><td class="px-4 py-3 text-gray-700">Yes</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Self-employment tax</td><td class="px-4 py-3 text-gray-700">On all net profit</td><td class="px-4 py-3 text-gray-700">Only on salary (not distributions)</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Owner salary required</td><td class="px-4 py-3 text-gray-700">No</td><td class="px-4 py-3 text-gray-700">Yes ("reasonable" salary)</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Payroll required</td><td class="px-4 py-3 text-gray-700">No (unless employees)</td><td class="px-4 py-3 text-gray-700">Yes (for owner salary)</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Separate tax return</td><td class="px-4 py-3 text-gray-700">No (Schedule C)</td><td class="px-4 py-3 text-gray-700">Yes (Form 1120-S)</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Accounting complexity</td><td class="px-4 py-3 text-gray-700">Low</td><td class="px-4 py-3 text-gray-700">Moderate to High</td></tr>
+            <tr><td class="px-4 py-3 font-medium text-gray-700">Profit distribution flexibility</td><td class="px-4 py-3 text-gray-700">Unlimited</td><td class="px-4 py-3 text-gray-700">Must be proportional to ownership</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- How LLC Taxed -->
+    <section id="how-llc-taxed" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How a Default LLC Is Taxed</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          By default, a single-member LLC is treated as a "disregarded entity" for tax purposes. This means:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li>All profits and losses are reported on your personal tax return (Schedule C of Form 1040).</li>
+          <li>You pay <strong>income tax</strong> on your net profit at your personal tax rate.</li>
+          <li>You pay <strong>self-employment tax</strong> (15.3%) on your entire net profit — this covers Social Security (12.4%) and Medicare (2.9%).</li>
+        </ul>
+        <p>
+          For a multi-member LLC, the default is partnership taxation, with profits and losses reported on each member's personal return via Schedule K-1.
+        </p>
+        <p>
+          The key issue is that self-employment tax applies to <em>all</em> of your net profit. If your LLC earns $150,000 in net profit, you owe self-employment tax on the entire $150,000, plus income tax.
+        </p>
+      </div>
+    </section>
+
+    <!-- How S-Corp Taxed -->
+    <section id="how-scorp-taxed" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How an S-Corp Is Taxed</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          When your LLC elects S-Corp taxation, the tax treatment changes significantly:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li>You must pay yourself a <strong>reasonable salary</strong> as an employee of the LLC. This salary is subject to payroll taxes (the employer and employee share of Social Security and Medicare, totaling 15.3%).</li>
+          <li>Any profit <em>above</em> your salary can be taken as a <strong>distribution</strong>, which is subject to income tax but <strong>not</strong> self-employment tax.</li>
+          <li>The LLC files a separate tax return (Form 1120-S) and issues you a K-1 for your share of income.</li>
+        </ul>
+        <p>
+          The magic is in that second point. With a default LLC, you pay self-employment tax on all profits. With an S-Corp election, you only pay payroll taxes on your salary — the distributions are exempt from self-employment tax.
+        </p>
+      </div>
+    </section>
+
+    <!-- Tax Savings -->
+    <section id="tax-savings" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Self-Employment Tax Savings Explained</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Let us walk through a simplified example to illustrate the potential savings:
+        </p>
+      </div>
+
+      <div class="mt-6 rounded-xl border border-gray-200 bg-gray-50 p-6">
+        <p class="font-bold text-gray-900">Example: $120,000 in net business profit</p>
+        <div class="mt-4 grid gap-6 sm:grid-cols-2">
+          <div>
+            <p class="font-semibold text-gray-800">Default LLC</p>
+            <ul class="mt-2 text-sm text-gray-700 space-y-1">
+              <li>Self-employment tax: $120,000 x 15.3% = <strong>$18,360</strong></li>
+              <li>Plus income tax on $120,000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-800">LLC with S-Corp Election</p>
+            <ul class="mt-2 text-sm text-gray-700 space-y-1">
+              <li>Reasonable salary: $60,000</li>
+              <li>Payroll taxes: $60,000 x 15.3% = <strong>$9,180</strong></li>
+              <li>Distribution: $60,000 (no SE tax)</li>
+              <li>Plus income tax on $120,000</li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-4 text-sm font-semibold text-teal-800">
+          Potential savings in this example: approximately $9,180 per year in self-employment taxes.
+        </p>
+        <p class="mt-2 text-xs text-gray-500">
+          Note: This is a simplified illustration. Actual savings depend on your specific salary, deductions, state taxes, and other factors. The employer portion of payroll tax is also deductible. Consult a CPA for precise calculations.
+        </p>
+      </div>
+
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The "reasonable salary" is a critical concept. The IRS requires that S-Corp owners who actively work in the business pay themselves a salary that is comparable to what a similar employee would earn in the open market. You cannot set your salary at $10,000 and take $110,000 as a distribution — the IRS will reclassify the distributions as salary and charge you back taxes plus penalties.
+        </p>
+      </div>
+    </section>
+
+    <!-- Requirements -->
+    <section id="requirements" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">S-Corp Requirements and Restrictions</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Not every LLC can elect S-Corp taxation. The IRS imposes several requirements:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>100 or fewer shareholders/members.</strong> Most small LLCs easily meet this requirement.</li>
+          <li><strong>U.S. citizens or residents only.</strong> Non-resident aliens cannot be S-Corp shareholders.</li>
+          <li><strong>One class of stock/membership interest.</strong> All members must have the same rights to distributions and liquidation proceeds. You cannot have preferred or different classes of membership interests.</li>
+          <li><strong>No corporate or partnership shareholders.</strong> S-Corp shareholders must be individuals, certain trusts, or estates — not other corporations or partnerships.</li>
+          <li><strong>Reasonable salary requirement.</strong> Owner-employees must be paid a reasonable salary before taking distributions.</li>
+        </ul>
+        <p>
+          These restrictions matter more for multi-member LLCs. Single-member LLCs usually have no trouble meeting all the requirements.
+        </p>
+      </div>
+    </section>
+
+    <!-- Additional Costs -->
+    <section id="additional-costs" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Additional Costs of S-Corp Status</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The tax savings of an S-Corp election come with additional costs and complexity that need to be factored in:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Payroll processing:</strong> You need to run payroll for your salary, including withholding and remitting payroll taxes. Payroll services cost $30 to $100+ per month.</li>
+          <li><strong>Tax return preparation:</strong> An S-Corp requires filing Form 1120-S, which is more complex than Schedule C. CPA fees for S-Corp returns typically run $500 to $1,500 per year.</li>
+          <li><strong>Quarterly payroll tax filings:</strong> You must file Form 941 quarterly.</li>
+          <li><strong>State-level compliance:</strong> Some states impose additional taxes or fees on S-Corps. For example, California charges a 1.5% franchise tax on S-Corp net income (minimum $800).</li>
+          <li><strong>Worker's compensation insurance:</strong> In some states, you may need worker's comp coverage for yourself as an employee of the S-Corp.</li>
+        </ul>
+        <p>
+          These costs typically add $1,500 to $3,000 per year on top of what you would spend as a default LLC. That is why the S-Corp election only makes sense when the self-employment tax savings exceed these additional costs.
+        </p>
+      </div>
+    </section>
+
+    <!-- When S-Corp Makes Sense -->
+    <section id="when-scorp-makes-sense" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">When S-Corp Election Makes Sense</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The S-Corp election is not right for every LLC. Here is a general framework:
+        </p>
+      </div>
+      <div class="mt-6 grid gap-6 sm:grid-cols-2">
+        <div class="rounded-xl border border-teal-200 bg-teal-50/30 p-6 shadow-sm">
+          <h3 class="text-lg font-bold text-gray-900">S-Corp Likely Makes Sense</h3>
+          <ul class="mt-3 space-y-2 text-sm text-gray-700">
+            <li>Net profit consistently exceeds $40,000 to $50,000+</li>
+            <li>The self-employment tax savings outweigh the additional costs ($1,500 to $3,000/year)</li>
+            <li>You are comfortable with payroll processing and more complex bookkeeping</li>
+            <li>You have (or are willing to hire) a CPA familiar with S-Corp taxation</li>
+            <li>You plan to keep the business long-term</li>
+          </ul>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <h3 class="text-lg font-bold text-gray-900">Stick with Default LLC Tax</h3>
+          <ul class="mt-3 space-y-2 text-sm text-gray-700">
+            <li>Net profit is below $40,000 (savings minimal)</li>
+            <li>Your income fluctuates significantly year to year</li>
+            <li>You want maximum simplicity with minimal bookkeeping</li>
+            <li>You want flexible profit distribution among members</li>
+            <li>You have foreign (non-U.S.) members</li>
+            <li>You are just starting out and unsure of future profitability</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-5">
+        <p class="text-sm font-semibold text-gray-900">Rule of thumb:</p>
+        <p class="mt-1 text-sm text-gray-700">Start as a default LLC. Once your annual net profit consistently exceeds $40,000 to $60,000, talk to a CPA about whether the S-Corp election would save you money after accounting for the additional costs and complexity.</p>
+      </div>
+    </section>
+
+    <!-- How to Elect -->
+    <section id="how-to-elect" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How to Elect S-Corp Taxation</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          If you decide the S-Corp election is right for your LLC, here is the process:
+        </p>
+        <ol class="ml-6 list-decimal space-y-3">
+          <li>
+            <strong>File IRS Form 2553.</strong> This is the "Election by a Small Business Corporation" form. All members of the LLC must sign it.
+          </li>
+          <li>
+            <strong>Meet the filing deadline.</strong> Form 2553 must be filed no later than 2 months and 15 days after the beginning of the tax year in which you want the election to take effect. For a calendar-year LLC, that means filing by March 15. You can also file during the preceding tax year.
+          </li>
+          <li>
+            <strong>Set up payroll.</strong> Once the election is effective, you need to start running payroll and paying yourself a reasonable salary.
+          </li>
+          <li>
+            <strong>Hire a CPA (recommended).</strong> S-Corp tax compliance is significantly more complex than a default LLC. A good CPA will more than pay for themselves in tax savings and audit protection.
+          </li>
+        </ol>
+        <p>
+          Your legal structure with the state does not change at all. You are still an LLC. Only your federal tax treatment changes.
+        </p>
+        <p>
+          If you have not formed your LLC yet, most <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">formation services</a> can handle the S-Corp election as an add-on during the formation process.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions</h2>
+      <div class="mt-6 space-y-6">
+        <div>
+          <h3 class="font-bold text-gray-900">Is an S-Corp a separate entity from an LLC?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">No. The S-Corp is a tax election, not a separate entity. When you elect S-Corp taxation for your LLC, your LLC remains the same legal entity. Nothing changes with your state — only how the IRS taxes your business.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Can I switch back from S-Corp to default LLC taxation?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Yes, but the IRS generally requires you to wait 5 years before revoking an S-Corp election. You file IRS Form 8832 to revoke the election and return to default LLC taxation.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">What is a "reasonable salary" for an S-Corp?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">There is no fixed formula. The IRS looks at factors like the type of work performed, experience level, and what similar employees in similar businesses earn. Common reference points include industry salary surveys, Bureau of Labor Statistics data, and comparable job postings. Your CPA can help determine a defensible reasonable salary.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Do I need to form a corporation to be an S-Corp?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">No. While traditionally S-Corp status was associated with corporations, LLCs can elect S-Corp taxation by filing Form 2553. This is the most common approach for small business owners because you get the legal simplicity of an LLC with the tax benefits of an S-Corp.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">How much does it cost to elect S-Corp status?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Filing Form 2553 with the IRS is free. However, the ongoing costs of S-Corp compliance (payroll, tax preparation, etc.) add approximately $1,500 to $3,000 per year compared to a default LLC. For more on LLC formation costs, see our <a href="/learn/what-is-an-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC guide</a> and <a href="/learn/llc-vs-sole-proprietorship/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC vs sole proprietorship comparison</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-14">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-extrabold text-gray-900">Ready to Form Your LLC?</h2>
+        <p class="mt-2 text-gray-700 leading-relaxed">
+          Start with an LLC and elect S-Corp taxation later when it makes financial sense. Compare the top formation services.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-[#1e3a5f] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#1e3a5f]/90 transition-colors"
+        >
+          Compare LLC Formation Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>Last updated: {siteConfig.lastUpdated}</p>
+    </div>
+  </article>
+</BaseLayout>

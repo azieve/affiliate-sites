@@ -1,0 +1,255 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'How to Start an LLC in California (2026 Guide)';
+const description =
+  'Step-by-step guide to forming an LLC in California. Learn about the $70 filing fee, annual franchise tax, Statement of Information, and everything you need for your California LLC.';
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        How to Start an LLC in California
+      </h1>
+      <p class="mt-2 text-sm font-medium text-blue-200">Updated for 2026</p>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        California is the largest economy in the U.S. and offers unmatched market access. However, its LLC requirements include an annual franchise tax you should know about before forming.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Quick Facts -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+        <h2 class="text-xl font-bold text-gray-900">California LLC Quick Facts</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { label: 'Filing Fee', value: '$70' },
+            { label: 'State Agency', value: 'CA Secretary of State' },
+            { label: 'Formation Document', value: 'Articles of Organization' },
+            { label: 'Annual Franchise Tax', value: '$800 (see note below)' },
+            { label: 'Statement of Information', value: '$20 (every 2 years)' },
+            { label: 'State Income Tax', value: 'Yes (personal)' },
+          ].map((fact) => (
+            <div class="rounded-lg bg-gray-50 p-3">
+              <span class="text-xs font-semibold uppercase tracking-wide text-gray-500">{fact.label}</span>
+              <p class="mt-1 text-sm font-bold text-gray-900">{fact.value}</p>
+            </div>
+          ))}
+        </div>
+        <p class="mt-4 text-xs text-gray-500">
+          Fees and requirements shown are based on our most recent review. Always verify current information at the <a href="https://www.sos.ca.gov/business-programs/business-entities" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">California Secretary of State website</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-gray-600">
+      {siteConfig.disclosureText}
+    </div>
+
+    <!-- Why California -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why Form an LLC in California?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          California has the largest GDP of any U.S. state and is home to some of the world's most innovative companies. If you live in California or do business there, forming a California LLC is typically required regardless of where your LLC was originally created.
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Massive market access:</strong> Nearly 40 million residents and a diverse economy spanning technology, entertainment, agriculture, and more.</li>
+          <li><strong>Low filing fee:</strong> At $70, California's LLC filing fee is among the lowest in the country.</li>
+          <li><strong>Strong consumer base:</strong> California's large, affluent population provides enormous market potential.</li>
+          <li><strong>Innovation ecosystem:</strong> Access to world-class talent, venture capital, and business networks.</li>
+        </ul>
+        <p>
+          However, California also imposes an $800 annual franchise tax on LLCs, which is an important cost to factor into your planning.
+        </p>
+      </div>
+    </section>
+
+    <!-- Franchise Tax Note -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-blue-200 bg-blue-50/50 p-6">
+        <h3 class="text-lg font-bold text-gray-900">Important: California's $800 Annual Franchise Tax</h3>
+        <div class="mt-3 space-y-3 text-sm leading-relaxed text-gray-700">
+          <p>
+            California imposes an <strong>$800 annual minimum franchise tax</strong> on most LLCs. This tax is due by the 15th day of the 4th month after your LLC's tax year begins (typically April 15 for calendar-year LLCs) and then annually each year your LLC exists.
+          </p>
+          <p>
+            <strong>First-year exemption note:</strong> California previously offered a first-year exemption from the $800 minimum franchise tax for LLCs formed between January 1, 2021, and December 31, 2023. As of our last review, this exemption has expired. However, tax law changes frequently in California. We strongly recommend checking with the <a href="https://www.ftb.ca.gov" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">California Franchise Tax Board (FTB)</a> for the most current rules regarding any first-year exemption or fee waiver.
+          </p>
+          <p>
+            LLCs with gross revenue above $250,000 may owe an additional LLC fee on top of the $800 minimum. This fee ranges from $900 to $11,790 depending on your income level.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Steps to Form Your California LLC</h2>
+
+      <div class="mt-8 space-y-8">
+
+        <!-- Step 1 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">1</span>
+            <h3 class="text-xl font-bold text-gray-900">Choose a Name for Your California LLC</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Your LLC name must not be the same as, or deceptively similar to, any existing business entity registered in California. It must end with "Limited Liability Company," "LLC," or "L.L.C."
+            </p>
+            <p>
+              Search for available names using the California Secretary of State's business search tool at <a href="https://bizfileonline.sos.ca.gov/search/business" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">bizfileonline.sos.ca.gov</a>. You can reserve a name for 60 days by filing a Name Reservation Request (Form LLC-1) with a $10 fee.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">2</span>
+            <h3 class="text-xl font-bold text-gray-900">Appoint an Agent for Service of Process</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              California requires every LLC to designate an agent for service of process. This person or company must have a physical street address in California and be available during normal business hours to receive legal documents.
+            </p>
+            <p>
+              You can serve as your own agent, but many business owners use a professional service for privacy and reliability. Our <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">recommended LLC services</a> include registered agent service.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">3</span>
+            <h3 class="text-xl font-bold text-gray-900">File Articles of Organization (Form LLC-1)</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              File your Articles of Organization with the California Secretary of State. The filing fee is <strong>$70</strong>. You can file online through bizfileonline.sos.ca.gov or by mail.
+            </p>
+            <p><strong>Information required:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>LLC name</li>
+              <li>Business address</li>
+              <li>Mailing address (if different)</li>
+              <li>Agent for service of process name and address</li>
+              <li>Management structure (member-managed or manager-managed)</li>
+              <li>Organizer name and signature</li>
+            </ul>
+            <p>
+              Online filings are processed faster than mail filings. Standard processing times vary, but expedited options are available for an additional fee.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">4</span>
+            <h3 class="text-xl font-bold text-gray-900">File a Statement of Information (Form LLC-12)</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Within 90 days of forming your LLC, you must file a Statement of Information with the California Secretary of State. The filing fee is <strong>$20</strong>. After the initial filing, you must re-file every two years.
+            </p>
+            <p>
+              This form provides the state with updated information about your LLC, including its address, management structure, agent for service of process, and the nature of the business.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">5</span>
+            <h3 class="text-xl font-bold text-gray-900">Create an Operating Agreement</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              California law explicitly recognizes operating agreements as governing documents for LLCs. While not filed with the state, having an operating agreement is crucial for defining your LLC's management structure, member rights, and operating procedures.
+            </p>
+            <p>
+              Learn more in our <a href="/learn/llc-operating-agreement/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">operating agreement guide</a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">6</span>
+            <h3 class="text-xl font-bold text-gray-900">Get an EIN</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Apply for a free Employer Identification Number from the IRS. You will need this to open a business bank account, hire employees, and file taxes. The online application is free and takes just minutes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ongoing Requirements -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Ongoing California LLC Requirements</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>$800 annual franchise tax:</strong> Due each year your LLC exists in California. Paid to the Franchise Tax Board.</li>
+          <li><strong>Statement of Information:</strong> File every two years with the Secretary of State ($20 fee).</li>
+          <li><strong>California income tax:</strong> LLC income that flows through to members is subject to California personal income tax.</li>
+          <li><strong>LLC fee for high earners:</strong> If your LLC's gross revenue exceeds $250,000, an additional LLC fee applies.</li>
+          <li><strong>Sales tax:</strong> If you sell taxable products or services, register with the California Department of Tax and Fee Administration (CDTFA).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-bold text-gray-900">Start Your California LLC Today</h2>
+        <p class="mt-2 text-sm text-gray-700">
+          A formation service can handle the filing, act as your agent for service of process, and help you stay compliant with California's requirements.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800"
+        >
+          Compare the Best LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Links -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-gray-900">Related Guides</h2>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="/learn/what-is-an-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">What Is an LLC?</a>
+        <a href="/learn/llc-operating-agreement/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">LLC Operating Agreement Guide</a>
+        <a href="/best-llc-services/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">Best LLC Services 2026</a>
+        <a href="/start-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">All State Guides</a>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-5 text-xs leading-relaxed text-gray-500">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal or tax advice. California filing fees, franchise tax rules, and regulatory requirements change frequently. Always verify current information with the <a href="https://www.sos.ca.gov" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">California Secretary of State</a> and the <a href="https://www.ftb.ca.gov" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">Franchise Tax Board</a>, or consult a qualified attorney or tax professional.
+      </p>
+    </div>
+
+    <div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>{siteConfig.name} is operated by {siteConfig.operator}.</p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,179 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'How to Start an LLC: State-by-State Guides';
+const description =
+  'Step-by-step guides to forming an LLC in every major state. Learn about filing fees, requirements, and timelines for Texas, Florida, California, Delaware, and more.';
+
+const featuredStates = [
+  {
+    name: 'Texas',
+    slug: 'texas',
+    filingFee: '$300',
+    highlight: 'No state income tax',
+    desc: 'Texas is one of the most popular states for LLC formation thanks to its business-friendly environment, no state income tax, and growing economy.',
+  },
+  {
+    name: 'Florida',
+    slug: 'florida',
+    filingFee: '$125',
+    highlight: 'No state income tax',
+    desc: 'Florida offers low filing fees, no state income tax, and a thriving business community that makes it an excellent choice for new LLCs.',
+  },
+  {
+    name: 'California',
+    slug: 'california',
+    filingFee: '$70',
+    highlight: 'Largest U.S. economy',
+    desc: 'California has the largest economy of any U.S. state. While it has additional tax requirements, it offers unmatched access to markets and talent.',
+  },
+  {
+    name: 'Delaware',
+    slug: 'delaware',
+    filingFee: '$90',
+    highlight: 'Best for asset protection',
+    desc: 'Delaware is famous for its business-friendly court system, strong asset protection laws, and privacy features that attract companies of all sizes.',
+  },
+];
+
+const comingStates = [
+  'New York', 'Wyoming', 'Nevada', 'Illinois', 'Georgia',
+  'North Carolina', 'Ohio', 'Michigan', 'Arizona', 'Washington',
+  'Colorado', 'New Jersey',
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        How to Start an LLC: State-by-State Guides
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        LLC formation requirements vary by state — from filing fees and forms to tax obligations and annual reports. Our guides walk you through each step for your specific state.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Intro -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why State Matters for Your LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Every state has its own rules for forming and maintaining an LLC. The differences can be significant: filing fees range from under $50 to several hundred dollars, some states charge annual franchise taxes while others do not, and ongoing compliance requirements vary widely.
+        </p>
+        <p>
+          Choosing the right state for your LLC depends on factors like where you do business, tax implications, privacy preferences, and long-term costs. Our state guides break down everything you need to know so you can make an informed decision.
+        </p>
+        <p>
+          If you are new to LLCs, start with our <a href="/learn/what-is-an-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">What Is an LLC?</a> guide to understand the basics. When you are ready to form, check out our <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">best LLC formation services</a> to find the right provider for you.
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured State Guides -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Featured State Guides</h2>
+      <p class="mt-3 text-gray-600">Detailed, step-by-step formation guides for the most popular LLC states.</p>
+
+      <div class="mt-8 grid gap-6 sm:grid-cols-2">
+        {featuredStates.map((state) => (
+          <a
+            href={`/start-llc/${state.slug}/`}
+            class="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
+          >
+            <div class="flex items-center justify-between">
+              <h3 class="text-xl font-bold text-gray-900 group-hover:text-teal-700">{state.name}</h3>
+              <span class="rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold text-teal-700">
+                {state.filingFee} filing fee
+              </span>
+            </div>
+            <p class="mt-1 text-sm font-medium text-teal-600">{state.highlight}</p>
+            <p class="mt-3 text-sm leading-relaxed text-gray-600">{state.desc}</p>
+            <span class="mt-4 inline-block text-sm font-semibold text-teal-700 group-hover:underline">
+              Read the full guide &rarr;
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- More States Coming -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">More State Guides Coming Soon</h2>
+      <p class="mt-3 text-gray-600">
+        We are actively working on formation guides for additional states. Here is what is on our roadmap:
+      </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        {comingStates.map((state) => (
+          <span class="rounded-lg border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-600">
+            {state}
+          </span>
+        ))}
+      </div>
+      <p class="mt-4 text-sm text-gray-500">
+        Check back regularly as we add new state guides each month.
+      </p>
+    </section>
+
+    <!-- General Steps Overview -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">General Steps to Form an LLC</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        While the specifics differ by state, the LLC formation process generally follows these steps:
+      </p>
+
+      <div class="mt-8 space-y-4">
+        {[
+          { step: '1', title: 'Choose a Name for Your LLC', desc: 'Your LLC name must be unique in your state and typically must include "LLC" or "Limited Liability Company." Most states have a name search tool on their Secretary of State website.' },
+          { step: '2', title: 'Appoint a Registered Agent', desc: 'Every LLC needs a registered agent with a physical address in the state of formation. This person or company receives legal documents and official mail on your behalf.' },
+          { step: '3', title: 'File Formation Documents', desc: 'Submit Articles of Organization (or Certificate of Formation, depending on the state) to your state agency along with the required filing fee.' },
+          { step: '4', title: 'Create an Operating Agreement', desc: 'Though not always legally required, an operating agreement defines ownership structure, management roles, and procedures. It is essential for protecting your personal liability.' },
+          { step: '5', title: 'Get an EIN', desc: 'Apply for a free Employer Identification Number from the IRS. You will need this to open a business bank account, hire employees, and file taxes.' },
+        ].map((item) => (
+          <div class="flex gap-4 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">
+              {item.step}
+            </span>
+            <div>
+              <h3 class="text-lg font-bold text-gray-900">{item.title}</h3>
+              <p class="mt-1 text-sm leading-relaxed text-gray-600">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-16">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-bold text-gray-900">Ready to Form Your LLC?</h2>
+        <p class="mt-2 text-sm text-gray-700">
+          Using a formation service can simplify the process and help you avoid mistakes. We have reviewed and compared the top providers.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800"
+        >
+          Compare the Best LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-5 text-xs leading-relaxed text-gray-500">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and is not legal or tax advice. LLC formation requirements and fees change regularly. Always verify current requirements with your state's official website or consult a qualified attorney or tax professional before making business decisions.
+      </p>
+    </div>
+
+    <!-- Operator -->
+    <div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>{siteConfig.name} is operated by {siteConfig.operator}.</p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,344 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+import { services } from '@/data/services';
+
+const title = 'How Much Does an LLC Cost? Full Breakdown for 2026';
+const description =
+  'Find out exactly how much it costs to form and maintain an LLC — state filing fees, registered agent costs, formation service pricing, and ongoing expenses.';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  datePublished: '2026-03-22',
+  dateModified: '2026-03-22',
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-300">Learning Center</p>
+      <h1 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        How Much Does an LLC Cost?
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        A full breakdown of every expense involved in forming and maintaining an LLC — from state fees to formation services and beyond.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Disclaimer -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-5 text-sm leading-relaxed text-gray-700">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal, tax, or financial advice. Costs vary by state and change over time. Verify current fees with your state's Secretary of State office.
+      </p>
+    </div>
+
+    <!-- Affiliate disclosure -->
+    <div class="mb-10 rounded-xl border border-slate-200 bg-slate-50/50 p-5 text-sm leading-relaxed text-gray-600">
+      <p>{siteConfig.disclosureText}</p>
+    </div>
+
+    <!-- TOC -->
+    <nav class="mb-12 rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+      <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href="#quick-answer" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Quick Answer: What You Will Pay</a></li>
+        <li><a href="#state-filing-fees" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">State Filing Fees</a></li>
+        <li><a href="#formation-service-costs" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Formation Service Costs</a></li>
+        <li><a href="#registered-agent" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Registered Agent Costs</a></li>
+        <li><a href="#ongoing-costs" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Ongoing Annual Costs</a></li>
+        <li><a href="#optional-costs" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Optional Add-On Costs</a></li>
+        <li><a href="#state-comparison" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">State-by-State Fee Comparison</a></li>
+        <li><a href="#save-money" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How to Save Money Forming Your LLC</a></li>
+        <li><a href="#faq" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+
+    <!-- Quick Answer -->
+    <section id="quick-answer" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Quick Answer: What You Will Pay</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          For most people, the total cost to form an LLC ranges from <strong>$50 to $500</strong>, depending on your state and whether you use a formation service. Here is a quick breakdown:
+        </p>
+      </div>
+      <div class="mt-6 overflow-x-auto rounded-xl border border-gray-200">
+        <table class="w-full text-sm">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Expense</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Typical Cost</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Required?</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr><td class="px-4 py-3 text-gray-700">State filing fee</td><td class="px-4 py-3 text-gray-700">$35 – $500</td><td class="px-4 py-3 text-gray-700">Yes</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Formation service</td><td class="px-4 py-3 text-gray-700">$0 – $49</td><td class="px-4 py-3 text-gray-700">No (optional)</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Registered agent (Year 1)</td><td class="px-4 py-3 text-gray-700">$0 – $299</td><td class="px-4 py-3 text-gray-700">Yes (can self-serve)</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">EIN (from IRS)</td><td class="px-4 py-3 text-gray-700">$0 (free)</td><td class="px-4 py-3 text-gray-700">Usually needed</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Operating agreement</td><td class="px-4 py-3 text-gray-700">$0 – $200</td><td class="px-4 py-3 text-gray-700">Highly recommended</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-4 text-sm text-gray-600">
+        The bottom line: in a low-cost state like Kentucky ($40 filing fee), you could form an LLC for under $100 total using a free formation service. In a high-cost state like Massachusetts ($500 filing fee), expect to pay closer to $500 or more.
+      </p>
+    </section>
+
+    <!-- State Filing Fees -->
+    <section id="state-filing-fees" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">State Filing Fees</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Every state charges a fee to file your Articles of Organization (the document that officially creates your LLC). This is the one cost you absolutely cannot avoid — it goes directly to the state government.
+        </p>
+        <p>
+          State filing fees range from as low as <strong>$35</strong> (in states like Arizona) to as high as <strong>$500</strong> (Massachusetts). The national average is around $100 to $150.
+        </p>
+        <p>
+          Some states also charge additional fees beyond the basic filing. For example, New York requires you to publish a notice in two newspapers after forming your LLC, which can cost an additional $200 to $1,500 depending on the county.
+        </p>
+        <p>
+          If you need your LLC formed faster, most states offer expedited processing for an additional fee, typically $50 to $100 on top of the standard filing fee.
+        </p>
+      </div>
+    </section>
+
+    <!-- Formation Service Costs -->
+    <section id="formation-service-costs" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Formation Service Costs</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          While you can file your LLC directly with the state, many people use an LLC formation service to handle the paperwork. These services prepare and file your documents, often with added benefits like compliance alerts and operating agreement templates.
+        </p>
+        <p>
+          Here is what the most popular formation services charge (service fees only — state filing fees are extra):
+        </p>
+      </div>
+
+      <div class="mt-6 overflow-x-auto rounded-xl border border-gray-200">
+        <table class="w-full text-sm">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Service</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Formation Fee</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Registered Agent (Year 1)</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Best For</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr>
+              <td class="px-4 py-3 font-medium text-gray-900">{services.northwest.name}</td>
+              <td class="px-4 py-3 text-gray-700">{services.northwest.formationPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.northwest.registeredAgentPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.northwest.bestFor}</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-gray-900">{services.zenbusiness.name}</td>
+              <td class="px-4 py-3 text-gray-700">{services.zenbusiness.formationPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.zenbusiness.registeredAgentPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.zenbusiness.bestFor}</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-gray-900">{services.bizee.name}</td>
+              <td class="px-4 py-3 text-gray-700">{services.bizee.formationPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.bizee.registeredAgentPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.bizee.bestFor}</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-gray-900">{services.legalzoom.name}</td>
+              <td class="px-4 py-3 text-gray-700">{services.legalzoom.formationPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.legalzoom.registeredAgentPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.legalzoom.bestFor}</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-gray-900">{services.llcattorney.name}</td>
+              <td class="px-4 py-3 text-gray-700">{services.llcattorney.formationPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.llcattorney.registeredAgentPrice}</td>
+              <td class="px-4 py-3 text-gray-700">{services.llcattorney.bestFor}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-4 text-sm text-gray-600">
+        See our <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">full comparison of LLC formation services</a> for detailed reviews of each provider.
+      </p>
+    </section>
+
+    <!-- Registered Agent -->
+    <section id="registered-agent" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Registered Agent Costs</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Every LLC is required by law to have a registered agent — a person or company designated to receive legal documents, tax notices, and official correspondence on behalf of the LLC.
+        </p>
+        <p>
+          You have three options:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Be your own registered agent (free).</strong> You can serve as your own registered agent, but you must have a physical address (not a P.O. box) in the state of formation and be available during business hours. Your address also becomes part of the public record.</li>
+          <li><strong>Use a formation service that includes it.</strong> Several services include a free registered agent for the first year. <a href="/reviews/northwest-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Northwest Registered Agent</a> and Bizee both offer this.</li>
+          <li><strong>Hire a standalone registered agent service.</strong> Expect to pay $100 to $300 per year. After the first free year from a formation service, annual renewals are typically $100 to $199.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Ongoing Costs -->
+    <section id="ongoing-costs" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Ongoing Annual Costs</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Forming your LLC is just the beginning. Most states have recurring costs to keep your LLC in good standing:
+        </p>
+      </div>
+      <div class="mt-6 overflow-x-auto rounded-xl border border-gray-200">
+        <table class="w-full text-sm">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Ongoing Expense</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Typical Cost</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr><td class="px-4 py-3 text-gray-700">Annual/biennial report</td><td class="px-4 py-3 text-gray-700">$0 – $300/year</td><td class="px-4 py-3 text-gray-700">Required in most states</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Registered agent renewal</td><td class="px-4 py-3 text-gray-700">$100 – $300/year</td><td class="px-4 py-3 text-gray-700">If using a professional service</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Franchise/privilege tax</td><td class="px-4 py-3 text-gray-700">$0 – $800/year</td><td class="px-4 py-3 text-gray-700">Varies by state (CA is $800)</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Business licenses</td><td class="px-4 py-3 text-gray-700">$25 – $500/year</td><td class="px-4 py-3 text-gray-700">Depends on industry and locality</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">BOI report filing</td><td class="px-4 py-3 text-gray-700">$0 (free with FinCEN)</td><td class="px-4 py-3 text-gray-700">Required for most LLCs</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          <strong>California</strong> is notably expensive — the state imposes a minimum $800 annual franchise tax on all LLCs, even if the business earns no income. This is one of the highest in the country.
+        </p>
+        <p>
+          On the other end, states like <strong>Ohio, Missouri,</strong> and <strong>Arizona</strong> have no annual report requirement and no franchise tax, making them among the cheapest to maintain an LLC.
+        </p>
+      </div>
+    </section>
+
+    <!-- Optional Costs -->
+    <section id="optional-costs" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Optional Add-On Costs</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Beyond the essentials, there are several optional expenses you may encounter:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>EIN filing assistance ($25 – $100):</strong> The IRS provides EINs for free, but some services charge to file on your behalf. Only pay for this if you value the convenience.</li>
+          <li><strong>Operating agreement template ($0 – $200):</strong> Many formation services include a basic template. For complex multi-member LLCs, an attorney-drafted agreement is recommended.</li>
+          <li><strong>DBA (Doing Business As) registration ($10 – $100):</strong> If you want to operate under a different name than your LLC's legal name.</li>
+          <li><strong>Business insurance ($300 – $3,000+/year):</strong> General liability insurance is not legally required in most cases but is highly recommended.</li>
+          <li><strong>Website and domain ($10 – $50/year):</strong> For establishing an online presence.</li>
+          <li><strong>Bookkeeping software ($0 – $30/month):</strong> Essential for tracking income, expenses, and maintaining proper records.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- State Comparison -->
+    <section id="state-comparison" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">State-by-State Fee Comparison</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Here are some of the most commonly searched states and their LLC filing fees:
+        </p>
+      </div>
+      <div class="mt-6 overflow-x-auto rounded-xl border border-gray-200">
+        <table class="w-full text-sm">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">State</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Filing Fee</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Annual Report</th>
+              <th class="px-4 py-3 text-left font-semibold text-gray-900">Notes</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr><td class="px-4 py-3 text-gray-700">Texas</td><td class="px-4 py-3 text-gray-700">$300</td><td class="px-4 py-3 text-gray-700">$0 (franchise tax report)</td><td class="px-4 py-3 text-gray-700">No tax if revenue under $2.47M</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Florida</td><td class="px-4 py-3 text-gray-700">$125</td><td class="px-4 py-3 text-gray-700">$138.75/year</td><td class="px-4 py-3 text-gray-700">No state income tax</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">California</td><td class="px-4 py-3 text-gray-700">$70</td><td class="px-4 py-3 text-gray-700">$20 every 2 years</td><td class="px-4 py-3 text-gray-700">$800 annual franchise tax</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">New York</td><td class="px-4 py-3 text-gray-700">$200</td><td class="px-4 py-3 text-gray-700">$9 every 2 years</td><td class="px-4 py-3 text-gray-700">Publication req. ($200 – $1,500)</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Delaware</td><td class="px-4 py-3 text-gray-700">$90</td><td class="px-4 py-3 text-gray-700">$300/year</td><td class="px-4 py-3 text-gray-700">Popular for larger companies</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Wyoming</td><td class="px-4 py-3 text-gray-700">$100</td><td class="px-4 py-3 text-gray-700">$60/year</td><td class="px-4 py-3 text-gray-700">No state income tax, privacy-friendly</td></tr>
+            <tr><td class="px-4 py-3 text-gray-700">Kentucky</td><td class="px-4 py-3 text-gray-700">$40</td><td class="px-4 py-3 text-gray-700">$15/year</td><td class="px-4 py-3 text-gray-700">One of the cheapest states</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-4 text-sm text-gray-600">
+        Note: These fees are approximate and subject to change. Always verify current fees with your state's Secretary of State website.
+      </p>
+    </section>
+
+    <!-- Save Money -->
+    <section id="save-money" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How to Save Money Forming Your LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <ol class="ml-6 list-decimal space-y-3">
+          <li><strong>Use a free or low-cost formation service.</strong> Services like ZenBusiness ($0), Bizee ($0), and Northwest Registered Agent ($39) handle the filing for little to nothing.</li>
+          <li><strong>Take advantage of free registered agent offers.</strong> Northwest and Bizee include a free registered agent for the first year, saving you $100 to $300.</li>
+          <li><strong>File your EIN yourself.</strong> The IRS website lets you get an EIN in minutes at no cost. Do not pay a service to do this unless you strongly prefer the convenience.</li>
+          <li><strong>Skip unnecessary add-ons.</strong> Formation services often upsell packages like business kits, compliance monitoring, and operating agreement upgrades. Evaluate each one carefully before adding it to your order.</li>
+          <li><strong>Form in your home state.</strong> Unless you have a specific reason to form elsewhere, your home state is almost always cheapest since you avoid foreign registration fees.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions</h2>
+      <div class="mt-6 space-y-6">
+        <div>
+          <h3 class="font-bold text-gray-900">Can I form an LLC for free?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Not entirely. While several formation services charge $0 for their service fee, you still have to pay the state filing fee, which ranges from $35 to $500. The state fee is unavoidable.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">What is the cheapest state to form an LLC?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Kentucky ($40), Arizona ($35), and Mississippi ($50) have some of the lowest filing fees. However, the cheapest state to form in is usually your home state, since forming elsewhere requires paying fees in both states.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Is an LLC worth the cost?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">For most business owners, yes. The liability protection alone is worth the relatively modest cost. If a single lawsuit could expose your personal assets, the few hundred dollars to form and maintain an LLC is a wise investment. Read our guide on <a href="/learn/what-is-an-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">what an LLC is</a> for a full breakdown of the benefits.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Do I have to pay the LLC cost every year?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">You pay the state filing fee only once at formation. However, most states charge annual or biennial report fees and some charge franchise taxes. Registered agent fees are also annual. Budget $100 to $500 per year for ongoing costs in most states.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-14">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-extrabold text-gray-900">Find the Most Affordable LLC Service</h2>
+        <p class="mt-2 text-gray-700 leading-relaxed">
+          Compare pricing and features across the top-rated formation services.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-[#1e3a5f] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#1e3a5f]/90 transition-colors"
+        >
+          Compare LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>Last updated: {siteConfig.lastUpdated}</p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,317 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'What Is an LLC? A Complete Guide to Limited Liability Companies';
+const description =
+  'Learn what an LLC is, how it protects your personal assets, its tax advantages, and how to form one. A plain-English guide for new business owners.';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  datePublished: '2026-03-22',
+  dateModified: '2026-03-22',
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-300">Learning Center</p>
+      <h1 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        What Is an LLC?
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        A complete, plain-English guide to Limited Liability Companies — what they are, why they matter, and how to start one.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Disclaimer -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-5 text-sm leading-relaxed text-gray-700">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal, tax, or financial advice. Laws and regulations vary by state and change over time. Consult a qualified attorney or tax professional for advice specific to your situation.
+      </p>
+    </div>
+
+    <!-- Affiliate disclosure -->
+    <div class="mb-10 rounded-xl border border-slate-200 bg-slate-50/50 p-5 text-sm leading-relaxed text-gray-600">
+      <p>{siteConfig.disclosureText}</p>
+    </div>
+
+    <!-- TOC -->
+    <nav class="mb-12 rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+      <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href="#definition" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC Definition and Basics</a></li>
+        <li><a href="#liability-protection" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How Liability Protection Works</a></li>
+        <li><a href="#tax-flexibility" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Tax Flexibility of an LLC</a></li>
+        <li><a href="#benefits" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Key Benefits of Forming an LLC</a></li>
+        <li><a href="#who-should-form" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Who Should Form an LLC?</a></li>
+        <li><a href="#how-to-form" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How to Form an LLC</a></li>
+        <li><a href="#ongoing-requirements" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Ongoing Requirements</a></li>
+        <li><a href="#common-myths" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Common LLC Myths</a></li>
+        <li><a href="#faq" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Frequently Asked Questions</a></li>
+      </ul>
+    </nav>
+
+    <!-- Definition -->
+    <section id="definition" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">LLC Definition and Basics</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          A <strong>Limited Liability Company (LLC)</strong> is a business structure recognized under state law that combines elements of partnerships and corporations. It gives business owners — called <em>members</em> — personal asset protection while keeping taxes and paperwork relatively simple.
+        </p>
+        <p>
+          Unlike a sole proprietorship, where the owner and the business are legally the same entity, an LLC creates a separate legal entity. This means your personal bank accounts, home, car, and other assets are generally shielded from business debts and lawsuits directed at the company.
+        </p>
+        <p>
+          LLCs are governed by state law, so the exact rules vary depending on where you form your company. However, the core concept is the same everywhere: limited liability for owners, pass-through taxation by default, and flexible management options.
+        </p>
+        <p>
+          The LLC structure was first introduced in Wyoming in 1977 and has since become the most popular business entity type in the United States. According to IRS data, millions of new LLCs are formed every year, far outpacing corporations and partnerships.
+        </p>
+      </div>
+    </section>
+
+    <!-- Liability Protection -->
+    <section id="liability-protection" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How Liability Protection Works</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          The "limited liability" in LLC is the primary reason most people choose this structure. Here is what it means in practice:
+        </p>
+        <p>
+          When you operate as a sole proprietor, there is no legal separation between you and your business. If your business is sued, or if it cannot pay its debts, creditors can pursue your personal assets — your savings, your house, your personal vehicle.
+        </p>
+        <p>
+          With an LLC, a legal barrier called the <strong>corporate veil</strong> separates your personal assets from business liabilities. If the LLC faces a lawsuit or debt it cannot pay, creditors can generally only go after the assets owned by the LLC itself, not the personal assets of its members.
+        </p>
+        <p>
+          However, this protection is not absolute. Courts can "pierce the corporate veil" if you fail to maintain the LLC properly. Common reasons include:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Commingling funds:</strong> Mixing personal and business money in the same bank account.</li>
+          <li><strong>Undercapitalization:</strong> Not providing the LLC with enough funding to reasonably operate.</li>
+          <li><strong>Ignoring formalities:</strong> Not maintaining an operating agreement, proper records, or separate finances.</li>
+          <li><strong>Fraud or misrepresentation:</strong> Using the LLC to commit fraud or deceive creditors.</li>
+        </ul>
+        <p>
+          To maintain your liability protection, always keep a separate business bank account, sign contracts in the name of the LLC (not your personal name), and maintain an <a href="/learn/llc-operating-agreement/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">operating agreement</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Tax Flexibility -->
+    <section id="tax-flexibility" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Tax Flexibility of an LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          One of the biggest advantages of an LLC is its tax flexibility. The IRS does not have a specific tax classification for LLCs. Instead, you get to choose how your LLC is taxed.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Default Taxation (Pass-Through)</h3>
+        <p>
+          By default, a single-member LLC is taxed as a <strong>disregarded entity</strong>, meaning all profits and losses pass through to the owner's personal tax return (Schedule C of Form 1040). A multi-member LLC is taxed as a <strong>partnership</strong>, with each member reporting their share on their personal return.
+        </p>
+        <p>
+          This is called <em>pass-through taxation</em> because the business itself does not pay federal income tax. Profits are only taxed once, at the member's individual tax rate.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Electing S-Corp or C-Corp Taxation</h3>
+        <p>
+          LLCs can also elect to be taxed as an S-corporation or C-corporation by filing the appropriate forms with the IRS. An S-corp election can potentially reduce self-employment taxes for profitable businesses. Learn more in our <a href="/learn/llc-vs-s-corp/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC vs S-Corp comparison</a>.
+        </p>
+        <p>
+          This flexibility is unique to LLCs. Sole proprietorships cannot elect corporate taxation, and corporations cannot easily switch to pass-through taxation without restructuring.
+        </p>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Key Benefits of Forming an LLC</h2>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2">
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Personal Asset Protection</h3>
+          <p class="mt-2 text-sm text-gray-600">Your home, car, savings, and other personal assets are generally protected from business debts and lawsuits.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Tax Flexibility</h3>
+          <p class="mt-2 text-sm text-gray-600">Choose how you are taxed — as a sole proprietor, partnership, S-corp, or C-corp — depending on what saves you the most.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Credibility</h3>
+          <p class="mt-2 text-sm text-gray-600">Operating as an LLC signals professionalism to clients, vendors, and lenders. It shows you are running a real business.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Flexible Management</h3>
+          <p class="mt-2 text-sm text-gray-600">LLCs can be member-managed or manager-managed. There are no requirements for boards of directors, officers, or annual meetings.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Simple Compliance</h3>
+          <p class="mt-2 text-sm text-gray-600">Compared to corporations, LLCs have fewer ongoing formalities. Most states require only an annual report and a registered agent.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h3 class="font-bold text-gray-900">Profit Distribution Flexibility</h3>
+          <p class="mt-2 text-sm text-gray-600">Members can split profits in any way they agree to — it does not have to match ownership percentages.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who Should Form -->
+    <section id="who-should-form" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Who Should Form an LLC?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          An LLC is a good fit for a wide range of business owners. Here are some common situations where forming an LLC makes sense:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Freelancers and consultants</strong> who want to separate personal and business liability.</li>
+          <li><strong>E-commerce sellers</strong> who face product liability risk.</li>
+          <li><strong>Real estate investors</strong> who want to protect personal assets from property-related lawsuits.</li>
+          <li><strong>Small business owners</strong> with employees, contracts, or physical locations.</li>
+          <li><strong>Side-hustle entrepreneurs</strong> who are earning enough to justify the cost and want professional credibility.</li>
+          <li><strong>Multi-member ventures</strong> where two or more people are going into business together.</li>
+        </ul>
+        <p>
+          If you are currently operating as a sole proprietor and your business is growing — or if you face any meaningful liability risk — an LLC is usually worth the modest cost. See our <a href="/learn/llc-vs-sole-proprietorship/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC vs Sole Proprietorship comparison</a> for a detailed breakdown.
+        </p>
+      </div>
+    </section>
+
+    <!-- How to Form -->
+    <section id="how-to-form" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">How to Form an LLC</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Forming an LLC is straightforward in most states. Here is the general process:
+        </p>
+        <ol class="ml-6 list-decimal space-y-3">
+          <li>
+            <strong>Choose your state.</strong> Most people form in the state where they live and do business. Forming in another state (like Delaware or Wyoming) usually only makes sense for larger businesses with specific legal or tax strategies.
+          </li>
+          <li>
+            <strong>Pick a name.</strong> Your LLC name must be unique in your state and typically must include "LLC" or "Limited Liability Company." Check your state's business name database to confirm availability.
+          </li>
+          <li>
+            <strong>Appoint a registered agent.</strong> Every LLC must have a registered agent — a person or company authorized to receive legal and government documents on behalf of the LLC. You can serve as your own, but most owners use a professional service.
+          </li>
+          <li>
+            <strong>File Articles of Organization.</strong> This is the official formation document you submit to your state's Secretary of State (or equivalent office). It includes basic information like the LLC name, registered agent, and principal address.
+          </li>
+          <li>
+            <strong>Create an operating agreement.</strong> While not required in every state, an operating agreement is essential. It defines how the LLC will be managed, how profits are distributed, and what happens if a member leaves. Learn more in our <a href="/learn/llc-operating-agreement/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">operating agreement guide</a>.
+          </li>
+          <li>
+            <strong>Get an EIN.</strong> An Employer Identification Number (EIN) is like a Social Security number for your business. You need one to open a business bank account, hire employees, and file taxes. It is free from the IRS.
+          </li>
+          <li>
+            <strong>Open a business bank account.</strong> This is critical for maintaining your liability protection. Never mix personal and business funds.
+          </li>
+        </ol>
+        <p>
+          You can file everything yourself directly with your state, or use an LLC formation service to handle the paperwork. Formation services typically cost between $0 and $49, plus state filing fees. See our <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">best LLC formation services</a> for our top picks, or check out our <a href="/learn/how-much-does-an-llc-cost/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC cost guide</a> for a full breakdown.
+        </p>
+      </div>
+    </section>
+
+    <!-- Ongoing Requirements -->
+    <section id="ongoing-requirements" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Ongoing Requirements</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Forming an LLC is not a one-time event. Most states have ongoing requirements to keep your LLC in good standing:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Annual or biennial reports:</strong> Most states require you to file a periodic report (and pay a fee) to confirm your LLC's information is up to date. Fees range from $0 to over $300 depending on the state.</li>
+          <li><strong>Registered agent:</strong> You must maintain a registered agent at all times. If you use a professional service, this is typically $100 to $300 per year.</li>
+          <li><strong>Franchise or privilege taxes:</strong> Some states (like California and Texas) impose an annual franchise tax on LLCs regardless of income.</li>
+          <li><strong>Business licenses and permits:</strong> Depending on your industry and location, you may need local, state, or federal licenses to operate.</li>
+          <li><strong>Beneficial Ownership Information (BOI) report:</strong> Under the Corporate Transparency Act, most LLCs must file a BOI report with FinCEN. See our <a href="/learn/boi-report-guide/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">BOI report guide</a> for details.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Common Myths -->
+    <section id="common-myths" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Common LLC Myths</h2>
+      <div class="mt-4 space-y-5 text-gray-700 leading-relaxed">
+        <div>
+          <h3 class="font-bold text-gray-900">Myth: An LLC makes you automatically tax-exempt.</h3>
+          <p class="mt-1">An LLC does not reduce your tax burden by itself. It changes how you can structure your taxes, but you still owe income tax and self-employment tax on profits. The potential tax savings come from choosing the right tax election (like S-corp status) for your situation.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Myth: You need a lawyer to form an LLC.</h3>
+          <p class="mt-1">While consulting a lawyer is always wise for complex situations, forming a basic LLC is something most people can do on their own or with a formation service. The state filing process is designed to be accessible.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Myth: A single person cannot form an LLC.</h3>
+          <p class="mt-1">All 50 states allow single-member LLCs. In fact, single-member LLCs are the most common type formed.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Myth: An LLC protects you from everything.</h3>
+          <p class="mt-1">An LLC does not protect you from personal negligence, fraud, or personally guaranteed debts. If you sign a personal guarantee on a business loan, you are personally liable regardless of the LLC.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions</h2>
+      <div class="mt-6 space-y-6">
+        <div>
+          <h3 class="font-bold text-gray-900">How much does it cost to form an LLC?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">State filing fees range from about $35 to $500, depending on the state. Formation services charge between $0 and $49 on top of that. See our <a href="/learn/how-much-does-an-llc-cost/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">full cost breakdown</a>.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">How long does it take to form an LLC?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">It depends on the state. Some states process filings in 1 to 3 business days. Others can take 2 to 4 weeks. Many states offer expedited processing for an additional fee.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Can I change my LLC to a corporation later?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Yes. Most states allow you to convert an LLC to a corporation through a statutory conversion or by forming a new corporation and transferring assets. You can also elect corporate taxation (S-corp or C-corp) without changing your legal structure.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Do I need a separate bank account for my LLC?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Absolutely. Maintaining a separate business bank account is one of the most important things you can do to preserve your liability protection. Mixing personal and business funds is one of the easiest ways to lose that protection.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Which state should I form my LLC in?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">For most small business owners, the best state is the one where you live and operate. Forming in Delaware or Wyoming only makes sense if you have a specific legal or tax reason — and you would still need to register as a foreign LLC in your home state, which means paying fees in two states.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-14">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-extrabold text-gray-900">Ready to Form Your LLC?</h2>
+        <p class="mt-2 text-gray-700 leading-relaxed">
+          Compare the top-rated LLC formation services and find the best fit for your business.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-[#1e3a5f] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#1e3a5f]/90 transition-colors"
+        >
+          Compare LLC Formation Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>Last updated: {siteConfig.lastUpdated}</p>
+    </div>
+  </article>
+</BaseLayout>
