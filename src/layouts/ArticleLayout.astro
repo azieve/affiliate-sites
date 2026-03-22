@@ -22,6 +22,11 @@ interface Props {
   showTOC?: boolean;
 }
 
+const authorPhotos: Record<string, string> = {
+  'Sarah Mitchell': '/authors/Sarah_Mitchell.png',
+  'James Caldwell': '/authors/James_Cadwell.png',
+};
+
 const {
   title,
   description,
@@ -36,6 +41,8 @@ const {
   showDisclosure = true,
   showTOC = false,
 } = Astro.props;
+
+const authorImage = authorPhotos[author];
 
 function formatDate(dateStr: string): string {
   return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
@@ -133,9 +140,20 @@ function formatDate(dateStr: string): string {
           {author && (
             <div class="mt-12 rounded-lg border border-border bg-surface-alt p-6">
               <div class="flex items-start gap-4">
-                <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-brand-navy text-lg font-bold text-white">
-                  {author.charAt(0)}
-                </div>
+                {authorImage ? (
+                  <img
+                    src={authorImage}
+                    alt={author}
+                    class="h-12 w-12 flex-shrink-0 rounded-full object-cover"
+                    width="48"
+                    height="48"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-brand-navy text-lg font-bold text-white">
+                    {author.charAt(0)}
+                  </div>
+                )}
                 <div>
                   <p class="mb-1 font-semibold text-text-primary">{author}</p>
                   <p class="m-0 text-sm leading-relaxed text-text-secondary">

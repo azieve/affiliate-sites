@@ -1,0 +1,24 @@
+[2026-03-22 21:11:52] Next keyword index: 1
+[2026-03-22 21:11:52] Generating article for: best LLC formation services [year] (Category: Foundation, Intent: Commercial)
+[2026-03-22 21:11:52] Calling Claude CLI to generate article...
+[2026-03-22 21:13:46] Article generated successfully: /Users/alonzieve/affiliate-sites/src/content/blog/best-llc-formation-services-2026.mdx
+[2026-03-22 21:13:46] WARNING: Output doesn't start with frontmatter. Attempting to fix...
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+[2026-03-22 21:13:46] ERROR: Failed to fix output. Removing broken file.
+[2026-03-22 21:14:11] Next keyword index: 1
+[2026-03-22 21:14:11] Generating article for: best LLC formation services [year] (Category: Foundation, Intent: Commercial)
+[2026-03-22 21:14:11] Calling Claude CLI to generate article...
+[2026-03-22 21:16:16] Article generated successfully: /Users/alonzieve/affiliate-sites/src/content/blog/best-llc-formation-services-2026.mdx
+[2026-03-22 21:16:16] WARNING: Output doesn't start with frontmatter. Attempting to fix...
+[2026-03-22 21:16:16] ERROR: Failed to fix output. Removing broken file.
+[2026-03-22 22:12:29] Next keyword index: 1
+[2026-03-22 22:12:29] Generating article for: best LLC formation services [year] (Category: Foundation, Intent: Commercial)
+[2026-03-22 22:12:29] Calling Claude CLI to generate article...
+[2026-03-22 22:14:17] Article generated successfully: /Users/alonzieve/affiliate-sites/src/content/blog/best-llc-formation-services-2026.mdx
+[2026-03-22 22:18:04] Next keyword index: 1
+[2026-03-22 22:18:04] Generating article for: best LLC formation services [year] (Category: Foundation, Intent: Commercial)
+[2026-03-22 22:18:04] Calling Claude CLI to generate article...
+[2026-03-22 22:19:51] Article generated successfully: /Users/alonzieve/affiliate-sites/src/content/blog/best-llc-formation-services-2026.mdx
+[2026-03-22 22:19:51] Progress updated. Next index: 2
+[2026-03-22 22:19:51] Article published at: /blog/best-llc-formation-services-2026/

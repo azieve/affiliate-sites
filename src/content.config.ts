@@ -71,6 +71,26 @@ const learn = defineCollection({
   }),
 });
 
+const blog = defineCollection({
+  loader: glob({ pattern: '**/*.mdx', base: './src/content/blog' }),
+  schema: z.object({
+    title: z.string(),
+    metaTitle: z.string().optional(),
+    metaDescription: z.string(),
+    publishDate: z.string(),
+    lastUpdated: z.string(),
+    author: z.string().default('Sarah Mitchell'),
+    authorRole: z.string().default('Business Formation Researcher'),
+    authorBio: z.string().optional(),
+    targetKeyword: z.string(),
+    secondaryKeywords: z.array(z.string()).default([]),
+    category: z.string(),
+    cluster: z.string().optional(),
+    featuredImage: z.string().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
 const professions = defineCollection({
   loader: glob({ pattern: '**/*.mdx', base: './src/content/professions' }),
   schema: z.object({
@@ -93,4 +113,5 @@ export const collections = {
   states,
   learn,
   professions,
+  blog,
 };

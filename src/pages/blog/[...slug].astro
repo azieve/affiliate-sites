@@ -1,0 +1,73 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '@/layouts/ArticleLayout.astro';
+import { siteConfig } from '@/data/site';
+import { getCanonicalUrl } from '@/utils/seo';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const {
+  title,
+  metaTitle,
+  metaDescription,
+  publishDate,
+  lastUpdated,
+  author,
+  authorRole,
+  authorBio,
+  category,
+} = entry.data;
+
+const canonicalUrl = getCanonicalUrl(`/blog/${entry.id}`);
+
+const articleSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: metaTitle || title,
+  description: metaDescription,
+  datePublished: publishDate,
+  dateModified: lastUpdated,
+  author: {
+    '@type': 'Person',
+    name: author,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+
+const breadcrumbItems = [
+  { label: 'Blog', href: '/blog/' },
+  { label: title },
+];
+
+const defaultAuthorBio = `${author} has spent years researching LLC formation services and business compliance requirements to help entrepreneurs make informed decisions.`;
+---
+
+<ArticleLayout
+  title={metaTitle || title}
+  description={metaDescription}
+  canonicalUrl={canonicalUrl}
+  schema={articleSchema}
+  lastUpdated={lastUpdated}
+  author={author}
+  authorBio={authorBio || defaultAuthorBio}
+  breadcrumbs={breadcrumbItems}
+  showDisclosure={true}
+  showTOC={true}
+>
+  <div class="prose">
+    <Content />
+  </div>
+</ArticleLayout>

@@ -52,6 +52,10 @@ export const siteConfig = {
         { label: 'LLC vs S-Corp', href: '/learn/llc-vs-s-corp/' },
       ],
     },
+    {
+      label: 'Blog',
+      href: '/blog/',
+    },
   ],
 
   footerLinks: {
@@ -73,6 +77,7 @@ export const siteConfig = {
       { label: 'Start an LLC in Florida', href: '/start-llc/florida/' },
       { label: 'Start an LLC in California', href: '/start-llc/california/' },
       { label: 'Start an LLC in Delaware', href: '/start-llc/delaware/' },
+      { label: 'Blog', href: '/blog/' },
     ],
   },
 
