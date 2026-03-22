@@ -57,6 +57,21 @@ const faqItems = [
     answer:
       'A BOI report is a filing required by the Corporate Transparency Act. Most LLCs formed after January 1, 2024, must report their beneficial owners (anyone who owns 25% or more or exercises substantial control) to FinCEN. Several formation services now include BOI report filing as part of their packages or as an add-on service.',
   },
+  {
+    question: 'Do LLC formation services handle state filing fees?',
+    answer:
+      'LLC formation services do not waive or cover the state filing fee — that cost is set by your state and paid separately. When a service advertises "$0 formation," they mean their own service fee is $0; you still pay the state fee (typically $50 to $500 depending on the state). Most services collect the state fee during checkout and remit it on your behalf.',
+  },
+  {
+    question: 'Is it worth paying for a premium LLC formation package?',
+    answer:
+      'It depends on your needs. Premium packages typically include extras like EIN filing, operating agreements, compliance monitoring, and rush processing. If you plan to handle those tasks yourself, a basic package is sufficient. However, if you want a hands-off experience and value having everything bundled, a premium plan can save time and reduce the chance of missing a step.',
+  },
+  {
+    question: 'Can I switch LLC formation services after my LLC is already formed?',
+    answer:
+      'Yes. Your LLC formation service and your registered agent service are separate from the LLC itself. You can switch registered agent providers at any time by filing a simple change-of-agent form with your state. There is no obligation to stay with the service that originally filed your LLC.',
+  },
 ];
 
 const schema = JSON.stringify({
@@ -121,6 +136,9 @@ const schema = JSON.stringify({
           <a href="#methodology" class="text-teal-700 underline-offset-2 hover:underline">How We Evaluate LLC Services</a>
         </li>
         <li>
+          <a href="#buyers-guide" class="text-teal-700 underline-offset-2 hover:underline">What to Look For in an LLC Service</a>
+        </li>
+        <li>
           <a href="#faq" class="text-teal-700 underline-offset-2 hover:underline">Frequently Asked Questions</a>
         </li>
       </ul>
@@ -173,7 +191,7 @@ const schema = JSON.stringify({
             <h3 class="text-lg font-bold text-gray-900">Pricing & Value</h3>
           </div>
           <p class="mt-3 text-sm leading-relaxed text-gray-600">
-            We analyze base formation prices, registered agent fees, add-on costs, and ongoing renewal pricing. We look at total cost of ownership over the first year, not just headline prices.
+            We analyze base formation prices, registered agent fees, add-on costs, and ongoing renewal pricing. We look at total cost of ownership over the first year, not just headline prices. Pricing carries the heaviest weight because affordability is consistently the top concern among first-time LLC filers. We calculate total first-year cost by adding the service fee, registered agent fee, and common add-ons like EIN filing and operating agreement templates. Services that bundle more value at a lower total cost score higher.
           </p>
         </div>
 
@@ -186,7 +204,7 @@ const schema = JSON.stringify({
             <h3 class="text-lg font-bold text-gray-900">Features & Services</h3>
           </div>
           <p class="mt-3 text-sm leading-relaxed text-gray-600">
-            We evaluate what is included at each price tier: formation filing, registered agent, operating agreement, EIN filing, compliance monitoring, privacy protections, and bonus features.
+            We evaluate what is included at each price tier: formation filing, registered agent, operating agreement, EIN filing, compliance monitoring, privacy protections, and bonus features. We pay particular attention to whether key items like operating agreements and EIN filing are included in the base plan or locked behind premium tiers. Services that deliver more essentials upfront without requiring upgrades earn higher marks in this category.
           </p>
         </div>
 
@@ -231,6 +249,43 @@ const schema = JSON.stringify({
       </div>
     </section>
 
+    <!-- ====== BUYER'S GUIDE ====== -->
+    <section id="buyers-guide" class="mt-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+        What to Look For in an LLC Formation Service
+      </h2>
+      <p class="mt-3 text-gray-600 leading-relaxed">
+        With so many providers advertising "$0 formation," it can be difficult to tell one service from another. Here are the factors that actually matter when choosing a formation provider.
+      </p>
+
+      <div class="mt-6 space-y-4 text-gray-700 leading-relaxed">
+        <h3 class="text-lg font-bold text-gray-900">Transparent, all-in pricing</h3>
+        <p>
+          A $0 headline price means very little if the checkout process tacks on mandatory add-ons. Before you commit, calculate the total first-year cost including the state filing fee, registered agent service, and any extras you actually need such as EIN filing or an operating agreement. Services like <a href="/reviews/northwest-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Northwest Registered Agent</a> bundle formation and registered agent service for a single flat fee of $39, making the total cost predictable from the start.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900">Registered agent service</h3>
+        <p>
+          Every LLC is required by law to have a registered agent in its state of formation. Some services include a free year of registered agent service, while others charge $125 to $299 per year as a separate line item. Pay attention to the renewal price as well — a free first year followed by a $299 annual renewal can end up costing more over time than a service that charges $125 per year from the start.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900">Privacy protection</h3>
+        <p>
+          When you file your LLC, your name and address become part of the public record in most states. Some formation services, notably Northwest Registered Agent, list their own address on your formation documents instead of your personal address. This is especially valuable if you run your business from home and want to keep your home address off searchable government databases.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900">Checkout experience and upselling</h3>
+        <p>
+          One of the biggest differentiators between services is how aggressively they upsell during checkout. Some providers add pre-checked boxes for services you may not need, inflating your total by hundreds of dollars. We specifically test each provider's checkout flow and penalize services that use dark patterns or misleading defaults. A trustworthy service makes it easy to decline add-ons you do not want.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900">Ongoing compliance support</h3>
+        <p>
+          Forming your LLC is just the first step. Most states require annual reports, franchise tax filings, or other periodic filings to keep your LLC in good standing. Services that include compliance reminders or monitoring help you avoid missed deadlines that could result in late fees or administrative dissolution of your LLC. For more on what happens after formation, see our guide on <a href="/learn/what-is-an-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">what an LLC is and how it works</a>.
+        </p>
+      </div>
+    </section>
+
     <!-- ====== FAQ ====== -->
     <section id="faq" class="mt-16">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
@@ -247,7 +302,7 @@ const schema = JSON.stringify({
     <section class="mt-16 rounded-xl border border-teal-200 bg-gradient-to-br from-teal-50 to-white p-6 sm:p-8">
       <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">The Bottom Line</h2>
       <p class="mt-3 text-gray-700 leading-relaxed">
-        All five LLC formation services on our list are reputable providers that can successfully file your LLC. The best choice depends on your priorities:
+        All five LLC formation services on our list are reputable providers that can successfully file your LLC. Every service on this page has been personally tested by our research team, and any of them will get the job done. The best choice depends on your priorities — whether that is saving money upfront, getting the strongest privacy protections, or having attorney-drafted documents for extra peace of mind.
       </p>
       <ul class="mt-4 space-y-2 text-sm text-gray-700">
         <li class="flex items-start gap-2">
@@ -281,6 +336,9 @@ const schema = JSON.stringify({
           <span><strong>Best legal protection:</strong> LLC Attorney ($49 with attorney-drafted documents)</span>
         </li>
       </ul>
+      <p class="mt-4 text-sm text-gray-700 leading-relaxed">
+        No matter which service you choose, the most important step is actually forming your LLC. Operating as an unprotected sole proprietor exposes your personal assets to business liabilities every day you delay. Pick the service that fits your budget and priorities, and get your LLC filed. You can always add services or switch providers later. For more details on specific providers, check our individual <a href="/reviews/northwest-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">service reviews</a> or explore our <a href="/llc-for/freelancers/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">industry-specific guides</a>.
+      </p>
     </section>
 
     <!-- ====== AUTHOR BIO ====== -->

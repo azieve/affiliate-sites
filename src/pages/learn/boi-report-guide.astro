@@ -72,6 +72,8 @@ const schema = JSON.stringify({
         <li><a href="#deadlines" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Filing Deadlines</a></li>
         <li><a href="#penalties" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Penalties for Non-Compliance</a></li>
         <li><a href="#how-to-file" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">How to File Your BOI Report</a></li>
+        <li><a href="#who-is-beneficial-owner" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Who Counts as a Beneficial Owner?</a></li>
+        <li><a href="#common-mistakes" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Common BOI Filing Mistakes</a></li>
         <li><a href="#faq" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Frequently Asked Questions</a></li>
       </ul>
     </nav>
@@ -259,6 +261,73 @@ const schema = JSON.stringify({
       </div>
     </section>
 
+    <!-- Who Counts as Beneficial Owner -->
+    <section id="who-is-beneficial-owner" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Who Counts as a Beneficial Owner?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Understanding who qualifies as a "beneficial owner" is one of the most confusing aspects of BOI reporting. FinCEN defines two categories of individuals who must be reported:
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Individuals Who Exercise Substantial Control</h3>
+        <p>
+          A person exercises "substantial control" over a reporting company if they meet any of the following criteria:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li>They serve as a senior officer (president, CEO, CFO, general counsel, or any officer performing similar functions).</li>
+          <li>They have authority to appoint or remove any senior officer or a majority of the board of directors (or similar governing body).</li>
+          <li>They direct, determine, or have substantial influence over important decisions of the company, including decisions about the company's business, finances, or structure.</li>
+          <li>They have any other form of substantial control over the reporting company.</li>
+        </ul>
+        <p>
+          For a typical single-member LLC, the sole member almost always qualifies as someone who exercises substantial control. For multi-member LLCs, any member who participates in key decisions would likely qualify.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Individuals Who Own or Control 25% or More</h3>
+        <p>
+          Any individual who directly or indirectly owns or controls at least 25% of the ownership interests of the reporting company is considered a beneficial owner. This includes ownership through other entities, trusts, or intermediaries. For example, if Person A owns 100% of Company X, and Company X owns 30% of Company Y, then Person A is a beneficial owner of Company Y through indirect ownership.
+        </p>
+
+        <h3 class="text-xl font-bold text-gray-900 pt-2">Practical Examples</h3>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Single-member LLC:</strong> The sole member is the beneficial owner (both by ownership and control). Only one person needs to be reported.</li>
+          <li><strong>50/50 partnership LLC:</strong> Both members are beneficial owners (each owns 50% and likely shares substantial control). Both must be reported.</li>
+          <li><strong>LLC with one managing member (60%) and one passive member (40%):</strong> Both are beneficial owners — the managing member by ownership and control, the passive member by ownership alone.</li>
+          <li><strong>LLC with one 80% owner and one 20% owner:</strong> Only the 80% owner meets the 25% ownership threshold, but the 20% owner could still qualify if they exercise substantial control (for example, by serving as a senior officer).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Common BOI Mistakes -->
+    <section id="common-mistakes" class="mb-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Common BOI Filing Mistakes</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Because BOI reporting is relatively new, many business owners make errors when filing. Here are the most common mistakes to avoid:
+        </p>
+        <ol class="ml-6 list-decimal space-y-3">
+          <li>
+            <strong>Assuming you are exempt when you are not.</strong> The exemptions are narrower than many people think. Most small LLCs do not qualify for any exemption. The "large operating company" exemption requires more than 20 full-time employees AND more than $5 million in revenue — most small businesses do not meet both criteria.
+          </li>
+          <li>
+            <strong>Forgetting indirect beneficial owners.</strong> BOI reporting requires you to look through chains of ownership. If an individual owns or controls your LLC through another entity, they must be reported as a beneficial owner.
+          </li>
+          <li>
+            <strong>Using a P.O. box instead of a residential address.</strong> Beneficial owners must report their residential address, not a business address or P.O. box. This is one of the most common errors that leads to filing rejections.
+          </li>
+          <li>
+            <strong>Not updating the report when ownership changes.</strong> If a new person becomes a beneficial owner (through a membership transfer, for example) or if a reported owner's personal information changes (new address, new ID document), you must file an updated BOI report within 30 days.
+          </li>
+          <li>
+            <strong>Ignoring the filing altogether.</strong> With civil penalties of up to $591 per day and potential criminal penalties, ignoring BOI reporting is a serious mistake. If you are unsure whether you need to file, consult an attorney — but in most cases, it is safer to file than to risk non-compliance.
+          </li>
+        </ol>
+        <p>
+          If you make an error in your initial filing, FinCEN provides a 90-day safe harbor to correct inaccurate information without penalty, provided the original filing was not submitted with actual knowledge of the error.
+        </p>
+      </div>
+    </section>
+
     <!-- FAQ -->
     <section id="faq" class="mb-14">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions</h2>
@@ -282,6 +351,18 @@ const schema = JSON.stringify({
         <div>
           <h3 class="font-bold text-gray-900">Can I get a FinCEN Identifier instead of filing personal details each time?</h3>
           <p class="mt-2 text-gray-700 leading-relaxed">Yes. Individuals can apply for a FinCEN Identifier (FinCEN ID) — a unique number that can be used on BOI reports in lieu of providing personal information repeatedly. This is especially useful for people who are beneficial owners of multiple companies.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">Does a sole proprietorship need to file a BOI report?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">Generally, no. The BOI reporting requirement applies to entities created by filing a document with a state — such as LLCs, corporations, and limited partnerships. A sole proprietorship is not created through a state filing, so it is typically not a reporting company. However, if you have a DBA registration that was created through a formal filing, consult an attorney to confirm your status. For more on how sole proprietorships differ from LLCs, see our <a href="/learn/llc-vs-sole-proprietorship/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC vs sole proprietorship comparison</a>.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">What if my LLC has been dissolved — do I still need to file?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">It depends on when your LLC was dissolved and the current rules in effect. If your LLC was a reporting company at any point during the relevant period, you may still be required to file an initial report. Check FinCEN's current guidance for the most up-to-date rules on dissolved entities.</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-gray-900">How does BOI reporting relate to my LLC's other compliance requirements?</h3>
+          <p class="mt-2 text-gray-700 leading-relaxed">BOI reporting is separate from all other state and federal compliance requirements. It does not replace annual reports filed with your state, tax returns filed with the IRS, or any other obligations. It is an additional federal requirement. For a full overview of ongoing LLC requirements, see our <a href="/learn/what-is-an-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">complete LLC guide</a>.</p>
         </div>
       </div>
     </section>

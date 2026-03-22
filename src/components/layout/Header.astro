@@ -11,18 +11,21 @@ const navItems = siteConfig.mainNav;
       <svg
         width="28"
         height="28"
-        viewBox="0 0 32 32"
+        viewBox="0 0 512 512"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        <rect width="32" height="32" rx="6" fill="#1e3a5f" />
-        <path
-          d="M8 12h16M8 16h12M8 20h14"
-          stroke="#0d9488"
-          stroke-width="2.5"
-          stroke-linecap="round"
-        />
+        <defs>
+          <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1e3a5f" />
+            <stop offset="100%" style="stop-color:#0d4a7a" />
+          </linearGradient>
+        </defs>
+        <rect width="512" height="512" rx="96" fill="url(#header-bg)" />
+        <path d="M256 80 L400 140 L400 280 Q400 380 256 440 Q112 380 112 280 L112 140 Z" fill="none" stroke="#ffffff" stroke-width="16" opacity="0.3" />
+        <path d="M200 260 L240 300 L320 200" fill="none" stroke="#0d9488" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="256" cy="120" r="12" fill="#0d9488" />
       </svg>
       <span class="hidden sm:inline">TopBestLLCService</span>
       <span class="sm:hidden">TopBestLLC</span>
