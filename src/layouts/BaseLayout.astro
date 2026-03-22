@@ -40,6 +40,9 @@ const resolvedOgImage = ogImage?.startsWith('http') ? ogImage : `${siteConfig.ur
     {canonicalUrl && <link rel="canonical" href={resolvedCanonical} />}
     {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
+    <!-- Site Verification -->
+    <meta name="impact-site-verification" value="2169b289-0877-4424-93fe-cde80aecc879" />
+
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
