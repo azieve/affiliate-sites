@@ -1,0 +1,209 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'About Us';
+const description =
+  'Learn about TopBestLLCService.com — our mission, editorial process, and the team behind our LLC formation service reviews and guides.';
+
+const teamMembers = [
+  {
+    name: 'Sarah Mitchell',
+    role: 'Lead Researcher & Editor',
+    bio: 'Sarah has spent over 8 years covering small business formation, legal compliance, and entrepreneurship. She personally tests every LLC service we review and leads our editorial standards.',
+    initials: 'SM',
+  },
+  {
+    name: 'David Chen',
+    role: 'Business & Compliance Analyst',
+    bio: 'David brings a background in business law and regulatory compliance. He reviews state-specific requirements and ensures our guides reflect the latest filing rules and fees.',
+    initials: 'DC',
+  },
+  {
+    name: 'Rachel Torres',
+    role: 'Content Strategist',
+    bio: 'Rachel manages our content calendar and ensures every article meets our quality standards. She specializes in making complex legal topics accessible for first-time entrepreneurs.',
+    initials: 'RT',
+  },
+];
+
+const editorialSteps = [
+  {
+    title: 'Research',
+    desc: 'We study each service provider in detail — their pricing, features, legal filings, processing times, and customer support channels. We also analyze thousands of real user reviews across platforms like Trustpilot and the BBB.',
+    icon: 'search',
+  },
+  {
+    title: 'Hands-On Testing',
+    desc: 'Our team signs up for every service we review. We go through the actual formation process, evaluate the user experience, test customer support response times, and document the entire journey.',
+    icon: 'test',
+  },
+  {
+    title: 'Expert Review',
+    desc: 'Our business compliance analyst reviews all content for legal accuracy. We verify state filing fees, processing timelines, and regulatory requirements with official state sources.',
+    icon: 'review',
+  },
+  {
+    title: 'Publish & Update',
+    desc: 'Content goes through a final editorial review before publishing. We revisit and update every review and guide regularly to reflect pricing changes, new features, and evolving state regulations.',
+    icon: 'publish',
+  },
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        About {siteConfig.name}
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        We help entrepreneurs find the best LLC formation service — with honest reviews, clear comparisons, and state-by-state guides you can trust.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Mission -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Our Mission</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Starting a business should be exciting, not overwhelming. Yet for many first-time entrepreneurs, navigating LLC formation — choosing between dozens of services, understanding state-specific requirements, and avoiding hidden fees — can feel like a full-time job.
+        </p>
+        <p>
+          That is why we created {siteConfig.name}. Our mission is simple: provide the most accurate, up-to-date, and genuinely helpful information to help you form your LLC with confidence.
+        </p>
+        <p>
+          We believe every entrepreneur deserves access to clear, unbiased information about formation services — without having to wade through sales pitches or marketing fluff. Whether you are a freelancer forming your first LLC or an experienced business owner expanding into a new state, our reviews and guides are built to help you make the best decision.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why We Created This Site -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why We Created This Site</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          When our founding team members first started their own businesses, they experienced the same frustrations most entrepreneurs face: confusing pricing, aggressive upselling, and reviews that felt more like advertisements than honest assessments.
+        </p>
+        <p>
+          We saw a gap in the market for a truly independent resource — one that would test every service firsthand, compare them on a level playing field, and provide straightforward recommendations based on real merit, not commissions. {siteConfig.name} was born from that vision.
+        </p>
+      </div>
+    </section>
+
+    <!-- Editorial Process -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Our Editorial Process</h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        Every review and guide on {siteConfig.name} follows a rigorous four-step editorial process designed to ensure accuracy, fairness, and usefulness.
+      </p>
+
+      <div class="mt-8 grid gap-6 sm:grid-cols-2">
+        {editorialSteps.map((step, i) => (
+          <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">
+                {i + 1}
+              </span>
+              <h3 class="text-lg font-bold text-gray-900">{step.title}</h3>
+            </div>
+            <p class="mt-3 text-sm leading-relaxed text-gray-600">{step.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">What We Stand For</h2>
+      <div class="mt-6 grid gap-6 sm:grid-cols-3">
+        <div class="rounded-xl border border-gray-200 bg-white p-6 text-center shadow-sm">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-teal-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path d="M10 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" />
+              <path fill-rule="evenodd" d="M.664 10.59a1.651 1.651 0 010-1.186A10.004 10.004 0 0110 3c4.257 0 7.893 2.66 9.336 6.41.147.381.146.804 0 1.186A10.004 10.004 0 0110 17c-4.257 0-7.893-2.66-9.336-6.41zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-gray-900">Transparency</h3>
+          <p class="mt-2 text-sm text-gray-600">
+            We clearly disclose our affiliate relationships and how we earn revenue. No hidden agendas.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-gray-200 bg-white p-6 text-center shadow-sm">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-teal-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-gray-900">Independence</h3>
+          <p class="mt-2 text-sm text-gray-600">
+            Our ratings and recommendations are based on merit, not commissions. Editorial and business are separate.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-gray-200 bg-white p-6 text-center shadow-sm">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-teal-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-gray-900">Accuracy</h3>
+          <p class="mt-2 text-sm text-gray-600">
+            We verify all pricing, features, and state requirements with primary sources and update content regularly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Our Team</h2>
+      <p class="mt-4 text-gray-700 leading-relaxed">
+        The {siteConfig.name} team combines expertise in business formation, legal compliance, and content strategy to deliver the best possible resource for entrepreneurs.
+      </p>
+
+      <div class="mt-8 space-y-6">
+        {teamMembers.map((member) => (
+          <div class="flex gap-4 rounded-xl border border-gray-200 bg-white p-5 shadow-sm sm:p-6">
+            <div
+              class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#1e3a5f] text-lg font-bold text-white"
+              aria-hidden="true"
+            >
+              {member.initials}
+            </div>
+            <div class="min-w-0">
+              <p class="text-lg font-bold text-gray-900">{member.name}</p>
+              <p class="text-sm font-medium text-teal-700">{member.role}</p>
+              <p class="mt-2 text-sm leading-relaxed text-gray-600">{member.bio}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Affiliate Disclosure Link -->
+    <section class="mb-16">
+      <div class="rounded-xl border border-amber-200 bg-amber-50/50 p-6">
+        <h2 class="text-lg font-bold text-gray-900">A Note on How We Earn Revenue</h2>
+        <p class="mt-2 text-sm leading-relaxed text-gray-700">
+          {siteConfig.name} is a free resource supported by affiliate commissions. When you click on links to LLC formation services and make a purchase, we may earn a commission at no extra cost to you. This helps us keep the site running and our content free. For full details, please read our <a href="/affiliate-disclosure/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">affiliate disclosure</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Operator -->
+    <div class="border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>
+        {siteConfig.name} is operated by {siteConfig.operator}.
+      </p>
+      <p class="mt-1">
+        &copy; {siteConfig.currentYear} {siteConfig.name}. All rights reserved.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

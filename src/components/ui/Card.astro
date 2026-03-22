@@ -1,0 +1,26 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+interface Props extends HTMLAttributes<"div"> {
+  variant?: "default" | "highlighted" | "bordered";
+  class?: string;
+}
+
+const { variant = "default", class: className, ...attrs } = Astro.props;
+
+const baseClasses = "rounded-lg bg-white overflow-hidden";
+
+const variantClasses: Record<string, string> = {
+  default: "shadow-md",
+  highlighted: "shadow-md border-l-4 border-l-[#0d9488]",
+  bordered: "border border-gray-200",
+};
+
+const classes = [baseClasses, variantClasses[variant], className]
+  .filter(Boolean)
+  .join(" ");
+---
+
+<div class={classes} {...attrs}>
+  <slot />
+</div>

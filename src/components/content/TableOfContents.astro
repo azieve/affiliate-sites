@@ -1,0 +1,129 @@
+---
+/**
+ * TableOfContents - Auto-generated sidebar / collapsible TOC.
+ *
+ * Renders a nested list from the headings array. Highlights the
+ * current section using an Intersection Observer (minimal JS).
+ */
+interface Heading {
+  text: string;
+  slug: string;
+  depth: number;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+
+// Only include H2 and H3 headings
+const filtered = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+---
+
+<nav
+  class="toc-nav rounded-lg border border-gray-200 bg-white"
+  aria-label="Table of contents"
+>
+  {/* Mobile: collapsible */}
+  <details class="group lg:hidden">
+    <summary class="flex cursor-pointer items-center justify-between px-4 py-3 text-sm font-semibold text-gray-900 select-none">
+      Table of Contents
+      <svg
+        class="h-4 w-4 text-gray-500 transition-transform group-open:rotate-180"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5.22 8.22a.75.75 0 011.06 0L10 11.94l3.72-3.72a.75.75 0 111.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.22 9.28a.75.75 0 010-1.06z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </summary>
+    <ul class="border-t border-gray-100 px-4 pb-3 pt-2" role="list">
+      {filtered.map((heading) => (
+        <li>
+          <a
+            href={`#${heading.slug}`}
+            class:list={[
+              'toc-link block py-1 text-sm leading-relaxed text-gray-600 transition-colors hover:text-teal-700',
+              heading.depth === 3 && 'pl-4',
+            ]}
+            data-slug={heading.slug}
+          >
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </details>
+
+  {/* Desktop: always visible, sticky sidebar */}
+  <div class="hidden lg:block">
+    <p class="border-b border-gray-100 px-4 py-3 text-sm font-semibold text-gray-900">
+      Table of Contents
+    </p>
+    <ul class="max-h-[calc(100vh-10rem)] overflow-y-auto px-4 pb-4 pt-2" role="list">
+      {filtered.map((heading) => (
+        <li>
+          <a
+            href={`#${heading.slug}`}
+            class:list={[
+              'toc-link block border-l-2 border-transparent py-1 text-sm leading-relaxed text-gray-600 transition-colors hover:text-teal-700',
+              heading.depth === 2 && 'pl-3',
+              heading.depth === 3 && 'pl-6',
+            ]}
+            data-slug={heading.slug}
+          >
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</nav>
+
+<style>
+  .toc-link.active {
+    color: #0d9488;
+    border-left-color: #0d9488;
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  function initTOC() {
+    const links = document.querySelectorAll<HTMLAnchorElement>('.toc-link');
+    if (links.length === 0) return;
+
+    const slugs = Array.from(links).map((l) => l.dataset.slug!);
+    const headingElements = slugs
+      .map((s) => document.getElementById(s))
+      .filter(Boolean) as HTMLElement[];
+
+    if (headingElements.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            links.forEach((link) => {
+              link.classList.toggle('active', link.dataset.slug === id);
+            });
+          }
+        }
+      },
+      { rootMargin: '-80px 0px -60% 0px', threshold: 0 },
+    );
+
+    headingElements.forEach((el) => observer.observe(el));
+  }
+
+  // Run on initial load and view transitions
+  initTOC();
+  document.addEventListener('astro:after-swap', initTOC);
+</script>

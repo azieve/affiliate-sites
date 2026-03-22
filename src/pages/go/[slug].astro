@@ -1,0 +1,27 @@
+---
+import { affiliatePrograms } from '@/data/affiliates';
+import type { GetStaticPaths } from 'astro';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return Object.values(affiliatePrograms).map((program) => ({
+    params: { slug: program.slug },
+    props: { url: program.url, name: program.name },
+  }));
+};
+
+const { url, name } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content={`0;url=${url}`} />
+    <title>Redirecting to {name}...</title>
+  </head>
+  <body>
+    <p>
+      Redirecting to <a href={url} rel="nofollow sponsored">{name}</a>...
+    </p>
+  </body>
+</html>

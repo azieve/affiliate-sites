@@ -1,0 +1,112 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '@/layouts/ArticleLayout.astro';
+import Breadcrumbs from '@/components/seo/Breadcrumbs.astro';
+import QuickSummaryBox from '@/components/content/QuickSummaryBox.astro';
+import DisclosureSnippet from '@/components/content/DisclosureSnippet.astro';
+import ProsCons from '@/components/content/ProsCons.astro';
+import CTABox from '@/components/affiliate/CTABox.astro';
+import AuthorBio from '@/components/content/AuthorBio.astro';
+import { services } from '@/data/services';
+import { getReviewSchema, getCanonicalUrl, getRatingLabel, getRatingColor } from '@/utils/seo';
+import { siteConfig } from '@/data/site';
+
+export async function getStaticPaths() {
+  const reviews = await getCollection('reviews');
+  return reviews.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const { title, metaTitle, metaDescription, serviceId, rating, lastUpdated, author, authorRole, authorBio, targetKeyword } = entry.data;
+
+const service = services[serviceId];
+if (!service) {
+  throw new Error(`Review page: Unknown serviceId "${serviceId}"`);
+}
+
+const ratingLabel = getRatingLabel(rating);
+const ratingColor = getRatingColor(rating);
+const canonicalUrl = getCanonicalUrl(`/reviews/${entry.id}`);
+
+const reviewSchema = getReviewSchema({
+  name: service.name,
+  description: metaDescription,
+  rating,
+  author,
+  url: canonicalUrl,
+});
+
+const breadcrumbItems = [
+  { label: 'Reviews', href: '/best-llc-services/' },
+  { label: service.name, href: `/reviews/${entry.id}/` },
+];
+
+const defaultAuthorBio = `${author} has spent years researching LLC formation services and business compliance requirements to help entrepreneurs make informed decisions.`;
+---
+
+<ArticleLayout
+  title={metaTitle || title}
+  description={metaDescription}
+  canonicalUrl={canonicalUrl}
+  schema={JSON.stringify(reviewSchema)}
+  lastUpdated={lastUpdated}
+  author={author}
+  authorBio={authorBio || defaultAuthorBio}
+  breadcrumbs={breadcrumbItems}
+  showDisclosure={true}
+  showTOC={true}
+>
+  {/* Rating Badge */}
+  <div class="mb-6 flex flex-wrap items-center gap-3">
+    <span class:list={['inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-bold text-white', ratingColor]}>
+      {rating}/10
+    </span>
+    <span class="text-sm font-semibold text-gray-700">{ratingLabel}</span>
+    <span class="text-sm text-gray-400">|</span>
+    <span class="text-sm text-gray-500">{service.bestFor}</span>
+  </div>
+
+  {/* Quick Summary */}
+  <div class="mb-8">
+    <QuickSummaryBox
+      verdict={`${service.name} earns a ${rating}/10 rating. ${service.tagline}. Starting at ${service.formationPrice} + state fees, it's our pick for "${service.bestFor}".`}
+      serviceId={serviceId}
+      rating={rating}
+    />
+  </div>
+
+  {/* Disclosure */}
+  <div class="mb-8">
+    <DisclosureSnippet />
+  </div>
+
+  {/* MDX Content */}
+  <div class="prose">
+    <Content />
+  </div>
+
+  {/* Pros and Cons */}
+  <div class="mt-8 mb-8">
+    <h2 class="mb-4 text-xl font-bold text-gray-900">Pros & Cons</h2>
+    <ProsCons pros={service.pros} cons={service.cons} />
+  </div>
+
+  {/* CTA Box */}
+  <div class="mt-10 mb-10">
+    <CTABox serviceId={serviceId} heading="Our Verdict" />
+  </div>
+
+  {/* Author Bio */}
+  <div class="mt-12">
+    <AuthorBio
+      name={author}
+      role={authorRole}
+      bio={authorBio || defaultAuthorBio}
+    />
+  </div>
+</ArticleLayout>

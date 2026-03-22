@@ -1,0 +1,204 @@
+---
+interface Props {
+  type:
+    | "Organization"
+    | "Article"
+    | "Review"
+    | "FAQPage"
+    | "BreadcrumbList"
+    | "Product"
+    | "HowTo";
+  data: Record<string, unknown>;
+}
+
+const { type, data } = Astro.props;
+
+function generateOrganization(data: Record<string, unknown>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: data.name,
+    url: data.url,
+    logo: data.logo,
+    description: data.description,
+    sameAs: data.sameAs ?? [],
+    address: data.address
+      ? {
+          "@type": "PostalAddress",
+          ...data.address as Record<string, unknown>,
+        }
+      : undefined,
+    contactPoint: data.contactPoint
+      ? {
+          "@type": "ContactPoint",
+          ...data.contactPoint as Record<string, unknown>,
+        }
+      : undefined,
+  };
+}
+
+function generateArticle(data: Record<string, unknown>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: data.headline,
+    description: data.description,
+    image: data.image,
+    datePublished: data.datePublished,
+    dateModified: data.dateModified ?? data.datePublished,
+    author: data.author
+      ? {
+          "@type": "Person",
+          name: (data.author as Record<string, unknown>).name,
+          url: (data.author as Record<string, unknown>).url,
+        }
+      : undefined,
+    publisher: data.publisher
+      ? {
+          "@type": "Organization",
+          name: (data.publisher as Record<string, unknown>).name,
+          logo: (data.publisher as Record<string, unknown>).logo
+            ? {
+                "@type": "ImageObject",
+                url: (data.publisher as Record<string, unknown>).logo,
+              }
+            : undefined,
+        }
+      : undefined,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": data.url,
+    },
+  };
+}
+
+function generateReview(data: Record<string, unknown>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": data.itemType ?? "Product",
+      name: data.itemName,
+      image: data.itemImage,
+    },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: data.ratingValue,
+      bestRating: data.bestRating ?? 5,
+      worstRating: data.worstRating ?? 1,
+    },
+    author: {
+      "@type": "Person",
+      name: data.authorName,
+    },
+    reviewBody: data.reviewBody,
+    datePublished: data.datePublished,
+  };
+}
+
+function generateFAQPage(data: Record<string, unknown>) {
+  const items = (data.items as Array<{ question: string; answer: string }>) ?? [];
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+}
+
+function generateBreadcrumbList(data: Record<string, unknown>) {
+  const items = (data.items as Array<{ label: string; href: string }>) ?? [];
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.label,
+      item: item.href,
+    })),
+  };
+}
+
+function generateProduct(data: Record<string, unknown>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: data.name,
+    description: data.description,
+    image: data.image,
+    brand: data.brand
+      ? {
+          "@type": "Brand",
+          name: data.brand,
+        }
+      : undefined,
+    aggregateRating: data.ratingValue
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: data.ratingValue,
+          reviewCount: data.reviewCount,
+          bestRating: data.bestRating ?? 5,
+        }
+      : undefined,
+    offers: data.price
+      ? {
+          "@type": "Offer",
+          price: data.price,
+          priceCurrency: data.priceCurrency ?? "USD",
+          availability: data.availability ?? "https://schema.org/InStock",
+          url: data.url,
+        }
+      : undefined,
+  };
+}
+
+function generateHowTo(data: Record<string, unknown>) {
+  const steps = (data.steps as Array<{ name: string; text: string; image?: string }>) ?? [];
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: data.name,
+    description: data.description,
+    image: data.image,
+    totalTime: data.totalTime,
+    estimatedCost: data.estimatedCost
+      ? {
+          "@type": "MonetaryAmount",
+          currency: (data.estimatedCost as Record<string, unknown>).currency ?? "USD",
+          value: (data.estimatedCost as Record<string, unknown>).value,
+        }
+      : undefined,
+    step: steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      image: step.image,
+    })),
+  };
+}
+
+const generators: Record<string, (data: Record<string, unknown>) => Record<string, unknown>> = {
+  Organization: generateOrganization,
+  Article: generateArticle,
+  Review: generateReview,
+  FAQPage: generateFAQPage,
+  BreadcrumbList: generateBreadcrumbList,
+  Product: generateProduct,
+  HowTo: generateHowTo,
+};
+
+const generator = generators[type];
+const schema = generator ? generator(data) : null;
+---
+
+{schema && (
+  <script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />
+)}

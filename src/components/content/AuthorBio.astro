@@ -1,0 +1,51 @@
+---
+/**
+ * AuthorBio - Author attribution box with avatar, credentials, and update date.
+ */
+import { siteConfig } from '@/data/site';
+
+interface Props {
+  name: string;
+  role: string;
+  bio: string;
+  image?: string;
+}
+
+const { name, role, bio, image } = Astro.props;
+const initials = name
+  .split(' ')
+  .map((w) => w[0])
+  .join('')
+  .slice(0, 2)
+  .toUpperCase();
+---
+
+<div class="flex gap-4 rounded-lg border border-gray-200 bg-gray-50 p-4 sm:p-5">
+  {/* Avatar */}
+  {image ? (
+    <img
+      src={image}
+      alt={name}
+      class="h-14 w-14 shrink-0 rounded-full object-cover"
+      width="56"
+      height="56"
+      loading="lazy"
+    />
+  ) : (
+    <div
+      class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#1e3a5f] text-lg font-bold text-white"
+      aria-hidden="true"
+    >
+      {initials}
+    </div>
+  )}
+
+  <div class="min-w-0">
+    <p class="font-semibold text-gray-900">{name}</p>
+    <p class="text-sm text-teal-700">{role}</p>
+    <p class="mt-1.5 text-sm leading-relaxed text-gray-600">{bio}</p>
+    <p class="mt-2 text-xs text-gray-400">
+      Last reviewed and updated: {siteConfig.lastUpdated}
+    </p>
+  </div>
+</div>

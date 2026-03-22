@@ -1,0 +1,125 @@
+---
+import { siteConfig } from '@/data/site';
+
+const navItems = siteConfig.mainNav;
+---
+
+<header class="sticky top-0 z-50 border-b border-border bg-surface shadow-sm">
+  <div class="container flex items-center justify-between py-3">
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2 text-xl font-bold text-brand-navy">
+      <svg
+        width="28"
+        height="28"
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        <rect width="32" height="32" rx="6" fill="#1e3a5f" />
+        <path
+          d="M8 12h16M8 16h12M8 20h14"
+          stroke="#0d9488"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+      </svg>
+      <span class="hidden sm:inline">TopBestLLCService</span>
+      <span class="sm:hidden">TopBestLLC</span>
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+      {navItems.map((item) => (
+        <div class="nav-dropdown group relative">
+          <a
+            href={item.href}
+            class="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-text-primary transition-colors hover:bg-surface-muted hover:text-brand-navy"
+          >
+            {item.label}
+            {item.children && item.children.length > 0 && (
+              <svg class="h-3.5 w-3.5 opacity-50 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            )}
+          </a>
+          {item.children && item.children.length > 0 && (
+            <div class="invisible absolute left-0 top-full z-50 min-w-56 rounded-lg border border-border bg-surface py-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
+              {item.children.map((child) => (
+                <a
+                  href={child.href}
+                  class="block px-4 py-2 text-sm text-text-secondary transition-colors hover:bg-surface-muted hover:text-brand-navy"
+                >
+                  {child.label}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button
+      type="button"
+      class="inline-flex items-center justify-center rounded-md p-2 text-text-secondary hover:bg-surface-muted hover:text-brand-navy lg:hidden"
+      aria-label="Toggle navigation menu"
+      aria-expanded="false"
+      id="mobile-menu-btn"
+    >
+      <svg class="h-6 w-6" id="menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <svg class="hidden h-6 w-6" id="menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <nav
+    class="hidden border-t border-border bg-surface lg:hidden"
+    id="mobile-menu"
+    aria-label="Mobile navigation"
+  >
+    <div class="container py-4">
+      {navItems.map((item) => (
+        <div class="mb-2">
+          <a
+            href={item.href}
+            class="block rounded-md px-3 py-2 text-sm font-semibold text-brand-navy"
+          >
+            {item.label}
+          </a>
+          {item.children && item.children.length > 0 && (
+            <div class="ml-3 border-l-2 border-border-light pl-3">
+              {item.children.map((child) => (
+                <a
+                  href={child.href}
+                  class="block py-1.5 text-sm text-text-secondary hover:text-brand-navy"
+                >
+                  {child.label}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </nav>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('menu-icon-open');
+  const iconClose = document.getElementById('menu-icon-close');
+
+  btn?.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    menu?.classList.toggle('hidden');
+    iconOpen?.classList.toggle('hidden');
+    iconClose?.classList.toggle('hidden');
+  });
+</script>

@@ -1,0 +1,185 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+import { affiliatePrograms } from '@/data/affiliates';
+
+const title = 'Affiliate Disclosure';
+const description =
+  'Full affiliate disclosure for TopBestLLCService.com. Learn how we earn commissions, how this affects our content, and our commitment to editorial independence.';
+
+const partners = Object.values(affiliatePrograms);
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="bg-gray-50 py-12 sm:py-16">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6">
+      <div class="text-center">
+        <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Affiliate Disclosure</h1>
+        <p class="mt-3 text-gray-500">
+          Last updated: {siteConfig.lastUpdated}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
+    <div class="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-teal-700 prose-a:underline-offset-2 hover:prose-a:text-teal-900">
+
+      <!-- Overview -->
+      <div class="rounded-xl border border-blue-200 bg-blue-50/50 p-6 not-prose mb-10">
+        <p class="text-[15px] leading-relaxed text-gray-700">
+          <strong class="text-gray-900">Transparency is important to us.</strong> {siteConfig.name} is a free resource that helps entrepreneurs compare and choose LLC formation services. To keep our site free, we participate in affiliate programs with some of the services we review. This page explains exactly how that works and what it means for you.
+        </p>
+      </div>
+
+      <!-- How We Earn Money -->
+      <h2 id="how-we-earn-money" class="text-2xl font-bold">How We Earn Money</h2>
+      <p>
+        {siteConfig.name} earns revenue through affiliate marketing. When you click on certain links on our website and subsequently purchase a service, we may receive a commission from the service provider. This is a standard business model used by many comparison and review websites.
+      </p>
+      <p>
+        Specifically, we may earn commissions in the following ways:
+      </p>
+      <ul>
+        <li><strong>Affiliate links:</strong> Links throughout our content that direct you to a service provider's website. These are marked with <code>rel="nofollow sponsored"</code> attributes for search engine transparency.</li>
+        <li><strong>CTA buttons:</strong> "Visit [Service]" buttons on our review and comparison pages.</li>
+        <li><strong>Redirect links:</strong> Some links pass through our <code>/go/</code> redirect system, which allows us to track referrals accurately.</li>
+      </ul>
+
+      <!-- Cost to Users -->
+      <div class="rounded-xl border border-green-200 bg-green-50/50 p-6 not-prose my-10">
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mt-0.5 h-6 w-6 shrink-0 text-green-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
+          </svg>
+          <div>
+            <p class="font-bold text-gray-900">You never pay extra</p>
+            <p class="mt-1 text-[15px] text-gray-700">
+              Using our affiliate links does not cost you anything additional. You pay the same price as you would by visiting the service provider directly. In some cases, our partnerships may even provide you with exclusive discounts.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- How Compensation Affects Content -->
+      <h2 id="how-compensation-affects-content" class="text-2xl font-bold">How Compensation Affects Our Content</h2>
+      <p>
+        We believe in full transparency about how affiliate compensation may influence our content:
+      </p>
+      <ul>
+        <li><strong>Placement and visibility:</strong> Affiliate partners may receive more prominent placement on our website, including featured positions in comparison tables and higher visibility in our content.</li>
+        <li><strong>Order of listings:</strong> The order in which services appear on our site may be influenced by compensation, alongside editorial merit and user relevance.</li>
+        <li><strong>Coverage priority:</strong> We are more likely to write in-depth reviews of services with affiliate programs, as this enables us to provide free content while earning revenue.</li>
+      </ul>
+      <p>
+        However, compensation does <strong>not</strong> influence:
+      </p>
+      <ul>
+        <li>The actual ratings or scores we assign to any service</li>
+        <li>The specific pros and cons we list in our reviews</li>
+        <li>Our methodology for evaluating services</li>
+        <li>Whether we flag a service's weaknesses or negative user feedback</li>
+        <li>Our editorial recommendations for specific user needs</li>
+      </ul>
+
+      <!-- Editorial Independence -->
+      <h2 id="editorial-independence" class="text-2xl font-bold">Our Commitment to Editorial Independence</h2>
+      <p>
+        Our editorial team operates independently from our business development and affiliate partnerships. Here is how we maintain editorial integrity:
+      </p>
+      <ul>
+        <li><strong>Independent research:</strong> Our reviews are based on firsthand testing, documented research, and real user feedback. We sign up for services, test their platforms, and evaluate the actual customer experience.</li>
+        <li><strong>Standardized methodology:</strong> We evaluate every service using the same criteria, regardless of whether they have an affiliate program. Our scoring considers pricing, features, ease of use, customer support, and reputation.</li>
+        <li><strong>Honest assessments:</strong> We report both the strengths and weaknesses of every service. If a high-paying affiliate partner has a significant flaw, we will report it.</li>
+        <li><strong>Regular updates:</strong> We continuously re-evaluate our reviews and ratings to reflect the most current pricing, features, and user experiences. Content is reviewed and updated regularly.</li>
+      </ul>
+
+      <!-- Affiliate Partners -->
+      <h2 id="affiliate-partners" class="text-2xl font-bold">Our Affiliate Partners</h2>
+      <p>
+        We currently participate in affiliate programs with the following LLC formation services:
+      </p>
+
+      <div class="not-prose my-6">
+        <div class="overflow-hidden rounded-xl border border-gray-200">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-200 bg-gray-50">
+                <th class="px-4 py-3 text-left font-semibold text-gray-700">Service</th>
+                <th class="px-4 py-3 text-left font-semibold text-gray-700">Network</th>
+                <th class="px-4 py-3 text-left font-semibold text-gray-700">Position</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              {partners.map((partner) => (
+                <tr>
+                  <td class="px-4 py-3 font-medium text-gray-900">{partner.name}</td>
+                  <td class="px-4 py-3 capitalize text-gray-600">{partner.network}</td>
+                  <td class="px-4 py-3 text-gray-600">{partner.position}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-3 text-xs text-gray-500">
+          This list may be updated as we add or remove affiliate partnerships. Not all services reviewed on our site are affiliate partners.
+        </p>
+      </div>
+
+      <!-- FTC Compliance -->
+      <h2 id="ftc-compliance" class="text-2xl font-bold">FTC Compliance</h2>
+      <p>
+        In accordance with the Federal Trade Commission (FTC) guidelines, we disclose our affiliate relationships in multiple ways:
+      </p>
+      <ul>
+        <li>This dedicated affiliate disclosure page</li>
+        <li>A commission disclosure banner at the top of every page</li>
+        <li>Inline disclosure notices near affiliate links within our content</li>
+        <li>Proper <code>rel="nofollow sponsored"</code> attributes on all affiliate links</li>
+      </ul>
+      <p>
+        We are committed to meeting and exceeding FTC disclosure requirements so that you always know when content contains affiliate links.
+      </p>
+
+      <!-- How to Identify Affiliate Links -->
+      <h2 id="identifying-affiliate-links" class="text-2xl font-bold">How to Identify Affiliate Links</h2>
+      <p>
+        On our website, affiliate links may appear as:
+      </p>
+      <ul>
+        <li>CTA (call-to-action) buttons such as "Visit Northwest" or "Visit ZenBusiness"</li>
+        <li>Text links within article content that link to service provider websites</li>
+        <li>Links that pass through our <code>/go/</code> redirect URLs</li>
+        <li>Links in comparison tables and service cards</li>
+      </ul>
+      <p>
+        All pages containing affiliate links include a disclosure notice near the top of the content area.
+      </p>
+
+      <!-- Changes to This Policy -->
+      <h2 id="changes" class="text-2xl font-bold">Changes to This Disclosure</h2>
+      <p>
+        We may update this affiliate disclosure from time to time to reflect changes in our affiliate partnerships or FTC guidelines. We encourage you to review this page periodically. The "last updated" date at the top of this page indicates when the most recent changes were made.
+      </p>
+
+      <!-- Contact -->
+      <h2 id="contact" class="text-2xl font-bold">Questions?</h2>
+      <p>
+        If you have any questions about our affiliate relationships, editorial process, or this disclosure, please do not hesitate to contact us:
+      </p>
+      <ul>
+        <li><strong>Email:</strong> disclosure@topbestllcservice.com</li>
+        <li><strong>Contact page:</strong> <a href="/contact/">topbestllcservice.com/contact</a></li>
+      </ul>
+      <p>
+        We take transparency seriously and are happy to answer any questions you may have about how our site operates.
+      </p>
+
+      <!-- Footer notice -->
+      <hr class="my-10" />
+      <p class="text-sm text-gray-500">
+        &copy; {siteConfig.currentYear} {siteConfig.name}. Operated by {siteConfig.operator}. All rights reserved.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

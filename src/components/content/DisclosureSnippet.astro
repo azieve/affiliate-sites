@@ -1,0 +1,25 @@
+---
+/**
+ * DisclosureSnippet - FTC affiliate disclosure for article pages.
+ *
+ * Renders a subtle but visible disclosure box near the top of articles.
+ * Links to the full affiliate disclosure page. Text sourced from siteConfig.
+ */
+import { siteConfig } from '@/data/site';
+---
+
+<aside
+  class="rounded-md border border-amber-200/70 bg-amber-50/50 px-4 py-2.5"
+  role="note"
+  aria-label="Affiliate disclosure"
+>
+  <p class="text-xs italic leading-relaxed text-gray-500">
+    {siteConfig.disclosureText}{' '}
+    <a
+      href="/affiliate-disclosure/"
+      class="text-teal-700 underline underline-offset-2 hover:text-teal-900"
+    >
+      Learn more
+    </a>.
+  </p>
+</aside>

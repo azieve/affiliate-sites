@@ -1,0 +1,185 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { siteConfig } from '@/data/site';
+
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  title: string;
+  description?: string;
+  canonicalUrl?: string;
+  ogImage?: string;
+  noIndex?: boolean;
+  schema?: string;
+  lastUpdated?: string;
+  author?: string;
+  authorBio?: string;
+  breadcrumbs?: BreadcrumbItem[];
+  showDisclosure?: boolean;
+  showTOC?: boolean;
+}
+
+const {
+  title,
+  description,
+  canonicalUrl,
+  ogImage,
+  noIndex,
+  schema,
+  lastUpdated,
+  author = 'Editorial Team',
+  authorBio = 'Our editorial team researches and evaluates LLC formation services to help entrepreneurs make informed decisions.',
+  breadcrumbs = [],
+  showDisclosure = true,
+  showTOC = false,
+} = Astro.props;
+
+function formatDate(dateStr: string): string {
+  return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  ogImage={ogImage}
+  noIndex={noIndex}
+  schema={schema}
+>
+  <article>
+    <!-- Breadcrumbs -->
+    {breadcrumbs.length > 0 && (
+      <nav aria-label="Breadcrumb" class="border-b border-border-light bg-surface-alt">
+        <div class="container py-3">
+          <ol class="flex flex-wrap items-center gap-1.5 text-sm text-text-muted">
+            <li>
+              <a href="/" class="transition-colors hover:text-brand-navy">Home</a>
+            </li>
+            {breadcrumbs.map((crumb, i) => (
+              <li class="flex items-center gap-1.5">
+                <svg class="h-3 w-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+                {crumb.href && i < breadcrumbs.length - 1 ? (
+                  <a href={crumb.href} class="transition-colors hover:text-brand-navy">
+                    {crumb.label}
+                  </a>
+                ) : (
+                  <span class="text-text-secondary">{crumb.label}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+        </div>
+      </nav>
+    )}
+
+    <div class="container py-8 lg:py-12">
+      <!-- Article header -->
+      <header class="mb-8 max-w-3xl">
+        <h1 class="mb-4 text-3xl font-bold leading-tight text-brand-navy lg:text-4xl">
+          {title}
+        </h1>
+
+        {(lastUpdated || author) && (
+          <div class="flex flex-wrap items-center gap-3 text-sm text-text-muted">
+            {author && (
+              <span class="flex items-center gap-1">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                {author}
+              </span>
+            )}
+            {lastUpdated && (
+              <span class="flex items-center gap-1">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                Updated {formatDate(lastUpdated)}
+              </span>
+            )}
+          </div>
+        )}
+      </header>
+
+      <!-- FTC Disclosure -->
+      {showDisclosure && (
+        <div class="mb-8 max-w-3xl rounded-lg border border-border-light bg-surface-alt px-5 py-4">
+          <p class="m-0 text-sm leading-relaxed text-text-secondary">
+            <strong class="font-semibold text-text-primary">Disclosure:</strong>{' '}
+            {siteConfig.disclosureText}
+          </p>
+        </div>
+      )}
+
+      <!-- Two-column layout -->
+      <div class="flex flex-col gap-10 lg:flex-row">
+        <!-- Main content -->
+        <div class="min-w-0 flex-1">
+          <div class="prose">
+            <slot />
+          </div>
+
+          <!-- Author bio -->
+          {author && (
+            <div class="mt-12 rounded-lg border border-border bg-surface-alt p-6">
+              <div class="flex items-start gap-4">
+                <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-brand-navy text-lg font-bold text-white">
+                  {author.charAt(0)}
+                </div>
+                <div>
+                  <p class="mb-1 font-semibold text-text-primary">{author}</p>
+                  <p class="m-0 text-sm leading-relaxed text-text-secondary">
+                    {authorBio}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="w-full shrink-0 lg:w-72 xl:w-80">
+          <div class="lg:sticky lg:top-24">
+            {showTOC && (
+              <div class="mb-6 rounded-lg border border-border bg-surface p-5">
+                <h2 class="mb-3 text-sm font-semibold uppercase tracking-wider text-text-muted">
+                  Table of Contents
+                </h2>
+                <div id="toc-container">
+                  <!-- TOC populated by JS or passed content -->
+                </div>
+              </div>
+            )}
+
+            <!-- Sidebar placeholder for ads, CTAs, etc. -->
+            <div class="rounded-lg border border-border bg-surface-alt p-5">
+              <p class="mb-2 text-sm font-semibold text-text-primary">
+                Find the Right LLC Service
+              </p>
+              <p class="mb-4 text-sm text-text-secondary">
+                Compare top-rated LLC formation services and choose the best fit
+                for your business.
+              </p>
+              <a
+                href="/best-llc-services/"
+                class="inline-block rounded-lg bg-brand-teal px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-teal-dark"
+              >
+                Compare Services
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

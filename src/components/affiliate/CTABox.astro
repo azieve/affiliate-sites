@@ -1,0 +1,116 @@
+---
+/**
+ * CTABox - Prominent call-to-action box with affiliate link.
+ *
+ * Two variants:
+ *  - primary: full-width teal gradient box with service details + large CTA
+ *  - compact: smaller inline box suitable for mid-article placement
+ */
+import { getRedirectUrl, affiliatePrograms } from '@/data/affiliates';
+import { services } from '@/data/services';
+
+interface Props {
+  serviceId: string;
+  variant?: 'primary' | 'compact';
+  heading?: string;
+}
+
+const { serviceId, variant = 'primary', heading } = Astro.props;
+const service = services[serviceId];
+const affiliate = affiliatePrograms[serviceId as keyof typeof affiliatePrograms];
+const href = getRedirectUrl(serviceId as any);
+
+if (!service || !affiliate) {
+  throw new Error(`CTABox: Unknown serviceId "${serviceId}"`);
+}
+
+const ratingStars = Math.round(service.rating / 2);
+const isPrimary = variant === 'primary';
+---
+
+{isPrimary ? (
+  <aside
+    class="relative overflow-hidden rounded-xl bg-gradient-to-br from-teal-600 to-teal-800 p-6 text-white shadow-lg sm:p-8"
+    role="complementary"
+    aria-label={`${service.name} call to action`}
+  >
+    <div
+      class="pointer-events-none absolute -right-8 -top-8 h-40 w-40 rounded-full bg-white/5"
+      aria-hidden="true"
+    />
+    <div
+      class="pointer-events-none absolute -bottom-12 -left-12 h-56 w-56 rounded-full bg-white/5"
+      aria-hidden="true"
+    />
+
+    <div class="relative">
+      {heading && (
+        <p class="mb-1 text-sm font-semibold uppercase tracking-wider text-teal-200">
+          {heading}
+        </p>
+      )}
+      <h3 class="text-2xl font-bold sm:text-3xl">{service.name}</h3>
+      <p class="mt-1 text-teal-100">{service.tagline}</p>
+
+      <div class="mt-4 flex flex-wrap items-center gap-4">
+        <span class="inline-flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-sm font-medium backdrop-blur-sm">
+          <span class="text-yellow-300" aria-hidden="true">
+            {'★'.repeat(ratingStars)}{'☆'.repeat(5 - ratingStars)}
+          </span>
+          <span>{service.rating}/10</span>
+        </span>
+
+        <span class="text-sm text-teal-100">
+          Starting at <strong class="text-white">{service.formationPrice}</strong>
+          {' '}+ state fees
+        </span>
+      </div>
+
+      <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <a
+          href={href}
+          rel="nofollow sponsored"
+          target="_blank"
+          class="inline-flex items-center justify-center gap-2 rounded-lg bg-white px-6 py-3 text-base font-bold text-teal-800 shadow-md transition-transform hover:scale-[1.02] hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+        >
+          {affiliate.cta}
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        <span class="text-center text-xs text-teal-200 sm:text-left">
+          {service.bestFor} &middot; {service.processingTime}
+        </span>
+      </div>
+    </div>
+  </aside>
+) : (
+  <aside
+    class="flex flex-col items-start gap-3 rounded-lg border border-teal-200 bg-teal-50 p-4 sm:flex-row sm:items-center sm:justify-between"
+    role="complementary"
+    aria-label={`${service.name} call to action`}
+  >
+    <div>
+      {heading && (
+        <p class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-teal-600">
+          {heading}
+        </p>
+      )}
+      <p class="font-semibold text-gray-900">{service.name}</p>
+      <p class="text-sm text-gray-600">
+        From {service.formationPrice} + state fees &middot; {service.rating}/10
+      </p>
+    </div>
+    <a
+      href={href}
+      rel="nofollow sponsored"
+      target="_blank"
+      class="inline-flex shrink-0 items-center gap-1.5 rounded-md bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-teal-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
+    >
+      {affiliate.cta}
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </aside>
+)}

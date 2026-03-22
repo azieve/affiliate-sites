@@ -1,0 +1,256 @@
+---
+/**
+ * ComparisonTable - Side-by-side comparison of LLC formation services.
+ *
+ * Renders a responsive table that compares features, pricing,
+ * and capabilities across the given service IDs. The first service
+ * in the array is treated as the "recommended" pick and gets a
+ * highlighted column.
+ */
+import { getRedirectUrl, affiliatePrograms } from '@/data/affiliates';
+import { services } from '@/data/services';
+import type { ServiceProvider } from '@/data/services';
+
+interface Props {
+  serviceIds: string[];
+}
+
+const { serviceIds } = Astro.props;
+
+const serviceList = serviceIds
+  .map((id) => ({
+    service: services[id] as ServiceProvider | undefined,
+    affiliate: affiliatePrograms[id as keyof typeof affiliatePrograms],
+    href: getRedirectUrl(id as any),
+  }))
+  .filter((s) => s.service && s.affiliate) as {
+  service: ServiceProvider;
+  affiliate: (typeof affiliatePrograms)[keyof typeof affiliatePrograms];
+  href: string;
+}[];
+
+if (serviceList.length === 0) {
+  throw new Error('ComparisonTable: No valid serviceIds provided');
+}
+
+/** Standard feature rows to compare */
+const featureNames = [
+  'LLC Formation',
+  'Registered Agent (1 year)',
+  'Operating Agreement',
+  'EIN Filing',
+  'BOI Report Filing',
+  'Compliance Alerts',
+  'Privacy Protection',
+];
+---
+
+<div class="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+  <table class="w-full min-w-[640px] text-sm">
+    {/* Header with service names */}
+    <thead>
+      <tr class="border-b border-gray-200 bg-gray-50">
+        <th class="sticky left-0 z-10 bg-gray-50 px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-500">
+          Feature
+        </th>
+        {serviceList.map(({ service }, idx) => (
+          <th
+            class:list={[
+              'px-4 py-3 text-center text-sm font-bold',
+              idx === 0
+                ? 'bg-teal-50 text-teal-900'
+                : 'text-gray-900',
+            ]}
+          >
+            <div class="flex flex-col items-center gap-1">
+              {idx === 0 && (
+                <span class="rounded-full bg-teal-600 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">
+                  Recommended
+                </span>
+              )}
+              <span>{service.shortName}</span>
+              <span
+                class:list={[
+                  'rounded px-1.5 py-0.5 text-xs font-semibold',
+                  service.rating >= 9
+                    ? 'bg-teal-100 text-teal-700'
+                    : service.rating >= 8
+                      ? 'bg-blue-100 text-blue-700'
+                      : 'bg-gray-100 text-gray-700',
+                ]}
+              >
+                {service.rating}/10
+              </span>
+            </div>
+          </th>
+        ))}
+      </tr>
+    </thead>
+
+    <tbody class="divide-y divide-gray-100">
+      {/* Price row */}
+      <tr>
+        <td class="sticky left-0 z-10 bg-white px-4 py-3 font-medium text-gray-700">
+          Formation Price
+        </td>
+        {serviceList.map(({ service }, idx) => (
+          <td
+            class:list={[
+              'px-4 py-3 text-center font-semibold',
+              idx === 0 ? 'bg-teal-50/50 text-teal-900' : 'text-gray-900',
+            ]}
+          >
+            {service.formationPrice}
+            <span class="block text-xs font-normal text-gray-500">+ state fees</span>
+          </td>
+        ))}
+      </tr>
+
+      {/* Registered Agent price */}
+      <tr>
+        <td class="sticky left-0 z-10 bg-white px-4 py-3 font-medium text-gray-700">
+          Registered Agent
+        </td>
+        {serviceList.map(({ service }, idx) => (
+          <td
+            class:list={[
+              'px-4 py-3 text-center',
+              idx === 0 ? 'bg-teal-50/50' : '',
+            ]}
+          >
+            {service.registeredAgentPrice}
+          </td>
+        ))}
+      </tr>
+
+      {/* Feature rows with checkmarks */}
+      {featureNames.map((featureName) => (
+        <tr>
+          <td class="sticky left-0 z-10 bg-white px-4 py-3 font-medium text-gray-700">
+            {featureName}
+          </td>
+          {serviceList.map(({ service }, idx) => {
+            const feature = service.features.find((f) => f.name === featureName);
+            const included = feature?.included ?? false;
+            return (
+              <td
+                class:list={[
+                  'px-4 py-3 text-center',
+                  idx === 0 ? 'bg-teal-50/50' : '',
+                ]}
+              >
+                {included ? (
+                  <span class="inline-flex items-center justify-center" aria-label="Included">
+                    <svg class="h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                ) : (
+                  <span class="flex flex-col items-center">
+                    <svg class="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-label="Not included" aria-hidden="true">
+                      <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+                    </svg>
+                    {feature?.note && (
+                      <span class="mt-0.5 text-[11px] text-gray-400">{feature.note}</span>
+                    )}
+                  </span>
+                )}
+              </td>
+            );
+          })}
+        </tr>
+      ))}
+
+      {/* Processing Time */}
+      <tr>
+        <td class="sticky left-0 z-10 bg-white px-4 py-3 font-medium text-gray-700">
+          Processing Time
+        </td>
+        {serviceList.map(({ service }, idx) => (
+          <td
+            class:list={[
+              'px-4 py-3 text-center text-xs',
+              idx === 0 ? 'bg-teal-50/50' : '',
+            ]}
+          >
+            {service.processingTime}
+          </td>
+        ))}
+      </tr>
+
+      {/* Support */}
+      <tr>
+        <td class="sticky left-0 z-10 bg-white px-4 py-3 font-medium text-gray-700">
+          Support
+        </td>
+        {serviceList.map(({ service }, idx) => (
+          <td
+            class:list={[
+              'px-4 py-3 text-center text-xs',
+              idx === 0 ? 'bg-teal-50/50' : '',
+            ]}
+          >
+            {service.customerSupport}
+          </td>
+        ))}
+      </tr>
+
+      {/* Money-back guarantee */}
+      <tr>
+        <td class="sticky left-0 z-10 bg-white px-4 py-3 font-medium text-gray-700">
+          Money-Back Guarantee
+        </td>
+        {serviceList.map(({ service }, idx) => (
+          <td
+            class:list={[
+              'px-4 py-3 text-center',
+              idx === 0 ? 'bg-teal-50/50' : '',
+            ]}
+          >
+            {service.moneyBackGuarantee ? (
+              <svg class="mx-auto h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-label="Yes">
+                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+              </svg>
+            ) : (
+              <svg class="mx-auto h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-label="No">
+                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+              </svg>
+            )}
+          </td>
+        ))}
+      </tr>
+    </tbody>
+
+    {/* CTA row */}
+    <tfoot>
+      <tr class="border-t border-gray-200 bg-gray-50">
+        <td class="sticky left-0 z-10 bg-gray-50 px-4 py-4"></td>
+        {serviceList.map(({ service, affiliate, href }, idx) => (
+          <td
+            class:list={[
+              'px-4 py-4 text-center',
+              idx === 0 ? 'bg-teal-50' : '',
+            ]}
+          >
+            <a
+              href={href}
+              rel="nofollow sponsored"
+              target="_blank"
+              class:list={[
+                'inline-flex items-center justify-center gap-1.5 rounded-lg px-4 py-2.5 text-sm font-bold shadow-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2',
+                idx === 0
+                  ? 'bg-teal-600 text-white hover:bg-teal-700 focus-visible:outline-teal-600'
+                  : 'bg-white text-teal-700 ring-1 ring-teal-300 hover:bg-teal-50 focus-visible:outline-teal-600',
+              ]}
+            >
+              {affiliate.cta}
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5zm7.25-.75a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l5.47-5.47H12.25a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </td>
+        ))}
+      </tr>
+    </tfoot>
+  </table>
+</div>

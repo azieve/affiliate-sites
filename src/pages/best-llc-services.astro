@@ -1,0 +1,295 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ServiceCard from '@/components/affiliate/ServiceCard.astro';
+import ComparisonTable from '@/components/affiliate/ComparisonTable.astro';
+import QuickSummaryBox from '@/components/content/QuickSummaryBox.astro';
+import DisclosureSnippet from '@/components/content/DisclosureSnippet.astro';
+import AuthorBio from '@/components/content/AuthorBio.astro';
+import FAQSchema from '@/components/seo/FAQSchema.astro';
+import { siteConfig } from '@/data/site';
+import { getRankedServices } from '@/data/services';
+
+const title = 'Best LLC Formation Services (2026) — Expert Reviewed';
+const description =
+  'Compare the 5 best LLC formation services of 2026. Expert-reviewed rankings with pricing, features, pros & cons. Find the right service for your business.';
+
+const rankedServices = getRankedServices();
+const allServiceIds = rankedServices.map((s) => s.id);
+
+const faqItems = [
+  {
+    question: 'What is the best LLC formation service in 2026?',
+    answer:
+      'Based on our research, <strong>Northwest Registered Agent</strong> is the best overall LLC formation service in 2026. They offer formation for $39 with a free year of registered agent service, excellent privacy protections, and outstanding customer support. For those on a tight budget, <strong>ZenBusiness</strong> offers $0 formation (plus state fees).',
+  },
+  {
+    question: 'How much does it cost to form an LLC?',
+    answer:
+      'The total cost to form an LLC includes two components: the <strong>state filing fee</strong> (which varies by state, typically $50-$500) and the <strong>formation service fee</strong> (which ranges from $0 to $49+ depending on the provider). Some services like ZenBusiness and Bizee offer $0 formation, meaning you only pay the state filing fee.',
+  },
+  {
+    question: 'Do I need a registered agent for my LLC?',
+    answer:
+      'Yes, every LLC in every state is required to have a registered agent. A registered agent is a person or company designated to receive legal documents and official government correspondence on behalf of your LLC. You can serve as your own registered agent in most states, but many business owners prefer to use a professional registered agent service for privacy and convenience.',
+  },
+  {
+    question: 'Can I form an LLC myself without a formation service?',
+    answer:
+      'Absolutely. You can form an LLC yourself by filing articles of organization directly with your state\'s Secretary of State office. However, using a formation service can save you time, help you avoid mistakes, and often includes valuable extras like registered agent service, operating agreement templates, and compliance reminders.',
+  },
+  {
+    question: 'What is the difference between an LLC and a sole proprietorship?',
+    answer:
+      'The key difference is <strong>liability protection</strong>. An LLC creates a legal separation between your personal assets and your business debts and liabilities. A sole proprietorship does not — meaning your personal assets (home, savings, car) could be at risk if your business faces a lawsuit or debt. LLCs also offer more tax flexibility and greater business credibility.',
+  },
+  {
+    question: 'How long does it take to form an LLC?',
+    answer:
+      'Processing times vary by state and service provider. With expedited processing, some states approve LLC filings within 1-3 business days. Standard processing typically takes 1-4 weeks depending on the state. Services like Northwest Registered Agent offer same-day filing processing (though state approval times still apply).',
+  },
+  {
+    question: 'Which state should I form my LLC in?',
+    answer:
+      'Most small business owners should form their LLC in the state where they live and conduct business. While states like Delaware, Wyoming, and Nevada are popular for their business-friendly laws, forming in a state other than where you operate typically requires registering as a "foreign LLC" in your home state anyway — resulting in double the fees and paperwork.',
+  },
+  {
+    question: 'What is a BOI (Beneficial Ownership Information) report?',
+    answer:
+      'A BOI report is a filing required by the Corporate Transparency Act. Most LLCs formed after January 1, 2024, must report their beneficial owners (anyone who owns 25% or more or exercises substantial control) to FinCEN. Several formation services now include BOI report filing as part of their packages or as an add-on service.',
+  },
+];
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  datePublished: '2026-01-15',
+  dateModified: siteConfig.lastUpdated,
+  author: {
+    '@type': 'Person',
+    name: 'Sarah Mitchell',
+    jobTitle: 'Lead Researcher & Editor',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.name,
+    url: siteConfig.url,
+  },
+});
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <!-- Hero / Title -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-12 sm:py-16">
+    <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+      <p class="text-sm font-semibold uppercase tracking-wider text-teal-300">Updated {siteConfig.lastUpdated}</p>
+      <h1 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        Best LLC Formation Services (2026)
+      </h1>
+      <p class="mt-4 text-lg text-blue-100">
+        We tested and compared the top LLC formation services so you don't have to. Here are our expert-reviewed rankings.
+      </p>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">
+
+    <!-- Disclosure -->
+    <DisclosureSnippet />
+
+    <!-- Quick Summary -->
+    <div class="mt-8">
+      <QuickSummaryBox
+        verdict="After testing all five services, Northwest Registered Agent earns our top pick for its unbeatable combination of low price ($39), free registered agent, strong privacy protections, and exceptional customer support. For budget-conscious entrepreneurs, ZenBusiness offers solid $0 formation with a clean interface."
+        serviceId="northwest"
+        rating={9.5}
+      />
+    </div>
+
+    <!-- Table of Contents -->
+    <nav class="mt-10 rounded-xl border border-gray-200 bg-gray-50 p-5" aria-label="Table of contents">
+      <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li>
+          <a href="#ranked-services" class="text-teal-700 underline-offset-2 hover:underline">Top 5 LLC Formation Services — Ranked</a>
+        </li>
+        <li>
+          <a href="#comparison-table" class="text-teal-700 underline-offset-2 hover:underline">Side-by-Side Comparison Table</a>
+        </li>
+        <li>
+          <a href="#methodology" class="text-teal-700 underline-offset-2 hover:underline">How We Evaluate LLC Services</a>
+        </li>
+        <li>
+          <a href="#faq" class="text-teal-700 underline-offset-2 hover:underline">Frequently Asked Questions</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ====== RANKED SERVICES ====== -->
+    <section id="ranked-services" class="mt-14">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+        Top 5 LLC Formation Services — Ranked
+      </h2>
+      <p class="mt-3 text-gray-600 leading-relaxed">
+        We evaluated dozens of LLC formation providers and narrowed the field to five that consistently deliver the best combination of value, features, and customer experience. Here are our rankings for 2026.
+      </p>
+
+      <div class="mt-8 space-y-6">
+        {rankedServices.map((service) => (
+          <ServiceCard serviceId={service.id} rank={service.rank} />
+        ))}
+      </div>
+    </section>
+
+    <!-- ====== COMPARISON TABLE ====== -->
+    <section id="comparison-table" class="mt-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+        Side-by-Side Comparison
+      </h2>
+      <p class="mt-3 mb-6 text-gray-600 leading-relaxed">
+        Compare pricing, features, and capabilities across all five services at a glance.
+      </p>
+
+      <ComparisonTable serviceIds={allServiceIds} />
+    </section>
+
+    <!-- ====== METHODOLOGY ====== -->
+    <section id="methodology" class="mt-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+        How We Evaluate LLC Formation Services
+      </h2>
+      <p class="mt-3 text-gray-600 leading-relaxed">
+        Our evaluation methodology is designed to be comprehensive, fair, and transparent. Every service is rated on the same criteria, regardless of affiliate relationship.
+      </p>
+
+      <div class="mt-8 space-y-6">
+        <!-- Criteria 1 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 text-sm font-bold text-teal-700">
+              30%
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">Pricing & Value</h3>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600">
+            We analyze base formation prices, registered agent fees, add-on costs, and ongoing renewal pricing. We look at total cost of ownership over the first year, not just headline prices.
+          </p>
+        </div>
+
+        <!-- Criteria 2 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 text-sm font-bold text-teal-700">
+              25%
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">Features & Services</h3>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600">
+            We evaluate what is included at each price tier: formation filing, registered agent, operating agreement, EIN filing, compliance monitoring, privacy protections, and bonus features.
+          </p>
+        </div>
+
+        <!-- Criteria 3 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 text-sm font-bold text-teal-700">
+              20%
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">Ease of Use</h3>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600">
+            We assess the signup process, website navigation, dashboard quality, checkout transparency (upselling), and overall user experience for both beginners and experienced business owners.
+          </p>
+        </div>
+
+        <!-- Criteria 4 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 text-sm font-bold text-teal-700">
+              15%
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">Customer Support</h3>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600">
+            We test support channels (phone, email, live chat), response times, quality of answers, and availability. We also review customer feedback on support quality across independent review platforms.
+          </p>
+        </div>
+
+        <!-- Criteria 5 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-teal-100 text-sm font-bold text-teal-700">
+              10%
+            </div>
+            <h3 class="text-lg font-bold text-gray-900">Reputation & Trust</h3>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-gray-600">
+            We consider years in business, number and quality of user reviews on Trustpilot and BBB, any regulatory actions, and overall brand reputation in the industry.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FAQ ====== -->
+    <section id="faq" class="mt-16">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+        Frequently Asked Questions
+      </h2>
+      <p class="mt-3 mb-6 text-gray-600 leading-relaxed">
+        Common questions about LLC formation services and the LLC formation process.
+      </p>
+
+      <FAQSchema items={faqItems} />
+    </section>
+
+    <!-- ====== BOTTOM LINE ====== -->
+    <section class="mt-16 rounded-xl border border-teal-200 bg-gradient-to-br from-teal-50 to-white p-6 sm:p-8">
+      <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">The Bottom Line</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        All five LLC formation services on our list are reputable providers that can successfully file your LLC. The best choice depends on your priorities:
+      </p>
+      <ul class="mt-4 space-y-2 text-sm text-gray-700">
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best overall value:</strong> Northwest Registered Agent ($39 formation + free registered agent)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best for beginners:</strong> ZenBusiness ($0 formation with clean, easy interface)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Most trusted brand:</strong> LegalZoom ($0 basic formation with 20+ years of reputation)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best free option:</strong> Bizee ($0 formation + free registered agent year one)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best legal protection:</strong> LLC Attorney ($49 with attorney-drafted documents)</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ====== AUTHOR BIO ====== -->
+    <div class="mt-12">
+      <AuthorBio
+        name="Sarah Mitchell"
+        role="Lead Researcher & Editor"
+        bio="Sarah has spent over 8 years covering small business formation and legal compliance. She personally tests every LLC service reviewed on this site, evaluating pricing transparency, customer support quality, and the real user experience."
+      />
+    </div>
+  </div>
+</BaseLayout>

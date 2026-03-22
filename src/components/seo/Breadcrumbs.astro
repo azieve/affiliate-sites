@@ -1,0 +1,63 @@
+---
+interface BreadcrumbItem {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const allItems: BreadcrumbItem[] = [{ label: "Home", href: "/" }, ...items];
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: allItems.map((item, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: item.label,
+    item: new URL(item.href, Astro.site ?? "https://example.com").href,
+  })),
+};
+---
+
+<nav aria-label="Breadcrumb" class="text-sm">
+  <ol class="flex flex-wrap items-center gap-1 text-gray-500">
+    {allItems.map((item, index) => {
+      const isLast = index === allItems.length - 1;
+      return (
+        <li class="flex items-center gap-1">
+          {index > 0 && (
+            <svg
+              class="h-3.5 w-3.5 shrink-0 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+          )}
+          {isLast ? (
+            <span class="font-medium text-gray-900" aria-current="page">
+              {item.label}
+            </span>
+          ) : (
+            <a
+              href={item.href}
+              class="transition-colors hover:text-[#0d9488]"
+            >
+              {item.label}
+            </a>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(schemaData, null, 2)} />

@@ -1,0 +1,47 @@
+---
+interface Props {
+  score: number;
+  label?: string;
+}
+
+const { score, label } = Astro.props;
+
+const clampedScore = Math.max(0, Math.min(10, score));
+const displayScore = clampedScore.toFixed(1);
+
+function getColorClasses(score: number): { bg: string; text: string } {
+  if (score >= 9) return { bg: "bg-emerald-500", text: "text-white" };
+  if (score >= 8) return { bg: "bg-lime-500", text: "text-white" };
+  if (score >= 7) return { bg: "bg-yellow-400", text: "text-gray-900" };
+  if (score >= 6) return { bg: "bg-orange-400", text: "text-white" };
+  return { bg: "bg-red-500", text: "text-white" };
+}
+
+function getDefaultLabel(score: number): string {
+  if (score >= 9) return "Excellent";
+  if (score >= 8) return "Very Good";
+  if (score >= 7) return "Good";
+  if (score >= 6) return "Average";
+  return "Poor";
+}
+
+const colors = getColorClasses(clampedScore);
+const displayLabel = label ?? getDefaultLabel(clampedScore);
+---
+
+<div class="inline-flex items-center gap-2" role="img" aria-label={`Rating: ${displayScore} out of 10 - ${displayLabel}`}>
+  <span
+    class:list={[
+      "inline-flex items-center justify-center rounded-lg font-bold text-lg min-w-[2.75rem] h-[2.75rem] px-2 shadow-sm",
+      colors.bg,
+      colors.text,
+    ]}
+  >
+    {displayScore}
+  </span>
+  {displayLabel && (
+    <span class="text-sm font-medium text-gray-700">
+      {displayLabel}
+    </span>
+  )}
+</div>

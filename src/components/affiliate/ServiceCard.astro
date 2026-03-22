@@ -1,0 +1,188 @@
+---
+/**
+ * ServiceCard - Individual service card for ranking lists.
+ *
+ * Displays rank, service details, pros, features, and a CTA button.
+ * Supports a "Best Overall" / "Editor's Choice" badge for top picks.
+ */
+import { getRedirectUrl, affiliatePrograms } from '@/data/affiliates';
+import { services } from '@/data/services';
+
+interface Props {
+  serviceId: string;
+  rank: number;
+}
+
+const { serviceId, rank } = Astro.props;
+const service = services[serviceId];
+const affiliate = affiliatePrograms[serviceId as keyof typeof affiliatePrograms];
+const href = getRedirectUrl(serviceId as any);
+
+if (!service || !affiliate) {
+  throw new Error(`ServiceCard: Unknown serviceId "${serviceId}"`);
+}
+
+const badgeText =
+  rank === 1 ? 'Best Overall' : rank === 2 ? "Editor's Choice" : null;
+
+const topFeatures = service.features
+  .filter((f) => f.included)
+  .slice(0, 4);
+---
+
+<article
+  class:list={[
+    'relative overflow-hidden rounded-xl border bg-white shadow-sm transition-shadow hover:shadow-md',
+    rank === 1 ? 'border-teal-300 ring-2 ring-teal-100' : 'border-gray-200',
+  ]}
+>
+  {/* Badge */}
+  {badgeText && (
+    <div class="absolute right-0 top-0 rounded-bl-lg bg-teal-600 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
+      {badgeText}
+    </div>
+  )}
+
+  <div class="p-5 sm:p-6">
+    {/* Header row: rank, name, rating */}
+    <div class="flex items-start gap-4">
+      <span
+        class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-600 text-xl font-extrabold text-white"
+        aria-label={`Ranked number ${rank}`}
+      >
+        {rank}
+      </span>
+
+      <div class="min-w-0 flex-1">
+        <h3 class="text-xl font-bold text-gray-900 sm:text-2xl">{service.name}</h3>
+        <p class="mt-0.5 text-sm text-gray-500">{service.bestFor}</p>
+      </div>
+
+      <div class="hidden shrink-0 flex-col items-center sm:flex">
+        <span
+          class:list={[
+            'rounded-md px-2.5 py-1 text-lg font-bold',
+            service.rating >= 9
+              ? 'bg-teal-100 text-teal-800'
+              : service.rating >= 8
+                ? 'bg-blue-100 text-blue-800'
+                : 'bg-gray-100 text-gray-800',
+          ]}
+        >
+          {service.rating}
+        </span>
+        <span class="mt-0.5 text-xs text-gray-500">{service.ratingLabel}</span>
+      </div>
+    </div>
+
+    {/* Pricing bar */}
+    <div class="mt-4 flex flex-wrap gap-3 rounded-lg bg-gray-50 px-4 py-3 text-sm">
+      <div>
+        <span class="text-gray-500">Formation:</span>{' '}
+        <strong class="text-gray-900">{service.formationPrice}</strong>
+      </div>
+      <span class="text-gray-300" aria-hidden="true">|</span>
+      <div>
+        <span class="text-gray-500">Registered Agent:</span>{' '}
+        <strong class="text-gray-900">{service.registeredAgentPrice}</strong>
+      </div>
+      <span class="text-gray-300" aria-hidden="true">|</span>
+      <div>
+        <span class="text-gray-500">Processing:</span>{' '}
+        <strong class="text-gray-900">{service.processingTime}</strong>
+      </div>
+    </div>
+
+    {/* Feature bullets */}
+    <ul class="mt-4 grid gap-1.5 text-sm sm:grid-cols-2" role="list">
+      {topFeatures.map((feature) => (
+        <li class="flex items-start gap-2">
+          <svg
+            class="mt-0.5 h-4 w-4 shrink-0 text-teal-500"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span class="text-gray-700">
+            {feature.name}
+            {feature.note && (
+              <span class="text-gray-400"> ({feature.note})</span>
+            )}
+          </span>
+        </li>
+      ))}
+    </ul>
+
+    {/* Pros */}
+    <div class="mt-4">
+      <p class="mb-1.5 text-xs font-semibold uppercase tracking-wider text-gray-400">
+        Why we recommend it
+      </p>
+      <ul class="space-y-1 text-sm" role="list">
+        {service.pros.slice(0, 3).map((pro) => (
+          <li class="flex items-start gap-2">
+            <svg
+              class="mt-0.5 h-4 w-4 shrink-0 text-green-500"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-gray-700">{pro}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    {/* Mobile rating (visible on small screens) */}
+    <div class="mt-4 flex items-center gap-2 sm:hidden">
+      <span
+        class:list={[
+          'rounded-md px-2 py-0.5 text-sm font-bold',
+          service.rating >= 9
+            ? 'bg-teal-100 text-teal-800'
+            : service.rating >= 8
+              ? 'bg-blue-100 text-blue-800'
+              : 'bg-gray-100 text-gray-800',
+        ]}
+      >
+        {service.rating}/10
+      </span>
+      <span class="text-xs text-gray-500">{service.ratingLabel}</span>
+    </div>
+
+    {/* CTA */}
+    <div class="mt-5 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+      <a
+        href={href}
+        rel="nofollow sponsored"
+        target="_blank"
+        class="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-600 px-6 py-3 text-sm font-bold text-white shadow transition-colors hover:bg-teal-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600"
+      >
+        {affiliate.cta}
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+        </svg>
+      </a>
+      <a
+        href={`/reviews/${service.reviewSlug}/`}
+        class="text-center text-sm text-teal-700 underline underline-offset-2 hover:text-teal-900 sm:text-left"
+      >
+        Read Full Review
+      </a>
+    </div>
+  </div>
+</article>

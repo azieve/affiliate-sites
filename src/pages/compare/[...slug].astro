@@ -1,0 +1,142 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '@/layouts/ArticleLayout.astro';
+import Breadcrumbs from '@/components/seo/Breadcrumbs.astro';
+import QuickSummaryBox from '@/components/content/QuickSummaryBox.astro';
+import CTABox from '@/components/affiliate/CTABox.astro';
+import AuthorBio from '@/components/content/AuthorBio.astro';
+import { services } from '@/data/services';
+import { getArticleSchema, getCanonicalUrl, getRatingColor } from '@/utils/seo';
+import { siteConfig } from '@/data/site';
+
+export async function getStaticPaths() {
+  const comparisons = await getCollection('comparisons');
+  return comparisons.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const { title, metaTitle, metaDescription, serviceA, serviceB, winner, lastUpdated, author, authorRole, targetKeyword } = entry.data;
+
+const svcA = services[serviceA];
+const svcB = services[serviceB];
+
+if (!svcA) throw new Error(`Comparison page: Unknown serviceA "${serviceA}"`);
+if (!svcB) throw new Error(`Comparison page: Unknown serviceB "${serviceB}"`);
+
+const winnerService = winner ? services[winner] : null;
+const canonicalUrl = getCanonicalUrl(`/compare/${entry.id}`);
+
+const articleSchema = getArticleSchema({
+  title: metaTitle || title,
+  description: metaDescription,
+  url: canonicalUrl,
+  publishedTime: lastUpdated,
+  modifiedTime: lastUpdated,
+  author,
+});
+
+const breadcrumbItems = [
+  { label: 'Compare', href: '/compare/' },
+  { label: `${svcA.shortName} vs ${svcB.shortName}`, href: `/compare/${entry.id}/` },
+];
+
+const defaultAuthorBio = `${author} has spent years researching LLC formation services and business compliance requirements to help entrepreneurs make informed decisions.`;
+
+// Comparison table rows
+const comparisonRows = [
+  { label: 'Our Rating', a: `${svcA.rating}/10`, b: `${svcB.rating}/10` },
+  { label: 'Formation Price', a: svcA.formationPrice, b: svcB.formationPrice },
+  { label: 'Registered Agent', a: svcA.registeredAgentPrice, b: svcB.registeredAgentPrice },
+  { label: 'Processing Time', a: svcA.processingTime, b: svcB.processingTime },
+  { label: 'Year Founded', a: String(svcA.yearFounded), b: String(svcB.yearFounded) },
+  { label: 'Best For', a: svcA.bestFor, b: svcB.bestFor },
+  { label: 'Customer Support', a: svcA.customerSupport, b: svcB.customerSupport },
+  { label: 'Money-Back Guarantee', a: svcA.moneyBackGuarantee ? 'Yes' : 'No', b: svcB.moneyBackGuarantee ? 'Yes' : 'No' },
+  { label: 'States Covered', a: String(svcA.statesCovered), b: String(svcB.statesCovered) },
+];
+---
+
+<ArticleLayout
+  title={metaTitle || title}
+  description={metaDescription}
+  canonicalUrl={canonicalUrl}
+  schema={JSON.stringify(articleSchema)}
+  lastUpdated={lastUpdated}
+  author={author}
+  authorBio={defaultAuthorBio}
+  breadcrumbs={breadcrumbItems}
+  showDisclosure={true}
+  showTOC={true}
+>
+  {/* Winner Verdict Box */}
+  {winnerService && (
+    <div class="mb-8">
+      <QuickSummaryBox
+        verdict={`Our pick: ${winnerService.name} wins this comparison with a ${winnerService.rating}/10 rating. ${winnerService.tagline}. Starting at ${winnerService.formationPrice} + state fees.`}
+        serviceId={winner}
+        rating={winnerService.rating}
+      />
+    </div>
+  )}
+
+  {/* Side-by-Side Comparison Table */}
+  <div class="mb-8 overflow-x-auto">
+    <table class="w-full border-collapse text-sm">
+      <thead>
+        <tr class="border-b-2 border-gray-200">
+          <th class="py-3 pr-4 text-left font-semibold text-gray-500">Feature</th>
+          <th class="py-3 px-4 text-left font-semibold text-gray-900">
+            <div class="flex items-center gap-2">
+              {svcA.shortName}
+              {winner === serviceA && (
+                <span class="rounded-full bg-teal-100 px-2 py-0.5 text-xs font-bold text-teal-800">Winner</span>
+              )}
+            </div>
+          </th>
+          <th class="py-3 pl-4 text-left font-semibold text-gray-900">
+            <div class="flex items-center gap-2">
+              {svcB.shortName}
+              {winner === serviceB && (
+                <span class="rounded-full bg-teal-100 px-2 py-0.5 text-xs font-bold text-teal-800">Winner</span>
+              )}
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {comparisonRows.map((row, i) => (
+          <tr class:list={['border-b border-gray-100', i % 2 === 0 ? 'bg-gray-50/50' : '']}>
+            <td class="py-3 pr-4 font-medium text-gray-600">{row.label}</td>
+            <td class="py-3 px-4 text-gray-900">{row.a}</td>
+            <td class="py-3 pl-4 text-gray-900">{row.b}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {/* MDX Content */}
+  <div class="prose">
+    <Content />
+  </div>
+
+  {/* CTA Boxes for Both Services */}
+  <div class="mt-10 space-y-6">
+    <CTABox serviceId={serviceA} heading={winner === serviceA ? 'Winner' : svcA.bestFor} />
+    <CTABox serviceId={serviceB} variant={winner === serviceB ? 'primary' : 'compact'} heading={winner === serviceB ? 'Winner' : svcB.bestFor} />
+  </div>
+
+  {/* Author Bio */}
+  <div class="mt-12">
+    <AuthorBio
+      name={author}
+      role={authorRole}
+      bio={defaultAuthorBio}
+    />
+  </div>
+</ArticleLayout>

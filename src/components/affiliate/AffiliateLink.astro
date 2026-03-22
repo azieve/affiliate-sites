@@ -1,0 +1,41 @@
+---
+/**
+ * AffiliateLink - Wrapper for all outbound affiliate links.
+ *
+ * Resolves a serviceId to the /go/[slug]/ redirect URL and applies
+ * the required rel and target attributes automatically.
+ */
+import { getRedirectUrl } from '@/data/affiliates';
+
+interface Props {
+  serviceId: string;
+  class?: string;
+}
+
+const { serviceId, class: className } = Astro.props;
+const href = getRedirectUrl(serviceId as any);
+---
+
+<a
+  href={href}
+  rel="nofollow sponsored"
+  target="_blank"
+  class:list={[
+    'inline-flex items-center gap-1 text-teal-700 underline decoration-teal-300 underline-offset-2 transition-colors hover:text-teal-900 hover:decoration-teal-500',
+    className,
+  ]}
+>
+  <slot />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-3.5 w-3.5 shrink-0 opacity-60"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    aria-hidden="true"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5zm7.25-.75a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l5.47-5.47H12.25a.75.75 0 01-.75-.75z"
+      clip-rule="evenodd"></path>
+  </svg>
+</a>
