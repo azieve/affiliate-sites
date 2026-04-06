@@ -3,9 +3,9 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const TTL_SECONDS = 1095 * 24 * 60 * 60; // 3 years
 
-let redis: Redis | null = null;
+let redis: InstanceType<typeof Redis> | null = null;
 
-function getRedis(): Redis {
+function getRedis(): InstanceType<typeof Redis> {
   if (!redis) {
     redis = new Redis(process.env.REDIS_URL!, { lazyConnect: true });
   }

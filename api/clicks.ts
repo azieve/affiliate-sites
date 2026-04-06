@@ -1,9 +1,9 @@
 import Redis from 'ioredis';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-let redis: Redis | null = null;
+let redis: InstanceType<typeof Redis> | null = null;
 
-function getRedis(): Redis {
+function getRedis(): InstanceType<typeof Redis> {
   if (!redis) {
     redis = new Redis(process.env.REDIS_URL!, { lazyConnect: true });
   }
