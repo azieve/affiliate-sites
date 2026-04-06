@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import FAQSchema from '@/components/seo/FAQSchema.astro';
 import { siteConfig } from '@/data/site';
 
 const title = 'How to Start an LLC in Texas (2026 Guide)';
@@ -378,50 +379,48 @@ const description =
       </div>
     </section>
 
+    <!-- BOI Report -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Beneficial Ownership Information (BOI) Reporting</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Under the Corporate Transparency Act, most LLCs formed in the United States — including Texas LLCs — must file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). This is a federal requirement, separate from any Texas state filings.
+        </p>
+        <p>
+          The BOI report identifies the individuals who ultimately own or control your LLC. You must report each beneficial owner's full legal name, date of birth, residential address, and a government-issued ID number (such as a driver's license or passport number).
+        </p>
+        <p><strong>Key deadlines:</strong></p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>New LLCs:</strong> Must file within 30 days of formation (for LLCs formed on or after January 1, 2025).</li>
+          <li><strong>Existing LLCs:</strong> LLCs formed before January 1, 2025 should check current deadlines, as enforcement timelines have been subject to court challenges and legislative changes.</li>
+          <li><strong>Changes:</strong> If your LLC's beneficial ownership information changes (new member, address change, etc.), you must file an updated report within 30 days.</li>
+        </ul>
+        <p>
+          Filing is done online through FinCEN's BOI E-Filing system at no cost. Failure to file can result in civil penalties of up to $591 per day and criminal penalties including fines up to $10,000 and imprisonment.
+        </p>
+        <p>
+          For a complete walkthrough, see our <a href="/learn/boi-report-guide/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">BOI Report Guide</a>.
+        </p>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="mb-12">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions About Texas LLCs</h2>
-      <div class="mt-6 space-y-6">
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How much does it cost to start an LLC in Texas?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">The state filing fee for a Texas LLC is $300. Additional costs may include a registered agent service ($0-$299 per year), an optional name reservation ($40), and any professional formation service fees. Many LLC formation services offer packages starting from $0 plus the state fee.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Do I need to live in Texas to form a Texas LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">No. Anyone can form an LLC in Texas regardless of where they live. However, you will need a registered agent with a physical address in Texas. If you do not live in Texas and do not have a physical presence there, consider whether forming in your home state might be simpler and less expensive overall.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Does Texas require an annual report for LLCs?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Texas does not require a traditional annual report. However, you must file an annual franchise tax report with the Texas Comptroller by May 15 each year, even if your LLC owes no franchise tax. This is functionally similar to an annual report in other states.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What is the Texas franchise tax threshold?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">As of our last review, Texas LLCs with total annual revenue at or below $2.47 million owe no franchise tax. You still need to file a "no tax due" report. The threshold is adjusted periodically, so check with the Texas Comptroller for the most current figure.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can I be my own registered agent in Texas?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes, you can serve as your own registered agent as long as you have a physical street address in Texas (not a P.O. Box) and are available during normal business hours. However, many business owners prefer a professional service for privacy and reliability. See our <a href="/reviews/northwest-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Northwest Registered Agent review</a> for a top-rated option.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How long does it take to get a Texas LLC approved?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Online filings through SOSDirect are typically processed within two to three business days. Mail filings can take one to three weeks. Using a professional formation service can sometimes speed up the process since they submit filings promptly and correctly the first time.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What is a Series LLC in Texas?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Texas permits the formation of a Series LLC, which allows you to create multiple "series" or cells within a single LLC. Each series can have its own assets, members, and liabilities that are legally separate from the other series. This is particularly popular among real estate investors who want to hold multiple properties under one umbrella without forming separate LLCs for each.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Do I need a business license to operate my Texas LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Texas does not have a general state business license. However, many cities and counties require local business permits, and certain industries require specific state licenses (such as contractors, food service operators, and healthcare providers). Check with your local municipality and industry regulatory body to determine what permits you need.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can a Texas LLC be taxed as an S-Corp?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes. A Texas LLC can elect S-Corp taxation by filing IRS Form 2553. This can provide tax savings for LLC members who earn significant income, as it allows you to split income between a reasonable salary (subject to self-employment tax) and distributions (which are not). Consult a tax professional to determine if S-Corp election makes sense for your situation.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What happens if I do not file my Texas franchise tax report?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">If you fail to file your franchise tax report by the May 15 deadline, the Texas Comptroller may impose penalties and interest. Continued failure to file can eventually result in your LLC's right to transact business being forfeited. You can reinstate a forfeited LLC, but there are additional fees and back-filing requirements involved.</p>
-        </div>
+      <div class="mt-6">
+        <FAQSchema items={[
+          { question: "How much does it cost to start an LLC in Texas?", answer: "The state filing fee for a Texas LLC is $300. Additional costs may include a registered agent service ($0-$299 per year), an optional name reservation ($40), and any professional formation service fees. Many LLC formation services offer packages starting from $0 plus the state fee." },
+          { question: "Do I need to live in Texas to form a Texas LLC?", answer: "No. Anyone can form an LLC in Texas regardless of where they live. However, you will need a registered agent with a physical address in Texas. If you do not live in Texas and do not have a physical presence there, consider whether forming in your home state might be simpler and less expensive overall." },
+          { question: "Does Texas require an annual report for LLCs?", answer: "Texas does not require a traditional annual report. However, you must file an annual franchise tax report with the Texas Comptroller by May 15 each year, even if your LLC owes no franchise tax. This is functionally similar to an annual report in other states." },
+          { question: "What is the Texas franchise tax threshold?", answer: "As of our last review, Texas LLCs with total annual revenue at or below $2.47 million owe no franchise tax. You still need to file a \"no tax due\" report. The threshold is adjusted periodically, so check with the Texas Comptroller for the most current figure." },
+          { question: "Can I be my own registered agent in Texas?", answer: "Yes, you can serve as your own registered agent as long as you have a physical street address in Texas (not a P.O. Box) and are available during normal business hours. However, many business owners prefer a professional service for privacy and reliability. See our <a href=\"/reviews/northwest-registered-agent/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">Northwest Registered Agent review</a> for a top-rated option." },
+          { question: "How long does it take to get a Texas LLC approved?", answer: "Online filings through SOSDirect are typically processed within two to three business days. Mail filings can take one to three weeks. Using a professional formation service can sometimes speed up the process since they submit filings promptly and correctly the first time." },
+          { question: "What is a Series LLC in Texas?", answer: "Texas permits the formation of a Series LLC, which allows you to create multiple \"series\" or cells within a single LLC. Each series can have its own assets, members, and liabilities that are legally separate from the other series. This is particularly popular among real estate investors who want to hold multiple properties under one umbrella without forming separate LLCs for each." },
+          { question: "Do I need a business license to operate my Texas LLC?", answer: "Texas does not have a general state business license. However, many cities and counties require local business permits, and certain industries require specific state licenses (such as contractors, food service operators, and healthcare providers). Check with your local municipality and industry regulatory body to determine what permits you need." },
+          { question: "Can a Texas LLC be taxed as an S-Corp?", answer: "Yes. A Texas LLC can elect S-Corp taxation by filing IRS Form 2553. This can provide tax savings for LLC members who earn significant income, as it allows you to split income between a reasonable salary (subject to self-employment tax) and distributions (which are not). Consult a tax professional to determine if S-Corp election makes sense for your situation." },
+          { question: "What happens if I do not file my Texas franchise tax report?", answer: "If you fail to file your franchise tax report by the May 15 deadline, the Texas Comptroller may impose penalties and interest. Continued failure to file can eventually result in your LLC's right to transact business being forfeited. You can reinstate a forfeited LLC, but there are additional fees and back-filing requirements involved." },
+          { question: "Does my Texas LLC need to file a BOI report?", answer: "Most Texas LLCs must file a Beneficial Ownership Information (BOI) report with FinCEN under the Corporate Transparency Act. New LLCs formed on or after January 1, 2025 must file within 30 days of formation. The report identifies the individuals who own or control the LLC. Filing is free through FinCEN's online system. See our <a href=\"/learn/boi-report-guide/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">BOI Report Guide</a> for details." },
+        ]} />
       </div>
     </section>
 

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import FAQSchema from '@/components/seo/FAQSchema.astro';
 import { siteConfig } from '@/data/site';
 
 const title = 'How to Start an LLC in Delaware (2026 Guide)';
@@ -357,50 +358,48 @@ const description =
       </div>
     </section>
 
+    <!-- BOI Report -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Beneficial Ownership Information (BOI) Reporting</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Under the Corporate Transparency Act, most LLCs formed in the United States — including Delaware LLCs — must file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). This is a federal requirement and is separate from Delaware's annual franchise tax filing.
+        </p>
+        <p>
+          The BOI report identifies the individuals who ultimately own or control your LLC. You must report each beneficial owner's full legal name, date of birth, residential address, and a government-issued ID number (such as a driver's license or passport number). This is particularly relevant for Delaware LLCs, which have traditionally offered strong privacy protections — the BOI report is filed with FinCEN (not the public) but does require disclosure of ownership to the federal government.
+        </p>
+        <p><strong>Key deadlines:</strong></p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>New LLCs:</strong> Must file within 30 days of formation (for LLCs formed on or after January 1, 2025).</li>
+          <li><strong>Existing LLCs:</strong> LLCs formed before January 1, 2025 should check current deadlines, as enforcement timelines have been subject to court challenges and legislative changes.</li>
+          <li><strong>Changes:</strong> If your LLC's beneficial ownership information changes (new member, address change, etc.), you must file an updated report within 30 days.</li>
+        </ul>
+        <p>
+          Filing is done online through FinCEN's BOI E-Filing system at no cost. Failure to file can result in civil penalties of up to $591 per day and criminal penalties including fines up to $10,000 and imprisonment.
+        </p>
+        <p>
+          For a complete walkthrough, see our <a href="/learn/boi-report-guide/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">BOI Report Guide</a>.
+        </p>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="mb-12">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions About Delaware LLCs</h2>
-      <div class="mt-6 space-y-6">
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How much does it cost to start an LLC in Delaware?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">The state filing fee is $90. You will also need a registered agent in Delaware (typically $50-$300 per year) and must pay the $300 annual franchise tax. If you use a formation service, their service fee may add $0-$299 depending on the package.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Do I need to live in Delaware to form a Delaware LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">No. You can form a Delaware LLC from anywhere in the world. In fact, most Delaware LLCs are formed by people who live in other states. You will need a registered agent with a physical address in Delaware, which is why professional registered agent services are so commonly used.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Is Delaware better than my home state for an LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">It depends on your situation. Delaware is ideal for businesses seeking maximum privacy, strong asset protection, flexible operating agreements, or investor-friendly structures. However, if you are a small local business operating in one state, forming in your home state is typically simpler and less expensive since you avoid dual registration and fees.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What is the Court of Chancery?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">The Court of Chancery is a specialized business court in Delaware that handles corporate and business disputes. It uses experienced judges rather than juries, resulting in faster, more predictable outcomes. Over centuries, it has built a vast body of legal precedent that provides clarity on complex business law issues. This is one of the primary reasons large companies incorporate in Delaware.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Does Delaware require an annual report for LLCs?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Delaware does not require a traditional annual report for LLCs like many other states do. The primary ongoing obligation is the $300 annual franchise tax due by June 1. There is no separate informational report to file.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can a Delaware LLC protect my privacy?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes. Delaware does not require member or manager names to be listed on the Certificate of Formation. Only the name of the LLC, the registered agent, and the organizer are required. This provides a significant privacy advantage compared to many other states. However, if you must register your Delaware LLC as a foreign entity in another state, that state may require more disclosure.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How fast can I form a Delaware LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Standard processing takes three to five business days. Delaware offers 24-hour expedited processing for $50 and same-day processing for $100. Some formation services can file on the same day you place your order, further reducing the total turnaround time.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What happens if I do not pay the Delaware annual franchise tax?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">If you miss the June 1 deadline, Delaware imposes a $200 late penalty plus 1.5% monthly interest on the unpaid amount. If the tax remains unpaid, your LLC will eventually be voided (cancelled). You can reinstate a voided LLC, but it requires paying all back taxes, penalties, and interest along with a reinstatement fee.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Should I choose Delaware or Wyoming for my LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Both states offer strong privacy and asset protection. Delaware has the advantage of the Court of Chancery and more established business law. Wyoming has lower ongoing costs (no franchise tax for small LLCs) and also offers strong privacy protections. The best choice depends on your specific business needs, budget, and whether you need Delaware's well-known legal framework or Wyoming's lower cost structure.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can I convert my existing LLC to a Delaware LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes. Delaware allows domestication, which means you can convert an LLC formed in another state into a Delaware LLC without dissolving the original entity. This process involves filing a Certificate of Conversion and a Certificate of Formation with the Delaware Division of Corporations. Consult an attorney to ensure this process is handled correctly, as it also requires compliance with your original state's conversion laws.</p>
-        </div>
+      <div class="mt-6">
+        <FAQSchema items={[
+          { question: "How much does it cost to start an LLC in Delaware?", answer: "The state filing fee is $90. You will also need a registered agent in Delaware (typically $50-$300 per year) and must pay the $300 annual franchise tax. If you use a formation service, their service fee may add $0-$299 depending on the package." },
+          { question: "Do I need to live in Delaware to form a Delaware LLC?", answer: "No. You can form a Delaware LLC from anywhere in the world. In fact, most Delaware LLCs are formed by people who live in other states. You will need a registered agent with a physical address in Delaware, which is why professional registered agent services are so commonly used." },
+          { question: "Is Delaware better than my home state for an LLC?", answer: "It depends on your situation. Delaware is ideal for businesses seeking maximum privacy, strong asset protection, flexible operating agreements, or investor-friendly structures. However, if you are a small local business operating in one state, forming in your home state is typically simpler and less expensive since you avoid dual registration and fees." },
+          { question: "What is the Court of Chancery?", answer: "The Court of Chancery is a specialized business court in Delaware that handles corporate and business disputes. It uses experienced judges rather than juries, resulting in faster, more predictable outcomes. Over centuries, it has built a vast body of legal precedent that provides clarity on complex business law issues. This is one of the primary reasons large companies incorporate in Delaware." },
+          { question: "Does Delaware require an annual report for LLCs?", answer: "Delaware does not require a traditional annual report for LLCs like many other states do. The primary ongoing obligation is the $300 annual franchise tax due by June 1. There is no separate informational report to file." },
+          { question: "Can a Delaware LLC protect my privacy?", answer: "Yes. Delaware does not require member or manager names to be listed on the Certificate of Formation. Only the name of the LLC, the registered agent, and the organizer are required. This provides a significant privacy advantage compared to many other states. However, if you must register your Delaware LLC as a foreign entity in another state, that state may require more disclosure." },
+          { question: "How fast can I form a Delaware LLC?", answer: "Standard processing takes three to five business days. Delaware offers 24-hour expedited processing for $50 and same-day processing for $100. Some formation services can file on the same day you place your order, further reducing the total turnaround time." },
+          { question: "What happens if I do not pay the Delaware annual franchise tax?", answer: "If you miss the June 1 deadline, Delaware imposes a $200 late penalty plus 1.5% monthly interest on the unpaid amount. If the tax remains unpaid, your LLC will eventually be voided (cancelled). You can reinstate a voided LLC, but it requires paying all back taxes, penalties, and interest along with a reinstatement fee." },
+          { question: "Should I choose Delaware or Wyoming for my LLC?", answer: "Both states offer strong privacy and asset protection. Delaware has the advantage of the Court of Chancery and more established business law. Wyoming has lower ongoing costs (no franchise tax for small LLCs) and also offers strong privacy protections. The best choice depends on your specific business needs, budget, and whether you need Delaware's well-known legal framework or Wyoming's lower cost structure." },
+          { question: "Can I convert my existing LLC to a Delaware LLC?", answer: "Yes. Delaware allows domestication, which means you can convert an LLC formed in another state into a Delaware LLC without dissolving the original entity. This process involves filing a Certificate of Conversion and a Certificate of Formation with the Delaware Division of Corporations. Consult an attorney to ensure this process is handled correctly, as it also requires compliance with your original state's conversion laws." },
+          { question: "Does my Delaware LLC need to file a BOI report?", answer: "Most Delaware LLCs must file a Beneficial Ownership Information (BOI) report with FinCEN under the Corporate Transparency Act. New LLCs formed on or after January 1, 2025 must file within 30 days of formation. While the BOI report is not public, it does require disclosing ownership details to FinCEN. Filing is free through FinCEN's online system. See our <a href=\"/learn/boi-report-guide/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">BOI Report Guide</a> for details." },
+        ]} />
       </div>
     </section>
 

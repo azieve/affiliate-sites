@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import FAQSchema from '@/components/seo/FAQSchema.astro';
 import { siteConfig } from '@/data/site';
 
 const title = 'How to Start an LLC in California (2026 Guide)';
@@ -372,46 +373,47 @@ const description =
       </div>
     </section>
 
+    <!-- BOI Report -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Beneficial Ownership Information (BOI) Reporting</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Under the Corporate Transparency Act, most LLCs formed in the United States — including California LLCs — must file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). This is a federal requirement, separate from any California state filings like the Statement of Information.
+        </p>
+        <p>
+          The BOI report identifies the individuals who ultimately own or control your LLC. You must report each beneficial owner's full legal name, date of birth, residential address, and a government-issued ID number (such as a driver's license or passport number).
+        </p>
+        <p><strong>Key deadlines:</strong></p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>New LLCs:</strong> Must file within 30 days of formation (for LLCs formed on or after January 1, 2025).</li>
+          <li><strong>Existing LLCs:</strong> LLCs formed before January 1, 2025 should check current deadlines, as enforcement timelines have been subject to court challenges and legislative changes.</li>
+          <li><strong>Changes:</strong> If your LLC's beneficial ownership information changes (new member, address change, etc.), you must file an updated report within 30 days.</li>
+        </ul>
+        <p>
+          Filing is done online through FinCEN's BOI E-Filing system at no cost. Failure to file can result in civil penalties of up to $591 per day and criminal penalties including fines up to $10,000 and imprisonment.
+        </p>
+        <p>
+          For a complete walkthrough, see our <a href="/learn/boi-report-guide/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">BOI Report Guide</a>.
+        </p>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="mb-12">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions About California LLCs</h2>
-      <div class="mt-6 space-y-6">
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How much does it cost to start an LLC in California?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">The initial filing fee is $70. You must also pay $20 for the Statement of Information within 90 days, and $800 for the annual franchise tax by the 15th day of the 4th month. In the first year alone, expect to spend at least $890 in state fees, plus any registered agent or formation service costs.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can I avoid the $800 California franchise tax?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">California previously offered a first-year exemption that expired at the end of 2023. As of our last review, the $800 annual franchise tax applies from the first year. Tax laws change, so we recommend checking the California Franchise Tax Board website for any current exemptions. The only way to stop the tax entirely is to formally dissolve your LLC with both the Secretary of State and the FTB.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Do I need to live in California to form a California LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">No. Anyone can form a California LLC regardless of residency. You will need an agent for service of process with a physical address in California. However, keep in mind that if you are not a California resident, you will generally only owe California income tax on California-source income.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What is a Statement of Information and when is it due?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">A Statement of Information (Form LLC-12) is a filing that provides the California Secretary of State with updated details about your LLC, including its address, management structure, and agent for service of process. The initial filing is due within 90 days of formation, and then every two years thereafter. The filing fee is $20.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What is the additional LLC fee based on gross revenue?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">California imposes an additional annual LLC fee on LLCs with total income from California sources above $250,000. The fee ranges from $900 to $11,790 depending on your revenue bracket. This is in addition to the $800 franchise tax and is reported on Form 568 (LLC Return of Income).</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How long does it take to form a California LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Online filings are typically processed within three to five business days. Mail filings take longer. Expedited processing is available for an additional fee at the Sacramento office. Using a formation service can help ensure your paperwork is prepared and submitted quickly and correctly.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Should I form my LLC in Delaware or California?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">If you live and operate your business in California, forming in California is almost always the better choice. If you form in Delaware, you will still need to register as a foreign LLC in California and pay the $800 franchise tax, effectively doubling your costs with no practical benefit for most small businesses. Delaware is better suited for businesses seeking specific legal protections or planning to raise venture capital.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can a California LLC elect S-Corp taxation?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes. A California LLC can elect S-Corp taxation by filing IRS Form 2553. Note that California imposes a 1.5% S-Corp tax on net income (with a $800 minimum), which is different from the standard LLC franchise tax. Consult a tax professional to determine if the S-Corp election provides a net benefit in your situation.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What happens if I do not file the Statement of Information?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Failure to file the Statement of Information can result in a $250 penalty and possible suspension of your LLC by the Secretary of State. A suspended LLC cannot conduct business, enter into contracts, or maintain lawsuits in California courts. You can revive a suspended LLC by filing the overdue statements and paying all penalties.</p>
-        </div>
+      <div class="mt-6">
+        <FAQSchema items={[
+          { question: "How much does it cost to start an LLC in California?", answer: "The initial filing fee is $70. You must also pay $20 for the Statement of Information within 90 days, and $800 for the annual franchise tax by the 15th day of the 4th month. In the first year alone, expect to spend at least $890 in state fees, plus any registered agent or formation service costs." },
+          { question: "Can I avoid the $800 California franchise tax?", answer: "California previously offered a first-year exemption that expired at the end of 2023. As of our last review, the $800 annual franchise tax applies from the first year. Tax laws change, so we recommend checking the California Franchise Tax Board website for any current exemptions. The only way to stop the tax entirely is to formally dissolve your LLC with both the Secretary of State and the FTB." },
+          { question: "Do I need to live in California to form a California LLC?", answer: "No. Anyone can form a California LLC regardless of residency. You will need an agent for service of process with a physical address in California. However, keep in mind that if you are not a California resident, you will generally only owe California income tax on California-source income." },
+          { question: "What is a Statement of Information and when is it due?", answer: "A Statement of Information (Form LLC-12) is a filing that provides the California Secretary of State with updated details about your LLC, including its address, management structure, and agent for service of process. The initial filing is due within 90 days of formation, and then every two years thereafter. The filing fee is $20." },
+          { question: "What is the additional LLC fee based on gross revenue?", answer: "California imposes an additional annual LLC fee on LLCs with total income from California sources above $250,000. The fee ranges from $900 to $11,790 depending on your revenue bracket. This is in addition to the $800 franchise tax and is reported on Form 568 (LLC Return of Income)." },
+          { question: "How long does it take to form a California LLC?", answer: "Online filings are typically processed within three to five business days. Mail filings take longer. Expedited processing is available for an additional fee at the Sacramento office. Using a formation service can help ensure your paperwork is prepared and submitted quickly and correctly." },
+          { question: "Should I form my LLC in Delaware or California?", answer: "If you live and operate your business in California, forming in California is almost always the better choice. If you form in Delaware, you will still need to register as a foreign LLC in California and pay the $800 franchise tax, effectively doubling your costs with no practical benefit for most small businesses. Delaware is better suited for businesses seeking specific legal protections or planning to raise venture capital." },
+          { question: "Can a California LLC elect S-Corp taxation?", answer: "Yes. A California LLC can elect S-Corp taxation by filing IRS Form 2553. Note that California imposes a 1.5% S-Corp tax on net income (with a $800 minimum), which is different from the standard LLC franchise tax. Consult a tax professional to determine if the S-Corp election provides a net benefit in your situation." },
+          { question: "What happens if I do not file the Statement of Information?", answer: "Failure to file the Statement of Information can result in a $250 penalty and possible suspension of your LLC by the Secretary of State. A suspended LLC cannot conduct business, enter into contracts, or maintain lawsuits in California courts. You can revive a suspended LLC by filing the overdue statements and paying all penalties." },
+          { question: "Does my California LLC need to file a BOI report?", answer: "Most California LLCs must file a Beneficial Ownership Information (BOI) report with FinCEN under the Corporate Transparency Act. New LLCs formed on or after January 1, 2025 must file within 30 days of formation. This is a federal requirement separate from California's Statement of Information. Filing is free through FinCEN's online system. See our <a href=\"/learn/boi-report-guide/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">BOI Report Guide</a> for details." },
+        ]} />
       </div>
     </section>
 

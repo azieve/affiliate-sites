@@ -1,0 +1,594 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import FAQSchema from '@/components/seo/FAQSchema.astro';
+import { siteConfig } from '@/data/site';
+
+const title = 'How to Start an LLC in New York (2026 Guide)';
+const description =
+  'Step-by-step guide to forming an LLC in New York. Learn about the $200 filing fee, mandatory publication requirement, biennial statement, and everything you need to start your New York LLC.';
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#1e3a5f] to-[#1e3a5f]/90 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl px-4 text-center sm:px-6">
+      <h1 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+        How to Start an LLC in New York
+      </h1>
+      <p class="mt-2 text-sm font-medium text-blue-200">Updated for 2026</p>
+      <p class="mt-4 text-lg leading-relaxed text-blue-100">
+        New York is a global business hub with access to world-class talent, capital, and markets. The state filing fee is just $200, but New York has a unique and costly publication requirement that every new LLC owner must understand before filing.
+      </p>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+
+    <!-- Quick Facts -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+        <h2 class="text-xl font-bold text-gray-900">New York LLC Quick Facts</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { label: 'Filing Fee', value: '$200' },
+            { label: 'State Agency', value: 'NY Department of State' },
+            { label: 'Formation Document', value: 'Articles of Organization' },
+            { label: 'State Income Tax', value: '4% – 10.9% (personal)' },
+            { label: 'Biennial Statement', value: '$9 every 2 years' },
+            { label: 'Publication Requirement', value: '$300 – $1,500+ (mandatory)' },
+          ].map((fact) => (
+            <div class="rounded-lg bg-gray-50 p-3">
+              <span class="text-xs font-semibold uppercase tracking-wide text-gray-500">{fact.label}</span>
+              <p class="mt-1 text-sm font-bold text-gray-900">{fact.value}</p>
+            </div>
+          ))}
+        </div>
+        <p class="mt-4 text-xs text-gray-500">
+          Fees and requirements shown are based on our most recent review. Always verify current information at the{' '}
+          <a href="https://www.dos.ny.gov/corps/llcguide.html" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">New York Department of State website</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-gray-600">
+      {siteConfig.disclosureText}
+    </div>
+
+    <!-- Why New York -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Why Form an LLC in New York?</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          New York is one of the largest and most influential economies in the world. With a gross state product exceeding $2 trillion, it ranks among the top ten economies globally. For entrepreneurs targeting financial services, media, technology, fashion, real estate, or professional services, New York offers unrivaled access to markets, investors, and talent.
+        </p>
+        <p>
+          Key advantages of forming a New York LLC include:
+        </p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>Access to capital:</strong> New York City is home to a dense concentration of venture capital firms, angel investors, private equity funds, and major financial institutions.</li>
+          <li><strong>Global market reach:</strong> Operating from New York gives your business credibility with international clients and partners across every industry.</li>
+          <li><strong>Strong legal framework:</strong> New York's well-developed commercial law and experienced courts make it a reliable jurisdiction for business disputes and contract enforcement.</li>
+          <li><strong>Flexible LLC structure:</strong> New York's LLC Act gives members broad freedom to customize ownership, management, and profit-sharing arrangements in their operating agreement.</li>
+          <li><strong>Workforce:</strong> New York State offers access to one of the most educated and diverse labor markets in the country, particularly in New York City and surrounding metro areas.</li>
+        </ul>
+        <p>
+          In my experience advising small business owners, the biggest obstacle most people face when forming a New York LLC is not the paperwork—it is the publication requirement. Understanding this cost upfront prevents surprises that can delay your launch or drain your startup budget. We cover it in detail below. Using a formation service like <a href="/go/northwest/" target="_blank" rel="nofollow sponsored" class="text-teal-700 underline hover:text-teal-900">Northwest Registered Agent</a> ($39 + state fee) or <a href="/go/zenbusiness/" target="_blank" rel="nofollow sponsored" class="text-teal-700 underline hover:text-teal-900">ZenBusiness</a> ($0 + state fee) can simplify the process and ensure you don't miss any steps.
+        </p>
+        <p>
+          Learn more about the LLC structure itself in our <a href="/learn/what-is-an-llc/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">guide to what an LLC is</a> before diving into the formation steps.
+        </p>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Steps to Form Your New York LLC</h2>
+
+      <div class="mt-8 space-y-8">
+
+        <!-- Step 1 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">1</span>
+            <h3 class="text-xl font-bold text-gray-900">Choose a Name for Your New York LLC</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Your LLC name must be distinguishable from all other business entities on file with the New York Department of State. It must contain the words "Limited Liability Company" or the abbreviation "LLC" or "L.L.C."
+            </p>
+            <p>
+              You can search for name availability through the <a href="https://apps.dos.ny.gov/publicInquiry/" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">NY DOS Corporation & Business Entity Database</a>. If you want to reserve a name before you are ready to file, you can submit an Application for Reservation of Name with a <strong>$20 fee</strong>, which holds the name for 60 days.
+            </p>
+            <p><strong>New York naming rules to know:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>The name cannot include words that imply the LLC is a corporation (such as "Incorporated," "Corp.," or "Inc.").</li>
+              <li>Words like "Bank," "Insurance," "Acceptance," "Annuity," "Assurance," "Attorney," "Board of Trade," "Broker," "Chamber of Commerce," "College," "Credit Union," "Department," "Doctor," "Exchange," "Finance," "Guaranty," "Investment," "Lawyer," "Loan," "Medicine," "Mortgage," "Real Estate," "Safe Deposit," "Savings," "Stock Exchange," "Title," "Trust," "Underwriter," and "University" require additional approvals from relevant state agencies.</li>
+              <li>Check domain name availability alongside the state database to secure a matching web presence.</li>
+              <li>Search the <a href="https://www.uspto.gov/trademarks/search" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">USPTO trademark database</a> to avoid trademark infringement.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">2</span>
+            <h3 class="text-xl font-bold text-gray-900">Appoint a Registered Agent</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Every New York LLC must designate a registered agent—called a "registered agent for service of process" in New York—who is authorized to receive official legal and government correspondence on behalf of the LLC.
+            </p>
+            <p>
+              In New York, the Secretary of State is automatically designated as the agent for service of process for all LLCs. However, you may also designate an additional registered agent with a physical street address in New York State. Many business owners do this to ensure they receive important documents quickly rather than waiting for forwarding from the state.
+            </p>
+            <p>
+              Professional registered agent services are especially valuable in New York because they can also assist with the mandatory publication requirement (see Step 4). Services like <a href="/go/northwest/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Northwest Registered Agent</a> and <a href="/go/zenbusiness/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">ZenBusiness</a> include registered agent service with their formation packages and can guide you through NY's unique requirements.
+            </p>
+            <p>
+              Learn more in our <a href="/learn/what-is-a-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">guide to registered agents</a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">3</span>
+            <h3 class="text-xl font-bold text-gray-900">File Articles of Organization</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              The formation document for a New York LLC is the <strong>Articles of Organization</strong>. You file this with the New York Department of State, Division of Corporations. The state filing fee is <strong>$200</strong>.
+            </p>
+            <p>
+              You can file online through the NY DOS Business Filing Center, by mail, or in person. Online filing is the fastest option. Mail filings are sent to: New York Department of State, Division of Corporations, One Commerce Plaza, 99 Washington Avenue, Albany, NY 12231.
+            </p>
+            <p><strong>Information required on the Articles of Organization:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>LLC name (including the required designator)</li>
+              <li>The county in New York where the LLC's principal office is located (this determines where you must publish — see Step 4)</li>
+              <li>The address to which the Secretary of State will forward service of process</li>
+              <li>The name and address of any additional registered agent (optional)</li>
+              <li>Whether the LLC will be managed by members or managers</li>
+              <li>The latest date on which the LLC is to dissolve (if not perpetual)</li>
+            </ul>
+            <p>
+              Processing times for standard online filings are typically two to seven business days. Expedited processing is available for an additional fee: $25 for 24-hour processing, $75 for same-day processing, and $150 for two-hour processing.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 — Publication Requirement -->
+        <div class="rounded-xl border border-amber-100 bg-amber-50/60 p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#b45309] to-[#d97706] text-sm font-bold text-white">4</span>
+            <h3 class="text-xl font-bold text-gray-900">Complete the New York Publication Requirement</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <div class="rounded-lg border border-amber-300 bg-amber-100 p-4">
+              <p class="font-semibold text-amber-900">Important: This step is unique to New York and is legally required.</p>
+              <p class="mt-1 text-amber-800">Failure to complete the publication requirement within 120 days of your LLC's formation will result in the suspension of your LLC's authority to conduct business in New York.</p>
+            </div>
+            <p>
+              Under New York's LLC Law §206, within <strong>120 days</strong> of the effective date of your Articles of Organization, you must publish a notice of the formation of your LLC in <strong>two newspapers</strong> in the county where your LLC's principal office is located. The notice must run for <strong>six consecutive weeks</strong>.
+            </p>
+            <p>
+              The two newspapers must be designated by the county clerk of the county where your principal office is located. One must be a daily newspaper and one must be a weekly newspaper (requirements vary slightly by county). You cannot choose your own newspapers — you must use those designated by the county clerk.
+            </p>
+            <p><strong>What the publication notice must contain:</strong></p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>The name of the LLC</li>
+              <li>The date of formation</li>
+              <li>The county in which the principal office is located</li>
+              <li>The address of the principal office and the address to which the Secretary of State shall mail copies of process</li>
+              <li>Whether the LLC will be member-managed or manager-managed</li>
+              <li>The names and addresses of all managers (if manager-managed) or any members who are to be liable for the debts of the LLC (if any)</li>
+              <li>The latest date on which the LLC is to dissolve (if not perpetual)</li>
+            </ul>
+            <p>
+              After publication is complete, the newspapers will provide you with <strong>Affidavits of Publication</strong>. You must then file a <strong>Certificate of Publication</strong> with the NY Department of State, along with the two affidavits and a <strong>$50 filing fee</strong>.
+            </p>
+            <h4 class="mt-4 font-bold text-gray-900">How Much Does the Publication Requirement Cost?</h4>
+            <p>
+              This is where New York's LLC formation gets expensive. Newspaper publication rates vary dramatically by county:
+            </p>
+            <div class="mt-3 overflow-x-auto">
+              <table class="min-w-full border border-amber-200 text-sm">
+                <thead>
+                  <tr class="bg-amber-100">
+                    <th class="border-b border-amber-200 px-4 py-3 text-left font-semibold text-gray-900">County</th>
+                    <th class="border-b border-amber-200 px-4 py-3 text-left font-semibold text-gray-900">Estimated Publication Cost</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-amber-100">
+                  <tr><td class="px-4 py-3">New York (Manhattan)</td><td class="px-4 py-3 font-semibold">$1,000 – $1,800+</td></tr>
+                  <tr><td class="px-4 py-3">Kings (Brooklyn)</td><td class="px-4 py-3 font-semibold">$500 – $1,200+</td></tr>
+                  <tr><td class="px-4 py-3">Queens</td><td class="px-4 py-3 font-semibold">$400 – $900+</td></tr>
+                  <tr><td class="px-4 py-3">Bronx</td><td class="px-4 py-3 font-semibold">$300 – $600+</td></tr>
+                  <tr><td class="px-4 py-3">Richmond (Staten Island)</td><td class="px-4 py-3 font-semibold">$300 – $500+</td></tr>
+                  <tr><td class="px-4 py-3">Westchester</td><td class="px-4 py-3 font-semibold">$500 – $1,000+</td></tr>
+                  <tr><td class="px-4 py-3">Nassau / Suffolk</td><td class="px-4 py-3 font-semibold">$300 – $600+</td></tr>
+                  <tr><td class="px-4 py-3">Upstate NY counties</td><td class="px-4 py-3 font-semibold">$100 – $400</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="text-xs text-gray-500 mt-2">Estimates are approximate and change frequently. Contact the designated newspapers or your county clerk for current rates.</p>
+            <h4 class="mt-4 font-bold text-gray-900">Can I Avoid the Publication Requirement?</h4>
+            <p>
+              No. The publication requirement is mandated by state law and applies to all New York LLCs. There is no legal way to skip it. Some entrepreneurs choose to locate their LLC's principal office in a lower-cost upstate county to reduce publication costs, but you should only do this if you have a genuine business connection to that county.
+            </p>
+            <p>
+              Many formation services, including <a href="/go/northwest/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">Northwest Registered Agent</a>, <a href="/go/zenbusiness/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">ZenBusiness</a>, and <a href="/go/legalzoom/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LegalZoom</a>, offer publication assistance services that handle the newspaper coordination and Certificate of Publication filing on your behalf.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">5</span>
+            <h3 class="text-xl font-bold text-gray-900">Create an Operating Agreement</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              New York is one of the few states that <strong>legally requires</strong> an LLC to have an operating agreement. Under NY LLC Law §417, members of a New York LLC must adopt a written operating agreement within 90 days of filing the Articles of Organization.
+            </p>
+            <p>
+              The operating agreement does not need to be filed with the state — it is an internal document. However, it must be maintained at the LLC's principal place of business and made available to members on request.
+            </p>
+            <p>
+              Your operating agreement should address:
+            </p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>Ownership percentages and capital contributions</li>
+              <li>How profits and losses are allocated among members</li>
+              <li>Voting rights and decision-making procedures</li>
+              <li>How the LLC will be managed (member-managed vs. manager-managed)</li>
+              <li>Rules for admitting new members or transferring membership interests</li>
+              <li>What happens when a member dies, becomes incapacitated, or wants to leave</li>
+              <li>Dissolution procedures</li>
+            </ul>
+            <p>
+              For more detail on what to include, read our <a href="/learn/llc-operating-agreement/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">LLC operating agreement guide</a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">6</span>
+            <h3 class="text-xl font-bold text-gray-900">Get an EIN (Employer Identification Number)</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              An EIN is a federal tax identification number issued by the IRS. It functions like a Social Security number for your LLC. You will need it to open a business bank account, hire employees, and file federal and state tax returns.
+            </p>
+            <p>
+              Applying for an EIN is free through the <a href="https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">IRS online EIN application</a>. If you apply online during IRS business hours, the EIN is issued immediately.
+            </p>
+            <p>
+              Multi-member LLCs are required to have an EIN. Single-member LLCs that have no employees can technically use their Social Security number, but getting an EIN is strongly recommended for privacy and to maintain the separation between your personal and business identities.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 7 -->
+        <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#1e3a5f] to-[#0d9488] text-sm font-bold text-white">7</span>
+            <h3 class="text-xl font-bold text-gray-900">Open a Business Bank Account</h3>
+          </div>
+          <div class="mt-4 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p>
+              Keeping your business and personal finances separate is one of the most important steps you can take to protect your personal assets. A dedicated business checking account also makes accounting, tax preparation, and bookkeeping far simpler.
+            </p>
+            <p>
+              Most banks and credit unions will require the following to open a business account for your LLC:
+            </p>
+            <ul class="ml-6 list-disc space-y-1">
+              <li>Filed and approved Articles of Organization (or a certified copy)</li>
+              <li>EIN confirmation letter from the IRS</li>
+              <li>Your LLC operating agreement</li>
+              <li>Government-issued photo ID for all authorized signers</li>
+              <li>Initial deposit (varies by institution)</li>
+            </ul>
+            <p>
+              New York has an abundance of banking options, from major national banks to community banks and online-only business banks. Compare account fees, minimum balance requirements, and included features before choosing.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Costs Breakdown -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">New York LLC Costs Breakdown</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          New York is one of the more expensive states in which to form an LLC, primarily due to the publication requirement. Here is a comprehensive breakdown of what to expect. For a deeper dive, see our <a href="/learn/how-much-does-an-llc-cost/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">guide to LLC formation costs</a>.
+        </p>
+        <div class="mt-4 overflow-x-auto">
+          <table class="min-w-full border border-gray-200 text-sm">
+            <thead>
+              <tr class="bg-gray-50">
+                <th class="border-b border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Fee</th>
+                <th class="border-b border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Cost</th>
+                <th class="border-b border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Frequency</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <tr><td class="px-4 py-3">Articles of Organization</td><td class="px-4 py-3 font-medium">$200</td><td class="px-4 py-3">One-time</td></tr>
+              <tr><td class="px-4 py-3">Name Reservation (optional)</td><td class="px-4 py-3">$20</td><td class="px-4 py-3">One-time (60 days)</td></tr>
+              <tr><td class="px-4 py-3">Expedited Filing (optional)</td><td class="px-4 py-3">$25 – $150</td><td class="px-4 py-3">One-time</td></tr>
+              <tr class="bg-amber-50">
+                <td class="px-4 py-3 font-semibold text-amber-900">Newspaper Publication (2 newspapers, 6 weeks)</td>
+                <td class="px-4 py-3 font-semibold text-amber-900">$100 – $1,800+</td>
+                <td class="px-4 py-3 text-amber-900">One-time (mandatory)</td>
+              </tr>
+              <tr><td class="px-4 py-3">Certificate of Publication Filing Fee</td><td class="px-4 py-3">$50</td><td class="px-4 py-3">One-time (mandatory)</td></tr>
+              <tr><td class="px-4 py-3">Registered Agent Service</td><td class="px-4 py-3">$0 – $299/year</td><td class="px-4 py-3">Annual</td></tr>
+              <tr><td class="px-4 py-3">Biennial Statement</td><td class="px-4 py-3">$9</td><td class="px-4 py-3">Every 2 years</td></tr>
+              <tr><td class="px-4 py-3">EIN (Federal Tax ID)</td><td class="px-4 py-3">Free</td><td class="px-4 py-3">One-time</td></tr>
+              <tr><td class="px-4 py-3">Certified Copy of Articles</td><td class="px-4 py-3">$10 + $1/page</td><td class="px-4 py-3">As needed</td></tr>
+              <tr><td class="px-4 py-3">Certificate of Good Standing</td><td class="px-4 py-3">$25</td><td class="px-4 py-3">As needed</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm">
+          <p class="font-semibold text-amber-900">Total Estimated One-Time Cost (Manhattan example):</p>
+          <p class="mt-1 text-amber-800">$200 (Articles) + $1,000–$1,800 (publication) + $50 (Certificate of Publication) = approximately <strong>$1,250 – $2,050+</strong> before formation service fees.</p>
+          <p class="mt-2 text-amber-800">For an LLC based in an upstate county with lower publication costs, total one-time expenses may be as low as <strong>$350 – $500</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tax Obligations -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">New York LLC Tax Obligations</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          New York has a complex tax environment. Unlike Texas or Florida, New York imposes both state income tax and, in many cases, New York City income tax. Here is what you need to understand as an LLC owner.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Federal Income Tax (Pass-Through)</h3>
+        <p>
+          By default, single-member LLCs are taxed as disregarded entities (income and expenses flow to your personal Form 1040, Schedule C). Multi-member LLCs are treated as partnerships and file Form 1065, with each member reporting their share on Schedule K-1. You can elect S-Corp or C-Corp taxation by filing the appropriate IRS forms if it is advantageous for your situation.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">New York State Personal Income Tax</h3>
+        <p>
+          New York State imposes a graduated personal income tax on LLC members' share of pass-through income. Rates range from <strong>4% to 10.9%</strong> depending on your income level. New York also has one of the highest top marginal rates in the country, so tax planning is especially important for high-income LLC owners.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">New York LLC Filing Fee</h3>
+        <p>
+          New York imposes an annual filing fee on LLCs based on New York-source gross income. This fee ranges from <strong>$25 to $4,500</strong> per year:
+        </p>
+        <ul class="ml-6 list-disc space-y-1">
+          <li>$25 if New York-source gross income is less than $100,000</li>
+          <li>$50 if gross income is $100,000 – $249,999</li>
+          <li>$175 if gross income is $250,000 – $499,999</li>
+          <li>$500 if gross income is $500,000 – $999,999</li>
+          <li>$1,500 if gross income is $1 million – $4,999,999</li>
+          <li>$3,000 if gross income is $5 million – $24,999,999</li>
+          <li>$4,500 if gross income is $25 million or more</li>
+        </ul>
+        <p class="text-sm text-gray-500">
+          This fee is filed using Form IT-204-LL. It is due by the 15th day of the third month following the end of the LLC's tax year (March 15 for calendar-year filers). This fee is separate from any income tax owed by the members.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">New York City Unincorporated Business Tax (UBT)</h3>
+        <p>
+          If your LLC operates in New York City and has net income from business activities, it may be subject to the NYC Unincorporated Business Tax at a rate of <strong>4%</strong> on net income allocable to NYC. There is an exemption for the first $95,000 of net income. This is a significant additional tax burden that out-of-state entrepreneurs often overlook.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">New York Sales Tax</h3>
+        <p>
+          New York State imposes a 4% sales tax on the sale of most tangible personal property and many services. Combined with local taxes, the total rate in New York City is <strong>8.875%</strong>. If your LLC sells taxable goods or services, you must register for a Certificate of Authority with the NY Department of Taxation and Finance before making your first sale.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Self-Employment Tax</h3>
+        <p>
+          LLC members who actively work in the business owe federal self-employment tax (15.3% on net earnings up to the Social Security wage base, plus 2.9% Medicare tax above it). This applies regardless of which state you are in. S-Corp election can help reduce self-employment taxes for LLCs generating strong profits.
+        </p>
+      </div>
+    </section>
+
+    <!-- Ongoing Compliance -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">New York LLC Ongoing Compliance Requirements</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Once your LLC is formed and the publication requirement is met, you have ongoing obligations to keep it in good standing with New York State.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Biennial Statement</h3>
+        <p>
+          New York requires all LLCs to file a <strong>Biennial Statement</strong> every two years. This statement updates the LLC's address for service of process and confirms the LLC is still active. The filing fee is <strong>$9</strong> and it is filed online through the NY DOS Business Filing Center.
+        </p>
+        <p>
+          Your Biennial Statement is due during the calendar month in which your LLC's Articles of Organization were filed. For example, if your LLC was formed in March, your Biennial Statement is due every two years in March. The NY DOS will send reminder notices to the LLC's registered address, but missing the deadline can result in the LLC being flagged as delinquent.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Annual LLC Filing Fee (Form IT-204-LL)</h3>
+        <p>
+          As described in the tax section above, most New York LLCs must file Form IT-204-LL and pay the annual LLC filing fee each year. This is due March 15 for calendar-year filers.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Tax Returns</h3>
+        <p>
+          Depending on your LLC's structure, you may need to file New York State partnership returns (Form IT-204), personal income tax returns reflecting LLC income, and NYC tax returns if applicable. Working with a qualified New York accountant or CPA is strongly recommended given the complexity of the state and local tax system.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Employer Requirements</h3>
+        <p>
+          If your LLC hires employees in New York, you must register with the NY Department of Labor for unemployment insurance, register for New York State payroll taxes, obtain workers' compensation insurance (mandatory in New York), and comply with New York's broad array of employment laws, including paid family leave, disability benefits, and strict wage and hour regulations.
+        </p>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-6">Maintaining Your Operating Agreement</h3>
+        <p>
+          New York law requires that you maintain a written operating agreement and keep it current as your LLC's membership, management, or business structure changes. While you do not file it with the state, it must be available to members upon request.
+        </p>
+      </div>
+    </section>
+
+    <!-- Formation Services -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Best LLC Formation Services for New York</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Given New York's unique publication requirement and complex compliance landscape, using a professional formation service is particularly valuable here. A good service will handle the state filing, coordinate newspaper publication, file your Certificate of Publication, and act as your registered agent — saving you considerable time and reducing the risk of mistakes that could suspend your LLC's authority to do business.
+        </p>
+        <p>
+          See our comprehensive <a href="/best-llc-services/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">best LLC services comparison</a> for full reviews. Here is a quick overview of top options for New York:
+        </p>
+
+        <div class="mt-6 space-y-4">
+
+          <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">Northwest Registered Agent</h3>
+                <p class="mt-1 text-sm text-gray-600">Best overall for privacy and personalized service. Northwest includes registered agent service, helps with publication coordination, and is known for responsive, knowledgeable customer support. Their flat-rate pricing is transparent with no upsells.</p>
+              </div>
+            </div>
+            <a href="/go/northwest/" class="mt-3 inline-block rounded-lg bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800">Visit Northwest Registered Agent</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">ZenBusiness</h3>
+                <p class="mt-1 text-sm text-gray-600">Best for value and ease of use. ZenBusiness offers affordable tiered plans, handles New York publication assistance, and includes worry-free compliance features to help you stay on top of biennial statements and annual fees.</p>
+              </div>
+            </div>
+            <a href="/go/zenbusiness/" class="mt-3 inline-block rounded-lg bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800">Visit ZenBusiness</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">LegalZoom</h3>
+                <p class="mt-1 text-sm text-gray-600">Best for entrepreneurs who want access to attorney consultations. LegalZoom handles NY publication and provides access to legal professionals if you need additional guidance on operating agreements or regulatory compliance.</p>
+              </div>
+            </div>
+            <a href="/go/legalzoom/" class="mt-3 inline-block rounded-lg bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800">Visit LegalZoom</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">Bizee (formerly Incfile)</h3>
+                <p class="mt-1 text-sm text-gray-600">Best budget option. Bizee's basic plan covers state filing costs only, making it one of the most affordable entry points for New York LLC formation. Add-on services are available for publication assistance and registered agent coverage.</p>
+              </div>
+            </div>
+            <a href="/go/bizee/" class="mt-3 inline-block rounded-lg bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800">Visit Bizee</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h3 class="text-base font-bold text-gray-900">LLC Attorney</h3>
+                <p class="mt-1 text-sm text-gray-600">Best for complex situations. If your New York LLC involves multiple members, complex ownership arrangements, or regulated industries, working directly with a business attorney ensures your formation documents and operating agreement are airtight from day one.</p>
+              </div>
+            </div>
+            <a href="/go/llc-attorney/" class="mt-3 inline-block rounded-lg bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800">Visit LLC Attorney</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BOI Report -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Beneficial Ownership Information (BOI) Reporting</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Under the Corporate Transparency Act, most LLCs formed in the United States — including New York LLCs — must file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). This is a federal requirement, separate from New York's state filings like the Articles of Organization and the publication requirement.
+        </p>
+        <p>
+          The BOI report identifies the individuals who ultimately own or control your LLC. You must report each beneficial owner's full legal name, date of birth, residential address, and a government-issued ID number (such as a driver's license or passport number).
+        </p>
+        <p><strong>Key deadlines:</strong></p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>New LLCs:</strong> Must file within 30 days of formation (for LLCs formed on or after January 1, 2025).</li>
+          <li><strong>Existing LLCs:</strong> LLCs formed before January 1, 2025 should check current deadlines, as enforcement timelines have been subject to court challenges and legislative changes.</li>
+          <li><strong>Changes:</strong> If your LLC's beneficial ownership information changes (new member, address change, etc.), you must file an updated report within 30 days.</li>
+        </ul>
+        <p>
+          Filing is done online through FinCEN's BOI E-Filing system at no cost. Failure to file can result in civil penalties of up to $591 per day and criminal penalties including fines up to $10,000 and imprisonment.
+        </p>
+        <p>
+          For a complete walkthrough, see our <a href="/learn/boi-report-guide/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">BOI Report Guide</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions About New York LLCs</h2>
+      <div class="mt-6">
+        <FAQSchema items={[
+          { question: "How much does it cost to start an LLC in New York?", answer: "The state filing fee is $200. However, the mandatory publication requirement adds $100 to $1,800 or more depending on your county, plus a $50 Certificate of Publication filing fee. Total one-time state costs typically range from $350 (upstate) to over $2,000 (Manhattan). See our <a href=\"/learn/how-much-does-an-llc-cost/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">LLC cost guide</a> for a full breakdown." },
+          { question: "What is the New York LLC publication requirement?", answer: "Within 120 days of forming your LLC, you must publish a notice of formation in two newspapers designated by your county clerk for six consecutive weeks. After publication, you file a Certificate of Publication with the NY DOS for an additional $50 fee. Failure to complete this requirement will suspend your LLC's ability to conduct business in New York." },
+          { question: "Can I avoid the New York publication requirement?", answer: "No. The publication requirement is mandated by New York LLC Law §206 and applies to all New York LLCs. There is currently no exception or waiver available. Legislative efforts to eliminate or reduce the requirement have been introduced periodically but have not yet been enacted into law." },
+          { question: "How long does it take to form an LLC in New York?", answer: "Standard online filings with the NY DOS are typically processed in two to seven business days. Expedited processing is available for an additional $25 (24-hour), $75 (same-day), or $150 (two-hour) fee. Note that the publication process takes at least six weeks on top of the state approval time, so plan for a total timeline of eight to ten weeks before your LLC's formation is fully compliant." },
+          { question: "Do I need to live in New York to form a New York LLC?", answer: "No. Non-residents can form a New York LLC. However, you must designate a registered agent with a physical address in New York, and you will still be subject to the publication requirement. If you do not conduct business primarily in New York, consider whether forming in your home state and registering as a foreign LLC if needed might be more cost-effective." },
+          { question: "Does New York require an operating agreement for LLCs?", answer: "Yes. New York is one of the few states that legally requires LLCs to have a written operating agreement. Under NY LLC Law §417, the operating agreement must be adopted within 90 days of filing the Articles of Organization. It does not need to be filed with the state, but must be maintained at the LLC's principal place of business." },
+          { question: "What is the New York LLC biennial statement?", answer: "Every two years, New York LLCs must file a Biennial Statement with the NY Department of State and pay a $9 fee. The statement updates the LLC's address for service of process. It is due in the calendar month in which the LLC's original Articles of Organization were filed. The NY DOS sends reminder notices, but it is the LLC's responsibility to file on time." },
+          { question: "Is there a New York state income tax on LLC income?", answer: "Yes. New York State imposes personal income tax on LLC members' pass-through income at graduated rates from 4% to 10.9%. Additionally, most LLCs must pay an annual LLC filing fee based on New York-source gross income (ranging from $25 to $4,500). New York City also imposes a 4% Unincorporated Business Tax on LLC income allocable to NYC." },
+          { question: "Can a New York LLC be taxed as an S-Corp?", answer: "Yes. A New York LLC can elect S-Corp taxation at the federal level by filing IRS Form 2553. New York State generally recognizes the federal S-Corp election. This can reduce self-employment taxes for LLC members earning significant income by allowing a split between a reasonable salary (subject to payroll taxes) and profit distributions (not subject to self-employment tax). Consult a qualified CPA or tax attorney to determine if this election is right for your situation." },
+          { question: "What happens if I miss the 120-day publication deadline?", answer: "If you fail to complete the publication requirement within 120 days of forming your LLC, the LLC's authority to carry on, conduct, or transact business in New York is suspended. You can cure the suspension by completing the publication and filing the Certificate of Publication — there is no reinstatement fee beyond the standard publication and filing costs — but during the suspension period your LLC may be unable to enforce contracts in New York courts." },
+          { question: "Do I need a business license to operate my New York LLC?", answer: "New York does not have a general state business license requirement, but many industries require specific state licenses (contractors, food service, healthcare, real estate agents, attorneys, etc.). New York City and other municipalities may also require local business permits. Check with the NY State License Center and your local city or county government to determine what applies to your specific business." },
+          { question: "Does my New York LLC need to file a BOI report?", answer: "Most New York LLCs must file a Beneficial Ownership Information (BOI) report with FinCEN under the Corporate Transparency Act. New LLCs formed on or after January 1, 2025 must file within 30 days of formation. This is a federal requirement separate from New York's publication and biennial statement requirements. Filing is free through FinCEN's online system. See our <a href=\"/learn/boi-report-guide/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">BOI Report Guide</a> for details." },
+        ]} />
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-12">
+      <div class="rounded-xl border border-teal-200 bg-teal-50/50 p-6 text-center">
+        <h2 class="text-xl font-bold text-gray-900">Ready to Start Your New York LLC?</h2>
+        <p class="mt-2 text-sm text-gray-700">
+          A professional formation service can handle the state filing, coordinate the newspaper publication, and ensure your LLC stays compliant. Compare your options before you file.
+        </p>
+        <a
+          href="/best-llc-services/"
+          class="mt-4 inline-block rounded-lg bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-teal-800"
+        >
+          Compare the Best LLC Services
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Links -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-gray-900">Related Guides</h2>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a href="/learn/what-is-an-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">What Is an LLC?</a>
+        <a href="/learn/what-is-a-registered-agent/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">What Is a Registered Agent?</a>
+        <a href="/learn/llc-operating-agreement/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">LLC Operating Agreement Guide</a>
+        <a href="/learn/how-much-does-an-llc-cost/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">How Much Does an LLC Cost?</a>
+        <a href="/best-llc-services/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">Best LLC Services 2026</a>
+        <a href="/start-llc/" class="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-teal-700 shadow-sm hover:bg-gray-50">All State Guides</a>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="rounded-xl border border-gray-200 bg-gray-50/50 p-5 text-xs leading-relaxed text-gray-500">
+      <p>
+        <strong>Disclaimer:</strong> The information on this page is for general educational purposes only and does not constitute legal or tax advice. Filing fees, tax rates, thresholds, and state requirements change periodically. Always verify current information with the{' '}
+        <a href="https://www.dos.ny.gov/corps/llcguide.html" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">New York Department of State</a> and the{' '}
+        <a href="https://www.tax.ny.gov" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline hover:text-teal-900">New York State Department of Taxation and Finance</a>, or consult a qualified attorney or tax professional licensed in New York.
+      </p>
+    </div>
+
+    <div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
+      <p>{siteConfig.name} is operated by {siteConfig.operator}.</p>
+    </div>
+  </article>
+</BaseLayout>

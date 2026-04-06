@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import FAQSchema from '@/components/seo/FAQSchema.astro';
 import { siteConfig } from '@/data/site';
 
 const title = 'How to Start an LLC in Florida (2026 Guide)';
@@ -365,50 +366,48 @@ const description =
       </div>
     </section>
 
+    <!-- BOI Report -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Beneficial Ownership Information (BOI) Reporting</h2>
+      <div class="mt-4 space-y-4 text-gray-700 leading-relaxed">
+        <p>
+          Under the Corporate Transparency Act, most LLCs formed in the United States — including Florida LLCs — must file a Beneficial Ownership Information (BOI) report with the Financial Crimes Enforcement Network (FinCEN). This is a federal requirement, separate from Florida's annual report filing with the Department of State.
+        </p>
+        <p>
+          The BOI report identifies the individuals who ultimately own or control your LLC. You must report each beneficial owner's full legal name, date of birth, residential address, and a government-issued ID number (such as a driver's license or passport number).
+        </p>
+        <p><strong>Key deadlines:</strong></p>
+        <ul class="ml-6 list-disc space-y-2">
+          <li><strong>New LLCs:</strong> Must file within 30 days of formation (for LLCs formed on or after January 1, 2025).</li>
+          <li><strong>Existing LLCs:</strong> LLCs formed before January 1, 2025 should check current deadlines, as enforcement timelines have been subject to court challenges and legislative changes.</li>
+          <li><strong>Changes:</strong> If your LLC's beneficial ownership information changes (new member, address change, etc.), you must file an updated report within 30 days.</li>
+        </ul>
+        <p>
+          Filing is done online through FinCEN's BOI E-Filing system at no cost. Failure to file can result in civil penalties of up to $591 per day and criminal penalties including fines up to $10,000 and imprisonment.
+        </p>
+        <p>
+          For a complete walkthrough, see our <a href="/learn/boi-report-guide/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">BOI Report Guide</a>.
+        </p>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="mb-12">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Frequently Asked Questions About Florida LLCs</h2>
-      <div class="mt-6 space-y-6">
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How much does it cost to start an LLC in Florida?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">The Articles of Organization filing fee is $125. Beyond that, you will need to budget for the annual report ($138.75 per year), a registered agent service ($0-$299 per year if using a professional), and any optional formation service fees. In the first year, expect to spend about $265 to $425 in required state fees.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Does Florida have a franchise tax for LLCs?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">No. Florida does not impose a separate franchise tax on LLCs. The primary ongoing state cost is the $138.75 annual report fee. Florida does have a corporate income tax, but it applies to C-Corporations, not to LLCs taxed as pass-through entities.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Do I need to live in Florida to form a Florida LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">No. Anyone can form a Florida LLC regardless of where they live. You will need a registered agent with a physical street address in Florida. If you do not live in the state, a professional registered agent service is the simplest solution.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What happens if I miss the annual report deadline?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">If you file your annual report after May 1, a $400 late fee is added to the $138.75 filing fee. If you do not file at all by the third Friday in September, your LLC will be administratively dissolved. You can reinstate it, but you will owe all back annual reports, late fees, and a reinstatement fee.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can I reserve an LLC name in Florida?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Florida does not offer a formal name reservation for LLCs. Once you find an available name on sunbiz.org, it is best to file your Articles of Organization as soon as possible to secure it. You can also file a fictitious name (DBA) registration for $50 if you want to operate under a different name.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">How long does it take to get a Florida LLC approved?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Online filings through sunbiz.org are typically processed within one to three business days. Mail filings may take one to two weeks. Using a formation service can simplify the process since they prepare and submit everything on your behalf, often on the same business day.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Is Florida a good state for a single-member LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes. Florida provides strong charging order protections for single-member LLCs, which means creditors generally cannot seize your LLC membership interest to satisfy personal debts. Combined with no state income tax, Florida is considered one of the best states for single-member LLC asset protection.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Do I need a business license in Florida?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Florida does not have a single statewide general business license. However, most counties and cities require local business licenses or tax receipts. Additionally, many regulated professions require specific state licenses from the Department of Business and Professional Regulation. Check with both your local government and state regulatory body for your industry.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">Can a Florida LLC elect S-Corp taxation?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Yes. A Florida LLC can elect S-Corp taxation by filing IRS Form 2553. Since Florida has no personal income tax, the primary benefit of S-Corp election in Florida is reducing your federal self-employment tax by splitting income between salary and distributions. Consult a tax professional to determine if this makes sense for your situation.</p>
-        </div>
-        <div class="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h3 class="text-base font-bold text-gray-900">What is a Florida Series LLC?</h3>
-          <p class="mt-2 text-sm leading-relaxed text-gray-700">Florida allows the formation of Series LLCs, which contain multiple "series" or cells within a single LLC. Each series can hold separate assets and have separate members, with liability isolated between series. This structure is popular among real estate investors who hold multiple properties, as it can be more cost-effective than forming a separate LLC for each property.</p>
-        </div>
+      <div class="mt-6">
+        <FAQSchema items={[
+          { question: "How much does it cost to start an LLC in Florida?", answer: "The Articles of Organization filing fee is $125. Beyond that, you will need to budget for the annual report ($138.75 per year), a registered agent service ($0-$299 per year if using a professional), and any optional formation service fees. In the first year, expect to spend about $265 to $425 in required state fees." },
+          { question: "Does Florida have a franchise tax for LLCs?", answer: "No. Florida does not impose a separate franchise tax on LLCs. The primary ongoing state cost is the $138.75 annual report fee. Florida does have a corporate income tax, but it applies to C-Corporations, not to LLCs taxed as pass-through entities." },
+          { question: "Do I need to live in Florida to form a Florida LLC?", answer: "No. Anyone can form a Florida LLC regardless of where they live. You will need a registered agent with a physical street address in Florida. If you do not live in the state, a professional registered agent service is the simplest solution." },
+          { question: "What happens if I miss the annual report deadline?", answer: "If you file your annual report after May 1, a $400 late fee is added to the $138.75 filing fee. If you do not file at all by the third Friday in September, your LLC will be administratively dissolved. You can reinstate it, but you will owe all back annual reports, late fees, and a reinstatement fee." },
+          { question: "Can I reserve an LLC name in Florida?", answer: "Florida does not offer a formal name reservation for LLCs. Once you find an available name on sunbiz.org, it is best to file your Articles of Organization as soon as possible to secure it. You can also file a fictitious name (DBA) registration for $50 if you want to operate under a different name." },
+          { question: "How long does it take to get a Florida LLC approved?", answer: "Online filings through sunbiz.org are typically processed within one to three business days. Mail filings may take one to two weeks. Using a formation service can simplify the process since they prepare and submit everything on your behalf, often on the same business day." },
+          { question: "Is Florida a good state for a single-member LLC?", answer: "Yes. Florida provides strong charging order protections for single-member LLCs, which means creditors generally cannot seize your LLC membership interest to satisfy personal debts. Combined with no state income tax, Florida is considered one of the best states for single-member LLC asset protection." },
+          { question: "Do I need a business license in Florida?", answer: "Florida does not have a single statewide general business license. However, most counties and cities require local business licenses or tax receipts. Additionally, many regulated professions require specific state licenses from the Department of Business and Professional Regulation. Check with both your local government and state regulatory body for your industry." },
+          { question: "Can a Florida LLC elect S-Corp taxation?", answer: "Yes. A Florida LLC can elect S-Corp taxation by filing IRS Form 2553. Since Florida has no personal income tax, the primary benefit of S-Corp election in Florida is reducing your federal self-employment tax by splitting income between salary and distributions. Consult a tax professional to determine if this makes sense for your situation." },
+          { question: "What is a Florida Series LLC?", answer: "Florida allows the formation of Series LLCs, which contain multiple \"series\" or cells within a single LLC. Each series can hold separate assets and have separate members, with liability isolated between series. This structure is popular among real estate investors who hold multiple properties, as it can be more cost-effective than forming a separate LLC for each property." },
+          { question: "Does my Florida LLC need to file a BOI report?", answer: "Most Florida LLCs must file a Beneficial Ownership Information (BOI) report with FinCEN under the Corporate Transparency Act. New LLCs formed on or after January 1, 2025 must file within 30 days of formation. This is a federal requirement separate from Florida's annual report. Filing is free through FinCEN's online system. See our <a href=\"/learn/boi-report-guide/\" class=\"text-teal-700 underline underline-offset-2 hover:text-teal-900\">BOI Report Guide</a> for details." },
+        ]} />
       </div>
     </section>
 
