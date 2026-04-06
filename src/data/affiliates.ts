@@ -86,7 +86,7 @@ export const affiliatePrograms: Record<string, AffiliateProgram> = {
     commission: '$150–$220/sale',
     cookieDays: 90,
     position: 'Best for Legal Protection',
-    logo: '/logos/llcattorney.svg',
+    logo: '/logos/llcattorney.webp',
   },
 } as const;
 

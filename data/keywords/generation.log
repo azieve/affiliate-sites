@@ -22,3 +22,162 @@ BrokenPipeError: [Errno 32] Broken pipe
 [2026-03-22 22:19:51] Article generated successfully: /Users/alonzieve/affiliate-sites/src/content/blog/best-llc-formation-services-2026.mdx
 [2026-03-22 22:19:51] Progress updated. Next index: 2
 [2026-03-22 22:19:51] Article published at: /blog/best-llc-formation-services-2026/
+[2026-03-25 13:00:27] Next keyword index: 4
+[2026-03-25 13:00:27] Generating article for: ZenBusiness vs LegalZoom (Category: Foundation, Intent: Commercial)
+[2026-03-25 13:00:27] Calling Claude CLI to generate article...
+[2026-03-25 13:04:55] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-vs-legalzoom.mdx
+[2026-03-25 13:04:55] ERROR: Failed to validate/fix output. Removing broken file.
+[2026-03-25 18:16:38] Next keyword index: 4
+[2026-03-25 18:16:38] Generating article for: ZenBusiness vs LegalZoom (Category: Foundation, Intent: Commercial)
+[2026-03-25 18:16:38] Calling Claude CLI to generate article...
+[2026-03-25 18:18:11] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-vs-legalzoom.mdx
+[2026-03-25 18:18:11] ERROR: Failed to validate/fix output. Removing broken file.
+[2026-03-25 18:24:40] Next keyword index: 4
+[2026-03-25 18:24:41] Generating article for: ZenBusiness vs LegalZoom (Category: Foundation, Intent: Commercial)
+[2026-03-25 18:24:41] Calling Claude CLI to generate article...
+[2026-03-25 18:26:02] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-vs-legalzoom.mdx
+[2026-03-25 18:26:02] ERROR: Failed to validate/fix output. Removing broken file.
+[2026-03-25 18:41:10] Next keyword index: 4
+[2026-03-25 18:41:10] Generating article for: ZenBusiness vs LegalZoom (Category: Foundation, Intent: Commercial)
+[2026-03-25 18:41:10] Calling Claude CLI to generate article...
+[2026-03-25 18:42:42] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-vs-legalzoom.mdx
+[2026-03-25 18:42:42] ERROR: Failed to validate/fix output. Removing broken file.
+[2026-03-25 20:26:44] Next keyword index: 4
+[2026-03-25 20:26:45] Generating article for: ZenBusiness vs LegalZoom (Category: Foundation, Intent: Commercial)
+[2026-03-25 20:26:45] Calling Claude CLI to generate article...
+[2026-03-25 20:28:18] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-vs-legalzoom.mdx
+[2026-03-25 20:28:19] Progress updated. Next index: 5
+[2026-03-25 20:28:19] Article published at: /blog/zenbusiness-vs-legalzoom/
+remote: Repository not found.
+fatal: repository 'https://github.com/azieve/company-formation.git/' not found
+[2026-03-25 20:28:19] ERROR: git push failed. Article committed locally but not deployed.
+[2026-03-26 13:00:05] Next keyword index: 5
+[2026-03-26 13:00:05] Generating article for: Northwest Registered Agent review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-26 13:00:05] Calling Claude CLI to generate article...
+[2026-03-26 13:03:19] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/northwest-registered-agent-review-2026.mdx
+[2026-03-26 13:03:19] Progress updated. Next index: 6
+[2026-03-26 13:03:19] Article published at: /blog/northwest-registered-agent-review-2026/
+To https://github.com/azieve/company-formation.git
+   b6648f6..d920fdc  main -> main
+[2026-03-26 13:03:21] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-27 13:11:29] Next keyword index: 6
+[2026-03-27 13:11:29] Generating article for: ZenBusiness review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-27 13:11:30] Calling Claude CLI to generate article...
+[2026-03-27 13:37:51] ERROR: Claude CLI failed for keyword: ZenBusiness review [year]
+[2026-03-28 13:10:58] Next keyword index: 6
+[2026-03-28 13:10:58] Generating article for: ZenBusiness review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-28 13:10:58] Calling Claude CLI to generate article...
+/Users/alonzieve/affiliate-sites/company-formation/scripts/generate-article.sh: line 174: /Users/alonzieve/.local/share/claude/versions/2.1.81: No such file or directory
+[2026-03-28 13:10:58] ERROR: Claude CLI failed for keyword: ZenBusiness review [year]
+[2026-03-28 23:45:38] Next keyword index: 6
+[2026-03-28 23:45:38] Generating article for: ZenBusiness review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-28 23:45:38] Calling Claude CLI to generate article...
+[2026-03-28 23:47:10] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-review-2026.mdx
+[2026-03-28 23:47:10] Progress updated. Next index: 7
+[2026-03-28 23:47:10] Article published at: /blog/zenbusiness-review-2026/
+To https://github.com/azieve/company-formation.git
+   d920fdc..3882d32  main -> main
+[2026-03-28 23:47:11] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-28 23:55:43] Next keyword index: 7
+[2026-03-28 23:55:44] Generating article for: what is an LLC (complete beginner guide) (Category: Foundation, Intent: Informational)
+[2026-03-28 23:55:44] Calling Claude CLI to generate article...
+[2026-03-29 00:01:16] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/what-is-an-llc-complete-beginner-guide.mdx
+[2026-03-29 00:01:16] Progress updated. Next index: 8
+[2026-03-29 00:01:16] Article published at: /blog/what-is-an-llc-complete-beginner-guide/
+To https://github.com/azieve/company-formation.git
+   49f9e07..06a6576  main -> main
+[2026-03-29 00:01:17] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-29 13:00:03] Next keyword index: 8
+[2026-03-29 13:00:03] Generating article for: best state to form an LLC (Category: Foundation, Intent: Commercial)
+[2026-03-29 13:00:03] Calling Claude CLI to generate article...
+[2026-03-29 13:02:05] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/best-state-to-form-an-llc.mdx
+[2026-03-29 13:02:05] Progress updated. Next index: 9
+[2026-03-29 13:02:05] Article published at: /blog/best-state-to-form-an-llc/
+To https://github.com/azieve/company-formation.git
+   680487f..d85fe9c  main -> main
+[2026-03-29 13:02:06] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-30 13:00:02] Next keyword index: 9
+[2026-03-30 13:00:02] Generating article for: BOI report for LLC owners [year] (Category: Foundation, Intent: Informational)
+[2026-03-30 13:00:03] Calling Claude CLI to generate article...
+[2026-03-30 13:01:59] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/boi-report-for-llc-owners-2026.mdx
+[2026-03-30 13:01:59] Progress updated. Next index: 10
+[2026-03-30 13:01:59] Article published at: /blog/boi-report-for-llc-owners-2026/
+To https://github.com/azieve/company-formation.git
+   fb75fab..97f7166  main -> main
+[2026-03-30 13:02:01] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-31 13:00:05] Next keyword index: 10
+[2026-03-31 13:00:05] Generating article for: do I need an LLC for my business (Category: Foundation, Intent: Informational)
+[2026-03-31 13:00:05] Calling Claude CLI to generate article...
+[2026-03-31 13:02:14] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/do-i-need-an-llc-for-my-business.mdx
+[2026-03-31 13:02:15] Progress updated. Next index: 11
+[2026-03-31 13:02:15] Article published at: /blog/do-i-need-an-llc-for-my-business/
+To https://github.com/azieve/company-formation.git
+   97f7166..7d94fb3  main -> main
+[2026-03-31 13:02:16] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-01 13:00:05] Next keyword index: 11
+[2026-04-01 13:00:05] Generating article for: LLC vs S-Corp which is better for taxes (Category: Educational, Intent: Informational)
+[2026-04-01 13:00:05] Calling Claude CLI to generate article...
+[2026-04-01 21:24:43] ERROR: Claude CLI failed for keyword: LLC vs S-Corp which is better for taxes
+[2026-04-02 13:02:50] Next keyword index: 11
+[2026-04-02 13:02:51] Generating article for: LLC vs S-Corp which is better for taxes (Category: Educational, Intent: Informational)
+[2026-04-02 13:02:51] Calling Claude CLI to generate article...
+[2026-04-02 22:29:41] ERROR: Claude CLI failed for keyword: LLC vs S-Corp which is better for taxes
+[2026-04-02 22:39:05] Next keyword index: 11
+[2026-04-02 22:39:05] Generating article for: LLC vs S-Corp which is better for taxes (Category: Educational, Intent: Informational)
+[2026-04-02 22:39:05] Calling Claude CLI to generate article...
+[2026-04-02 22:40:39] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-vs-s-corp-which-is-better-for-taxes.mdx
+[2026-04-02 22:40:39] Progress updated. Next index: 12
+[2026-04-02 22:40:39] Article published at: /blog/llc-vs-s-corp-which-is-better-for-taxes/
+To https://github.com/azieve/company-formation.git
+   7d94fb3..c51168f  main -> main
+[2026-04-02 22:40:40] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-02 22:42:19] Next keyword index: 12
+[2026-04-02 22:42:20] Generating article for: what is a BOI report and who needs to file (Category: FinCEN, Intent: Informational)
+[2026-04-02 22:42:20] Calling Claude CLI to generate article...
+[2026-04-02 22:43:51] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/what-is-a-boi-report-and-who-needs-to-file.mdx
+[2026-04-02 22:43:51] Progress updated. Next index: 13
+[2026-04-02 22:43:51] Article published at: /blog/what-is-a-boi-report-and-who-needs-to-file/
+To https://github.com/azieve/company-formation.git
+   c51168f..5e3b0c4  main -> main
+[2026-04-02 22:43:53] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-03 13:00:01] Next keyword index: 13
+[2026-04-03 13:00:01] Generating article for: how to start an LLC in Texas (Category: State Formation, Intent: Transactional)
+[2026-04-03 13:00:02] Calling Claude CLI to generate article...
+[2026-04-03 13:01:51] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-texas.mdx
+[2026-04-03 13:01:51] Progress updated. Next index: 14
+[2026-04-03 13:01:51] Article published at: /blog/how-to-start-an-llc-in-texas/
+To https://github.com/azieve/company-formation.git
+   b33b6e4..fa3f2d4  main -> main
+[2026-04-03 13:01:53] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-04 13:01:09] Next keyword index: 14
+[2026-04-04 13:01:10] Generating article for: how to start an LLC in Florida (Category: State Formation, Intent: Transactional)
+[2026-04-04 13:01:10] Calling Claude CLI to generate article...
+[2026-04-05 10:07:53] Next keyword index: 14
+[2026-04-05 10:07:54] Generating article for: how to start an LLC in Florida (Category: State Formation, Intent: Transactional)
+[2026-04-05 10:07:54] Calling Claude CLI to generate article...
+[2026-04-05 10:09:45] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-florida.mdx
+[2026-04-05 10:09:45] Progress updated. Next index: 15
+[2026-04-05 10:09:45] Article published at: /blog/how-to-start-an-llc-in-florida/
+To https://github.com/azieve/company-formation.git
+   fa3f2d4..ce61961  main -> main
+[2026-04-05 10:09:46] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-06 09:00:02] Next keyword index: 15
+[2026-04-06 09:00:02] Generating article for: BOI report deadline [year] (Category: FinCEN, Intent: Informational)
+[2026-04-06 09:00:02] Calling Claude CLI to generate article...
+[2026-04-06 09:02:07] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/boi-report-deadline-2026.mdx
+[2026-04-06 09:02:07] Progress updated. Next index: 16
+[2026-04-06 09:02:07] Article published at: /blog/boi-report-deadline-2026/
+To https://github.com/azieve/company-formation.git
+   bbc78c6..85ea694  main -> main
+[2026-04-06 09:02:08] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-06 09:02:10] Submitted to Google Indexing API: /blog/boi-report-deadline-2026/
+[2026-04-06 15:00:02] Next keyword index: 16
+[2026-04-06 15:00:02] Generating article for: Delaware LLC annual franchise tax (Category: State Compliance, Intent: Informational)
+[2026-04-06 15:00:02] Calling Claude CLI to generate article...
+[2026-04-06 15:01:42] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/delaware-llc-annual-franchise-tax.mdx
+[2026-04-06 15:01:42] Progress updated. Next index: 17
+[2026-04-06 15:01:42] Article published at: /blog/delaware-llc-annual-franchise-tax/
+To https://github.com/azieve/company-formation.git
+   85ea694..08e84c0  main -> main
+[2026-04-06 15:01:43] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-06 15:01:45] Submitted to Google Indexing API: /blog/delaware-llc-annual-franchise-tax/

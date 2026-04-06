@@ -78,17 +78,22 @@ Together they write a comprehensive, authoritative article that:
 - Is written in a professional but accessible tone (not academic, not salesy)
 - Uses an authentic author voice — in at least one place, the author should offer a personal opinion, observation, or anecdote on the topic (e.g., "In my experience..." or "I've seen too many business owners...")
 - Uses concrete examples, numbers, and scenarios where possible
+- Includes GRANULAR DETAIL — specific pricing tiers, specific features per plan, specific gotchas and hidden costs. Google rewards specificity over generic overviews.
+- Where reviewing or mentioning a service, includes brief comparison snippets against 1-2 competitors (e.g., "Unlike LegalZoom which charges $X for this, Northwest includes it free")
 - References at least 2 reputable external websites or sources (e.g., SEC.gov, IRS publications, Harvard Business Review, TechCrunch, Bloomberg, other top news sites) with natural outbound links
 - Where appropriate, references recent market events, IPOs, funding rounds, regulatory changes, or economic conditions to make the content feel timely and current
+- Mentions the current year (2026) at least 3-4 times naturally in the body text, not just the title
 - Naturally incorporates all keywords at the specified density
 - Includes all planned internal links with natural anchor text
 - Has a clear introduction, body with H2 sections, and conclusion
+- MUST include a comprehensive FAQ section with 5-8 questions in "People Also Ask" format (e.g., "How much does it cost to...?", "Do I need a...?", "What happens if...?"). These should target common search queries related to the topic.
 - Ensures that all mentions of relevant LLC formation providers use the relevant affiliate links from this list:
   - Northwest Registered Agent: [Northwest Registered Agent](/go/northwest/)
   - ZenBusiness: [ZenBusiness](/go/zenbusiness/)
   - LegalZoom: [LegalZoom](/go/legalzoom/)
   - Bizee: [Bizee](/go/bizee/)
   - LLC Attorney: [LLC Attorney](/go/llc-attorney/)
+- IMPORTANT: At least one affiliate link MUST appear within the first 2-3 paragraphs of the article (above the fold). Weave it naturally into the intro text — e.g., mentioning a service name with pricing when discussing formation costs or process.
 
 ### Step 3: Dual Review
 **SEO Expert Review:**

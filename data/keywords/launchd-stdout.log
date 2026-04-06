@@ -1,0 +1,128 @@
+[2026-03-23 13:00:00] Next keyword index: 2
+[2026-03-23 13:00:01] Generating article for: how much does it cost to form an LLC (Category: Foundation, Intent: Commercial)
+[2026-03-23 13:00:01] Calling Claude CLI to generate article...
+[2026-03-23 13:01:39] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-much-does-it-cost-to-form-an-llc.mdx
+OK: Valid MDX file written
+[2026-03-23 13:01:39] Progress updated. Next index: 3
+[2026-03-23 13:01:39] Article published at: /blog/how-much-does-it-cost-to-form-an-llc/
+[main 3b1f2f7] Add blog article: how much does it cost to form an LLC
+ 2 files changed, 286 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/how-much-does-it-cost-to-form-an-llc.mdx
+[2026-03-23 13:01:40] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-24 13:00:04] Next keyword index: 3
+[2026-03-24 13:00:04] Generating article for: LLC vs sole proprietorship (Category: Foundation, Intent: Informational)
+[2026-03-24 13:00:04] Calling Claude CLI to generate article...
+[2026-03-24 13:01:34] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-vs-sole-proprietorship.mdx
+OK: Valid MDX file written
+[2026-03-24 13:01:35] Progress updated. Next index: 4
+[2026-03-24 13:01:35] Article published at: /blog/llc-vs-sole-proprietorship/
+[main 6b8c1df] Add blog article: LLC vs sole proprietorship
+ 2 files changed, 187 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/llc-vs-sole-proprietorship.mdx
+[2026-03-24 13:01:36] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-25 13:00:27] Next keyword index: 4
+[2026-03-25 13:00:27] Generating article for: ZenBusiness vs LegalZoom (Category: Foundation, Intent: Commercial)
+[2026-03-25 13:00:27] Calling Claude CLI to generate article...
+[2026-03-25 13:04:55] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/zenbusiness-vs-legalzoom.mdx
+ERROR: Output file is empty
+[2026-03-25 13:04:55] ERROR: Failed to validate/fix output. Removing broken file.
+[2026-03-26 13:00:05] Next keyword index: 5
+[2026-03-26 13:00:05] Generating article for: Northwest Registered Agent review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-26 13:00:05] Calling Claude CLI to generate article...
+[2026-03-26 13:03:19] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/northwest-registered-agent-review-2026.mdx
+OK: Valid MDX file written
+[2026-03-26 13:03:19] Progress updated. Next index: 6
+[2026-03-26 13:03:19] Article published at: /blog/northwest-registered-agent-review-2026/
+[main d920fdc] Add blog article: Northwest Registered Agent review 2026
+ 2 files changed, 141 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/northwest-registered-agent-review-2026.mdx
+[2026-03-26 13:03:21] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-27 13:11:29] Next keyword index: 6
+[2026-03-27 13:11:29] Generating article for: ZenBusiness review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-27 13:11:30] Calling Claude CLI to generate article...
+[2026-03-27 13:37:51] ERROR: Claude CLI failed for keyword: ZenBusiness review [year]
+[2026-03-28 13:10:58] Next keyword index: 6
+[2026-03-28 13:10:58] Generating article for: ZenBusiness review [year] (Category: Foundation, Intent: Commercial)
+[2026-03-28 13:10:58] Calling Claude CLI to generate article...
+[2026-03-28 13:10:58] ERROR: Claude CLI failed for keyword: ZenBusiness review [year]
+[2026-03-29 13:00:03] Next keyword index: 8
+[2026-03-29 13:00:03] Generating article for: best state to form an LLC (Category: Foundation, Intent: Commercial)
+[2026-03-29 13:00:03] Calling Claude CLI to generate article...
+[2026-03-29 13:02:05] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/best-state-to-form-an-llc.mdx
+OK: Valid MDX file written
+[2026-03-29 13:02:05] Progress updated. Next index: 9
+[2026-03-29 13:02:05] Article published at: /blog/best-state-to-form-an-llc/
+[main d85fe9c] Add blog article: best state to form an LLC
+ 2 files changed, 253 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/best-state-to-form-an-llc.mdx
+[2026-03-29 13:02:06] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-30 13:00:02] Next keyword index: 9
+[2026-03-30 13:00:02] Generating article for: BOI report for LLC owners [year] (Category: Foundation, Intent: Informational)
+[2026-03-30 13:00:03] Calling Claude CLI to generate article...
+[2026-03-30 13:01:59] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/boi-report-for-llc-owners-2026.mdx
+OK: Valid MDX file written
+[2026-03-30 13:01:59] Progress updated. Next index: 10
+[2026-03-30 13:01:59] Article published at: /blog/boi-report-for-llc-owners-2026/
+[main 97f7166] Add blog article: BOI report for LLC owners 2026
+ 2 files changed, 180 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/boi-report-for-llc-owners-2026.mdx
+[2026-03-30 13:02:01] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-03-31 13:00:05] Next keyword index: 10
+[2026-03-31 13:00:05] Generating article for: do I need an LLC for my business (Category: Foundation, Intent: Informational)
+[2026-03-31 13:00:05] Calling Claude CLI to generate article...
+[2026-03-31 13:02:14] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/do-i-need-an-llc-for-my-business.mdx
+OK: Valid MDX file written
+[2026-03-31 13:02:15] Progress updated. Next index: 11
+[2026-03-31 13:02:15] Article published at: /blog/do-i-need-an-llc-for-my-business/
+[main 7d94fb3] Add blog article: do I need an LLC for my business
+ 2 files changed, 166 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/do-i-need-an-llc-for-my-business.mdx
+[2026-03-31 13:02:16] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-01 13:00:05] Next keyword index: 11
+[2026-04-01 13:00:05] Generating article for: LLC vs S-Corp which is better for taxes (Category: Educational, Intent: Informational)
+[2026-04-01 13:00:05] Calling Claude CLI to generate article...
+[2026-04-01 21:24:43] ERROR: Claude CLI failed for keyword: LLC vs S-Corp which is better for taxes
+[2026-04-02 13:02:50] Next keyword index: 11
+[2026-04-02 13:02:51] Generating article for: LLC vs S-Corp which is better for taxes (Category: Educational, Intent: Informational)
+[2026-04-02 13:02:51] Calling Claude CLI to generate article...
+[2026-04-02 22:29:41] ERROR: Claude CLI failed for keyword: LLC vs S-Corp which is better for taxes
+[2026-04-03 13:00:01] Next keyword index: 13
+[2026-04-03 13:00:01] Generating article for: how to start an LLC in Texas (Category: State Formation, Intent: Transactional)
+[2026-04-03 13:00:02] Calling Claude CLI to generate article...
+[2026-04-03 13:01:51] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-texas.mdx
+OK: Valid MDX file written
+[2026-04-03 13:01:51] Progress updated. Next index: 14
+[2026-04-03 13:01:51] Article published at: /blog/how-to-start-an-llc-in-texas/
+[main fa3f2d4] Add blog article: how to start an LLC in Texas
+ 2 files changed, 228 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/how-to-start-an-llc-in-texas.mdx
+[2026-04-03 13:01:53] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-04 13:01:09] Next keyword index: 14
+[2026-04-04 13:01:10] Generating article for: how to start an LLC in Florida (Category: State Formation, Intent: Transactional)
+[2026-04-04 13:01:10] Calling Claude CLI to generate article...
+[2026-04-06 09:00:02] Next keyword index: 15
+[2026-04-06 09:00:02] Generating article for: BOI report deadline [year] (Category: FinCEN, Intent: Informational)
+[2026-04-06 09:00:02] Calling Claude CLI to generate article...
+[2026-04-06 09:02:07] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/boi-report-deadline-2026.mdx
+OK: Valid MDX file written
+[2026-04-06 09:02:07] Progress updated. Next index: 16
+[2026-04-06 09:02:07] Article published at: /blog/boi-report-deadline-2026/
+[main 85ea694] Add blog article: BOI report deadline 2026
+ 2 files changed, 243 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/boi-report-deadline-2026.mdx
+[2026-04-06 09:02:08] Pushed to GitHub — Vercel auto-deploy triggered.
+Submitted to Google Indexing API: https://topbestllcservice.com/blog/boi-report-deadline-2026/
+[2026-04-06 09:02:10] Submitted to Google Indexing API: /blog/boi-report-deadline-2026/
+[2026-04-06 15:00:02] Next keyword index: 16
+[2026-04-06 15:00:02] Generating article for: Delaware LLC annual franchise tax (Category: State Compliance, Intent: Informational)
+[2026-04-06 15:00:02] Calling Claude CLI to generate article...
+[2026-04-06 15:01:42] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/delaware-llc-annual-franchise-tax.mdx
+OK: Valid MDX file written
+[2026-04-06 15:01:42] Progress updated. Next index: 17
+[2026-04-06 15:01:42] Article published at: /blog/delaware-llc-annual-franchise-tax/
+[main 08e84c0] Add blog article: Delaware LLC annual franchise tax
+ 2 files changed, 185 insertions(+), 1 deletion(-)
+ create mode 100644 src/content/blog/delaware-llc-annual-franchise-tax.mdx
+[2026-04-06 15:01:43] Pushed to GitHub — Vercel auto-deploy triggered.
+Submitted to Google Indexing API: https://topbestllcservice.com/blog/delaware-llc-annual-franchise-tax/
+[2026-04-06 15:01:45] Submitted to Google Indexing API: /blog/delaware-llc-annual-franchise-tax/

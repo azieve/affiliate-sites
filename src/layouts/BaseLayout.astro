@@ -37,7 +37,7 @@ const resolvedOgImage = ogImage?.startsWith('http') ? ogImage : `${siteConfig.ur
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
 
-    {canonicalUrl && <link rel="canonical" href={resolvedCanonical} />}
+    <link rel="canonical" href={resolvedCanonical} />
     {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Site Verification -->
@@ -92,5 +92,30 @@ const resolvedOgImage = ogImage?.startsWith('http') ? ogImage : `${siteConfig.ur
     </main>
 
     <Footer />
+
+    <!-- Outbound click tracking -->
+    <script>
+      document.addEventListener('click', (e) => {
+        const anchor = (e.target as Element).closest('a');
+        if (!anchor) return;
+        const href = anchor.href;
+        if (!href) return;
+
+        const isAffiliate = anchor.pathname.startsWith('/go/');
+        const isExternal = anchor.hostname && anchor.hostname !== location.hostname;
+
+        if (isAffiliate || isExternal) {
+          const payload = JSON.stringify({
+            from: location.pathname,
+            to: isAffiliate ? anchor.pathname : href,
+            type: isAffiliate ? 'affiliate' : 'external',
+          });
+          navigator.sendBeacon(
+            '/api/track-click',
+            new Blob([payload], { type: 'application/json' })
+          );
+        }
+      });
+    </script>
   </body>
 </html>

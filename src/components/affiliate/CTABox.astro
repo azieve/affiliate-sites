@@ -49,7 +49,19 @@ const isPrimary = variant === 'primary';
           {heading}
         </p>
       )}
-      <h3 class="text-2xl font-bold sm:text-3xl">{service.name}</h3>
+      <div class="flex items-center gap-3">
+        {affiliate.logo && (
+          <img
+            src={affiliate.logo}
+            alt={`${service.name} logo`}
+            class="h-10 w-10 shrink-0 rounded-lg bg-white/90 object-contain p-1"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+        )}
+        <h3 class="text-2xl font-bold sm:text-3xl">{service.name}</h3>
+      </div>
       <p class="mt-1 text-teal-100">{service.tagline}</p>
 
       <div class="mt-4 flex flex-wrap items-center gap-4">
@@ -90,13 +102,25 @@ const isPrimary = variant === 'primary';
     role="complementary"
     aria-label={`${service.name} call to action`}
   >
-    <div>
-      {heading && (
-        <p class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-teal-600">
-          {heading}
-        </p>
+    <div class="flex items-center gap-3">
+      {affiliate.logo && (
+        <img
+          src={affiliate.logo}
+          alt={`${service.name} logo`}
+          class="h-8 w-8 shrink-0 rounded object-contain"
+          width="32"
+          height="32"
+          loading="lazy"
+        />
       )}
-      <p class="font-semibold text-gray-900">{service.name}</p>
+      <div>
+        {heading && (
+          <p class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-teal-600">
+            {heading}
+          </p>
+        )}
+        <p class="font-semibold text-gray-900">{service.name}</p>
+      </div>
       <p class="text-sm text-gray-600">
         From {service.formationPrice} + state fees &middot; {service.rating}/10
       </p>

@@ -68,6 +68,15 @@ const featureNames = [
                   Recommended
                 </span>
               )}
+              {serviceList[idx].affiliate.logo && (
+                <img
+                  src={serviceList[idx].affiliate.logo}
+                  alt={`${service.shortName} logo`}
+                  class="h-8 w-auto object-contain"
+                  height="32"
+                  loading="lazy"
+                />
+              )}
               <span>{service.shortName}</span>
               <span
                 class:list={[

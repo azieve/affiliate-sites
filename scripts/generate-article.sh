@@ -17,6 +17,10 @@ log() {
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$LOG_FILE"
 }
 
+# ── Ensure correct GitHub auth ─────────────────────────────────────
+unset GITHUB_TOKEN 2>/dev/null || true
+gh auth switch --user azieve 2>/dev/null || true
+
 # ── Read progress ──────────────────────────────────────────────────
 if [ ! -f "$PROGRESS_FILE" ]; then
   echo '{"next_index": 1, "completed": []}' > "$PROGRESS_FILE"
@@ -161,11 +165,15 @@ export DISPLAY_KEYWORD CATEGORY SEARCH_INTENT ARTICLE_TYPE DIFFICULTY NOTES TODA
 export KEYWORD_INDEX="$NEXT_INDEX"
 python3 "$SCRIPT_DIR/build-prompt.py" > "$PROMPT_FILE"
 
-if claude --print --model sonnet < "$PROMPT_FILE" > "$OUTPUT_FILE" 2>>"$LOG_FILE"; then
-  rm -f "$PROMPT_FILE"
+PROMPT_CONTENT=$(cat "$PROMPT_FILE")
+rm -f "$PROMPT_FILE"
+
+# Use the default claude binary (bug fixed in 2.1.86+)
+CLAUDE_BIN="/Users/alonzieve/.local/bin/claude"
+
+if "$CLAUDE_BIN" --print --model sonnet --dangerously-skip-permissions "$PROMPT_CONTENT" > "$OUTPUT_FILE" 2>>"$LOG_FILE"; then
   log "Article generated successfully: $OUTPUT_FILE"
 else
-  rm -f "$PROMPT_FILE"
   log "ERROR: Claude CLI failed for keyword: $PRIMARY_KEYWORD"
   rm -f "$OUTPUT_FILE"
   exit 1
@@ -199,7 +207,7 @@ log "Article published at: /blog/$SLUG/"
 # ── Commit and push to trigger Vercel deploy ───────────────────────
 cd "$PROJECT_DIR"
 git add "$OUTPUT_FILE" "$PROGRESS_FILE"
-git commit -m "$(cat <<EOF
+git commit --author="azieve <azieve@gmail.com>" -m "$(cat <<EOF
 Add blog article: $DISPLAY_KEYWORD
 
 Auto-generated SEO article targeting: $DISPLAY_KEYWORD
@@ -209,7 +217,15 @@ EOF
 )"
 
 git push origin main 2>>"$LOG_FILE" && {
-  log "Pushed to GitHub — Vercel deploy triggered."
+  log "Pushed to GitHub — Vercel auto-deploy triggered."
 } || {
   log "ERROR: git push failed. Article committed locally but not deployed."
+  exit 1
+}
+
+# ── Submit new article to Google Indexing API ──────────────────────
+python3 "$SCRIPT_DIR/submit-to-google.py" "https://topbestllcservice.com/blog/$SLUG/" 2>>"$LOG_FILE" && {
+  log "Submitted to Google Indexing API: /blog/$SLUG/"
+} || {
+  log "WARNING: Google Indexing API submission failed (non-critical)."
 }
