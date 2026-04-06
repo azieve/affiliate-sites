@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
 
+env:
+  VERCEL_ORG_ID: team_988mLxJUMvS4Pw8nNeUFC75y
+  VERCEL_PROJECT_ID: prj_jNUp2zSZWIdUZJURDneVYfMVP6iD
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
