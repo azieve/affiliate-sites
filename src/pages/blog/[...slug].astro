@@ -38,6 +38,15 @@ const articleSchema = JSON.stringify({
   description: metaDescription,
   datePublished: publishDate,
   dateModified: lastUpdated,
+  ...(featuredImage && {
+    image: {
+      '@type': 'ImageObject',
+      url: `${siteConfig.url}${featuredImage}-1200.webp`,
+      width: 1200,
+      height: 675,
+    },
+    thumbnailUrl: `${siteConfig.url}${featuredImage}-400.webp`,
+  }),
   author: {
     '@type': 'Person',
     name: author,
