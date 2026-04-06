@@ -186,6 +186,35 @@ python3 "$SCRIPT_DIR/fix-mdx-output.py" "$OUTPUT_FILE" 2>>"$LOG_FILE" || {
     exit 1
   }
 
+# ── Generate hero image via Gemini API ─────────────────────────────
+IMAGE_PROMPT="A professional illustration representing: $DISPLAY_KEYWORD"
+log "Generating hero image for: $SLUG"
+
+if IMAGE_PATH=$(python3 "$SCRIPT_DIR/generate-image.py" "$SLUG" "$IMAGE_PROMPT" 2>>"$LOG_FILE"); then
+  IMAGE_PATH=$(echo "$IMAGE_PATH" | tail -1)
+  log "Hero image generated: $IMAGE_PATH"
+
+  # Inject featuredImage into MDX frontmatter
+  python3 -c "
+import sys
+with open('$OUTPUT_FILE', 'r') as f:
+    content = f.read()
+
+# Insert featuredImage after the opening ---
+parts = content.split('---', 2)
+if len(parts) >= 3:
+    frontmatter = parts[1]
+    if 'featuredImage' not in frontmatter:
+        frontmatter = frontmatter.rstrip('\n') + '\nfeaturedImage: \"$IMAGE_PATH\"\n'
+    content = '---' + frontmatter + '---' + parts[2]
+
+with open('$OUTPUT_FILE', 'w') as f:
+    f.write(content)
+" 2>>"$LOG_FILE" && log "Injected featuredImage into frontmatter" || log "WARNING: Failed to inject featuredImage"
+else
+  log "WARNING: Image generation failed (non-fatal). Article will publish without image."
+fi
+
 # ── Update progress ────────────────────────────────────────────────
 python3 -c "
 import json
@@ -206,7 +235,7 @@ log "Article published at: /blog/$SLUG/"
 
 # ── Commit and push to trigger Vercel deploy ───────────────────────
 cd "$PROJECT_DIR"
-git add "$OUTPUT_FILE" "$PROGRESS_FILE"
+git add "$OUTPUT_FILE" "$PROGRESS_FILE" "public/blog/$SLUG/" 2>/dev/null
 git commit --author="azieve <azieve@gmail.com>" -m "$(cat <<EOF
 Add blog article: $DISPLAY_KEYWORD
 
