@@ -67,7 +67,7 @@ bash scripts/generate-article.sh
 
 ### Indexing API
 
-Script: `scripts/submit-to-google.py` (may need to be recreated — was lost in a repo history rewrite)
+Script: `scripts/submit-to-google.py`
 
 - Uses Google Indexing API to request re-crawling of URLs after publishing
 - Credentials: `~/.config/gcloud/topbestllc-search-console.json` (service account)
