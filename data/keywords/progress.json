@@ -1,5 +1,5 @@
 {
-  "next_index": 18,
+  "next_index": 19,
   "completed": [
     {
       "index": 1,
@@ -117,6 +117,13 @@
       "index": 17,
       "keyword": "do I need an LLC for my Etsy shop",
       "slug": "do-i-need-an-llc-for-my-etsy-shop",
+      "date": "2026-04-07",
+      "skipped": false
+    },
+    {
+      "index": 18,
+      "keyword": "BOI report penalties for late filing",
+      "slug": "boi-report-penalties-for-late-filing",
       "date": "2026-04-07",
       "skipped": false
     }
