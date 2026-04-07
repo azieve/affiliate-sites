@@ -1,5 +1,5 @@
 {
-  "next_index": 17,
+  "next_index": 18,
   "completed": [
     {
       "index": 1,
@@ -111,6 +111,13 @@
       "keyword": "Delaware LLC annual franchise tax",
       "slug": "delaware-llc-annual-franchise-tax",
       "date": "2026-04-06",
+      "skipped": false
+    },
+    {
+      "index": 17,
+      "keyword": "do I need an LLC for my Etsy shop",
+      "slug": "do-i-need-an-llc-for-my-etsy-shop",
+      "date": "2026-04-07",
       "skipped": false
     }
   ]
