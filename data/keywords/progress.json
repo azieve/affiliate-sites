@@ -1,5 +1,5 @@
 {
-  "next_index": 19,
+  "next_index": 20,
   "completed": [
     {
       "index": 1,
@@ -125,6 +125,13 @@
       "keyword": "BOI report penalties for late filing",
       "slug": "boi-report-penalties-for-late-filing",
       "date": "2026-04-07",
+      "skipped": false
+    },
+    {
+      "index": 19,
+      "keyword": "LLC for Amazon FBA sellers",
+      "slug": "llc-for-amazon-fba-sellers",
+      "date": "2026-04-08",
       "skipped": false
     }
   ]
