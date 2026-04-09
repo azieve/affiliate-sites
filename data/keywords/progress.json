@@ -1,5 +1,5 @@
 {
-  "next_index": 21,
+  "next_index": 22,
   "completed": [
     {
       "index": 1,
@@ -138,6 +138,13 @@
       "index": 20,
       "keyword": "how to file a BOI report step by step",
       "slug": "how-to-file-a-boi-report-step-by-step",
+      "date": "2026-04-09",
+      "skipped": false
+    },
+    {
+      "index": 21,
+      "keyword": "series LLC states that allow them",
+      "slug": "series-llc-states-that-allow-them",
       "date": "2026-04-09",
       "skipped": false
     }
