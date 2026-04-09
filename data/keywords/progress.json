@@ -1,5 +1,5 @@
 {
-  "next_index": 20,
+  "next_index": 21,
   "completed": [
     {
       "index": 1,
@@ -132,6 +132,13 @@
       "keyword": "LLC for Amazon FBA sellers",
       "slug": "llc-for-amazon-fba-sellers",
       "date": "2026-04-08",
+      "skipped": false
+    },
+    {
+      "index": 20,
+      "keyword": "how to file a BOI report step by step",
+      "slug": "how-to-file-a-boi-report-step-by-step",
+      "date": "2026-04-09",
       "skipped": false
     }
   ]
