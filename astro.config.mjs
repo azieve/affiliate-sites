@@ -10,7 +10,17 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: (page) => !page.includes('/go/'),
+      serialize(item) {
+        // Set lastmod to now for all pages — each deploy represents fresh content
+        item.lastmod = new Date().toISOString();
+        return item;
+      },
+    }),
+  ],
   markdown: {
     shikiConfig: {
       theme: 'github-light',
