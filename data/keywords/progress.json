@@ -1,5 +1,5 @@
 {
-  "next_index": 23,
+  "next_index": 24,
   "completed": [
     {
       "index": 1,
@@ -152,6 +152,13 @@
       "index": 22,
       "keyword": "do I need a BOI report for my LLC",
       "slug": "do-i-need-a-boi-report-for-my-llc",
+      "date": "2026-04-10",
+      "skipped": false
+    },
+    {
+      "index": 23,
+      "keyword": "do Uber and Lyft drivers need an LLC",
+      "slug": "do-uber-and-lyft-drivers-need-an-llc",
       "date": "2026-04-10",
       "skipped": false
     }
