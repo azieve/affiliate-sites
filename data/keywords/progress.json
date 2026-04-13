@@ -1,5 +1,5 @@
 {
-  "next_index": 29,
+  "next_index": 30,
   "completed": [
     {
       "index": 1,
@@ -194,6 +194,13 @@
       "index": 28,
       "keyword": "LLC for real estate agents",
       "slug": "llc-for-real-estate-agents",
+      "date": "2026-04-13",
+      "skipped": false
+    },
+    {
+      "index": 29,
+      "keyword": "can an LLC have employees",
+      "slug": "can-an-llc-have-employees",
       "date": "2026-04-13",
       "skipped": false
     }
