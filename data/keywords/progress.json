@@ -1,5 +1,5 @@
 {
-  "next_index": 27,
+  "next_index": 28,
   "completed": [
     {
       "index": 1,
@@ -180,6 +180,13 @@
       "index": 26,
       "keyword": "LLC for trucking company",
       "slug": "llc-for-trucking-company",
+      "date": "2026-04-13",
+      "skipped": false
+    },
+    {
+      "index": 27,
+      "keyword": "LLC for consultants and coaches",
+      "slug": "llc-for-consultants-and-coaches",
       "date": "2026-04-13",
       "skipped": false
     }
