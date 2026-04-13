@@ -1,5 +1,5 @@
 {
-  "next_index": 26,
+  "next_index": 27,
   "completed": [
     {
       "index": 1,
@@ -173,6 +173,13 @@
       "index": 25,
       "keyword": "LLC for YouTube channel and content creators",
       "slug": "llc-for-youtube-channel-and-content-creators",
+      "date": "2026-04-13",
+      "skipped": false
+    },
+    {
+      "index": 26,
+      "keyword": "LLC for trucking company",
+      "slug": "llc-for-trucking-company",
       "date": "2026-04-13",
       "skipped": false
     }
