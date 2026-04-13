@@ -1,5 +1,5 @@
 {
-  "next_index": 25,
+  "next_index": 26,
   "completed": [
     {
       "index": 1,
@@ -166,6 +166,13 @@
       "index": 24,
       "keyword": "LLC for cleaning business",
       "slug": "llc-for-cleaning-business",
+      "date": "2026-04-13",
+      "skipped": false
+    },
+    {
+      "index": 25,
+      "keyword": "LLC for YouTube channel and content creators",
+      "slug": "llc-for-youtube-channel-and-content-creators",
       "date": "2026-04-13",
       "skipped": false
     }
