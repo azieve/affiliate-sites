@@ -1,5 +1,5 @@
 {
-  "next_index": 28,
+  "next_index": 29,
   "completed": [
     {
       "index": 1,
@@ -187,6 +187,13 @@
       "index": 27,
       "keyword": "LLC for consultants and coaches",
       "slug": "llc-for-consultants-and-coaches",
+      "date": "2026-04-13",
+      "skipped": false
+    },
+    {
+      "index": 28,
+      "keyword": "LLC for real estate agents",
+      "slug": "llc-for-real-estate-agents",
       "date": "2026-04-13",
       "skipped": false
     }
