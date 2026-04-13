@@ -1,5 +1,5 @@
 {
-  "next_index": 24,
+  "next_index": 25,
   "completed": [
     {
       "index": 1,
@@ -160,6 +160,13 @@
       "keyword": "do Uber and Lyft drivers need an LLC",
       "slug": "do-uber-and-lyft-drivers-need-an-llc",
       "date": "2026-04-10",
+      "skipped": false
+    },
+    {
+      "index": 24,
+      "keyword": "LLC for cleaning business",
+      "slug": "llc-for-cleaning-business",
+      "date": "2026-04-13",
       "skipped": false
     }
   ]
