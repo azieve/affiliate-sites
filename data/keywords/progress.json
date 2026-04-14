@@ -1,5 +1,5 @@
 {
-  "next_index": 31,
+  "next_index": 32,
   "completed": [
     {
       "index": 1,
@@ -208,6 +208,13 @@
       "index": 30,
       "keyword": "can an LLC own property",
       "slug": "can-an-llc-own-property",
+      "date": "2026-04-14",
+      "skipped": false
+    },
+    {
+      "index": 31,
+      "keyword": "Texas LLC franchise tax (no annual report)",
+      "slug": "texas-llc-franchise-tax-no-annual-report",
       "date": "2026-04-14",
       "skipped": false
     }
