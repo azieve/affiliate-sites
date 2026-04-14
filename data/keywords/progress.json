@@ -1,5 +1,5 @@
 {
-  "next_index": 30,
+  "next_index": 31,
   "completed": [
     {
       "index": 1,
@@ -202,6 +202,13 @@
       "keyword": "can an LLC have employees",
       "slug": "can-an-llc-have-employees",
       "date": "2026-04-13",
+      "skipped": false
+    },
+    {
+      "index": 30,
+      "keyword": "can an LLC own property",
+      "slug": "can-an-llc-own-property",
+      "date": "2026-04-14",
       "skipped": false
     }
   ]
