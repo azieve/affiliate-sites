@@ -39,6 +39,8 @@ const reviewSchema = getReviewSchema({
   rating,
   author,
   url: canonicalUrl,
+  formationPrice: service.formationPrice,
+  serviceUrl: `${siteConfig.url}/go/${serviceId}/`,
 });
 
 const breadcrumbItems = [

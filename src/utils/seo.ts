@@ -77,6 +77,8 @@ export function getReviewSchema(props: {
   rating: number;
   author: string;
   url: string;
+  formationPrice?: string;
+  serviceUrl?: string;
 }) {
   return {
     '@context': 'https://schema.org',
@@ -84,6 +86,36 @@ export function getReviewSchema(props: {
     itemReviewed: {
       '@type': 'Product',
       name: props.name,
+      description: `${props.name} LLC formation service`,
+      review: {
+        '@type': 'Review',
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: props.rating,
+          bestRating: 10,
+          worstRating: 0,
+        },
+        author: {
+          '@type': 'Person',
+          name: props.author,
+        },
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: props.rating,
+        bestRating: 10,
+        worstRating: 0,
+        reviewCount: 1,
+      },
+      ...(props.formationPrice && {
+        offers: {
+          '@type': 'Offer',
+          price: props.formationPrice.replace(/[^0-9.]/g, '') || '0',
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+          ...(props.serviceUrl && { url: props.serviceUrl }),
+        },
+      }),
     },
     reviewRating: {
       '@type': 'Rating',
