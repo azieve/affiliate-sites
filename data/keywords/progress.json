@@ -1,5 +1,5 @@
 {
-  "next_index": 33,
+  "next_index": 34,
   "completed": [
     {
       "index": 1,
@@ -222,6 +222,13 @@
       "index": 32,
       "keyword": "LLC for dropshipping business",
       "slug": "llc-for-dropshipping-business",
+      "date": "2026-04-15",
+      "skipped": false
+    },
+    {
+      "index": 33,
+      "keyword": "LLC for Airbnb and short term rental",
+      "slug": "llc-for-airbnb-and-short-term-rental",
       "date": "2026-04-15",
       "skipped": false
     }
