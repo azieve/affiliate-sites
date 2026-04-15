@@ -1,5 +1,5 @@
 {
-  "next_index": 32,
+  "next_index": 33,
   "completed": [
     {
       "index": 1,
@@ -216,6 +216,13 @@
       "keyword": "Texas LLC franchise tax (no annual report)",
       "slug": "texas-llc-franchise-tax-no-annual-report",
       "date": "2026-04-14",
+      "skipped": false
+    },
+    {
+      "index": 32,
+      "keyword": "LLC for dropshipping business",
+      "slug": "llc-for-dropshipping-business",
+      "date": "2026-04-15",
       "skipped": false
     }
   ]
