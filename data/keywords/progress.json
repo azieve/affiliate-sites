@@ -1,5 +1,5 @@
 {
-  "next_index": 35,
+  "next_index": 36,
   "completed": [
     {
       "index": 1,
@@ -236,6 +236,13 @@
       "index": 34,
       "keyword": "how to transfer LLC ownership",
       "slug": "how-to-transfer-llc-ownership",
+      "date": "2026-04-16",
+      "skipped": false
+    },
+    {
+      "index": 35,
+      "keyword": "Ohio LLC cost and fees breakdown",
+      "slug": "ohio-llc-cost-and-fees-breakdown",
       "date": "2026-04-16",
       "skipped": false
     }
