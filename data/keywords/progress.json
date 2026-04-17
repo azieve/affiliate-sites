@@ -1,5 +1,5 @@
 {
-  "next_index": 36,
+  "next_index": 37,
   "completed": [
     {
       "index": 1,
@@ -244,6 +244,13 @@
       "keyword": "Ohio LLC cost and fees breakdown",
       "slug": "ohio-llc-cost-and-fees-breakdown",
       "date": "2026-04-16",
+      "skipped": false
+    },
+    {
+      "index": 36,
+      "keyword": "North Carolina LLC cost and fees breakdown",
+      "slug": "north-carolina-llc-cost-and-fees-breakdown",
+      "date": "2026-04-17",
       "skipped": false
     }
   ]
