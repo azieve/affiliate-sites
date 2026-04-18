@@ -6,6 +6,10 @@
 #
 set -euo pipefail
 
+# Ensure Claude CLI uses Max subscription (OAuth) instead of any API key
+# that might be in .env files in the working directory
+unset ANTHROPIC_API_KEY 2>/dev/null || true
+
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 KEYWORDS_CSV="$PROJECT_DIR/data/keywords/llc_keyword_master_list.csv"
