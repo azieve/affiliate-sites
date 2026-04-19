@@ -1,5 +1,5 @@
 {
-  "next_index": 41,
+  "next_index": 42,
   "completed": [
     {
       "index": 1,
@@ -278,6 +278,13 @@
       "index": 40,
       "keyword": "LLC for content creators and influencers",
       "slug": "llc-for-content-creators-and-influencers",
+      "date": "2026-04-19",
+      "skipped": false
+    },
+    {
+      "index": 41,
+      "keyword": "LLC for food truck business",
+      "slug": "llc-for-food-truck-business",
       "date": "2026-04-19",
       "skipped": false
     }
