@@ -1,5 +1,5 @@
 {
-  "next_index": 38,
+  "next_index": 39,
   "completed": [
     {
       "index": 1,
@@ -257,6 +257,13 @@
       "index": 37,
       "keyword": "Incfile vs LegalZoom (Bizee comparison)",
       "slug": "incfile-vs-legalzoom-bizee-comparison",
+      "date": "2026-04-19",
+      "skipped": false
+    },
+    {
+      "index": 38,
+      "keyword": "cheapest registered agent service",
+      "slug": "cheapest-registered-agent-service",
       "date": "2026-04-19",
       "skipped": false
     }
