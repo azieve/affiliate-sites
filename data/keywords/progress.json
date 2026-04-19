@@ -1,5 +1,5 @@
 {
-  "next_index": 40,
+  "next_index": 41,
   "completed": [
     {
       "index": 1,
@@ -271,6 +271,13 @@
       "index": 39,
       "keyword": "LLC quarterly tax payments guide",
       "slug": "llc-quarterly-tax-payments-guide",
+      "date": "2026-04-19",
+      "skipped": false
+    },
+    {
+      "index": 40,
+      "keyword": "LLC for content creators and influencers",
+      "slug": "llc-for-content-creators-and-influencers",
       "date": "2026-04-19",
       "skipped": false
     }
