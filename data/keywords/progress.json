@@ -1,5 +1,5 @@
 {
-  "next_index": 37,
+  "next_index": 38,
   "completed": [
     {
       "index": 1,
@@ -251,6 +251,13 @@
       "keyword": "North Carolina LLC cost and fees breakdown",
       "slug": "north-carolina-llc-cost-and-fees-breakdown",
       "date": "2026-04-17",
+      "skipped": false
+    },
+    {
+      "index": 37,
+      "keyword": "Incfile vs LegalZoom (Bizee comparison)",
+      "slug": "incfile-vs-legalzoom-bizee-comparison",
+      "date": "2026-04-19",
       "skipped": false
     }
   ]
