@@ -63,7 +63,7 @@ def submit_google_sitemap():
     )
     service = build('searchconsole', 'v1', credentials=creds)
     service.sitemaps().submit(
-        siteUrl=SITE_URL,
+        siteUrl='sc-domain:topbestllcservice.com',
         feedpath=SITEMAP_URL,
     ).execute()
     print(f"Google sitemap resubmitted: {SITEMAP_URL}")
