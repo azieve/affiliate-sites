@@ -181,3 +181,574 @@ To https://github.com/azieve/company-formation.git
    85ea694..08e84c0  main -> main
 [2026-04-06 15:01:43] Pushed to GitHub — Vercel auto-deploy triggered.
 [2026-04-06 15:01:45] Submitted to Google Indexing API: /blog/delaware-llc-annual-franchise-tax/
+[2026-04-07 09:00:03] Next keyword index: 17
+[2026-04-07 09:00:03] Generating article for: do I need an LLC for my Etsy shop (Category: Profession, Intent: Commercial)
+[2026-04-07 09:00:03] Calling Claude CLI to generate article...
+[2026-04-07 09:02:07] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/do-i-need-an-llc-for-my-etsy-shop.mdx
+[2026-04-07 09:02:07] Generating hero image for: do-i-need-an-llc-for-my-etsy-shop
+Generating image for: do-i-need-an-llc-for-my-etsy-shop
+Prompt: A professional illustration representing: do I need an LLC for my Etsy shop...
+Received 880KB from Gemini API
+  hero-1200.webp: 14KB
+  hero-800.webp: 9KB
+  hero-400.webp: 4KB
+  og.jpg: 34KB
+[2026-04-07 09:02:13] Hero image generated: /blog/do-i-need-an-llc-for-my-etsy-shop/hero
+[2026-04-07 09:02:13] Injected featuredImage into frontmatter
+[2026-04-07 09:02:14] Progress updated. Next index: 18
+[2026-04-07 09:02:14] Article published at: /blog/do-i-need-an-llc-for-my-etsy-shop/
+To https://github.com/azieve/affiliate-sites.git
+   11245fb..02e3a69  main -> main
+[2026-04-07 09:02:15] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-07 09:02:17] Submitted to Google Indexing API: /blog/do-i-need-an-llc-for-my-etsy-shop/
+[2026-04-07 15:00:01] Next keyword index: 18
+[2026-04-07 15:00:01] Generating article for: BOI report penalties for late filing (Category: FinCEN, Intent: Informational)
+[2026-04-07 15:00:02] Calling Claude CLI to generate article...
+[2026-04-07 15:02:00] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/boi-report-penalties-for-late-filing.mdx
+[2026-04-07 15:02:00] Generating hero image for: boi-report-penalties-for-late-filing
+Generating image for: boi-report-penalties-for-late-filing
+Prompt: A professional illustration representing: BOI report penalties for late filing...
+Received 917KB from Gemini API
+  hero-1200.webp: 9KB
+  hero-800.webp: 6KB
+  hero-400.webp: 3KB
+  og.jpg: 22KB
+[2026-04-07 15:02:07] Hero image generated: /blog/boi-report-penalties-for-late-filing/hero
+[2026-04-07 15:02:07] Injected featuredImage into frontmatter
+[2026-04-07 15:02:07] Progress updated. Next index: 19
+[2026-04-07 15:02:07] Article published at: /blog/boi-report-penalties-for-late-filing/
+To https://github.com/azieve/affiliate-sites.git
+   02e3a69..ec8bfcb  main -> main
+[2026-04-07 15:02:09] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-07 15:02:10] Submitted to Google Indexing API: /blog/boi-report-penalties-for-late-filing/
+[2026-04-08 09:11:09] Next keyword index: 19
+[2026-04-08 09:11:10] Generating article for: LLC for Amazon FBA sellers (Category: Profession, Intent: Commercial)
+[2026-04-08 09:11:10] Calling Claude CLI to generate article...
+[2026-04-08 12:57:56] ERROR: Claude CLI failed for keyword: LLC for Amazon FBA sellers
+[2026-04-08 15:01:04] Next keyword index: 19
+[2026-04-08 15:01:04] Generating article for: LLC for Amazon FBA sellers (Category: Profession, Intent: Commercial)
+[2026-04-08 15:01:04] Calling Claude CLI to generate article...
+[2026-04-08 21:52:48] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-amazon-fba-sellers.mdx
+[2026-04-08 21:52:48] Generating hero image for: llc-for-amazon-fba-sellers
+Generating image for: llc-for-amazon-fba-sellers
+Prompt: A professional illustration representing: LLC for Amazon FBA sellers...
+Received 1003KB from Gemini API
+  hero-1200.webp: 18KB
+  hero-800.webp: 12KB
+  hero-400.webp: 6KB
+  og.jpg: 44KB
+[2026-04-08 21:53:00] Hero image generated: /blog/llc-for-amazon-fba-sellers/hero
+[2026-04-08 21:53:00] Injected featuredImage into frontmatter
+[2026-04-08 21:53:01] Progress updated. Next index: 20
+[2026-04-08 21:53:01] Article published at: /blog/llc-for-amazon-fba-sellers/
+To https://github.com/azieve/affiliate-sites.git
+   ec8bfcb..4fde9dd  main -> main
+[2026-04-08 21:53:02] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-08 21:53:04] Submitted to Google Indexing API: /blog/llc-for-amazon-fba-sellers/
+[2026-04-09 09:00:04] Next keyword index: 20
+[2026-04-09 09:00:04] Generating article for: how to file a BOI report step by step (Category: FinCEN, Intent: Informational)
+[2026-04-09 09:00:04] Calling Claude CLI to generate article...
+[2026-04-09 09:02:04] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-file-a-boi-report-step-by-step.mdx
+[2026-04-09 09:02:04] Generating hero image for: how-to-file-a-boi-report-step-by-step
+Generating image for: how-to-file-a-boi-report-step-by-step
+Prompt: A professional illustration representing: how to file a BOI report step by step...
+Received 929KB from Gemini API
+  hero-1200.webp: 21KB
+  hero-800.webp: 13KB
+  hero-400.webp: 5KB
+  og.jpg: 39KB
+[2026-04-09 09:02:12] Hero image generated: /blog/how-to-file-a-boi-report-step-by-step/hero
+[2026-04-09 09:02:12] Injected featuredImage into frontmatter
+[2026-04-09 09:02:12] Progress updated. Next index: 21
+[2026-04-09 09:02:12] Article published at: /blog/how-to-file-a-boi-report-step-by-step/
+To https://github.com/azieve/affiliate-sites.git
+   4fde9dd..8fada92  main -> main
+[2026-04-09 09:02:13] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-04-09 09:02:15] Submitted to Google Indexing API: /blog/how-to-file-a-boi-report-step-by-step/
+[2026-04-09 15:00:04] Next keyword index: 21
+[2026-04-09 15:00:04] Generating article for: series LLC states that allow them (Category: Educational, Intent: Informational)
+[2026-04-09 15:00:05] Calling Claude CLI to generate article...
+[2026-04-09 15:02:08] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/series-llc-states-that-allow-them.mdx
+[2026-04-09 15:02:08] Generating hero image for: series-llc-states-that-allow-them
+Generating image for: series-llc-states-that-allow-them
+Prompt: A professional illustration representing: series LLC states that allow them...
+Received 1088KB from Gemini API
+  hero-1200.webp: 28KB
+  hero-800.webp: 18KB
+  hero-400.webp: 7KB
+  og.jpg: 58KB
+[2026-04-09 15:02:17] Hero image generated: /blog/series-llc-states-that-allow-them/hero
+[2026-04-09 15:02:17] Injected featuredImage into frontmatter
+[2026-04-09 15:02:17] Progress updated. Next index: 22
+[2026-04-09 15:02:17] Article published at: /blog/series-llc-states-that-allow-them/
+To https://github.com/azieve/affiliate-sites.git
+   2041baf..7d66317  main -> main
+[2026-04-09 15:02:18] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-09 15:02:19] Submitted to Google Indexing API: /blog/series-llc-states-that-allow-them/
+[2026-04-10 09:00:02] Next keyword index: 22
+[2026-04-10 09:00:03] Generating article for: do I need a BOI report for my LLC (Category: FinCEN, Intent: Informational)
+[2026-04-10 09:00:03] Calling Claude CLI to generate article...
+[2026-04-10 09:02:17] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/do-i-need-a-boi-report-for-my-llc.mdx
+[2026-04-10 09:02:17] Generating hero image for: do-i-need-a-boi-report-for-my-llc
+Generating image for: do-i-need-a-boi-report-for-my-llc
+Prompt: A professional illustration representing: do I need a BOI report for my LLC...
+Received 1079KB from Gemini API
+  hero-1200.webp: 25KB
+  hero-800.webp: 16KB
+  hero-400.webp: 6KB
+  og.jpg: 52KB
+[2026-04-10 09:02:27] Hero image generated: /blog/do-i-need-a-boi-report-for-my-llc/hero
+[2026-04-10 09:02:27] Injected featuredImage into frontmatter
+[2026-04-10 09:02:27] Progress updated. Next index: 23
+[2026-04-10 09:02:27] Article published at: /blog/do-i-need-a-boi-report-for-my-llc/
+To https://github.com/azieve/affiliate-sites.git
+   7d66317..fca7f70  main -> main
+[2026-04-10 09:02:29] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-10 09:02:30] Submitted to Google Indexing API: /blog/do-i-need-a-boi-report-for-my-llc/
+[2026-04-10 15:00:02] Next keyword index: 23
+[2026-04-10 15:00:03] Generating article for: do Uber and Lyft drivers need an LLC (Category: Profession, Intent: Commercial)
+[2026-04-10 15:00:03] Calling Claude CLI to generate article...
+[2026-04-10 15:03:55] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/do-uber-and-lyft-drivers-need-an-llc.mdx
+[2026-04-10 15:03:55] Generating hero image for: do-uber-and-lyft-drivers-need-an-llc
+Generating image for: do-uber-and-lyft-drivers-need-an-llc
+Prompt: A professional illustration representing: do Uber and Lyft drivers need an LLC...
+Received 852KB from Gemini API
+  hero-1200.webp: 10KB
+  hero-800.webp: 7KB
+  hero-400.webp: 3KB
+  og.jpg: 28KB
+[2026-04-10 15:04:02] Hero image generated: /blog/do-uber-and-lyft-drivers-need-an-llc/hero
+[2026-04-10 15:04:02] Injected featuredImage into frontmatter
+[2026-04-10 15:04:02] Progress updated. Next index: 24
+[2026-04-10 15:04:02] Article published at: /blog/do-uber-and-lyft-drivers-need-an-llc/
+To https://github.com/azieve/affiliate-sites.git
+   fca7f70..e7741e4  main -> main
+[2026-04-10 15:04:04] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-10 15:04:05] Submitted to Google Indexing API: /blog/do-uber-and-lyft-drivers-need-an-llc/
+[2026-04-11 09:13:57] Next keyword index: 24
+[2026-04-11 09:13:57] Generating article for: LLC for cleaning business (Category: Profession, Intent: Commercial)
+[2026-04-11 09:13:57] Calling Claude CLI to generate article...
+[2026-04-12 20:07:26] Next keyword index: 24
+[2026-04-12 20:07:26] Generating article for: LLC for cleaning business (Category: Profession, Intent: Commercial)
+[2026-04-12 20:32:33] Next keyword index: 24
+[2026-04-12 20:32:33] Generating article for: LLC for cleaning business (Category: Profession, Intent: Commercial)
+[2026-04-13 08:24:01] Next keyword index: 24
+[2026-04-13 08:24:02] Generating article for: LLC for cleaning business (Category: Profession, Intent: Commercial)
+[2026-04-13 08:32:36] Next keyword index: 24
+[2026-04-13 08:32:36] Generating article for: LLC for cleaning business (Category: Profession, Intent: Commercial)
+[2026-04-13 08:32:50] Next keyword index: 24
+[2026-04-13 08:32:50] Generating article for: LLC for cleaning business (Category: Profession, Intent: Commercial)
+[2026-04-13 08:32:50] Calling Claude CLI to generate article...
+[2026-04-13 08:34:44] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-cleaning-business.mdx
+[2026-04-13 08:34:45] Generating hero image for: llc-for-cleaning-business
+Generating image for: llc-for-cleaning-business
+Prompt: A professional illustration representing: LLC for cleaning business...
+Received 1061KB from Gemini API
+  hero-1200.webp: 19KB
+  hero-800.webp: 12KB
+  hero-400.webp: 6KB
+  og.jpg: 46KB
+[2026-04-13 08:34:53] Hero image generated: /blog/llc-for-cleaning-business/hero
+[2026-04-13 08:34:53] Injected featuredImage into frontmatter
+[2026-04-13 08:34:53] Progress updated. Next index: 25
+[2026-04-13 08:34:53] Article published at: /blog/llc-for-cleaning-business/
+To https://github.com/azieve/affiliate-sites.git
+   e7741e4..2bfc657  main -> main
+[2026-04-13 08:34:54] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-13 08:34:55] Submitted to Google Indexing API: /blog/llc-for-cleaning-business/
+[2026-04-13 08:35:02] Next keyword index: 25
+[2026-04-13 08:35:02] Generating article for: LLC for YouTube channel and content creators (Category: Profession, Intent: Commercial)
+[2026-04-13 08:35:02] Calling Claude CLI to generate article...
+[2026-04-13 08:36:47] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-youtube-channel-and-content-creators.mdx
+[2026-04-13 08:36:47] Generating hero image for: llc-for-youtube-channel-and-content-creators
+Generating image for: llc-for-youtube-channel-and-content-creators
+Prompt: A professional illustration representing: LLC for YouTube channel and content creators...
+Received 934KB from Gemini API
+  hero-1200.webp: 17KB
+  hero-800.webp: 11KB
+  hero-400.webp: 5KB
+  og.jpg: 38KB
+[2026-04-13 08:36:54] Hero image generated: /blog/llc-for-youtube-channel-and-content-creators/hero
+[2026-04-13 08:36:54] Injected featuredImage into frontmatter
+[2026-04-13 08:36:54] Progress updated. Next index: 26
+[2026-04-13 08:36:54] Article published at: /blog/llc-for-youtube-channel-and-content-creators/
+To https://github.com/azieve/affiliate-sites.git
+   2bfc657..3052475  main -> main
+[2026-04-13 08:36:55] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-13 08:36:56] Submitted to Google Indexing API: /blog/llc-for-youtube-channel-and-content-creators/
+[2026-04-13 08:37:01] Next keyword index: 26
+[2026-04-13 08:37:01] Generating article for: LLC for trucking company (Category: Profession, Intent: Commercial)
+[2026-04-13 08:37:01] Calling Claude CLI to generate article...
+[2026-04-13 08:38:54] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-trucking-company.mdx
+[2026-04-13 08:38:54] Generating hero image for: llc-for-trucking-company
+Generating image for: llc-for-trucking-company
+Prompt: A professional illustration representing: LLC for trucking company...
+Received 1073KB from Gemini API
+  hero-1200.webp: 20KB
+  hero-800.webp: 13KB
+  hero-400.webp: 6KB
+  og.jpg: 49KB
+[2026-04-13 08:39:02] Hero image generated: /blog/llc-for-trucking-company/hero
+[2026-04-13 08:39:02] Injected featuredImage into frontmatter
+[2026-04-13 08:39:02] Progress updated. Next index: 27
+[2026-04-13 08:39:02] Article published at: /blog/llc-for-trucking-company/
+To https://github.com/azieve/affiliate-sites.git
+   3052475..31bffa8  main -> main
+[2026-04-13 08:39:03] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-13 08:39:04] Submitted to Google Indexing API: /blog/llc-for-trucking-company/
+[2026-04-13 08:39:09] Next keyword index: 27
+[2026-04-13 08:39:09] Generating article for: LLC for consultants and coaches (Category: Profession, Intent: Commercial)
+[2026-04-13 08:39:09] Calling Claude CLI to generate article...
+[2026-04-13 08:40:47] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-consultants-and-coaches.mdx
+[2026-04-13 08:40:47] Generating hero image for: llc-for-consultants-and-coaches
+Generating image for: llc-for-consultants-and-coaches
+Prompt: A professional illustration representing: LLC for consultants and coaches...
+Received 973KB from Gemini API
+  hero-1200.webp: 13KB
+  hero-800.webp: 8KB
+  hero-400.webp: 4KB
+  og.jpg: 32KB
+[2026-04-13 08:40:55] Hero image generated: /blog/llc-for-consultants-and-coaches/hero
+[2026-04-13 08:40:55] Injected featuredImage into frontmatter
+[2026-04-13 08:40:55] Progress updated. Next index: 28
+[2026-04-13 08:40:55] Article published at: /blog/llc-for-consultants-and-coaches/
+To https://github.com/azieve/affiliate-sites.git
+   31bffa8..9c6db8a  main -> main
+[2026-04-13 08:40:56] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-13 08:40:57] Submitted to Google Indexing API: /blog/llc-for-consultants-and-coaches/
+[2026-04-13 09:07:14] Next keyword index: 28
+[2026-04-13 09:07:14] Generating article for: LLC for real estate agents (Category: Profession, Intent: Commercial)
+[2026-04-13 09:07:14] Calling Claude CLI to generate article...
+[2026-04-13 10:04:36] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-real-estate-agents.mdx
+[2026-04-13 10:04:36] Generating hero image for: llc-for-real-estate-agents
+Generating image for: llc-for-real-estate-agents
+Prompt: A professional illustration representing: LLC for real estate agents...
+Received 951KB from Gemini API
+  hero-1200.webp: 16KB
+  hero-800.webp: 11KB
+  hero-400.webp: 5KB
+  og.jpg: 40KB
+[2026-04-13 10:04:43] Hero image generated: /blog/llc-for-real-estate-agents/hero
+[2026-04-13 10:04:43] Injected featuredImage into frontmatter
+[2026-04-13 10:04:43] Progress updated. Next index: 29
+[2026-04-13 10:04:43] Article published at: /blog/llc-for-real-estate-agents/
+remote: Permission to azieve/affiliate-sites.git denied to alon-apeiros.
+fatal: unable to access 'https://github.com/azieve/affiliate-sites.git/': The requested URL returned error: 403
+[2026-04-13 10:04:44] ERROR: git push failed. Article committed locally but not deployed.
+[2026-04-13 15:00:05] Next keyword index: 29
+[2026-04-13 15:00:05] Generating article for: can an LLC have employees (Category: Educational, Intent: Informational)
+[2026-04-13 15:00:06] Calling Claude CLI to generate article...
+[2026-04-13 15:03:14] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/can-an-llc-have-employees.mdx
+[2026-04-13 15:03:14] Generating hero image for: can-an-llc-have-employees
+Generating image for: can-an-llc-have-employees
+Prompt: A professional illustration representing: can an LLC have employees...
+Received 964KB from Gemini API
+  hero-1200.webp: 17KB
+  hero-800.webp: 11KB
+  hero-400.webp: 6KB
+  og.jpg: 40KB
+[2026-04-13 15:03:26] Hero image generated: /blog/can-an-llc-have-employees/hero
+[2026-04-13 15:03:26] Injected featuredImage into frontmatter
+[2026-04-13 15:03:26] Progress updated. Next index: 30
+[2026-04-13 15:03:26] Article published at: /blog/can-an-llc-have-employees/
+To https://github.com/azieve/affiliate-sites.git
+   9c6db8a..0cbce18  main -> main
+[2026-04-13 15:03:40] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-13 15:03:58] Submitted to Google Indexing API: /blog/can-an-llc-have-employees/
+[2026-04-14 09:00:02] Next keyword index: 30
+[2026-04-14 09:00:02] Generating article for: can an LLC own property (Category: Educational, Intent: Informational)
+[2026-04-14 09:00:02] Calling Claude CLI to generate article...
+[2026-04-14 09:03:32] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/can-an-llc-own-property.mdx
+[2026-04-14 09:03:32] Generating hero image for: can-an-llc-own-property
+Generating image for: can-an-llc-own-property
+Prompt: A professional illustration representing: can an LLC own property...
+Received 979KB from Gemini API
+  hero-1200.webp: 14KB
+  hero-800.webp: 8KB
+  hero-400.webp: 4KB
+  og.jpg: 35KB
+[2026-04-14 09:03:39] Hero image generated: /blog/can-an-llc-own-property/hero
+[2026-04-14 09:03:39] Injected featuredImage into frontmatter
+[2026-04-14 09:03:39] Progress updated. Next index: 31
+[2026-04-14 09:03:39] Article published at: /blog/can-an-llc-own-property/
+To https://github.com/azieve/affiliate-sites.git
+   0cbce18..f46c2c4  main -> main
+[2026-04-14 09:03:41] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-14 09:03:42] Submitted to Google Indexing API: /blog/can-an-llc-own-property/
+[2026-04-14 15:00:02] Next keyword index: 31
+[2026-04-14 15:00:02] Generating article for: Texas LLC franchise tax (no annual report) (Category: State Compliance, Intent: Informational)
+[2026-04-14 15:00:02] Calling Claude CLI to generate article...
+[2026-04-14 15:01:50] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/texas-llc-franchise-tax-no-annual-report.mdx
+[2026-04-14 15:01:50] Generating hero image for: texas-llc-franchise-tax-no-annual-report
+Generating image for: texas-llc-franchise-tax-no-annual-report
+Prompt: A professional illustration representing: Texas LLC franchise tax (no annual report)...
+Received 942KB from Gemini API
+  hero-1200.webp: 14KB
+  hero-800.webp: 9KB
+  hero-400.webp: 4KB
+  og.jpg: 34KB
+[2026-04-14 15:01:57] Hero image generated: /blog/texas-llc-franchise-tax-no-annual-report/hero
+[2026-04-14 15:01:57] Injected featuredImage into frontmatter
+[2026-04-14 15:01:57] Progress updated. Next index: 32
+[2026-04-14 15:01:57] Article published at: /blog/texas-llc-franchise-tax-no-annual-report/
+To https://github.com/azieve/affiliate-sites.git
+   f46c2c4..282adb5  main -> main
+[2026-04-14 15:01:59] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-14 15:02:00] Submitted to Google Indexing API: /blog/texas-llc-franchise-tax-no-annual-report/
+[2026-04-15 09:05:39] Next keyword index: 32
+[2026-04-15 09:05:39] Generating article for: LLC for dropshipping business (Category: Profession, Intent: Commercial)
+[2026-04-15 09:05:39] Calling Claude CLI to generate article...
+[2026-04-15 09:54:49] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-dropshipping-business.mdx
+[2026-04-15 09:54:49] Generating hero image for: llc-for-dropshipping-business
+Generating image for: llc-for-dropshipping-business
+Prompt: A professional illustration representing: LLC for dropshipping business...
+Received 1021KB from Gemini API
+  hero-1200.webp: 16KB
+  hero-800.webp: 10KB
+  hero-400.webp: 4KB
+  og.jpg: 36KB
+[2026-04-15 09:54:56] Hero image generated: /blog/llc-for-dropshipping-business/hero
+[2026-04-15 09:54:56] Injected featuredImage into frontmatter
+[2026-04-15 09:54:56] Progress updated. Next index: 33
+[2026-04-15 09:54:56] Article published at: /blog/llc-for-dropshipping-business/
+To https://github.com/azieve/affiliate-sites.git
+   282adb5..a3ff7d9  main -> main
+[2026-04-15 09:54:58] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-15 09:54:59] Submitted to Google Indexing API: /blog/llc-for-dropshipping-business/
+[2026-04-15 15:00:10] Next keyword index: 33
+[2026-04-15 15:00:10] Generating article for: LLC for Airbnb and short term rental (Category: Profession, Intent: Commercial)
+[2026-04-15 15:00:11] Calling Claude CLI to generate article...
+[2026-04-15 15:02:27] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-airbnb-and-short-term-rental.mdx
+[2026-04-15 15:02:27] Generating hero image for: llc-for-airbnb-and-short-term-rental
+Generating image for: llc-for-airbnb-and-short-term-rental
+Prompt: A professional illustration representing: LLC for Airbnb and short term rental...
+Received 1017KB from Gemini API
+  hero-1200.webp: 20KB
+  hero-800.webp: 13KB
+  hero-400.webp: 6KB
+  og.jpg: 47KB
+[2026-04-15 15:02:34] Hero image generated: /blog/llc-for-airbnb-and-short-term-rental/hero
+[2026-04-15 15:02:34] Injected featuredImage into frontmatter
+[2026-04-15 15:02:35] Progress updated. Next index: 34
+[2026-04-15 15:02:35] Article published at: /blog/llc-for-airbnb-and-short-term-rental/
+To https://github.com/azieve/affiliate-sites.git
+   a3ff7d9..b87c62f  main -> main
+[2026-04-15 15:02:37] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-15 15:02:38] Submitted to Google Indexing API: /blog/llc-for-airbnb-and-short-term-rental/
+[2026-04-16 09:12:59] Next keyword index: 34
+[2026-04-16 09:13:00] Generating article for: how to transfer LLC ownership (Category: Educational, Intent: Informational)
+[2026-04-16 09:13:00] Calling Claude CLI to generate article...
+[2026-04-16 09:17:30] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-transfer-llc-ownership.mdx
+[2026-04-16 09:17:30] Generating hero image for: how-to-transfer-llc-ownership
+Generating image for: how-to-transfer-llc-ownership
+Prompt: A professional illustration representing: how to transfer LLC ownership...
+Received 781KB from Gemini API
+  hero-1200.webp: 15KB
+  hero-800.webp: 9KB
+  hero-400.webp: 4KB
+  og.jpg: 32KB
+[2026-04-16 09:17:37] Hero image generated: /blog/how-to-transfer-llc-ownership/hero
+[2026-04-16 09:17:37] Injected featuredImage into frontmatter
+[2026-04-16 09:17:37] Progress updated. Next index: 35
+[2026-04-16 09:17:37] Article published at: /blog/how-to-transfer-llc-ownership/
+To https://github.com/azieve/affiliate-sites.git
+   6fe3c52..853b9e2  main -> main
+[2026-04-16 09:17:39] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-16 09:17:40] Submitted to Google Indexing API: /blog/how-to-transfer-llc-ownership/
+[2026-04-16 15:00:02] Next keyword index: 35
+[2026-04-16 15:00:03] Generating article for: Ohio LLC cost and fees breakdown (Category: State Cost, Intent: Commercial)
+[2026-04-16 15:00:03] Calling Claude CLI to generate article...
+[2026-04-16 15:01:57] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/ohio-llc-cost-and-fees-breakdown.mdx
+[2026-04-16 15:01:57] Generating hero image for: ohio-llc-cost-and-fees-breakdown
+Generating image for: ohio-llc-cost-and-fees-breakdown
+Prompt: A professional illustration representing: Ohio LLC cost and fees breakdown...
+Received 813KB from Gemini API
+  hero-1200.webp: 12KB
+  hero-800.webp: 7KB
+  hero-400.webp: 3KB
+  og.jpg: 28KB
+[2026-04-16 15:02:04] Hero image generated: /blog/ohio-llc-cost-and-fees-breakdown/hero
+[2026-04-16 15:02:04] Injected featuredImage into frontmatter
+[2026-04-16 15:02:04] Progress updated. Next index: 36
+[2026-04-16 15:02:04] Article published at: /blog/ohio-llc-cost-and-fees-breakdown/
+To https://github.com/azieve/affiliate-sites.git
+   853b9e2..ec5bf1a  main -> main
+[2026-04-16 15:02:06] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-16 15:02:07] Submitted to Google Indexing API: /blog/ohio-llc-cost-and-fees-breakdown/
+[2026-04-17 09:28:04] Next keyword index: 36
+[2026-04-17 09:28:04] Generating article for: North Carolina LLC cost and fees breakdown (Category: State Cost, Intent: Commercial)
+[2026-04-17 09:28:05] Calling Claude CLI to generate article...
+[2026-04-17 11:14:23] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/north-carolina-llc-cost-and-fees-breakdown.mdx
+[2026-04-17 11:14:24] Generating hero image for: north-carolina-llc-cost-and-fees-breakdown
+Generating image for: north-carolina-llc-cost-and-fees-breakdown
+Prompt: A professional illustration representing: North Carolina LLC cost and fees breakdown...
+Received 1018KB from Gemini API
+  hero-1200.webp: 21KB
+  hero-800.webp: 13KB
+  hero-400.webp: 5KB
+  og.jpg: 43KB
+[2026-04-17 11:14:31] Hero image generated: /blog/north-carolina-llc-cost-and-fees-breakdown/hero
+[2026-04-17 11:14:31] Injected featuredImage into frontmatter
+[2026-04-17 11:14:31] Progress updated. Next index: 37
+[2026-04-17 11:14:31] Article published at: /blog/north-carolina-llc-cost-and-fees-breakdown/
+To https://github.com/azieve/affiliate-sites.git
+   ec5bf1a..dd4d985  main -> main
+[2026-04-17 11:14:34] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-17 11:14:35] Submitted to Google Indexing API: /blog/north-carolina-llc-cost-and-fees-breakdown/
+[2026-04-17 15:14:07] Next keyword index: 37
+[2026-04-17 15:14:07] Generating article for: Incfile vs LegalZoom (Bizee comparison) (Category: Comparison, Intent: Commercial)
+[2026-04-17 15:14:08] Calling Claude CLI to generate article...
+[2026-04-17 15:31:30] ERROR: Claude CLI failed for keyword: Incfile vs LegalZoom (Bizee comparison)
+[2026-04-18 09:00:15] Next keyword index: 37
+[2026-04-18 09:00:20] Generating article for: Incfile vs LegalZoom (Bizee comparison) (Category: Comparison, Intent: Commercial)
+[2026-04-18 09:00:22] Calling Claude CLI to generate article...
+[2026-04-18 10:17:35] ERROR: Claude CLI failed for keyword: Incfile vs LegalZoom (Bizee comparison)
+[2026-04-18 15:05:44] Next keyword index: 37
+[2026-04-18 15:05:44] Generating article for: Incfile vs LegalZoom (Bizee comparison) (Category: Comparison, Intent: Commercial)
+[2026-04-18 15:05:46] Calling Claude CLI to generate article...
+[2026-04-18 15:23:35] ERROR: Claude CLI failed for keyword: Incfile vs LegalZoom (Bizee comparison)
+[2026-04-19 09:00:02] Next keyword index: 37
+[2026-04-19 09:00:02] Generating article for: Incfile vs LegalZoom (Bizee comparison) (Category: Comparison, Intent: Commercial)
+[2026-04-19 09:00:03] Calling Claude CLI to generate article...
+[2026-04-19 09:01:38] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/incfile-vs-legalzoom-bizee-comparison.mdx
+[2026-04-19 09:01:38] Generating hero image for: incfile-vs-legalzoom-bizee-comparison
+Generating image for: incfile-vs-legalzoom-bizee-comparison
+Prompt: A professional illustration representing: Incfile vs LegalZoom (Bizee comparison)...
+Received 963KB from Gemini API
+  hero-1200.webp: 15KB
+  hero-800.webp: 10KB
+  hero-400.webp: 5KB
+  og.jpg: 38KB
+[2026-04-19 09:01:45] Hero image generated: /blog/incfile-vs-legalzoom-bizee-comparison/hero
+[2026-04-19 09:01:46] Injected featuredImage into frontmatter
+[2026-04-19 09:01:46] Progress updated. Next index: 38
+[2026-04-19 09:01:46] Article published at: /blog/incfile-vs-legalzoom-bizee-comparison/
+To https://github.com/azieve/affiliate-sites.git
+   dd5ac61..92c32b9  main -> main
+[2026-04-19 09:01:47] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-19 09:01:49] Submitted to Google Indexing API: /blog/incfile-vs-legalzoom-bizee-comparison/
+[2026-04-19 09:42:51] Next keyword index: 38
+[2026-04-19 09:42:51] Generating article for: cheapest registered agent service (Category: Comparison, Intent: Commercial)
+[2026-04-19 09:42:51] Calling Claude CLI to generate article...
+[2026-04-19 09:44:38] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/cheapest-registered-agent-service.mdx
+[2026-04-19 09:44:38] Generating hero image for: cheapest-registered-agent-service
+Generating image for: cheapest-registered-agent-service
+Prompt: A professional illustration representing: cheapest registered agent service...
+Received 975KB from Gemini API
+  hero-1200.webp: 17KB
+  hero-800.webp: 10KB
+  hero-400.webp: 5KB
+  og.jpg: 40KB
+[2026-04-19 09:44:45] Hero image generated: /blog/cheapest-registered-agent-service/hero
+[2026-04-19 09:44:45] Injected featuredImage into frontmatter
+[2026-04-19 09:44:45] Progress updated. Next index: 39
+[2026-04-19 09:44:45] Article published at: /blog/cheapest-registered-agent-service/
+To https://github.com/azieve/affiliate-sites.git
+   92c32b9..c65fe90  main -> main
+[2026-04-19 09:44:46] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-19 09:44:47] Submitted to Google Indexing API: /blog/cheapest-registered-agent-service/
+[2026-04-19 09:44:53] Next keyword index: 39
+[2026-04-19 09:44:53] Generating article for: LLC quarterly tax payments guide (Category: Educational, Intent: Informational)
+[2026-04-19 09:44:54] Calling Claude CLI to generate article...
+[2026-04-19 09:46:47] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-quarterly-tax-payments-guide.mdx
+[2026-04-19 09:46:47] Generating hero image for: llc-quarterly-tax-payments-guide
+Generating image for: llc-quarterly-tax-payments-guide
+Prompt: A professional illustration representing: LLC quarterly tax payments guide...
+Received 888KB from Gemini API
+  hero-1200.webp: 11KB
+  hero-800.webp: 7KB
+  hero-400.webp: 3KB
+  og.jpg: 31KB
+[2026-04-19 09:46:53] Hero image generated: /blog/llc-quarterly-tax-payments-guide/hero
+[2026-04-19 09:46:53] Injected featuredImage into frontmatter
+[2026-04-19 09:46:53] Progress updated. Next index: 40
+[2026-04-19 09:46:53] Article published at: /blog/llc-quarterly-tax-payments-guide/
+To https://github.com/azieve/affiliate-sites.git
+   c65fe90..a69e967  main -> main
+[2026-04-19 09:46:55] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-19 09:46:56] Submitted to Google Indexing API: /blog/llc-quarterly-tax-payments-guide/
+[2026-04-19 09:47:01] Next keyword index: 40
+[2026-04-19 09:47:01] Generating article for: LLC for content creators and influencers (Category: Profession, Intent: Commercial)
+[2026-04-19 09:47:02] Calling Claude CLI to generate article...
+[2026-04-19 09:49:58] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-content-creators-and-influencers.mdx
+[2026-04-19 09:49:58] Generating hero image for: llc-for-content-creators-and-influencers
+Generating image for: llc-for-content-creators-and-influencers
+Prompt: A professional illustration representing: LLC for content creators and influencers...
+Received 1028KB from Gemini API
+  hero-1200.webp: 16KB
+  hero-800.webp: 10KB
+  hero-400.webp: 5KB
+  og.jpg: 40KB
+[2026-04-19 09:50:07] Hero image generated: /blog/llc-for-content-creators-and-influencers/hero
+[2026-04-19 09:50:07] Injected featuredImage into frontmatter
+[2026-04-19 09:50:07] Progress updated. Next index: 41
+[2026-04-19 09:50:07] Article published at: /blog/llc-for-content-creators-and-influencers/
+To https://github.com/azieve/affiliate-sites.git
+   a69e967..d0417d0  main -> main
+[2026-04-19 09:50:08] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Sitemap submission failed: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftopbestllcservice.com/sitemaps/https%3A%2F%2Ftopbestllcservice.com%2Fsitemap-index.xml? returned "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.". Details: "[{'message': "User does not have sufficient permission for site 'https://topbestllcservice.com'. See also: https://support.google.com/webmasters/answer/2451999.", 'domain': 'global', 'reason': 'forbidden'}]">
+Ensure the service account has Owner access in Search Console
+and the webmasters scope is authorized.
+[2026-04-19 09:50:09] Submitted to Google Indexing API: /blog/llc-for-content-creators-and-influencers/
+[2026-04-19 10:33:06] Starting article generation for keyword index 41: LLC for food truck business
+[2026-04-19 10:38:50] Article written and validated for index 41: LLC for food truck business -> llc-for-food-truck-business
+[2026-04-19 10:39:15] DONE: keyword=LLC for food truck business | slug=llc-for-food-truck-business | url=https://topbestllcservice.com/blog/llc-for-food-truck-business/ | next_index=42
+[2026-04-20 18:48:10] Starting article generation pipeline
+[2026-04-20 18:49:38] Starting article generation for keyword index 42: who is exempt from BOI reporting
+[2026-04-20 18:53:44] Submitted to Google Indexing API: /blog/who-is-exempt-from-boi-reporting/
+[2026-04-20 18:53:44] DONE: keyword=who is exempt from BOI reporting | slug=who-is-exempt-from-boi-reporting | url=https://topbestllcservice.com/blog/who-is-exempt-from-boi-reporting/ | next_index=43
+[2026-04-20 19:01:22] [index=43] Generated article: 'LLC for day trading and stock investing' -> slug: llc-for-day-trading-and-stock-investing

@@ -1,5 +1,5 @@
 {
-  "next_index": 43,
+  "next_index": 44,
   "completed": [
     {
       "index": 1,
@@ -292,6 +292,13 @@
       "index": 42,
       "keyword": "who is exempt from BOI reporting",
       "slug": "who-is-exempt-from-boi-reporting",
+      "date": "2026-04-20",
+      "skipped": false
+    },
+    {
+      "index": 43,
+      "keyword": "LLC for day trading and stock investing",
+      "slug": "llc-for-day-trading-and-stock-investing",
       "date": "2026-04-20",
       "skipped": false
     }
