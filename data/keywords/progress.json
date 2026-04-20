@@ -1,5 +1,5 @@
 {
-  "next_index": 42,
+  "next_index": 43,
   "completed": [
     {
       "index": 1,
@@ -286,6 +286,13 @@
       "keyword": "LLC for food truck business",
       "slug": "llc-for-food-truck-business",
       "date": "2026-04-19",
+      "skipped": false
+    },
+    {
+      "index": 42,
+      "keyword": "who is exempt from BOI reporting",
+      "slug": "who-is-exempt-from-boi-reporting",
+      "date": "2026-04-20",
       "skipped": false
     }
   ]
