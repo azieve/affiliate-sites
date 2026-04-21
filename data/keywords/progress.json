@@ -1,5 +1,5 @@
 {
-  "next_index": 44,
+  "next_index": 46,
   "completed": [
     {
       "index": 1,
@@ -300,6 +300,20 @@
       "keyword": "LLC for day trading and stock investing",
       "slug": "llc-for-day-trading-and-stock-investing",
       "date": "2026-04-20",
+      "skipped": false
+    },
+    {
+      "index": 44,
+      "keyword": "LLC for day trading and stock investing",
+      "slug": "llc-for-day-trading-and-stock-investing",
+      "date": "2026-04-21",
+      "skipped": true
+    },
+    {
+      "index": 45,
+      "keyword": "LLC member vs manager managed",
+      "slug": "llc-member-vs-manager-managed",
+      "date": "2026-04-21",
       "skipped": false
     }
   ]
