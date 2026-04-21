@@ -1,5 +1,5 @@
 {
-  "next_index": 46,
+  "next_index": 47,
   "completed": [
     {
       "index": 1,
@@ -313,6 +313,13 @@
       "index": 45,
       "keyword": "LLC member vs manager managed",
       "slug": "llc-member-vs-manager-managed",
+      "date": "2026-04-21",
+      "skipped": false
+    },
+    {
+      "index": 46,
+      "keyword": "can a foreigner own an LLC in the US",
+      "slug": "can-a-foreigner-own-an-llc-in-the-us",
       "date": "2026-04-21",
       "skipped": false
     }
