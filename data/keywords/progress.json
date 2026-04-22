@@ -1,5 +1,5 @@
 {
-  "next_index": 47,
+  "next_index": 48,
   "completed": [
     {
       "index": 1,
@@ -321,6 +321,13 @@
       "keyword": "can a foreigner own an LLC in the US",
       "slug": "can-a-foreigner-own-an-llc-in-the-us",
       "date": "2026-04-21",
+      "skipped": false
+    },
+    {
+      "index": 47,
+      "keyword": "can an LLC own another LLC",
+      "slug": "can-an-llc-own-another-llc",
+      "date": "2026-04-22",
       "skipped": false
     }
   ]
