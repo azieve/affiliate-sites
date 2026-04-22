@@ -1,5 +1,5 @@
 {
-  "next_index": 48,
+  "next_index": 50,
   "completed": [
     {
       "index": 1,
@@ -327,6 +327,20 @@
       "index": 47,
       "keyword": "can an LLC own another LLC",
       "slug": "can-an-llc-own-another-llc",
+      "date": "2026-04-22",
+      "skipped": false
+    },
+    {
+      "index": 48,
+      "keyword": "can an LLC own another LLC",
+      "slug": "can-an-llc-own-another-llc",
+      "date": "2026-04-22",
+      "skipped": true
+    },
+    {
+      "index": 49,
+      "keyword": "what happens if you don't renew your LLC",
+      "slug": "what-happens-if-you-don-t-renew-your-llc",
       "date": "2026-04-22",
       "skipped": false
     }
