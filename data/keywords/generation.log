@@ -752,3 +752,22 @@ and the webmasters scope is authorized.
 [2026-04-20 18:53:44] Submitted to Google Indexing API: /blog/who-is-exempt-from-boi-reporting/
 [2026-04-20 18:53:44] DONE: keyword=who is exempt from BOI reporting | slug=who-is-exempt-from-boi-reporting | url=https://topbestllcservice.com/blog/who-is-exempt-from-boi-reporting/ | next_index=43
 [2026-04-20 19:01:22] [index=43] Generated article: 'LLC for day trading and stock investing' -> slug: llc-for-day-trading-and-stock-investing
+[2026-04-20 19:02:46] DONE: keyword='LLC for day trading and stock investing' slug='llc-for-day-trading-and-stock-investing' url='https://topbestllcservice.com/blog/llc-for-day-trading-and-stock-investing/' next_index=44
+[2026-04-21 09:05:59] Step 1: NEXT_INDEX=44, reading CSV row 45: LLC for day trading and stock investing
+[2026-04-21 09:07:36] Article already exists for keyword 'LLC for day trading and stock investing' (slug: llc-for-day-trading-and-stock-investing). Skipping generation, advancing index to 45.
+[2026-04-21 09:10:37] Step 4: Wrote article to src/content/blog/llc-member-vs-manager-managed.mdx
+[2026-04-21 09:11:33] Step 7: Updated progress.json, next_index=46
+[2026-04-21 09:12:08] DONE: keyword='LLC member vs manager managed', slug='llc-member-vs-manager-managed', url='https://topbestllcservice.com/blog/llc-member-vs-manager-managed/', next_index=46
+[2026-04-21 18:30:43] Starting generation for keyword index 46: 'can a foreigner own an LLC in the US' | slug: can-a-foreigner-own-an-llc-in-the-us
+[2026-04-21 18:33:48] SUCCESS: Published 'can a foreigner own an LLC in the US' -> /blog/can-a-foreigner-own-an-llc-in-the-us/ | next_index=47
+[2026-04-22 19:31:15] Starting article generation for keyword index 47: can an LLC own another LLC
+[2026-04-22 19:31:52] Starting article generation pipeline. next_index=47
+[2026-04-22 19:32:07] Keyword index 47 (can a foreigner own an LLC in the US) already exists — skipping. Advancing to index 48.
+[2026-04-22 19:32:07] Generating article for: can an LLC own another LLC (Category: Educational, Intent: Informational)
+[2026-04-22 19:34:07] SUCCESS: Published 'can an LLC own another LLC' → /blog/can-an-llc-own-another-llc/ | next_index=48
+[2026-04-22 19:35:38] next_index=48; keyword 'can an LLC own another LLC' already exists — skipping. Advancing to index 49.
+[2026-04-22 19:35:38] Generating article for: what happens if you don't renew your LLC (Category: Educational, Intent: Informational)
+[2026-04-22 19:38:05] progress.json updated: next_index=50, article written for 'what happens if you don't renew your LLC'
+[2026-04-22 19:38:23] DONE: Article published at https://topbestllcservice.com/blog/what-happens-if-you-don-t-renew-your-llc/ | next_index=50 | Google Indexing submitted
+[2026-04-23 09:19:42] Starting article generation for keyword index 50: Wyoming LLC cost and fees breakdown
+[2026-04-23 09:23:54] progress.json updated: next_index=51, article written for 'Wyoming LLC cost and fees breakdown'

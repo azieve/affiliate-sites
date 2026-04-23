@@ -1,5 +1,5 @@
 {
-  "next_index": 50,
+  "next_index": 51,
   "completed": [
     {
       "index": 1,
@@ -342,6 +342,13 @@
       "keyword": "what happens if you don't renew your LLC",
       "slug": "what-happens-if-you-don-t-renew-your-llc",
       "date": "2026-04-22",
+      "skipped": false
+    },
+    {
+      "index": 50,
+      "keyword": "Wyoming LLC cost and fees breakdown",
+      "slug": "wyoming-llc-cost-and-fees-breakdown",
+      "date": "2026-04-23",
       "skipped": false
     }
   ]
