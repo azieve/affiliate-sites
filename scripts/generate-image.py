@@ -28,7 +28,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # --- Config ---
-GEMINI_MODEL = "gemini-2.5-flash-image"
+GEMINI_MODEL = "imagen-4.0-ultra-generate-001"
 ASPECT_RATIO = "16:9"
 DESKTOP_WIDTH = 1200
 TABLET_WIDTH = 800
@@ -57,25 +57,23 @@ def load_api_key():
 
 
 def generate_image(api_key, prompt):
-    """Call Gemini API to generate an image. Returns raw PNG bytes."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={api_key}"
+    """Call Imagen API to generate an image. Returns raw PNG bytes."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:predict?key={api_key}"
 
     # Wrap the user prompt with style guidance for consistent, SEO-friendly images
     styled_prompt = (
         f"{prompt}\n\n"
-        "Style: Clean, modern, professional illustration. "
-        "Use a muted corporate color palette (navy, teal, warm grays). "
-        "IMPORTANT: Absolutely no text, no words, no letters, no numbers, "
-        "no labels, no captions, no watermarks anywhere in the image. "
-        "No people's faces. Abstract or symbolic representation only. "
+        "Style: Clean, modern, professional photograph, photorealistic. "
+        "IMPORTANT: No watermarks anywhere in the image. "
+        "Use images of business professionals or faces wherever appropriate. "
         "Suitable as a blog hero image for a business/legal website."
     )
 
     payload = {
-        "contents": [{"parts": [{"text": styled_prompt}]}],
-        "generationConfig": {
-            "responseModalities": ["IMAGE", "TEXT"],
-            "imageConfig": {"aspectRatio": ASPECT_RATIO},
+        "instances": [{"prompt": styled_prompt}],
+        "parameters": {
+            "sampleCount": 1,
+            "aspectRatio": ASPECT_RATIO,
         },
     }
 
@@ -90,17 +88,16 @@ def generate_image(api_key, prompt):
             data = json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
-        print(f"ERROR: Gemini API returned {e.code}: {body}", file=sys.stderr)
+        print(f"ERROR: Imagen API returned {e.code}: {body}", file=sys.stderr)
         sys.exit(1)
 
     # Extract image from response
-    for candidate in data.get("candidates", []):
-        for part in candidate.get("content", {}).get("parts", []):
-            inline = part.get("inlineData") or part.get("inline_data")
-            if inline and inline.get("data"):
-                return base64.b64decode(inline["data"])
+    for prediction in data.get("predictions", []):
+        b64 = prediction.get("bytesBase64Encoded")
+        if b64:
+            return base64.b64decode(b64)
 
-    print("ERROR: No image data in Gemini response", file=sys.stderr)
+    print("ERROR: No image data in Imagen response", file=sys.stderr)
     print(json.dumps(data, indent=2)[:2000], file=sys.stderr)
     sys.exit(1)
 
