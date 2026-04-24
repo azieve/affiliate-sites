@@ -1,5 +1,5 @@
 {
-  "next_index": 52,
+  "next_index": 53,
   "completed": [
     {
       "index": 1,
@@ -356,6 +356,13 @@
       "keyword": "New York LLC biennial statement",
       "slug": "new-york-llc-biennial-statement",
       "date": "2026-04-23",
+      "skipped": false
+    },
+    {
+      "index": 52,
+      "keyword": "LLC for construction company",
+      "slug": "llc-for-construction-company",
+      "date": "2026-04-24",
       "skipped": false
     }
   ]
