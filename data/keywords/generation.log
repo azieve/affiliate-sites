@@ -771,3 +771,12 @@ and the webmasters scope is authorized.
 [2026-04-22 19:38:23] DONE: Article published at https://topbestllcservice.com/blog/what-happens-if-you-don-t-renew-your-llc/ | next_index=50 | Google Indexing submitted
 [2026-04-23 09:19:42] Starting article generation for keyword index 50: Wyoming LLC cost and fees breakdown
 [2026-04-23 09:23:54] progress.json updated: next_index=51, article written for 'Wyoming LLC cost and fees breakdown'
+[2026-04-23 09:24:13] DONE: Article published at https://topbestllcservice.com/blog/wyoming-llc-cost-and-fees-breakdown/ | next_index=51 | Google Indexing submitted
+[2026-04-23 15:02:45] Starting article generation for: New York LLC biennial statement (index 51)
+[2026-04-23 15:06:10] Article generated successfully: src/content/blog/new-york-llc-biennial-statement.mdx
+[2026-04-23 15:06:27] DONE: keyword='New York LLC biennial statement' slug='new-york-llc-biennial-statement' url='https://topbestllcservice.com/blog/new-york-llc-biennial-statement/' next_index=52
+[2026-04-24 10:10:35] Starting generation for keyword index 52: Georgia LLC annual registration
+[2026-04-24 16:13:40] Starting article generation for keyword: LLC for construction company (index 52)
+[2026-04-24 16:16:50] Article written and validated: llc-for-construction-company
+[2026-04-24 16:18:03] DONE — keyword: 'LLC for construction company' | slug: llc-for-construction-company | URL: https://topbestllcservice.com/blog/llc-for-construction-company/ | next_index: 53
+[2026-04-25 23:49:06] Generated article: LLC for affiliate marketing business -> llc-for-affiliate-marketing-business | next_index=55

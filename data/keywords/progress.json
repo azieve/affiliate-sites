@@ -1,5 +1,5 @@
 {
-  "next_index": 53,
+  "next_index": 55,
   "completed": [
     {
       "index": 1,
@@ -363,6 +363,20 @@
       "keyword": "LLC for construction company",
       "slug": "llc-for-construction-company",
       "date": "2026-04-24",
+      "skipped": false
+    },
+    {
+      "index": 53,
+      "keyword": "LLC for construction company",
+      "slug": "llc-for-construction-company",
+      "date": "2026-04-25",
+      "skipped": true
+    },
+    {
+      "index": 54,
+      "keyword": "LLC for affiliate marketing business",
+      "slug": "llc-for-affiliate-marketing-business",
+      "date": "2026-04-25",
       "skipped": false
     }
   ]
