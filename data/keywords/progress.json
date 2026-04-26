@@ -1,5 +1,5 @@
 {
-  "next_index": 55,
+  "next_index": 56,
   "completed": [
     {
       "index": 1,
@@ -377,6 +377,13 @@
       "keyword": "LLC for affiliate marketing business",
       "slug": "llc-for-affiliate-marketing-business",
       "date": "2026-04-25",
+      "skipped": false
+    },
+    {
+      "index": 55,
+      "keyword": "LLC for restaurant and food business",
+      "slug": "llc-for-restaurant-and-food-business",
+      "date": "2026-04-26",
       "skipped": false
     }
   ]
