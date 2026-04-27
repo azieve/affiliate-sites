@@ -9,19 +9,68 @@ export const getStaticPaths: GetStaticPaths = () => {
   }));
 };
 
-const { url, name } = Astro.props;
+const { url, name } = Astro.props as { url: string; name: string };
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta http-equiv="refresh" content={`0;url=${url}`} />
-    <title>Redirecting to {name}...</title>
+    <title>Redirecting to {name}…</title>
+    <script is:inline define:vars={{ urlTemplate: url }}>
+      // Mirror of getPageSid() in src/utils/sid.ts. Keep these in sync.
+      (function () {
+        var ALPHABET = '0123456789abcdefghjkmnpqrstvwxyz';
+        function cyrb53(str, seed) {
+          seed = seed || 0;
+          var h1 = 0xdeadbeef ^ seed;
+          var h2 = 0x41c6ce57 ^ seed;
+          for (var i = 0; i < str.length; i++) {
+            var ch = str.charCodeAt(i);
+            h1 = Math.imul(h1 ^ ch, 2654435761);
+            h2 = Math.imul(h2 ^ ch, 1597334677);
+          }
+          h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^
+               Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+          h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^
+               Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+          return 4294967296 * (2097151 & h2) + (h1 >>> 0);
+        }
+        function normalize(p) {
+          if (!p) return '/';
+          var s = p.toLowerCase();
+          if (s.length > 1 && s.charAt(s.length - 1) === '/') s = s.slice(0, -1);
+          if (s.charAt(0) !== '/') s = '/' + s;
+          return s;
+        }
+        function getPageSid(pathname) {
+          var n = cyrb53(normalize(pathname));
+          var out = '';
+          for (var i = 0; i < 8; i++) {
+            out = ALPHABET.charAt(n % 32) + out;
+            n = Math.floor(n / 32);
+          }
+          return out;
+        }
+        var sid = 'tbllc';
+        try {
+          var ref = document.referrer;
+          if (ref) {
+            var u = new URL(ref);
+            if (u.origin === location.origin) {
+              sid = getPageSid(u.pathname);
+            }
+          }
+        } catch (_) {}
+        var finalUrl = urlTemplate.replace(/XXXXX/gi, sid);
+        location.replace(finalUrl);
+      })();
+    </script>
+    <meta http-equiv="refresh" content={`1;url=${url}`} />
   </head>
   <body>
     <p>
-      Redirecting to <a href={url} rel="nofollow sponsored">{name}</a>...
+      Redirecting to <a href={url} rel="nofollow sponsored">{name}</a>…
     </p>
   </body>
 </html>

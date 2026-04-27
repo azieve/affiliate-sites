@@ -9,7 +9,7 @@ const title = 'Best LLC Formation Services (2026) — Expert Reviews & Compariso
 const description =
   'Compare the top LLC formation services with expert reviews, state-by-state guides, and honest comparisons. Find the right service for your business today.';
 
-const topServices = ['northwest', 'zenbusiness', 'legalzoom'];
+const topServices = ['zenbusiness', 'legalzoom', 'tailorbrands'];
 
 const stateGuides = [
   { name: 'Texas', href: '/start-llc/texas/' },
@@ -21,13 +21,6 @@ const stateGuides = [
 ];
 
 const latestReviews = [
-  {
-    name: services.northwest.name,
-    slug: services.northwest.reviewSlug,
-    rating: services.northwest.rating,
-    bestFor: services.northwest.bestFor,
-    price: services.northwest.formationPrice,
-  },
   {
     name: services.zenbusiness.name,
     slug: services.zenbusiness.reviewSlug,
@@ -43,11 +36,18 @@ const latestReviews = [
     price: services.legalzoom.formationPrice,
   },
   {
-    name: services.bizee.name,
-    slug: services.bizee.reviewSlug,
-    rating: services.bizee.rating,
-    bestFor: services.bizee.bestFor,
-    price: services.bizee.formationPrice,
+    name: services.tailorbrands.name,
+    slug: services.tailorbrands.reviewSlug,
+    rating: services.tailorbrands.rating,
+    bestFor: services.tailorbrands.bestFor,
+    price: services.tailorbrands.formationPrice,
+  },
+  {
+    name: services.incauthority.name,
+    slug: services.incauthority.reviewSlug,
+    rating: services.incauthority.rating,
+    bestFor: services.incauthority.bestFor,
+    price: services.incauthority.formationPrice,
   },
 ];
 
@@ -152,7 +152,7 @@ const schema = JSON.stringify({
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
             </svg>
-            <span>5 Services Reviewed</span>
+            <span>7 Services Reviewed</span>
           </div>
           <div class="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -191,7 +191,7 @@ const schema = JSON.stringify({
 
       <div class="mt-10 text-center">
         <Button href="/best-llc-services/" variant="secondary" size="lg">
-          See All 5 Services Compared
+          See All 7 Services Compared
         </Button>
       </div>
     </div>

@@ -87,13 +87,22 @@ Together they write a comprehensive, authoritative article that:
 - Includes all planned internal links with natural anchor text
 - Has a clear introduction, body with H2 sections, and conclusion
 - MUST include a comprehensive FAQ section with 5-8 questions in "People Also Ask" format (e.g., "How much does it cost to...?", "Do I need a...?", "What happens if...?"). These should target common search queries related to the topic.
-- Ensures that all mentions of relevant LLC formation providers use the relevant affiliate links from this list:
-  - Northwest Registered Agent: [Northwest Registered Agent](/go/northwest/)
+- Ensures that all mentions of relevant LLC formation providers use the relevant affiliate links from this list (listed in priority order):
   - ZenBusiness: [ZenBusiness](/go/zenbusiness/)
   - LegalZoom: [LegalZoom](/go/legalzoom/)
+  - Tailor Brands: [Tailor Brands](/go/tailor-brands/)
+  - Inc Authority: [Inc Authority](/go/inc-authority/)
+  - Northwest Registered Agent: [Northwest Registered Agent](/go/northwest/)
   - Bizee: [Bizee](/go/bizee/)
   - LLC Attorney: [LLC Attorney](/go/llc-attorney/)
-- IMPORTANT: At least one affiliate link MUST appear within the first 2-3 paragraphs of the article (above the fold). Weave it naturally into the intro text — e.g., mentioning a service name with pricing when discussing formation costs or process.
+- SERVICE PRIORITIZATION (very important — this drives revenue):
+  - Prefer **ZenBusiness** as the primary recommendation in narrative text, "best for X" callouts, and worked examples.
+  - Use **LegalZoom** as the secondary recommendation.
+  - Tailor Brands, Inc Authority, and Northwest may be mentioned in supporting roles or as alternatives.
+  - Bizee and LLC Attorney should only be mentioned when directly relevant (e.g., comparing free options or attorney-backed formation specifically).
+  - In any comparison table, list services in this exact order: ZenBusiness, LegalZoom, Tailor Brands, Inc Authority, Northwest, Bizee, LLC Attorney.
+  - Do NOT lead with Northwest as the top recommendation in new articles. Northwest is now positioned as #5 (Best for Privacy) — appropriate to mention when privacy is the topic, not as the default first pick.
+- IMPORTANT: At least one affiliate link MUST appear within the first 2-3 paragraphs of the article (above the fold). Weave it naturally into the intro text — e.g., mentioning a service name with pricing when discussing formation costs or process. Prefer ZenBusiness for the above-fold mention.
 
 ### Step 3: Dual Review
 **SEO Expert Review:**

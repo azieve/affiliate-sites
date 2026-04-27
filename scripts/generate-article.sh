@@ -105,9 +105,11 @@ fi
 # Also include the static pages for internal linking
 STATIC_PAGES="
 - /best-llc-services/ — Best LLC Formation Services (main comparison hub)
-- /reviews/northwest-registered-agent/ — Northwest Registered Agent Review
 - /reviews/zenbusiness/ — ZenBusiness Review
 - /reviews/legalzoom/ — LegalZoom Review
+- /reviews/tailor-brands/ — Tailor Brands Review
+- /reviews/inc-authority/ — Inc Authority Review
+- /reviews/northwest-registered-agent/ — Northwest Registered Agent Review
 - /reviews/bizee/ — Bizee Review
 - /reviews/llc-attorney/ — LLC Attorney Review
 - /compare/zenbusiness-vs-legalzoom/ — ZenBusiness vs LegalZoom
@@ -237,9 +239,16 @@ json.dump(p, open('$PROGRESS_FILE', 'w'), indent=2)
 log "Progress updated. Next index: $((NEXT_INDEX + 1))"
 log "Article published at: /blog/$SLUG/"
 
+# ── Refresh per-page SID registry ──────────────────────────────────
+python3 "$SCRIPT_DIR/generate-sid-registry.py" --from-source --quiet 2>>"$LOG_FILE" && {
+  log "SID registry refreshed."
+} || {
+  log "WARNING: SID registry refresh failed (non-fatal)."
+}
+
 # ── Commit and push to trigger Vercel deploy ───────────────────────
 cd "$PROJECT_DIR"
-git add "$OUTPUT_FILE" "$PROGRESS_FILE" "public/blog/$SLUG/" 2>/dev/null
+git add "$OUTPUT_FILE" "$PROGRESS_FILE" "public/blog/$SLUG/" "data/sid-registry.json" 2>/dev/null
 git commit --author="azieve <azieve@gmail.com>" -m "$(cat <<EOF
 Add blog article: $DISPLAY_KEYWORD
 
