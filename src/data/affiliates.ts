@@ -106,6 +106,9 @@ export const affiliatePrograms: Record<string, AffiliateProgram> = {
     id: 'bizee',
     name: 'Bizee',
     shortName: 'Bizee',
+    // TODO: replace with a real network-stamped tracking URL (with `XXXXX` where the SID
+    // should be substituted). Until then, every click sends `utm_source=PLACEHOLDER`,
+    // which is unattributable in any affiliate dashboard.
     url: 'https://www.bizee.com/?utm_source=PLACEHOLDER',
     slug: 'bizee',
     cta: 'Visit Bizee',
@@ -120,6 +123,9 @@ export const affiliatePrograms: Record<string, AffiliateProgram> = {
     id: 'llcattorney',
     name: 'LLC Attorney',
     shortName: 'LLC Attorney',
+    // TODO: replace with a real network-stamped tracking URL (with `XXXXX` where the SID
+    // should be substituted). Until then, every click sends `irclickid=PLACEHOLDER`,
+    // which is unattributable in any affiliate dashboard.
     url: 'https://llcattorney.com/?irclickid=PLACEHOLDER',
     slug: 'llc-attorney',
     cta: 'Visit LLC Attorney',

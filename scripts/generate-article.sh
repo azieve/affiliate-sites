@@ -240,15 +240,20 @@ log "Progress updated. Next index: $((NEXT_INDEX + 1))"
 log "Article published at: /blog/$SLUG/"
 
 # ── Refresh per-page SID registry ──────────────────────────────────
-python3 "$SCRIPT_DIR/generate-sid-registry.py" --from-source --quiet 2>>"$LOG_FILE" && {
+SID_REGISTRY_OK=0
+if python3 "$SCRIPT_DIR/generate-sid-registry.py" --from-source --quiet 2>>"$LOG_FILE"; then
   log "SID registry refreshed."
-} || {
-  log "WARNING: SID registry refresh failed (non-fatal)."
-}
+  SID_REGISTRY_OK=1
+else
+  log "WARNING: SID registry refresh failed (non-fatal). Skipping registry commit."
+fi
 
 # ── Commit and push to trigger Vercel deploy ───────────────────────
 cd "$PROJECT_DIR"
-git add "$OUTPUT_FILE" "$PROGRESS_FILE" "public/blog/$SLUG/" "data/sid-registry.json" 2>/dev/null
+git add "$OUTPUT_FILE" "$PROGRESS_FILE" "public/blog/$SLUG/" 2>/dev/null
+if [ "$SID_REGISTRY_OK" = "1" ]; then
+  git add "data/sid-registry.json" 2>/dev/null
+fi
 git commit --author="azieve <azieve@gmail.com>" -m "$(cat <<EOF
 Add blog article: $DISPLAY_KEYWORD
 

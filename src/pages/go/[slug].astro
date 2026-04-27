@@ -1,5 +1,5 @@
 ---
-import { affiliatePrograms } from '@/data/affiliates';
+import { affiliatePrograms, normalizeAffiliateUrl } from '@/data/affiliates';
 import type { GetStaticPaths } from 'astro';
 
 export const getStaticPaths: GetStaticPaths = () => {
@@ -10,6 +10,9 @@ export const getStaticPaths: GetStaticPaths = () => {
 };
 
 const { url, name } = Astro.props as { url: string; name: string };
+// No-JS clients (and the meta-refresh fallback) need a fully-formed URL,
+// not the raw template containing "XXXXX".
+const fallbackUrl = normalizeAffiliateUrl(url, 'tbllc');
 ---
 
 <html lang="en">
@@ -66,11 +69,11 @@ const { url, name } = Astro.props as { url: string; name: string };
         location.replace(finalUrl);
       })();
     </script>
-    <meta http-equiv="refresh" content={`1;url=${url}`} />
+    <meta http-equiv="refresh" content={`1;url=${fallbackUrl}`} />
   </head>
   <body>
     <p>
-      Redirecting to <a href={url} rel="nofollow sponsored">{name}</a>…
+      Redirecting to <a href={fallbackUrl} rel="nofollow sponsored">{name}</a>…
     </p>
   </body>
 </html>
