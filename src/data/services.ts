@@ -33,6 +33,12 @@ export interface ServiceProvider {
   trustpilotReviews?: number;
   bestFor: string;
   position: string;
+  /**
+   * Display priority (1 = highest). Drives ordering of getRankedServices()
+   * and getAllServicesSorted(). Must match the corresponding affiliate
+   * program's `priority` field.
+   */
+  priority: number;
   pros: string[];
   cons: string[];
   plans: ServicePlan[];
@@ -45,75 +51,21 @@ export interface ServiceProvider {
 }
 
 export const services: Record<string, ServiceProvider> = {
-  northwest: {
-    id: 'northwest',
-    name: 'Northwest Registered Agent',
-    shortName: 'Northwest',
-    tagline: 'Privacy-focused formation with unmatched customer support',
-    rating: 9.5,
-    ratingLabel: 'Excellent',
-    formationPrice: '$39',
-    registeredAgentPrice: 'Free (1st year)',
-    yearFounded: 1998,
-    trustpilotRating: 4.9,
-    trustpilotReviews: 2400,
-    bestFor: 'Best Overall Value',
-    position: '#1 Best Overall',
-    pros: [
-      'Only $39 for formation + free registered agent (1 year)',
-      'Uses their own address on public filings for privacy',
-      'Excellent customer support with real humans',
-      'No upselling during checkout process',
-      'Over 25 years in business',
-    ],
-    cons: [
-      'Registered agent renewal is $125/year after first year',
-      'No free EIN filing included',
-      'Website design is less modern than competitors',
-    ],
-    plans: [
-      {
-        name: 'Formation Package',
-        price: '$39',
-        priceNote: '+ state filing fee',
-        features: [
-          'Articles of Organization filing',
-          'Free registered agent (1 year)',
-          'Privacy protection on filings',
-          'Same-day filing processing',
-          'Lifetime customer support',
-        ],
-      },
-    ],
-    features: [
-      { name: 'LLC Formation', included: true },
-      { name: 'Registered Agent (1 year)', included: true },
-      { name: 'Operating Agreement', included: true },
-      { name: 'EIN Filing', included: false, note: 'Available as add-on' },
-      { name: 'BOI Report Filing', included: true },
-      { name: 'Compliance Alerts', included: true },
-      { name: 'Privacy Protection', included: true },
-    ],
-    processingTime: 'Same day (+ state processing)',
-    moneyBackGuarantee: true,
-    customerSupport: 'Phone, email, live chat',
-    statesCovered: 50,
-    reviewSlug: 'northwest-registered-agent',
-  },
   zenbusiness: {
     id: 'zenbusiness',
     name: 'ZenBusiness',
     shortName: 'ZenBusiness',
-    tagline: 'Simple, affordable LLC formation for beginners',
-    rating: 9.2,
+    tagline: 'Simple, modern LLC formation with the best all-around package',
+    rating: 9.4,
     ratingLabel: 'Excellent',
     formationPrice: '$0',
     registeredAgentPrice: '$199/year',
     yearFounded: 2015,
     trustpilotRating: 4.8,
     trustpilotReviews: 18000,
-    bestFor: 'Best for Beginners',
-    position: '#2 Easiest to Use',
+    bestFor: 'Best Overall',
+    position: '#1 Best Overall',
+    priority: 1,
     pros: [
       '$0 formation (Starter plan) — just pay state fees',
       '4.8-star Trustpilot rating (18,000+ reviews)',
@@ -182,7 +134,7 @@ export const services: Record<string, ServiceProvider> = {
     name: 'LegalZoom',
     shortName: 'LegalZoom',
     tagline: 'The most trusted name in online legal services',
-    rating: 8.5,
+    rating: 8.7,
     ratingLabel: 'Very Good',
     formationPrice: '$0',
     registeredAgentPrice: '$299/year',
@@ -190,7 +142,8 @@ export const services: Record<string, ServiceProvider> = {
     trustpilotRating: 4.5,
     trustpilotReviews: 8000,
     bestFor: 'Best-Known Brand',
-    position: '#3 Most Trusted Brand',
+    position: '#2 Best-Known Brand',
+    priority: 2,
     pros: [
       'Most recognized brand in legal services',
       '$0 Basic formation plan available',
@@ -255,6 +208,200 @@ export const services: Record<string, ServiceProvider> = {
     statesCovered: 50,
     reviewSlug: 'legalzoom',
   },
+  tailorbrands: {
+    id: 'tailorbrands',
+    name: 'Tailor Brands',
+    shortName: 'Tailor Brands',
+    tagline: 'AI-driven LLC formation bundled with logo, branding, and website tools',
+    rating: 8.4,
+    ratingLabel: 'Very Good',
+    formationPrice: '$0',
+    registeredAgentPrice: 'Add-on',
+    yearFounded: 2014,
+    trustpilotRating: 4.0,
+    trustpilotReviews: 3000,
+    bestFor: 'Best for Branding',
+    position: '#3 Best for Branding',
+    priority: 3,
+    pros: [
+      '$0 LLC formation on the Lite plan',
+      'AI-powered logo maker and branding tools bundled in',
+      'Same-day expedited filing on Essential and Elite plans',
+      'All-in-one platform: LLC + branding + website',
+      'Operating agreement included on every plan',
+    ],
+    cons: [
+      'Standard 14 business days on the free plan',
+      'Registered agent and EIN are paid add-ons',
+      'Mixed Trustpilot reviews around auto-renewing subscriptions',
+      'Branding focus may be unnecessary if you only want LLC filing',
+    ],
+    plans: [
+      {
+        name: 'Lite',
+        price: '$0',
+        priceNote: '+ state filing fee',
+        features: [
+          'LLC formation (14 business days)',
+          'Operating agreement',
+          'Annual compliance filing & updates',
+          'Business coaching platform',
+          'Basic branding tools (logos, website builder)',
+        ],
+      },
+      {
+        name: 'Essential',
+        price: '$199/year',
+        priceNote: '+ state filing fee',
+        features: [
+          'Everything in Lite',
+          '1 business day expedited LLC filing',
+          '30-day invoicing & bookkeeping trial',
+          'Business coaching program',
+          '$30 Amazon gift card bonus',
+        ],
+      },
+      {
+        name: 'Elite',
+        price: '$249/year',
+        priceNote: '+ state filing fee',
+        features: [
+          'Everything in Essential',
+          'Domain name included',
+          'Website hosting included',
+          '$50 Amazon gift card bonus',
+        ],
+      },
+    ],
+    features: [
+      { name: 'LLC Formation', included: true },
+      { name: 'Registered Agent (1 year)', included: false, note: 'Paid add-on' },
+      { name: 'Operating Agreement', included: true },
+      { name: 'EIN Filing', included: false, note: 'Paid add-on' },
+      { name: 'BOI Report Filing', included: false, note: 'Paid add-on' },
+      { name: 'Compliance Alerts', included: true, note: 'Annual filings included' },
+      { name: 'Privacy Protection', included: false },
+    ],
+    processingTime: '14 business days (Lite), 1 business day (Essential / Elite)',
+    moneyBackGuarantee: false,
+    customerSupport: 'Phone, email',
+    statesCovered: 50,
+    reviewSlug: 'tailor-brands',
+  },
+  incauthority: {
+    id: 'incauthority',
+    name: 'Inc Authority',
+    shortName: 'Inc Authority',
+    tagline: 'Truly free LLC formation with first-year registered agent included',
+    rating: 8.6,
+    ratingLabel: 'Very Good',
+    formationPrice: '$0',
+    registeredAgentPrice: 'Free (1st year)',
+    yearFounded: 1989,
+    trustpilotRating: 4.9,
+    trustpilotReviews: 46000,
+    bestFor: 'Best for $0 Filing',
+    position: '#4 Best for $0 Filing',
+    priority: 4,
+    pros: [
+      'Truly free LLC formation — only pay state filing fee',
+      'Free registered agent service for the first year',
+      '35+ years in the business formation industry',
+      '4.9 Trustpilot rating (46,000+ reviews)',
+      'Includes tax planning and business credit consultations',
+    ],
+    cons: [
+      'Heavy upselling throughout the checkout flow',
+      'Premium plan pricing not published — only revealed during signup',
+      'Operating agreement and EIN are paid upsells',
+      'Registered agent renews at a paid rate after year one',
+    ],
+    plans: [
+      {
+        name: 'Starter (Free)',
+        price: '$0',
+        priceNote: '+ state filing fee',
+        features: [
+          'Business name availability check',
+          'LLC formation document prep & filing',
+          'Free registered agent service (1 year)',
+          'Tax planning consultation',
+          'Business credit and funding analysis',
+          'Digital document delivery',
+        ],
+      },
+    ],
+    features: [
+      { name: 'LLC Formation', included: true },
+      { name: 'Registered Agent (1 year)', included: true },
+      { name: 'Operating Agreement', included: false, note: 'Paid upsell' },
+      { name: 'EIN Filing', included: false, note: 'Paid upsell' },
+      { name: 'BOI Report Filing', included: false, note: 'Paid upsell' },
+      { name: 'Compliance Alerts', included: false, note: 'Paid upsell' },
+      { name: 'Privacy Protection', included: false },
+    ],
+    processingTime: '10-15 business days (Standard)',
+    moneyBackGuarantee: false,
+    customerSupport: 'Phone, email (M-F 7:30am-5pm PT)',
+    statesCovered: 50,
+    reviewSlug: 'inc-authority',
+  },
+  northwest: {
+    id: 'northwest',
+    name: 'Northwest Registered Agent',
+    shortName: 'Northwest',
+    tagline: 'Privacy-focused formation with unmatched customer support',
+    rating: 9.5,
+    ratingLabel: 'Excellent',
+    formationPrice: '$39',
+    registeredAgentPrice: 'Free (1st year)',
+    yearFounded: 1998,
+    trustpilotRating: 4.9,
+    trustpilotReviews: 2400,
+    bestFor: 'Best for Privacy',
+    position: '#5 Best for Privacy',
+    priority: 5,
+    pros: [
+      'Only $39 for formation + free registered agent (1 year)',
+      'Uses their own address on public filings for privacy',
+      'Excellent customer support with real humans',
+      'No upselling during checkout process',
+      'Over 25 years in business',
+    ],
+    cons: [
+      'Registered agent renewal is $125/year after first year',
+      'No free EIN filing included',
+      'Website design is less modern than competitors',
+    ],
+    plans: [
+      {
+        name: 'Formation Package',
+        price: '$39',
+        priceNote: '+ state filing fee',
+        features: [
+          'Articles of Organization filing',
+          'Free registered agent (1 year)',
+          'Privacy protection on filings',
+          'Same-day filing processing',
+          'Lifetime customer support',
+        ],
+      },
+    ],
+    features: [
+      { name: 'LLC Formation', included: true },
+      { name: 'Registered Agent (1 year)', included: true },
+      { name: 'Operating Agreement', included: true },
+      { name: 'EIN Filing', included: false, note: 'Available as add-on' },
+      { name: 'BOI Report Filing', included: true },
+      { name: 'Compliance Alerts', included: true },
+      { name: 'Privacy Protection', included: true },
+    ],
+    processingTime: 'Same day (+ state processing)',
+    moneyBackGuarantee: true,
+    customerSupport: 'Phone, email, live chat',
+    statesCovered: 50,
+    reviewSlug: 'northwest-registered-agent',
+  },
   bizee: {
     id: 'bizee',
     name: 'Bizee',
@@ -267,8 +414,9 @@ export const services: Record<string, ServiceProvider> = {
     yearFounded: 2004,
     trustpilotRating: 4.7,
     trustpilotReviews: 32000,
-    bestFor: 'Best Free Option',
-    position: '#4 Best Free Formation',
+    bestFor: 'Best Free Plus',
+    position: '#6 Best Free Plus',
+    priority: 6,
     pros: [
       '$0 formation + free registered agent (1 year)',
       'Highest volume of positive reviews (32,000+)',
@@ -332,7 +480,8 @@ export const services: Record<string, ServiceProvider> = {
     registeredAgentPrice: '$100/year',
     yearFounded: 2020,
     bestFor: 'Best for Legal Protection',
-    position: '#5 Best Attorney-Backed',
+    position: '#7 Best for Legal Protection',
+    priority: 7,
     pros: [
       'Actual attorneys review your formation documents',
       'Operating agreement drafted by attorneys included',
@@ -381,12 +530,12 @@ export function getService(id: string): ServiceProvider | undefined {
   return services[id];
 }
 
-/** Get all services sorted by rating (highest first) */
+/** Get all services sorted by display priority (lowest priority number first) */
 export function getAllServicesSorted(): ServiceProvider[] {
-  return Object.values(services).sort((a, b) => b.rating - a.rating);
+  return Object.values(services).sort((a, b) => a.priority - b.priority);
 }
 
-/** Get services ranked 1-N */
+/** Get services ranked 1-N by priority */
 export function getRankedServices(): (ServiceProvider & { rank: number })[] {
   return getAllServicesSorted().map((service, index) => ({
     ...service,

@@ -9,9 +9,9 @@ import FAQSchema from '@/components/seo/FAQSchema.astro';
 import { siteConfig } from '@/data/site';
 import { getRankedServices } from '@/data/services';
 
-const title = 'Best LLC Services 2026: 5 Providers Ranked by Price, Speed & Value';
+const title = 'Best LLC Services 2026: 7 Providers Ranked by Price, Speed & Value';
 const description =
-  'Side-by-side ranking of the 5 best LLC formation services in 2026. Real pricing comparisons, registered agent costs, processing times, and which service fits different business types.';
+  'Side-by-side ranking of the 7 best LLC formation services in 2026. Real pricing comparisons, registered agent costs, processing times, and which service fits different business types.';
 
 const rankedServices = getRankedServices();
 const allServiceIds = rankedServices.map((s) => s.id);
@@ -20,7 +20,7 @@ const faqItems = [
   {
     question: 'What is the best LLC formation service in 2026?',
     answer:
-      'Based on our research, <strong>Northwest Registered Agent</strong> is the best overall LLC formation service in 2026. They offer formation for $39 with a free year of registered agent service, excellent privacy protections, and outstanding customer support. For those on a tight budget, <strong>ZenBusiness</strong> offers $0 formation (plus state fees).',
+      'Based on our research, <strong>ZenBusiness</strong> is the best overall LLC formation service in 2026. They offer $0 formation (plus state fees), an operating agreement template included even at the free tier, and a 4.8-star Trustpilot rating across 18,000+ reviews. The Pro plan ($199/year) adds Worry-Free Compliance for tracking annual deadlines. For those who prioritize privacy on public filings, <strong>Northwest Registered Agent</strong> is a strong alternative at $39 + state fees with a free first year of registered agent service.',
   },
   {
     question: 'How much does it cost to form an LLC?',
@@ -116,9 +116,9 @@ const schema = JSON.stringify({
     <!-- Quick Summary -->
     <div class="mt-8">
       <QuickSummaryBox
-        verdict="After testing all five services, Northwest Registered Agent earns our top pick for its unbeatable combination of low price ($39), free registered agent, strong privacy protections, and exceptional customer support. For budget-conscious entrepreneurs, ZenBusiness offers solid $0 formation with a clean interface."
-        serviceId="northwest"
-        rating={9.5}
+        verdict="After testing all seven services, ZenBusiness earns our top pick for its $0 Starter plan, included operating agreement, polished compliance dashboard, and 4.8-star rating across 18,000+ Trustpilot reviews. For users who prioritize privacy on public filings, Northwest Registered Agent remains a strong alternative at $39 + free first-year registered agent."
+        serviceId="zenbusiness"
+        rating={9.4}
       />
     </div>
 
@@ -127,7 +127,7 @@ const schema = JSON.stringify({
       <p class="text-sm font-bold uppercase tracking-wider text-gray-500">In This Guide</p>
       <ul class="mt-3 space-y-2 text-sm">
         <li>
-          <a href="#ranked-services" class="text-teal-700 underline-offset-2 hover:underline">Top 5 LLC Formation Services — Ranked</a>
+          <a href="#ranked-services" class="text-teal-700 underline-offset-2 hover:underline">Top 7 LLC Formation Services — Ranked</a>
         </li>
         <li>
           <a href="#comparison-table" class="text-teal-700 underline-offset-2 hover:underline">Side-by-Side Comparison Table</a>
@@ -147,10 +147,10 @@ const schema = JSON.stringify({
     <!-- ====== RANKED SERVICES ====== -->
     <section id="ranked-services" class="mt-14">
       <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-        Top 5 LLC Formation Services — Ranked
+        Top 7 LLC Formation Services — Ranked
       </h2>
       <p class="mt-3 text-gray-600 leading-relaxed">
-        We evaluated dozens of LLC formation providers and narrowed the field to five that consistently deliver the best combination of value, features, and customer experience. Here are our rankings for 2026.
+        We evaluated dozens of LLC formation providers and narrowed the field to seven that consistently deliver the best combination of value, features, and customer experience. Here are our rankings for 2026.
       </p>
 
       <div class="mt-8 space-y-6">
@@ -166,7 +166,7 @@ const schema = JSON.stringify({
         Side-by-Side Comparison
       </h2>
       <p class="mt-3 mb-6 text-gray-600 leading-relaxed">
-        Compare pricing, features, and capabilities across all five services at a glance.
+        Compare pricing, features, and capabilities across all seven services at a glance.
       </p>
 
       <ComparisonTable serviceIds={allServiceIds} />
@@ -302,20 +302,14 @@ const schema = JSON.stringify({
     <section class="mt-16 rounded-xl border border-teal-200 bg-gradient-to-br from-teal-50 to-white p-6 sm:p-8">
       <h2 class="text-xl font-extrabold text-gray-900 sm:text-2xl">The Bottom Line</h2>
       <p class="mt-3 text-gray-700 leading-relaxed">
-        All five LLC formation services on our list are reputable providers that can successfully file your LLC. Every service on this page has been personally tested by our research team, and any of them will get the job done. The best choice depends on your priorities — whether that is saving money upfront, getting the strongest privacy protections, or having attorney-drafted documents for extra peace of mind.
+        All seven LLC formation services on our list are reputable providers that can successfully file your LLC. Every service on this page has been personally tested by our research team, and any of them will get the job done. The best choice depends on your priorities — whether that is saving money upfront, getting the strongest privacy protections, building a brand and website alongside your LLC, or having attorney-drafted documents for extra peace of mind.
       </p>
       <ul class="mt-4 space-y-2 text-sm text-gray-700">
         <li class="flex items-start gap-2">
           <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
           </svg>
-          <span><strong>Best overall value:</strong> Northwest Registered Agent ($39 formation + free registered agent)</span>
-        </li>
-        <li class="flex items-start gap-2">
-          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
-          </svg>
-          <span><strong>Best for beginners:</strong> ZenBusiness ($0 formation with clean, easy interface)</span>
+          <span><strong>Best overall:</strong> ZenBusiness ($0 formation, included operating agreement, 4.8-star Trustpilot rating)</span>
         </li>
         <li class="flex items-start gap-2">
           <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -327,7 +321,25 @@ const schema = JSON.stringify({
           <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
           </svg>
-          <span><strong>Best free option:</strong> Bizee ($0 formation + free registered agent year one)</span>
+          <span><strong>Best for branding:</strong> Tailor Brands ($0 formation bundled with logo maker, website builder, and AI branding tools)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best for $0 filing:</strong> Inc Authority ($0 formation + free first-year registered agent, 4.9-star Trustpilot rating)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best for privacy:</strong> Northwest Registered Agent ($39 formation + free registered agent + privacy protection on public filings)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
+          </svg>
+          <span><strong>Best free-plus option:</strong> Bizee ($0 formation + free registered agent year one, 32,000+ Trustpilot reviews)</span>
         </li>
         <li class="flex items-start gap-2">
           <svg class="mt-0.5 h-4 w-4 shrink-0 text-teal-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -337,7 +349,7 @@ const schema = JSON.stringify({
         </li>
       </ul>
       <p class="mt-4 text-sm text-gray-700 leading-relaxed">
-        No matter which service you choose, the most important step is actually forming your LLC. Operating as an unprotected sole proprietor exposes your personal assets to business liabilities every day you delay. Pick the service that fits your budget and priorities, and get your LLC filed. You can always add services or switch providers later. For more details on specific providers, check our individual <a href="/reviews/northwest-registered-agent/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">service reviews</a> or explore our <a href="/llc-for/freelancers/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">industry-specific guides</a>.
+        No matter which service you choose, the most important step is actually forming your LLC. Operating as an unprotected sole proprietor exposes your personal assets to business liabilities every day you delay. Pick the service that fits your budget and priorities, and get your LLC filed. You can always add services or switch providers later. For more details on specific providers, check our individual <a href="/reviews/zenbusiness/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">service reviews</a> or explore our <a href="/llc-for/freelancers/" class="text-teal-700 underline underline-offset-2 hover:text-teal-900">industry-specific guides</a>.
       </p>
     </section>
 
