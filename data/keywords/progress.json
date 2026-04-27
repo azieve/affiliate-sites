@@ -1,5 +1,5 @@
 {
-  "next_index": 57,
+  "next_index": 58,
   "completed": [
     {
       "index": 1,
@@ -391,6 +391,13 @@
       "keyword": "best LLC formation service with free registered agent",
       "slug": "best-llc-formation-service-with-free-registered-agent",
       "date": "2026-04-26",
+      "skipped": false
+    },
+    {
+      "index": 57,
+      "keyword": "LLC Attorney review [year]",
+      "slug": "llc-attorney-review-2026",
+      "date": "2026-04-27",
       "skipped": false
     }
   ]
