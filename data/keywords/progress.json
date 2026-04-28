@@ -1,5 +1,5 @@
 {
-  "next_index": 59,
+  "next_index": 60,
   "completed": [
     {
       "index": 1,
@@ -404,6 +404,13 @@
       "index": 58,
       "keyword": "how to add a member to an LLC",
       "slug": "how-to-add-a-member-to-an-llc",
+      "date": "2026-04-28",
+      "skipped": false
+    },
+    {
+      "index": 59,
+      "keyword": "how to change registered agent",
+      "slug": "how-to-change-registered-agent",
       "date": "2026-04-28",
       "skipped": false
     }
