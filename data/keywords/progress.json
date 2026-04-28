@@ -1,5 +1,5 @@
 {
-  "next_index": 58,
+  "next_index": 59,
   "completed": [
     {
       "index": 1,
@@ -398,6 +398,13 @@
       "keyword": "LLC Attorney review [year]",
       "slug": "llc-attorney-review-2026",
       "date": "2026-04-27",
+      "skipped": false
+    },
+    {
+      "index": 58,
+      "keyword": "how to add a member to an LLC",
+      "slug": "how-to-add-a-member-to-an-llc",
+      "date": "2026-04-28",
       "skipped": false
     }
   ]
