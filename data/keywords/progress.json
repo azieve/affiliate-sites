@@ -1,5 +1,5 @@
 {
-  "next_index": 60,
+  "next_index": 61,
   "completed": [
     {
       "index": 1,
@@ -413,6 +413,13 @@
       "slug": "how-to-change-registered-agent",
       "date": "2026-04-28",
       "skipped": false
+    },
+    {
+      "index": 60,
+      "keyword": "how to change registered agent",
+      "slug": "how-to-change-registered-agent",
+      "date": "2026-04-29",
+      "skipped": true
     }
   ]
 }
