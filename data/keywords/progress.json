@@ -1,5 +1,5 @@
 {
-  "next_index": 61,
+  "next_index": 62,
   "completed": [
     {
       "index": 1,
@@ -420,6 +420,13 @@
       "slug": "how-to-change-registered-agent",
       "date": "2026-04-29",
       "skipped": true
+    },
+    {
+      "index": 61,
+      "keyword": "LLC vs LLP differences explained",
+      "slug": "llc-vs-llp-differences-explained",
+      "date": "2026-04-29",
+      "skipped": false
     }
   ]
 }
