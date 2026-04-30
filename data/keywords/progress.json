@@ -1,5 +1,5 @@
 {
-  "next_index": 62,
+  "next_index": 63,
   "completed": [
     {
       "index": 1,
@@ -426,6 +426,13 @@
       "keyword": "LLC vs LLP differences explained",
       "slug": "llc-vs-llp-differences-explained",
       "date": "2026-04-29",
+      "skipped": false
+    },
+    {
+      "index": 62,
+      "keyword": "how to start an LLC in Arkansas",
+      "slug": "how-to-start-an-llc-in-arkansas",
+      "date": "2026-04-30",
       "skipped": false
     }
   ]
