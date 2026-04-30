@@ -1,5 +1,5 @@
 {
-  "next_index": 64,
+  "next_index": 65,
   "completed": [
     {
       "index": 1,
@@ -439,6 +439,13 @@
       "index": 63,
       "keyword": "Arizona LLC cost and fees breakdown",
       "slug": "arizona-llc-cost-and-fees-breakdown",
+      "date": "2026-04-30",
+      "skipped": false
+    },
+    {
+      "index": 64,
+      "keyword": "Colorado LLC cost and fees breakdown",
+      "slug": "colorado-llc-cost-and-fees-breakdown",
       "date": "2026-04-30",
       "skipped": false
     }
