@@ -1,5 +1,5 @@
 {
-  "next_index": 66,
+  "next_index": 67,
   "completed": [
     {
       "index": 1,
@@ -453,6 +453,13 @@
       "index": 65,
       "keyword": "Illinois LLC annual report filing",
       "slug": "illinois-llc-annual-report-filing",
+      "date": "2026-05-01",
+      "skipped": false
+    },
+    {
+      "index": 66,
+      "keyword": "Bizee vs Northwest Registered Agent",
+      "slug": "bizee-vs-northwest-registered-agent",
       "date": "2026-05-01",
       "skipped": false
     }
