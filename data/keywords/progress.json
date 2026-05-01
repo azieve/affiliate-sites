@@ -1,5 +1,5 @@
 {
-  "next_index": 65,
+  "next_index": 66,
   "completed": [
     {
       "index": 1,
@@ -447,6 +447,13 @@
       "keyword": "Colorado LLC cost and fees breakdown",
       "slug": "colorado-llc-cost-and-fees-breakdown",
       "date": "2026-04-30",
+      "skipped": false
+    },
+    {
+      "index": 65,
+      "keyword": "Illinois LLC annual report filing",
+      "slug": "illinois-llc-annual-report-filing",
+      "date": "2026-05-01",
       "skipped": false
     }
   ]
