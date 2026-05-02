@@ -793,3 +793,37 @@ and the webmasters scope is authorized.
 [2026-04-28 10:07:25] Article written and validated: how-to-add-a-member-to-an-llc.mdx
 [2026-04-28 10:07:25] Hero image generated: /blog/how-to-add-a-member-to-an-llc/hero
 [2026-04-28 10:07:25] Progress updated: next_index=59
+[2026-04-28 10:08:22] DONE: keyword=58 'how to add a member to an LLC' | slug=how-to-add-a-member-to-an-llc | URL=https://topbestllcservice.com/blog/how-to-add-a-member-to-an-llc/ | next_index=59
+[2026-04-28 15:05:11] STEP7: Updated progress.json, next_index=60, published how-to-change-registered-agent
+[2026-04-28 15:06:06] DONE: Published how-to-change-registered-agent | URL: https://topbestllcservice.com/blog/how-to-change-registered-agent/ | next_index=60
+[2026-04-29 09:34:42] START: Running article generation pipeline. next_index=60
+[2026-04-29 09:34:42] Step 1: Read progress. NEXT_INDEX=60, TOTAL_ROWS=203
+[2026-04-29 09:34:42] Step 2: Keyword at index 60 = 'how to change registered agent', SLUG=how-to-change-registered-agent
+[2026-04-29 09:34:42] SKIP: src/content/blog/how-to-change-registered-agent.mdx already exists (generated on 2026-04-28 as index 59). Advancing next_index to 61.
+[2026-04-29 09:35:09] DONE: Skipped index 60 (article already exists). next_index advanced to 61. No article published today.
+[2026-04-29 15:02:19] Starting generation: keyword='LLC vs LLP differences explained' slug='llc-vs-llp-differences-explained' index=61
+[2026-04-29 15:06:12] DONE: keyword='LLC vs LLP differences explained' slug='llc-vs-llp-differences-explained' url='https://topbestllcservice.com/blog/llc-vs-llp-differences-explained/' next_index=62
+[2026-04-30 09:00:21] Index 60: keyword='how to change registered agent' — output file already exists, skipping generation.
+[2026-04-30 09:02:45] Index 62: keyword='how to start an LLC in Arkansas' slug='how-to-start-an-llc-in-arkansas' — starting article generation.
+[2026-04-30 09:07:22] Index 62: SUCCESS — keyword='how to start an LLC in Arkansas' slug='how-to-start-an-llc-in-arkansas' URL=https://topbestllcservice.com/blog/how-to-start-an-llc-in-arkansas/ next_index=63
+[2026-04-30 09:09:00] Starting generation for keyword #63: Arizona LLC cost and fees breakdown | Slug: arizona-llc-cost-and-fees-breakdown
+[2026-04-30 09:13:01] Article generated and validated: arizona-llc-cost-and-fees-breakdown | progress.next_index=64
+[2026-04-30 09:14:03] DONE: keyword='Arizona LLC cost and fees breakdown' slug=arizona-llc-cost-and-fees-breakdown URL=https://topbestllcservice.com/blog/arizona-llc-cost-and-fees-breakdown/ next_index=64
+[2026-04-30 15:02:46] Starting generation for keyword #64: Colorado LLC cost and fees breakdown
+[2026-04-30 15:08:16] Article written and validated: colorado-llc-cost-and-fees-breakdown
+[2026-04-30 15:09:57] DONE: keyword=64, slug=colorado-llc-cost-and-fees-breakdown, url=https://topbestllcservice.com/blog/colorado-llc-cost-and-fees-breakdown/, next_index=65
+[2026-05-01 09:05:04] Starting article generation for index 65: Illinois LLC annual report filing
+[2026-05-01 09:07:43] MDX validation passed for illinois-llc-annual-report-filing
+[2026-05-01 09:08:04] Hero image generated and frontmatter updated
+[2026-05-01 09:08:27] Pushed commit 8326dfb to origin/main
+[2026-05-01 09:08:33] Final: keyword='Illinois LLC annual report filing' slug=illinois-llc-annual-report-filing url=/blog/illinois-llc-annual-report-filing/ next_index=66
+[2026-05-01 15:01:33] Auto-run started: keyword='Bizee vs Northwest Registered Agent' index=66
+[2026-05-01 15:05:09] Article generated and validated: bizee-vs-northwest-registered-agent.mdx (4148 words)
+[2026-05-01 15:05:32] Hero image generated and featuredImage injected
+[2026-05-01 15:05:48] Progress updated. Next index: 67
+[2026-05-01 15:06:07] Pushed commit b1b7ce3 to origin/main
+[2026-05-01 15:06:09] Final: keyword='Bizee vs Northwest Registered Agent' slug=bizee-vs-northwest-registered-agent url=/blog/bizee-vs-northwest-registered-agent/ next_index=67
+[2026-05-02 09:05:02] Starting article generation for index 67
+[2026-05-02 09:08:06] Step 5 validation passed for holding-company-llc-structure-explained
+[2026-05-02 09:08:28] Image generated: /blog/holding-company-llc-structure-explained/hero
+[2026-05-02 09:08:39] progress.json updated to next_index=68

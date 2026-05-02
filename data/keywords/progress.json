@@ -1,5 +1,5 @@
 {
-  "next_index": 67,
+  "next_index": 68,
   "completed": [
     {
       "index": 1,
@@ -461,6 +461,13 @@
       "keyword": "Bizee vs Northwest Registered Agent",
       "slug": "bizee-vs-northwest-registered-agent",
       "date": "2026-05-01",
+      "skipped": false
+    },
+    {
+      "index": 67,
+      "keyword": "holding company LLC structure explained",
+      "slug": "holding-company-llc-structure-explained",
+      "date": "2026-05-02",
       "skipped": false
     }
   ]
