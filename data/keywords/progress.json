@@ -1,5 +1,5 @@
 {
-  "next_index": 68,
+  "next_index": 69,
   "completed": [
     {
       "index": 1,
@@ -467,6 +467,13 @@
       "index": 67,
       "keyword": "holding company LLC structure explained",
       "slug": "holding-company-llc-structure-explained",
+      "date": "2026-05-02",
+      "skipped": false
+    },
+    {
+      "index": 68,
+      "keyword": "foreign LLC registration (doing business in another state)",
+      "slug": "foreign-llc-registration-doing-business-in-another-state",
       "date": "2026-05-02",
       "skipped": false
     }
