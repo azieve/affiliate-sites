@@ -827,3 +827,16 @@ and the webmasters scope is authorized.
 [2026-05-02 09:08:06] Step 5 validation passed for holding-company-llc-structure-explained
 [2026-05-02 09:08:28] Image generated: /blog/holding-company-llc-structure-explained/hero
 [2026-05-02 09:08:39] progress.json updated to next_index=68
+[2026-05-02 09:09:03] Pushed to origin/main
+[2026-05-02 09:09:09] Done. keyword='holding company LLC structure explained' slug='holding-company-llc-structure-explained' url='https://topbestllcservice.com/blog/holding-company-llc-structure-explained/' next_index=68
+[2026-05-02 15:01:42] Starting article generation: index=68, keyword='foreign LLC registration (doing business in another state)', slug=foreign-llc-registration-doing-business-in-another-state
+[2026-05-02 15:05:22] MDX validated successfully
+[2026-05-02 15:05:58] Hero image generated and featuredImage injected
+[2026-05-02 15:06:09] Progress updated. next_index=69
+[2026-05-02 15:06:30] Pushed to origin/main
+[2026-05-02 15:06:45] Submitted to Google Indexing API: /blog/foreign-llc-registration-doing-business-in-another-state/
+[2026-05-02 15:06:48] Done. keyword='foreign LLC registration (doing business in another state)' slug='foreign-llc-registration-doing-business-in-another-state' url='https://topbestllcservice.com/blog/foreign-llc-registration-doing-business-in-another-state/' next_index=69
+[2026-05-03 09:05:42] === New article generation run started ===
+[2026-05-03 09:05:42] Picked keyword #69: how to start an LLC in Iowa (Phase 2, Quick Win, State Guide)
+[2026-05-03 09:11:45] Article written + validated for slug='how-to-start-an-llc-in-iowa' (4255 words)
+[2026-05-03 09:12:20] Hero image generated and frontmatter updated

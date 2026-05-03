@@ -1,5 +1,5 @@
 {
-  "next_index": 69,
+  "next_index": 70,
   "completed": [
     {
       "index": 1,
@@ -475,6 +475,13 @@
       "keyword": "foreign LLC registration (doing business in another state)",
       "slug": "foreign-llc-registration-doing-business-in-another-state",
       "date": "2026-05-02",
+      "skipped": false
+    },
+    {
+      "index": 69,
+      "keyword": "how to start an LLC in Iowa",
+      "slug": "how-to-start-an-llc-in-iowa",
+      "date": "2026-05-03",
       "skipped": false
     }
   ]
