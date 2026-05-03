@@ -1,5 +1,5 @@
 {
-  "next_index": 70,
+  "next_index": 71,
   "completed": [
     {
       "index": 1,
@@ -481,6 +481,13 @@
       "index": 69,
       "keyword": "how to start an LLC in Iowa",
       "slug": "how-to-start-an-llc-in-iowa",
+      "date": "2026-05-03",
+      "skipped": false
+    },
+    {
+      "index": 70,
+      "keyword": "how to start an LLC in Utah",
+      "slug": "how-to-start-an-llc-in-utah",
       "date": "2026-05-03",
       "skipped": false
     }
