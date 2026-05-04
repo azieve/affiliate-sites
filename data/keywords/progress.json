@@ -1,5 +1,5 @@
 {
-  "next_index": 72,
+  "next_index": 73,
   "completed": [
     {
       "index": 1,
@@ -495,6 +495,13 @@
       "index": 71,
       "keyword": "how to start an LLC in Kansas",
       "slug": "how-to-start-an-llc-in-kansas",
+      "date": "2026-05-04",
+      "skipped": false
+    },
+    {
+      "index": 72,
+      "keyword": "how to start an LLC in Mississippi",
+      "slug": "how-to-start-an-llc-in-mississippi",
       "date": "2026-05-04",
       "skipped": false
     }
