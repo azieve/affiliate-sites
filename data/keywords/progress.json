@@ -1,5 +1,5 @@
 {
-  "next_index": 71,
+  "next_index": 72,
   "completed": [
     {
       "index": 1,
@@ -489,6 +489,13 @@
       "keyword": "how to start an LLC in Utah",
       "slug": "how-to-start-an-llc-in-utah",
       "date": "2026-05-03",
+      "skipped": false
+    },
+    {
+      "index": 71,
+      "keyword": "how to start an LLC in Kansas",
+      "slug": "how-to-start-an-llc-in-kansas",
+      "date": "2026-05-04",
       "skipped": false
     }
   ]
