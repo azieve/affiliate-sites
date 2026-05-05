@@ -1,5 +1,5 @@
 {
-  "next_index": 74,
+  "next_index": 75,
   "completed": [
     {
       "index": 1,
@@ -509,6 +509,13 @@
       "index": 73,
       "keyword": "how to start an LLC in Washington DC",
       "slug": "how-to-start-an-llc-in-washington-dc",
+      "date": "2026-05-05",
+      "skipped": false
+    },
+    {
+      "index": 74,
+      "keyword": "Virginia LLC cost and fees breakdown",
+      "slug": "virginia-llc-cost-and-fees-breakdown",
       "date": "2026-05-05",
       "skipped": false
     }
