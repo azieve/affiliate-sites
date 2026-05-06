@@ -1,5 +1,5 @@
 {
-  "next_index": 76,
+  "next_index": 77,
   "completed": [
     {
       "index": 1,
@@ -523,6 +523,13 @@
       "index": 75,
       "keyword": "Washington LLC cost and fees breakdown",
       "slug": "washington-llc-cost-and-fees-breakdown",
+      "date": "2026-05-06",
+      "skipped": false
+    },
+    {
+      "index": 76,
+      "keyword": "LLC for nonprofit organization",
+      "slug": "llc-for-nonprofit-organization",
       "date": "2026-05-06",
       "skipped": false
     }
