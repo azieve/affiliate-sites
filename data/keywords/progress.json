@@ -1,5 +1,5 @@
 {
-  "next_index": 75,
+  "next_index": 76,
   "completed": [
     {
       "index": 1,
@@ -517,6 +517,13 @@
       "keyword": "Virginia LLC cost and fees breakdown",
       "slug": "virginia-llc-cost-and-fees-breakdown",
       "date": "2026-05-05",
+      "skipped": false
+    },
+    {
+      "index": 75,
+      "keyword": "Washington LLC cost and fees breakdown",
+      "slug": "washington-llc-cost-and-fees-breakdown",
+      "date": "2026-05-06",
       "skipped": false
     }
   ]
