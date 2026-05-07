@@ -1,5 +1,5 @@
 {
-  "next_index": 77,
+  "next_index": 78,
   "completed": [
     {
       "index": 1,
@@ -531,6 +531,13 @@
       "keyword": "LLC for nonprofit organization",
       "slug": "llc-for-nonprofit-organization",
       "date": "2026-05-06",
+      "skipped": false
+    },
+    {
+      "index": 77,
+      "keyword": "Rocket Lawyer review for LLC",
+      "slug": "rocket-lawyer-review-for-llc",
+      "date": "2026-05-07",
       "skipped": false
     }
   ]
