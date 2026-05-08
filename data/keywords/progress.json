@@ -1,5 +1,5 @@
 {
-  "next_index": 78,
+  "next_index": 80,
   "completed": [
     {
       "index": 1,
@@ -538,6 +538,20 @@
       "keyword": "Rocket Lawyer review for LLC",
       "slug": "rocket-lawyer-review-for-llc",
       "date": "2026-05-07",
+      "skipped": false
+    },
+    {
+      "index": 78,
+      "keyword": "LLC for photographers and videographers",
+      "slug": "llc-for-photographers-and-videographers",
+      "date": "2026-05-08",
+      "skipped": true
+    },
+    {
+      "index": 79,
+      "keyword": "LLC for landscaping business",
+      "slug": "llc-for-landscaping-business",
+      "date": "2026-05-08",
       "skipped": false
     }
   ]
