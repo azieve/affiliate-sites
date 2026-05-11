@@ -1,5 +1,5 @@
 {
-  "next_index": 81,
+  "next_index": 82,
   "completed": [
     {
       "index": 1,
@@ -558,6 +558,13 @@
       "index": 80,
       "keyword": "LLC for flipping houses",
       "slug": "llc-for-flipping-houses",
+      "date": "2026-05-11",
+      "skipped": false
+    },
+    {
+      "index": 81,
+      "keyword": "how to reinstate a dissolved LLC",
+      "slug": "how-to-reinstate-a-dissolved-llc",
       "date": "2026-05-11",
       "skipped": false
     }
