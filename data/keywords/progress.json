@@ -1,5 +1,5 @@
 {
-  "next_index": 83,
+  "next_index": 84,
   "completed": [
     {
       "index": 1,
@@ -572,6 +572,13 @@
       "index": 82,
       "keyword": "how to start an LLC in Nebraska",
       "slug": "how-to-start-an-llc-in-nebraska",
+      "date": "2026-05-11",
+      "skipped": false
+    },
+    {
+      "index": 83,
+      "keyword": "how to start an LLC in New Mexico",
+      "slug": "how-to-start-an-llc-in-new-mexico",
       "date": "2026-05-11",
       "skipped": false
     }
