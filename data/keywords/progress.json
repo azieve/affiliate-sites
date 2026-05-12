@@ -1,5 +1,5 @@
 {
-  "next_index": 85,
+  "next_index": 86,
   "completed": [
     {
       "index": 1,
@@ -586,6 +586,13 @@
       "index": 84,
       "keyword": "how to start an LLC in Idaho",
       "slug": "how-to-start-an-llc-in-idaho",
+      "date": "2026-05-12",
+      "skipped": false
+    },
+    {
+      "index": 85,
+      "keyword": "how to start an LLC in Hawaii",
+      "slug": "how-to-start-an-llc-in-hawaii",
       "date": "2026-05-12",
       "skipped": false
     }
