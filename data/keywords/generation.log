@@ -908,3 +908,33 @@ and the webmasters scope is authorized.
 [2026-05-11 07:08:01] Morning run: starting index 80, keyword 'LLC for flipping houses'
 [2026-05-11 07:10:28] Article validated, generating hero image
 [2026-05-11 07:11:22] Committing and pushing
+[2026-05-11 07:11:44] Push successful, submitting to Google Indexing API
+[2026-05-11 07:11:46] Done: index=80 slug=llc-for-flipping-houses url=https://topbestllcservice.com/blog/llc-for-flipping-houses/ next_index=81
+[2026-05-11 07:12:03] Keyword 80 (LLC for flipping houses) already completed by parallel cron. Advancing to keyword 81: how to reinstate a dissolved LLC
+[2026-05-11 07:14:58] Article + image written for keyword 81 (how to reinstate a dissolved LLC)
+[2026-05-11 07:15:53] Pushed to main (commit 4d19f7c) — Vercel deploy triggered for /blog/how-to-reinstate-a-dissolved-llc/
+[2026-05-11 07:16:09] DONE — Morning run complete. keyword=81 slug=how-to-reinstate-a-dissolved-llc next_index=82 url=/blog/how-to-reinstate-a-dissolved-llc/
+[2026-05-11 09:05:06] Starting article generation for index 82: how to start an LLC in Nebraska
+[2026-05-11 09:08:14] Article validated: how-to-start-an-llc-in-nebraska.mdx
+[2026-05-11 09:08:42] Image generated and frontmatter updated
+[2026-05-11 09:08:58] Progress updated to next_index=83
+[2026-05-11 09:09:28] Committed and pushed to origin/main
+[2026-05-11 09:09:34] Submitted to Google + IndexNow. Done. next_index=83
+[2026-05-11 17:21:53] Starting article generation: index=83, keyword='how to start an LLC in New Mexico', slug=how-to-start-an-llc-in-new-mexico
+[2026-05-11 17:24:25] Step 6: generating hero image
+[2026-05-11 17:24:56] Step 7: progress.json updated to next_index=84
+[2026-05-11 17:25:27] Step 8: pushed to origin/main
+[2026-05-11 17:25:34] DONE: keyword='how to start an LLC in New Mexico' slug=how-to-start-an-llc-in-new-mexico url=https://topbestllcservice.com/blog/how-to-start-an-llc-in-new-mexico/ next_index=84
+[2026-05-12 09:05:25] Starting article generation for index 84: how to start an LLC in Idaho
+[2026-05-12 09:07:55] Article generated and validated: src/content/blog/how-to-start-an-llc-in-idaho.mdx
+[2026-05-12 09:08:34] Hero image generated for idaho article
+[2026-05-12 09:08:56] Pushed commit to origin/main
+[2026-05-12 09:09:02] DONE: keyword='how to start an LLC in Idaho', slug=how-to-start-an-llc-in-idaho, next_index=85
+[2026-05-12 15:01:42] Starting article generation for index 85: how to start an LLC in Hawaii
+[2026-05-12 15:04:37] Validated MDX for hawaii article
+[2026-05-12 15:05:16] WARNING: Image generation failed (503 from Imagen API). Article will publish without image.
+[2026-05-12 15:06:01] Pushed Hawaii LLC article to GitHub
+[2026-05-12 15:06:18] Submitted to IndexNow (200). Google sitemap submission warned (no module 'google'). Article complete: index=85, next_index=86, slug=how-to-start-an-llc-in-hawaii
+[2026-05-13 09:04:54] Starting article generation: index=86, keyword=LLC for personal trainers and fitness coaches
+[2026-05-13 09:07:14] Article validated. Attempting hero image generation.
+[2026-05-13 09:07:23] WARNING: Image generation failed (PIL missing). Continuing without hero image.

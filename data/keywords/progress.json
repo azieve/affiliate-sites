@@ -1,5 +1,5 @@
 {
-  "next_index": 86,
+  "next_index": 87,
   "completed": [
     {
       "index": 1,
@@ -594,6 +594,13 @@
       "keyword": "how to start an LLC in Hawaii",
       "slug": "how-to-start-an-llc-in-hawaii",
       "date": "2026-05-12",
+      "skipped": false
+    },
+    {
+      "index": 86,
+      "keyword": "LLC for personal trainers and fitness coaches",
+      "slug": "llc-for-personal-trainers-and-fitness-coaches",
+      "date": "2026-05-13",
       "skipped": false
     }
   ]
