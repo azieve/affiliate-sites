@@ -1,5 +1,5 @@
 {
-  "next_index": 87,
+  "next_index": 88,
   "completed": [
     {
       "index": 1,
@@ -600,6 +600,13 @@
       "index": 86,
       "keyword": "LLC for personal trainers and fitness coaches",
       "slug": "llc-for-personal-trainers-and-fitness-coaches",
+      "date": "2026-05-13",
+      "skipped": false
+    },
+    {
+      "index": 87,
+      "keyword": "LLC for handyman and home services",
+      "slug": "llc-for-handyman-and-home-services",
       "date": "2026-05-13",
       "skipped": false
     }
