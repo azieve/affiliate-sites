@@ -1,5 +1,5 @@
 {
-  "next_index": 89,
+  "next_index": 90,
   "completed": [
     {
       "index": 1,
@@ -614,6 +614,13 @@
       "index": 88,
       "keyword": "LLC for dog walking and pet sitting",
       "slug": "llc-for-dog-walking-and-pet-sitting",
+      "date": "2026-05-14",
+      "skipped": false
+    },
+    {
+      "index": 89,
+      "keyword": "LLC for pressure washing business",
+      "slug": "llc-for-pressure-washing-business",
       "date": "2026-05-14",
       "skipped": false
     }
