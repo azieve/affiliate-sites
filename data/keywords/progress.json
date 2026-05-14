@@ -1,5 +1,5 @@
 {
-  "next_index": 88,
+  "next_index": 89,
   "completed": [
     {
       "index": 1,
@@ -608,6 +608,13 @@
       "keyword": "LLC for handyman and home services",
       "slug": "llc-for-handyman-and-home-services",
       "date": "2026-05-13",
+      "skipped": false
+    },
+    {
+      "index": 88,
+      "keyword": "LLC for dog walking and pet sitting",
+      "slug": "llc-for-dog-walking-and-pet-sitting",
+      "date": "2026-05-14",
       "skipped": false
     }
   ]
