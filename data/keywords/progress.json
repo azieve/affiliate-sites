@@ -1,5 +1,5 @@
 {
-  "next_index": 94,
+  "next_index": 95,
   "completed": [
     {
       "index": 1,
@@ -649,6 +649,13 @@
       "index": 93,
       "keyword": "LLC for therapists and counselors",
       "slug": "llc-for-therapists-and-counselors",
+      "date": "2026-05-16",
+      "skipped": false
+    },
+    {
+      "index": 94,
+      "keyword": "LLC for graphic designers",
+      "slug": "llc-for-graphic-designers",
       "date": "2026-05-16",
       "skipped": false
     }
