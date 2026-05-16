@@ -1,5 +1,5 @@
 {
-  "next_index": 93,
+  "next_index": 94,
   "completed": [
     {
       "index": 1,
@@ -642,6 +642,13 @@
       "index": 92,
       "keyword": "LLC for music artists and producers",
       "slug": "llc-for-music-artists-and-producers",
+      "date": "2026-05-16",
+      "skipped": false
+    },
+    {
+      "index": 93,
+      "keyword": "LLC for therapists and counselors",
+      "slug": "llc-for-therapists-and-counselors",
       "date": "2026-05-16",
       "skipped": false
     }
