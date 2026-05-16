@@ -1,5 +1,5 @@
 {
-  "next_index": 95,
+  "next_index": 96,
   "completed": [
     {
       "index": 1,
@@ -656,6 +656,13 @@
       "index": 94,
       "keyword": "LLC for graphic designers",
       "slug": "llc-for-graphic-designers",
+      "date": "2026-05-16",
+      "skipped": false
+    },
+    {
+      "index": 95,
+      "keyword": "LLC for hair salon and barbershop",
+      "slug": "llc-for-hair-salon-and-barbershop",
       "date": "2026-05-16",
       "skipped": false
     }
