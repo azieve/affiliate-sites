@@ -1,5 +1,5 @@
 {
-  "next_index": 92,
+  "next_index": 93,
   "completed": [
     {
       "index": 1,
@@ -636,6 +636,13 @@
       "keyword": "Ohio LLC no annual report (what you still need)",
       "slug": "ohio-llc-no-annual-report-what-you-still-need",
       "date": "2026-05-15",
+      "skipped": false
+    },
+    {
+      "index": 92,
+      "keyword": "LLC for music artists and producers",
+      "slug": "llc-for-music-artists-and-producers",
+      "date": "2026-05-16",
       "skipped": false
     }
   ]
