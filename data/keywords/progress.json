@@ -1,5 +1,5 @@
 {
-  "next_index": 97,
+  "next_index": 98,
   "completed": [
     {
       "index": 1,
@@ -670,6 +670,13 @@
       "index": 96,
       "keyword": "LLC for vending machine business",
       "slug": "llc-for-vending-machine-business",
+      "date": "2026-05-17",
+      "skipped": false
+    },
+    {
+      "index": 97,
+      "keyword": "LLC for software developers and freelance coders",
+      "slug": "llc-for-software-developers-and-freelance-coders",
       "date": "2026-05-17",
       "skipped": false
     }
