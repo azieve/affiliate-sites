@@ -1,5 +1,5 @@
 {
-  "next_index": 96,
+  "next_index": 97,
   "completed": [
     {
       "index": 1,
@@ -664,6 +664,13 @@
       "keyword": "LLC for hair salon and barbershop",
       "slug": "llc-for-hair-salon-and-barbershop",
       "date": "2026-05-16",
+      "skipped": false
+    },
+    {
+      "index": 96,
+      "keyword": "LLC for vending machine business",
+      "slug": "llc-for-vending-machine-business",
+      "date": "2026-05-17",
       "skipped": false
     }
   ]
