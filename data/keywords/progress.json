@@ -1,5 +1,5 @@
 {
-  "next_index": 99,
+  "next_index": 100,
   "completed": [
     {
       "index": 1,
@@ -691,6 +691,13 @@
       "index": 98,
       "keyword": "best LLC service with operating agreement included",
       "slug": "best-llc-service-with-operating-agreement-included",
+      "date": "2026-05-18",
+      "skipped": false
+    },
+    {
+      "index": 99,
+      "keyword": "BOI report changes and updates [year]",
+      "slug": "boi-report-changes-and-updates-2026",
       "date": "2026-05-18",
       "skipped": false
     }
