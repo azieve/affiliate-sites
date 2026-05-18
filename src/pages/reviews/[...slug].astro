@@ -33,6 +33,8 @@ const ratingLabel = getRatingLabel(rating);
 const ratingColor = getRatingColor(rating);
 const canonicalUrl = getCanonicalUrl(`/reviews/${entry.id}`);
 
+const logoExtensions: Record<string, string> = { llcattorney: 'webp' };
+const logoExt = logoExtensions[serviceId] ?? 'svg';
 const reviewSchema = getReviewSchema({
   name: service.name,
   description: metaDescription,
@@ -41,6 +43,9 @@ const reviewSchema = getReviewSchema({
   url: canonicalUrl,
   formationPrice: service.formationPrice,
   serviceUrl: `${siteConfig.url}/go/${serviceId}/`,
+  image: `/logos/${serviceId}.${logoExt}`,
+  brand: service.name,
+  moneyBackGuarantee: service.moneyBackGuarantee,
 });
 
 const breadcrumbItems = [
