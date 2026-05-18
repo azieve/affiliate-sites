@@ -1,5 +1,5 @@
 {
-  "next_index": 98,
+  "next_index": 99,
   "completed": [
     {
       "index": 1,
@@ -678,6 +678,20 @@
       "keyword": "LLC for software developers and freelance coders",
       "slug": "llc-for-software-developers-and-freelance-coders",
       "date": "2026-05-17",
+      "skipped": false
+    },
+    {
+      "index": 98,
+      "keyword": "best LLC service with operating agreement included",
+      "slug": "best-llc-service-with-operating-agreement-included",
+      "date": "2026-05-18",
+      "skipped": true
+    },
+    {
+      "index": 98,
+      "keyword": "best LLC service with operating agreement included",
+      "slug": "best-llc-service-with-operating-agreement-included",
+      "date": "2026-05-18",
       "skipped": false
     }
   ]
