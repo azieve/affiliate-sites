@@ -79,7 +79,16 @@ export function getReviewSchema(props: {
   url: string;
   formationPrice?: string;
   serviceUrl?: string;
+  image?: string;
+  brand?: string;
+  moneyBackGuarantee?: boolean;
 }) {
+  const productImage = props.image
+    ? props.image.startsWith('http')
+      ? props.image
+      : `${siteConfig.url}${props.image}`
+    : `${siteConfig.url}/logo.png`;
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Review',
@@ -87,6 +96,11 @@ export function getReviewSchema(props: {
       '@type': 'Product',
       name: props.name,
       description: `${props.name} LLC formation service`,
+      image: productImage,
+      brand: {
+        '@type': 'Brand',
+        name: props.brand ?? props.name,
+      },
       review: {
         '@type': 'Review',
         reviewRating: {
@@ -114,6 +128,47 @@ export function getReviewSchema(props: {
           priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
           ...(props.serviceUrl && { url: props.serviceUrl }),
+          shippingDetails: {
+            '@type': 'OfferShippingDetails',
+            shippingRate: {
+              '@type': 'MonetaryAmount',
+              value: '0',
+              currency: 'USD',
+            },
+            shippingDestination: {
+              '@type': 'DefinedRegion',
+              addressCountry: 'US',
+            },
+            deliveryTime: {
+              '@type': 'ShippingDeliveryTime',
+              handlingTime: {
+                '@type': 'QuantitativeValue',
+                minValue: 0,
+                maxValue: 0,
+                unitCode: 'DAY',
+              },
+              transitTime: {
+                '@type': 'QuantitativeValue',
+                minValue: 0,
+                maxValue: 0,
+                unitCode: 'DAY',
+              },
+            },
+          },
+          hasMerchantReturnPolicy: props.moneyBackGuarantee
+            ? {
+                '@type': 'MerchantReturnPolicy',
+                applicableCountry: 'US',
+                returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+                merchantReturnDays: 60,
+                returnMethod: 'https://schema.org/ReturnByMail',
+                returnFees: 'https://schema.org/FreeReturn',
+              }
+            : {
+                '@type': 'MerchantReturnPolicy',
+                applicableCountry: 'US',
+                returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted',
+              },
         },
       }),
     },
