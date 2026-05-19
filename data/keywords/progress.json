@@ -1,5 +1,5 @@
 {
-  "next_index": 101,
+  "next_index": 102,
   "completed": [
     {
       "index": 1,
@@ -705,6 +705,13 @@
       "index": 100,
       "keyword": "FinCEN beneficial ownership information for new LLC",
       "slug": "fincen-beneficial-ownership-information-for-new-llc",
+      "date": "2026-05-19",
+      "skipped": false
+    },
+    {
+      "index": 101,
+      "keyword": "LLC certificate of good standing how to get",
+      "slug": "llc-certificate-of-good-standing-how-to-get",
       "date": "2026-05-19",
       "skipped": false
     }
