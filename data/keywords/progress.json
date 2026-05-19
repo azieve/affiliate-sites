@@ -1,5 +1,5 @@
 {
-  "next_index": 100,
+  "next_index": 101,
   "completed": [
     {
       "index": 1,
@@ -699,6 +699,13 @@
       "keyword": "BOI report changes and updates [year]",
       "slug": "boi-report-changes-and-updates-2026",
       "date": "2026-05-18",
+      "skipped": false
+    },
+    {
+      "index": 100,
+      "keyword": "FinCEN beneficial ownership information for new LLC",
+      "slug": "fincen-beneficial-ownership-information-for-new-llc",
+      "date": "2026-05-19",
       "skipped": false
     }
   ]
