@@ -1,5 +1,5 @@
 {
-  "next_index": 102,
+  "next_index": 103,
   "completed": [
     {
       "index": 1,
@@ -712,6 +712,13 @@
       "index": 101,
       "keyword": "LLC certificate of good standing how to get",
       "slug": "llc-certificate-of-good-standing-how-to-get",
+      "date": "2026-05-19",
+      "skipped": false
+    },
+    {
+      "index": 102,
+      "keyword": "can an LLC be a nonprofit",
+      "slug": "can-an-llc-be-a-nonprofit",
       "date": "2026-05-19",
       "skipped": false
     }
