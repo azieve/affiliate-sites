@@ -1,5 +1,5 @@
 {
-  "next_index": 105,
+  "next_index": 106,
   "completed": [
     {
       "index": 1,
@@ -733,6 +733,13 @@
       "index": 104,
       "keyword": "how to start an LLC in New Hampshire",
       "slug": "how-to-start-an-llc-in-new-hampshire",
+      "date": "2026-05-20",
+      "skipped": false
+    },
+    {
+      "index": 105,
+      "keyword": "how to start an LLC in Maine",
+      "slug": "how-to-start-an-llc-in-maine",
       "date": "2026-05-20",
       "skipped": false
     }
