@@ -1,5 +1,5 @@
 {
-  "next_index": 103,
+  "next_index": 104,
   "completed": [
     {
       "index": 1,
@@ -720,6 +720,13 @@
       "keyword": "can an LLC be a nonprofit",
       "slug": "can-an-llc-be-a-nonprofit",
       "date": "2026-05-19",
+      "skipped": false
+    },
+    {
+      "index": 103,
+      "keyword": "LLC for married couples pros and cons",
+      "slug": "llc-for-married-couples-pros-and-cons",
+      "date": "2026-05-20",
       "skipped": false
     }
   ]
