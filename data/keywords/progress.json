@@ -1,5 +1,5 @@
 {
-  "next_index": 107,
+  "next_index": 108,
   "completed": [
     {
       "index": 1,
@@ -747,6 +747,13 @@
       "index": 106,
       "keyword": "how to start an LLC in Montana",
       "slug": "how-to-start-an-llc-in-montana",
+      "date": "2026-05-21",
+      "skipped": false
+    },
+    {
+      "index": 107,
+      "keyword": "how to start an LLC in West Virginia",
+      "slug": "how-to-start-an-llc-in-west-virginia",
       "date": "2026-05-21",
       "skipped": false
     }
