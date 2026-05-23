@@ -1,5 +1,5 @@
 {
-  "next_index": 110,
+  "next_index": 111,
   "completed": [
     {
       "index": 1,
@@ -768,6 +768,13 @@
       "index": 109,
       "keyword": "Nevada LLC annual list filing",
       "slug": "nevada-llc-annual-list-filing",
+      "date": "2026-05-23",
+      "skipped": false
+    },
+    {
+      "index": 110,
+      "keyword": "LLC for crypto and DeFi trading",
+      "slug": "llc-for-crypto-and-defi-trading",
       "date": "2026-05-23",
       "skipped": false
     }
