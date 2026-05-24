@@ -1,5 +1,5 @@
 {
-  "next_index": 113,
+  "next_index": 114,
   "completed": [
     {
       "index": 1,
@@ -789,6 +789,20 @@
       "index": 112,
       "keyword": "LLC for property management company",
       "slug": "llc-for-property-management-company",
+      "date": "2026-05-24",
+      "skipped": false
+    },
+    {
+      "index": 113,
+      "keyword": "LLC Attorney vs ZenBusiness",
+      "slug": "llc-attorney-vs-zenbusiness",
+      "date": "2026-05-24",
+      "skipped": true
+    },
+    {
+      "index": 113,
+      "keyword": "LLC Attorney vs ZenBusiness",
+      "slug": "llc-attorney-vs-zenbusiness",
       "date": "2026-05-24",
       "skipped": false
     }
