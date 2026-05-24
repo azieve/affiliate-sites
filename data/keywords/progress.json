@@ -1,5 +1,5 @@
 {
-  "next_index": 111,
+  "next_index": 112,
   "completed": [
     {
       "index": 1,
@@ -776,6 +776,13 @@
       "keyword": "LLC for crypto and DeFi trading",
       "slug": "llc-for-crypto-and-defi-trading",
       "date": "2026-05-23",
+      "skipped": false
+    },
+    {
+      "index": 111,
+      "keyword": "LLC for insurance agents",
+      "slug": "llc-for-insurance-agents",
+      "date": "2026-05-24",
       "skipped": false
     }
   ]
