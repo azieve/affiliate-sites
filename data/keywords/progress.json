@@ -1,5 +1,5 @@
 {
-  "next_index": 112,
+  "next_index": 113,
   "completed": [
     {
       "index": 1,
@@ -782,6 +782,13 @@
       "index": 111,
       "keyword": "LLC for insurance agents",
       "slug": "llc-for-insurance-agents",
+      "date": "2026-05-24",
+      "skipped": false
+    },
+    {
+      "index": 112,
+      "keyword": "LLC for property management company",
+      "slug": "llc-for-property-management-company",
       "date": "2026-05-24",
       "skipped": false
     }
