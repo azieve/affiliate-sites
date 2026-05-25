@@ -1,5 +1,5 @@
 {
-  "next_index": 114,
+  "next_index": 115,
   "completed": [
     {
       "index": 1,
@@ -804,6 +804,13 @@
       "keyword": "LLC Attorney vs ZenBusiness",
       "slug": "llc-attorney-vs-zenbusiness",
       "date": "2026-05-24",
+      "skipped": false
+    },
+    {
+      "index": 114,
+      "keyword": "LLC Attorney vs LegalZoom",
+      "slug": "llc-attorney-vs-legalzoom",
+      "date": "2026-05-25",
       "skipped": false
     }
   ]
