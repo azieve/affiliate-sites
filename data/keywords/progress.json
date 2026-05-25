@@ -1,5 +1,5 @@
 {
-  "next_index": 115,
+  "next_index": 116,
   "completed": [
     {
       "index": 1,
@@ -810,6 +810,13 @@
       "index": 114,
       "keyword": "LLC Attorney vs LegalZoom",
       "slug": "llc-attorney-vs-legalzoom",
+      "date": "2026-05-25",
+      "skipped": false
+    },
+    {
+      "index": 115,
+      "keyword": "Northwest vs Bizee registered agent",
+      "slug": "northwest-vs-bizee-registered-agent",
       "date": "2026-05-25",
       "skipped": false
     }
