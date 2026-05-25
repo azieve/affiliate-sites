@@ -1,5 +1,5 @@
 {
-  "next_index": 116,
+  "next_index": 117,
   "completed": [
     {
       "index": 1,
@@ -817,6 +817,20 @@
       "index": 115,
       "keyword": "Northwest vs Bizee registered agent",
       "slug": "northwest-vs-bizee-registered-agent",
+      "date": "2026-05-25",
+      "skipped": false
+    },
+    {
+      "index": 116,
+      "keyword": "Tailor Brands LLC review",
+      "slug": "tailor-brands-llc-review",
+      "date": "2026-05-25",
+      "skipped": true
+    },
+    {
+      "index": 116,
+      "keyword": "Tailor Brands LLC review",
+      "slug": "tailor-brands-llc-review",
       "date": "2026-05-25",
       "skipped": false
     }
