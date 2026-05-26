@@ -1526,3 +1526,4 @@ To https://github.com/azieve/affiliate-sites.git
 WARNING: Google sitemap submission failed: No module named 'google'
 [2026-05-26 15:04:28] Submitted to Google Indexing API: /blog/llc-for-medical-practice/
 [2026-05-26 15:04:33] Step6-7: image generated, featuredImage injected, progress.next_index=120.
+[2026-05-26 15:06:24] Note: generate-image.py auto-committed mdx+images as 717cb2a; deduped progress.json index-119.
