@@ -1,5 +1,5 @@
 {
-  "next_index": 119,
+  "next_index": 120,
   "completed": [
     {
       "index": 1,
@@ -845,6 +845,13 @@
       "index": 118,
       "keyword": "how to start an LLC in Rhode Island",
       "slug": "how-to-start-an-llc-in-rhode-island",
+      "date": "2026-05-26",
+      "skipped": false
+    },
+    {
+      "index": 119,
+      "keyword": "LLC for medical practice",
+      "slug": "llc-for-medical-practice",
       "date": "2026-05-26",
       "skipped": false
     }
