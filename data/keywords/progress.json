@@ -1,5 +1,5 @@
 {
-  "next_index": 117,
+  "next_index": 118,
   "completed": [
     {
       "index": 1,
@@ -832,6 +832,13 @@
       "keyword": "Tailor Brands LLC review",
       "slug": "tailor-brands-llc-review",
       "date": "2026-05-25",
+      "skipped": false
+    },
+    {
+      "index": 117,
+      "keyword": "Swyft Filings review",
+      "slug": "swyft-filings-review",
+      "date": "2026-05-26",
       "skipped": false
     }
   ]
