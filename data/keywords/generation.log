@@ -1449,3 +1449,80 @@ WARNING: Google sitemap submission failed: No module named 'google'
 [2026-05-25 09:06:02] Built content prompt for "Northwest vs Bizee registered agent"
 [2026-05-25 09:07:41] MDX validated OK (2599 words)
 [2026-05-25 09:08:12] Injected featuredImage; progress.json updated to next_index=116
+[2026-05-25 09:08:42] Committed (07a4c60) and pushed to origin/main
+[2026-05-25 09:08:50] DONE keyword="Northwest vs Bizee registered agent" slug=northwest-vs-bizee-registered-agent url=https://topbestllcservice.com/blog/northwest-vs-bizee-registered-agent/ next_index=116 (Google API module missing-non-fatal; IndexNow 200 OK)
+[2026-05-25 15:00:06] Next keyword index: 116
+[2026-05-25 15:00:06] Generating article for: Tailor Brands LLC review (Category: Comparison, Intent: Commercial)
+[2026-05-25 15:00:06] Calling Claude CLI to generate article...
+[2026-05-25 15:01:35] Run start (afternoon). next_index=116, keyword='Tailor Brands LLC review', slug='tailor-brands-llc-review'
+[2026-05-25 15:01:35] OUTPUT_FILE src/content/blog/tailor-brands-llc-review.mdx already exists. Skipping generation.
+[2026-05-25 15:01:35] Progress saved. next_index=117. Exiting cleanly (skipped).
+[2026-05-25 15:04:02] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/tailor-brands-llc-review.mdx
+[2026-05-25 15:04:02] Generating hero image for: tailor-brands-llc-review
+Generating image for: tailor-brands-llc-review
+Prompt: A professional illustration representing: Tailor Brands LLC review...
+Received 1248KB from Gemini API
+  hero-1200.webp: 45KB
+  hero-800.webp: 27KB
+  hero-400.webp: 11KB
+  og.jpg: 96KB
+[2026-05-25 15:04:25] Hero image generated: /blog/tailor-brands-llc-review/hero
+[2026-05-25 15:04:25] Injected featuredImage into frontmatter
+[2026-05-25 15:04:25] Progress updated. Next index: 117
+[2026-05-25 15:04:25] Article published at: /blog/tailor-brands-llc-review/
+[2026-05-25 15:04:25] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   07a4c60..0e51b10  main -> main
+[2026-05-25 15:04:27] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-25 15:04:29] Submitted to Google Indexing API: /blog/tailor-brands-llc-review/
+[2026-05-26 09:00:01] Next keyword index: 117
+[2026-05-26 09:00:02] Generating article for: Swyft Filings review (Category: Comparison, Intent: Commercial)
+[2026-05-26 09:00:02] Calling Claude CLI to generate article...
+[2026-05-26 09:02:33] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/swyft-filings-review.mdx
+[2026-05-26 09:02:33] Generating hero image for: swyft-filings-review
+Generating image for: swyft-filings-review
+Prompt: A professional illustration representing: Swyft Filings review...
+Received 1365KB from Gemini API
+  hero-1200.webp: 50KB
+  hero-800.webp: 30KB
+  hero-400.webp: 13KB
+  og.jpg: 102KB
+[2026-05-26 09:02:46] Hero image generated: /blog/swyft-filings-review/hero
+[2026-05-26 09:02:46] Injected featuredImage into frontmatter
+[2026-05-26 09:02:46] Progress updated. Next index: 118
+[2026-05-26 09:02:46] Article published at: /blog/swyft-filings-review/
+[2026-05-26 09:02:46] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   0e51b10..cedf410  main -> main
+[2026-05-26 09:02:48] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-26 09:02:51] Submitted to Google Indexing API: /blog/swyft-filings-review/
+[2026-05-26 09:05:37] Picked keyword index 118: how to start an LLC in Rhode Island -> slug how-to-start-an-llc-in-rhode-island
+[2026-05-26 09:07:52] Wrote MDX article for how to start an LLC in Rhode Island
+[2026-05-26 09:08:35] Updated progress.json: next_index=119, completed index 118
+[2026-05-26 09:09:02] git push origin main exit was logged
+[2026-05-26 09:09:16] Submitted to Google Indexing: /blog/how-to-start-an-llc-in-rhode-island/
+[2026-05-26 09:09:16] DONE: keyword='how to start an LLC in Rhode Island' slug=how-to-start-an-llc-in-rhode-island url=https://topbestllcservice.com/blog/how-to-start-an-llc-in-rhode-island/ next_index=119
+[2026-05-26 15:00:01] Next keyword index: 119
+[2026-05-26 15:00:01] Generating article for: LLC for medical practice (Category: Profession, Intent: Commercial)
+[2026-05-26 15:00:02] Calling Claude CLI to generate article...
+[2026-05-26 15:01:10] START run. Picked index=119 keyword='LLC for medical practice' slug=llc-for-medical-practice
+[2026-05-26 15:01:10] Step1-2 done. OUTPUT_FILE=src/content/blog/llc-for-medical-practice.mdx
+[2026-05-26 15:01:56] Existing OUTPUT_FILE was 0 bytes (failed prior run) — deleting and regenerating.
+[2026-05-26 15:01:56] Step3 prompt built.
+[2026-05-26 15:03:59] Step4-5 article written & validated.
+[2026-05-26 15:04:24] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-medical-practice.mdx
+[2026-05-26 15:04:24] Generating hero image for: llc-for-medical-practice
+Images already exist for llc-for-medical-practice, skipping.
+[2026-05-26 15:04:24] Hero image generated: /blog/llc-for-medical-practice/hero
+[2026-05-26 15:04:24] Injected featuredImage into frontmatter
+[2026-05-26 15:04:24] Progress updated. Next index: 120
+[2026-05-26 15:04:24] Article published at: /blog/llc-for-medical-practice/
+[2026-05-26 15:04:24] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   60df4c2..717cb2a  main -> main
+[2026-05-26 15:04:26] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-26 15:04:28] Submitted to Google Indexing API: /blog/llc-for-medical-practice/
+[2026-05-26 15:04:33] Step6-7: image generated, featuredImage injected, progress.next_index=120.
