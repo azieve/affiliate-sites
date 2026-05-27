@@ -1,5 +1,5 @@
 {
-  "next_index": 121,
+  "next_index": 122,
   "completed": [
     {
       "index": 1,
@@ -859,6 +859,13 @@
       "index": 120,
       "keyword": "LLC for wedding planners and event coordinators",
       "slug": "llc-for-wedding-planners-and-event-coordinators",
+      "date": "2026-05-27",
+      "skipped": false
+    },
+    {
+      "index": 121,
+      "keyword": "LLC for authors and self-publishers",
+      "slug": "llc-for-authors-and-self-publishers",
       "date": "2026-05-27",
       "skipped": false
     }
