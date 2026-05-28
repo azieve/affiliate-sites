@@ -1,5 +1,5 @@
 {
-  "next_index": 122,
+  "next_index": 123,
   "completed": [
     {
       "index": 1,
@@ -867,6 +867,13 @@
       "keyword": "LLC for authors and self-publishers",
       "slug": "llc-for-authors-and-self-publishers",
       "date": "2026-05-27",
+      "skipped": false
+    },
+    {
+      "index": 122,
+      "keyword": "LLC for mobile car detailing",
+      "slug": "llc-for-mobile-car-detailing",
+      "date": "2026-05-28",
       "skipped": false
     }
   ]
