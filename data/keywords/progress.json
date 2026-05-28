@@ -1,5 +1,5 @@
 {
-  "next_index": 123,
+  "next_index": 124,
   "completed": [
     {
       "index": 1,
@@ -873,6 +873,13 @@
       "index": 122,
       "keyword": "LLC for mobile car detailing",
       "slug": "llc-for-mobile-car-detailing",
+      "date": "2026-05-28",
+      "skipped": false
+    },
+    {
+      "index": 123,
+      "keyword": "LLC for tutoring business",
+      "slug": "llc-for-tutoring-business",
       "date": "2026-05-28",
       "skipped": false
     }
