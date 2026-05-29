@@ -1,5 +1,5 @@
 {
-  "next_index": 124,
+  "next_index": 125,
   "completed": [
     {
       "index": 1,
@@ -881,6 +881,13 @@
       "keyword": "LLC for tutoring business",
       "slug": "llc-for-tutoring-business",
       "date": "2026-05-28",
+      "skipped": false
+    },
+    {
+      "index": 124,
+      "keyword": "BOI report vs annual report (what is the difference)",
+      "slug": "boi-report-vs-annual-report-what-is-the-difference",
+      "date": "2026-05-29",
       "skipped": false
     }
   ]
