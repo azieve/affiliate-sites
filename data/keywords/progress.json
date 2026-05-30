@@ -1,5 +1,5 @@
 {
-  "next_index": 126,
+  "next_index": 127,
   "completed": [
     {
       "index": 1,
@@ -895,6 +895,13 @@
       "keyword": "LLC for notary public business",
       "slug": "llc-for-notary-public-business",
       "date": "2026-05-29",
+      "skipped": false
+    },
+    {
+      "index": 126,
+      "keyword": "LLC for podcast",
+      "slug": "llc-for-podcast",
+      "date": "2026-05-30",
       "skipped": false
     }
   ]
