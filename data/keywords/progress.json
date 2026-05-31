@@ -1,5 +1,5 @@
 {
-  "next_index": 127,
+  "next_index": 128,
   "completed": [
     {
       "index": 1,
@@ -902,6 +902,13 @@
       "keyword": "LLC for podcast",
       "slug": "llc-for-podcast",
       "date": "2026-05-30",
+      "skipped": false
+    },
+    {
+      "index": 127,
+      "keyword": "LLC for travel agency",
+      "slug": "llc-for-travel-agency",
+      "date": "2026-05-31",
       "skipped": false
     }
   ]
