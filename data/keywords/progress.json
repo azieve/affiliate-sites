@@ -1,5 +1,5 @@
 {
-  "next_index": 129,
+  "next_index": 130,
   "completed": [
     {
       "index": 1,
@@ -915,6 +915,13 @@
       "index": 128,
       "keyword": "LLC for social media manager",
       "slug": "llc-for-social-media-manager",
+      "date": "2026-05-31",
+      "skipped": false
+    },
+    {
+      "index": 129,
+      "keyword": "best LLC service for multi-state business",
+      "slug": "best-llc-service-for-multi-state-business",
       "date": "2026-05-31",
       "skipped": false
     }
