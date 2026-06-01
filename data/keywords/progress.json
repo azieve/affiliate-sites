@@ -1,5 +1,5 @@
 {
-  "next_index": 131,
+  "next_index": 132,
   "completed": [
     {
       "index": 1,
@@ -929,6 +929,13 @@
       "index": 130,
       "keyword": "how to start an LLC in South Dakota",
       "slug": "how-to-start-an-llc-in-south-dakota",
+      "date": "2026-06-01",
+      "skipped": false
+    },
+    {
+      "index": 131,
+      "keyword": "how to start an LLC in North Dakota",
+      "slug": "how-to-start-an-llc-in-north-dakota",
       "date": "2026-06-01",
       "skipped": false
     }
