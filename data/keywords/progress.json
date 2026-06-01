@@ -1,5 +1,5 @@
 {
-  "next_index": 130,
+  "next_index": 131,
   "completed": [
     {
       "index": 1,
@@ -923,6 +923,13 @@
       "keyword": "best LLC service for multi-state business",
       "slug": "best-llc-service-for-multi-state-business",
       "date": "2026-05-31",
+      "skipped": false
+    },
+    {
+      "index": 130,
+      "keyword": "how to start an LLC in South Dakota",
+      "slug": "how-to-start-an-llc-in-south-dakota",
+      "date": "2026-06-01",
       "skipped": false
     }
   ]
