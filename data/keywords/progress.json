@@ -1,5 +1,5 @@
 {
-  "next_index": 134,
+  "next_index": 135,
   "completed": [
     {
       "index": 1,
@@ -950,6 +950,13 @@
       "index": 133,
       "keyword": "LLC for accounting firm",
       "slug": "llc-for-accounting-firm",
+      "date": "2026-06-02",
+      "skipped": false
+    },
+    {
+      "index": 134,
+      "keyword": "BetterLegal review",
+      "slug": "betterlegal-review",
       "date": "2026-06-02",
       "skipped": false
     }
