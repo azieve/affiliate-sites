@@ -1,5 +1,5 @@
 {
-  "next_index": 132,
+  "next_index": 133,
   "completed": [
     {
       "index": 1,
@@ -937,6 +937,13 @@
       "keyword": "how to start an LLC in North Dakota",
       "slug": "how-to-start-an-llc-in-north-dakota",
       "date": "2026-06-01",
+      "skipped": false
+    },
+    {
+      "index": 132,
+      "keyword": "how to start an LLC in Vermont",
+      "slug": "how-to-start-an-llc-in-vermont",
+      "date": "2026-06-02",
       "skipped": false
     }
   ]
