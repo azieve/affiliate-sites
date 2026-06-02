@@ -1,5 +1,5 @@
 {
-  "next_index": 133,
+  "next_index": 134,
   "completed": [
     {
       "index": 1,
@@ -943,6 +943,13 @@
       "index": 132,
       "keyword": "how to start an LLC in Vermont",
       "slug": "how-to-start-an-llc-in-vermont",
+      "date": "2026-06-02",
+      "skipped": false
+    },
+    {
+      "index": 133,
+      "keyword": "LLC for accounting firm",
+      "slug": "llc-for-accounting-firm",
       "date": "2026-06-02",
       "skipped": false
     }
