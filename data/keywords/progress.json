@@ -1,5 +1,5 @@
 {
-  "next_index": 137,
+  "next_index": 138,
   "completed": [
     {
       "index": 1,
@@ -971,6 +971,13 @@
       "index": 136,
       "keyword": "Harvard Business Services review (Delaware)",
       "slug": "harvard-business-services-review-delaware",
+      "date": "2026-06-03",
+      "skipped": false
+    },
+    {
+      "index": 137,
+      "keyword": "how to get an EIN for your LLC (free IRS method)",
+      "slug": "how-to-get-an-ein-for-your-llc-free-irs-method",
       "date": "2026-06-03",
       "skipped": false
     }
