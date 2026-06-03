@@ -1527,3 +1527,346 @@ WARNING: Google sitemap submission failed: No module named 'google'
 [2026-05-26 15:04:28] Submitted to Google Indexing API: /blog/llc-for-medical-practice/
 [2026-05-26 15:04:33] Step6-7: image generated, featuredImage injected, progress.next_index=120.
 [2026-05-26 15:06:24] Note: generate-image.py auto-committed mdx+images as 717cb2a; deduped progress.json index-119.
+[2026-05-26 15:06:47] DONE. keyword='LLC for medical practice' slug=llc-for-medical-practice url=https://topbestllcservice.com/blog/llc-for-medical-practice/ next_index=120. Pushed to main (a4dc1d4). IndexNow 200; Google API module missing (non-fatal).
+[2026-05-27 09:00:03] Next keyword index: 120
+[2026-05-27 09:00:04] Generating article for: LLC for wedding planners and event coordinators (Category: Profession, Intent: Commercial)
+[2026-05-27 09:00:04] Calling Claude CLI to generate article...
+[2026-05-27 09:04:45] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-wedding-planners-and-event-coordinators.mdx
+[2026-05-27 09:04:45] Generating hero image for: llc-for-wedding-planners-and-event-coordinators
+Generating image for: llc-for-wedding-planners-and-event-coordinators
+Prompt: A professional illustration representing: LLC for wedding planners and event coordinators...
+Received 1245KB from Gemini API
+  hero-1200.webp: 45KB
+  hero-800.webp: 28KB
+  hero-400.webp: 11KB
+  og.jpg: 92KB
+[2026-05-27 09:05:00] Hero image generated: /blog/llc-for-wedding-planners-and-event-coordinators/hero
+[2026-05-27 09:05:00] Injected featuredImage into frontmatter
+[2026-05-27 09:05:00] Progress updated. Next index: 121
+[2026-05-27 09:05:00] Article published at: /blog/llc-for-wedding-planners-and-event-coordinators/
+[2026-05-27 09:05:00] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   a4dc1d4..88395fa  main -> main
+[2026-05-27 09:05:03] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-27 09:05:04] Submitted to Google Indexing API: /blog/llc-for-wedding-planners-and-event-coordinators/
+[2026-05-27 09:05:16] Pipeline start (scheduled: topbestllc-generate-article-morning)
+[2026-05-27 09:05:16] Step 1: next_index=120, total_rows=203, keyword='LLC for wedding planners and event coordinators'
+[2026-05-27 09:05:16] Step 2: slug=llc-for-wedding-planners-and-event-coordinators -> OUTPUT_FILE already exists, skipping generation
+[2026-05-27 09:06:21] Detected concurrent run already completed index 120 (committed 88395fa, pushed, progress advanced to next_index=121). No duplicate write performed.
+[2026-05-27 09:06:21] Final status: keyword='LLC for wedding planners and event coordinators' slug=llc-for-wedding-planners-and-event-coordinators URL=https://topbestllcservice.com/blog/llc-for-wedding-planners-and-event-coordinators/ next_index=121. Exiting cleanly (article already published by concurrent run).
+[2026-05-27 15:00:03] Next keyword index: 121
+[2026-05-27 15:00:03] Generating article for: LLC for authors and self-publishers (Category: Profession, Intent: Commercial)
+[2026-05-27 15:00:03] Calling Claude CLI to generate article...
+[2026-05-27 15:01:28] START run: picked index 121, keyword 'LLC for authors and self-publishers', slug llc-for-authors-and-self-publishers
+[2026-05-27 15:03:38] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-authors-and-self-publishers.mdx
+[2026-05-27 15:03:38] Generating hero image for: llc-for-authors-and-self-publishers
+Generating image for: llc-for-authors-and-self-publishers
+Prompt: A professional illustration representing: LLC for authors and self-publishers...
+Received 1186KB from Gemini API
+  hero-1200.webp: 47KB
+  hero-800.webp: 30KB
+  hero-400.webp: 13KB
+  og.jpg: 98KB
+[2026-05-27 15:03:53] Hero image generated: /blog/llc-for-authors-and-self-publishers/hero
+[2026-05-27 15:03:53] Injected featuredImage into frontmatter
+[2026-05-27 15:03:53] Progress updated. Next index: 122
+[2026-05-27 15:03:53] Article published at: /blog/llc-for-authors-and-self-publishers/
+[2026-05-27 15:03:53] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   88395fa..f38603c  main -> main
+[2026-05-27 15:05:02] Pushed to GitHub — Vercel auto-deploy triggered.
+[2026-05-27 15:05:03] topbestllc-afternoon scheduled-task: detected RACE with launchd daemon (PID 11549) on index 121 (LLC for authors and self-publishers). Daemon already wrote+validated the article and committed f38603c; progress.json already advanced to next_index=122. Exiting WITHOUT action to avoid duplicate article, progress.json conflict, or concurrent push race. Daemon owns push (Step 8) + indexing (Step 9).
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-27 15:05:04] Submitted to Google Indexing API: /blog/llc-for-authors-and-self-publishers/
+[2026-05-28 09:00:02] Next keyword index: 122
+[2026-05-28 09:00:02] Generating article for: LLC for mobile car detailing (Category: Profession, Intent: Commercial)
+[2026-05-28 09:00:03] Calling Claude CLI to generate article...
+[2026-05-28 09:03:56] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-mobile-car-detailing.mdx
+[2026-05-28 09:03:56] Generating hero image for: llc-for-mobile-car-detailing
+Generating image for: llc-for-mobile-car-detailing
+Prompt: A professional illustration representing: LLC for mobile car detailing...
+Received 1278KB from Gemini API
+  hero-1200.webp: 53KB
+  hero-800.webp: 33KB
+  hero-400.webp: 13KB
+  og.jpg: 106KB
+[2026-05-28 09:04:13] Hero image generated: /blog/llc-for-mobile-car-detailing/hero
+[2026-05-28 09:04:13] Injected featuredImage into frontmatter
+[2026-05-28 09:04:13] Progress updated. Next index: 123
+[2026-05-28 09:04:13] Article published at: /blog/llc-for-mobile-car-detailing/
+[2026-05-28 09:04:13] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   f38603c..5f52f89  main -> main
+[2026-05-28 09:04:15] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-28 09:04:16] Submitted to Google Indexing API: /blog/llc-for-mobile-car-detailing/
+[2026-05-28 09:05:30] topbestllc-morning scheduled-task: detected RACE with launchd daemon on index 122 (LLC for mobile car detailing). Daemon already wrote+validated the article (21KB), committed 5f52f89, pushed to origin/main, and advanced progress.json to next_index=123 between 09:00:02 and 09:04:16. Exiting WITHOUT action to avoid duplicate article, progress.json conflict, or concurrent push race. Daemon already completed Step 8 (push) + Step 9 (Google indexing).
+[2026-05-28 15:00:02] Next keyword index: 123
+[2026-05-28 15:00:02] Generating article for: LLC for tutoring business (Category: Profession, Intent: Commercial)
+[2026-05-28 15:00:03] Calling Claude CLI to generate article...
+[2026-05-28 15:01:30] topbestllc-afternoon scheduled-task: detected RACE with launchd daemon (PID 74878) on index 123 (LLC for tutoring business). Daemon started 15:00:02, currently mid-generation (Claude CLI in-flight, 0-byte placeholder at src/content/blog/llc-for-tutoring-business.mdx). Exiting WITHOUT action to avoid duplicate article, progress.json conflict, or concurrent push race. Daemon owns Steps 4-9 for this slot.
+[2026-05-28 15:04:51] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-tutoring-business.mdx
+[2026-05-28 15:04:51] Generating hero image for: llc-for-tutoring-business
+Generating image for: llc-for-tutoring-business
+Prompt: A professional illustration representing: LLC for tutoring business...
+Received 1117KB from Gemini API
+  hero-1200.webp: 44KB
+  hero-800.webp: 27KB
+  hero-400.webp: 11KB
+  og.jpg: 86KB
+[2026-05-28 15:05:05] Hero image generated: /blog/llc-for-tutoring-business/hero
+[2026-05-28 15:05:05] Injected featuredImage into frontmatter
+[2026-05-28 15:05:05] Progress updated. Next index: 124
+[2026-05-28 15:05:05] Article published at: /blog/llc-for-tutoring-business/
+[2026-05-28 15:05:05] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   5f52f89..509eec4  main -> main
+[2026-05-28 15:05:08] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-28 15:05:11] Submitted to Google Indexing API: /blog/llc-for-tutoring-business/
+[2026-05-29 09:00:06] Next keyword index: 124
+[2026-05-29 09:00:07] Generating article for: BOI report vs annual report (what is the difference) (Category: FinCEN, Intent: Informational)
+[2026-05-29 09:00:07] Calling Claude CLI to generate article...
+[2026-05-29 09:04:36] topbestllc-morning scheduled-task: detected RACE with launchd daemon (PID 45886) on index 124 (BOI report vs annual report (what is the difference)). Daemon started 09:00:06, currently mid-generation (Claude CLI subprocess PID 46545 in-flight, 0-byte placeholder at src/content/blog/boi-report-vs-annual-report-what-is-the-difference.mdx). Exiting WITHOUT action to avoid duplicate article, progress.json conflict, or concurrent push race. Daemon owns Steps 4-9 for this slot.
+[2026-05-29 09:05:19] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/boi-report-vs-annual-report-what-is-the-difference.mdx
+[2026-05-29 09:05:19] Generating hero image for: boi-report-vs-annual-report-what-is-the-difference
+Generating image for: boi-report-vs-annual-report-what-is-the-difference
+Prompt: A professional illustration representing: BOI report vs annual report (what is the difference)...
+Received 1029KB from Gemini API
+  hero-1200.webp: 40KB
+  hero-800.webp: 24KB
+  hero-400.webp: 10KB
+  og.jpg: 84KB
+[2026-05-29 09:05:36] Hero image generated: /blog/boi-report-vs-annual-report-what-is-the-difference/hero
+[2026-05-29 09:05:36] Injected featuredImage into frontmatter
+[2026-05-29 09:05:36] Progress updated. Next index: 125
+[2026-05-29 09:05:36] Article published at: /blog/boi-report-vs-annual-report-what-is-the-difference/
+[2026-05-29 09:05:36] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   509eec4..2412e08  main -> main
+[2026-05-29 09:05:38] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: IndexNow submission failed (502): https://topbestllcservice.com/blog/boi-report-vs-annual-report-what-is-the-difference/
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-29 09:06:03] Submitted to Google Indexing API: /blog/boi-report-vs-annual-report-what-is-the-difference/
+[2026-05-29 15:00:01] Next keyword index: 125
+[2026-05-29 15:00:01] Generating article for: LLC for notary public business (Category: Profession, Intent: Commercial)
+[2026-05-29 15:00:02] Calling Claude CLI to generate article...
+[2026-05-29 15:03:20] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-notary-public-business.mdx
+[2026-05-29 15:03:20] Generating hero image for: llc-for-notary-public-business
+Generating image for: llc-for-notary-public-business
+Prompt: A professional illustration representing: LLC for notary public business...
+Received 1281KB from Gemini API
+  hero-1200.webp: 46KB
+  hero-800.webp: 27KB
+  hero-400.webp: 10KB
+  og.jpg: 91KB
+[2026-05-29 15:03:34] Hero image generated: /blog/llc-for-notary-public-business/hero
+[2026-05-29 15:03:34] Injected featuredImage into frontmatter
+[2026-05-29 15:03:34] Progress updated. Next index: 126
+[2026-05-29 15:03:34] Article published at: /blog/llc-for-notary-public-business/
+[2026-05-29 15:03:34] SID registry refreshed.
+remote: Permission to azieve/affiliate-sites.git denied to alon-apeiros.
+fatal: unable to access 'https://github.com/azieve/affiliate-sites.git/': The requested URL returned error: 403
+[2026-05-29 15:03:35] ERROR: git push failed. Article committed locally but not deployed.
+[2026-05-30 09:16:14] Next keyword index: 126
+[2026-05-30 09:16:14] Generating article for: LLC for podcast (Category: Profession, Intent: Commercial)
+[2026-05-30 09:16:16] Calling Claude CLI to generate article...
+[2026-05-30 09:28:08] Morning run: read progress, next_index=126, total_rows=203
+[2026-05-30 11:07:11] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-podcast.mdx
+[2026-05-30 11:07:11] Generating hero image for: llc-for-podcast
+Generating image for: llc-for-podcast
+Prompt: A professional illustration representing: LLC for podcast...
+Received 1478KB from Gemini API
+  hero-1200.webp: 71KB
+  hero-800.webp: 37KB
+  hero-400.webp: 14KB
+  og.jpg: 120KB
+[2026-05-30 11:07:26] Hero image generated: /blog/llc-for-podcast/hero
+[2026-05-30 11:07:26] Injected featuredImage into frontmatter
+[2026-05-30 11:07:26] Progress updated. Next index: 127
+[2026-05-30 11:07:26] Article published at: /blog/llc-for-podcast/
+[2026-05-30 11:07:26] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   2412e08..793c54f  main -> main
+[2026-05-30 11:07:28] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-30 11:07:30] Submitted to Google Indexing API: /blog/llc-for-podcast/
+[2026-05-30 15:06:00] Next keyword index: 127
+[2026-05-30 15:06:00] Generating article for: LLC for travel agency (Category: Profession, Intent: Commercial)
+[2026-05-30 15:06:01] Calling Claude CLI to generate article...
+[2026-05-30 18:23:33] Afternoon scheduled task: detected launchd 3PM daemon already running for index 127 (LLC for travel agency, started 15:06:00, mid-generation). Exiting without action to avoid duplicate/race per known pipeline-race issue.
+[2026-05-30 20:38:12] ERROR: Claude CLI failed for keyword: LLC for travel agency
+[2026-05-31 09:00:02] Next keyword index: 127
+[2026-05-31 09:00:02] Generating article for: LLC for travel agency (Category: Profession, Intent: Commercial)
+[2026-05-31 09:00:02] Calling Claude CLI to generate article...
+[2026-05-31 09:03:21] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-travel-agency.mdx
+[2026-05-31 09:03:22] Generating hero image for: llc-for-travel-agency
+Generating image for: llc-for-travel-agency
+Prompt: A professional illustration representing: LLC for travel agency...
+Received 1417KB from Gemini API
+  hero-1200.webp: 79KB
+  hero-800.webp: 46KB
+  hero-400.webp: 18KB
+  og.jpg: 139KB
+[2026-05-31 09:03:39] Hero image generated: /blog/llc-for-travel-agency/hero
+[2026-05-31 09:03:39] Injected featuredImage into frontmatter
+[2026-05-31 09:03:39] Progress updated. Next index: 128
+[2026-05-31 09:03:39] Article published at: /blog/llc-for-travel-agency/
+[2026-05-31 09:03:39] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   793c54f..d222b15  main -> main
+[2026-05-31 09:03:42] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-31 09:03:43] Submitted to Google Indexing API: /blog/llc-for-travel-agency/
+[2026-05-31 09:05:53] Morning run: picked index 128, keyword "LLC for social media manager", slug llc-for-social-media-manager. Starting generation.
+[2026-05-31 09:08:33] Article written and validated (2347 words). Generating hero image.
+[2026-05-31 09:09:08] Hero image injected. progress.next_index advanced to 129. Committing.
+[2026-05-31 09:09:37] Pushed to origin/main (168dd3e). Submitting to Google Indexing.
+[2026-05-31 09:09:50] DONE. keyword="LLC for social media manager" slug=llc-for-social-media-manager URL=https://topbestllcservice.com/blog/llc-for-social-media-manager/ next_index=129. IndexNow 200; Google API module missing (non-fatal).
+[2026-05-31 15:09:52] Next keyword index: 129
+[2026-05-31 15:09:53] Generating article for: best LLC service for multi-state business (Category: Comparison, Intent: Commercial)
+[2026-05-31 15:09:54] Calling Claude CLI to generate article...
+[2026-05-31 15:43:23] Afternoon scheduled task: launchd daemon (com.topbestllcservice.generate-article, PID 8764, claude PID 9459) already actively generating index 129 "best LLC service for multi-state business". Exiting without action to avoid racing/duplicating the daemon. No changes made.
+[2026-05-31 15:45:48] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/best-llc-service-for-multi-state-business.mdx
+[2026-05-31 15:45:48] Generating hero image for: best-llc-service-for-multi-state-business
+Generating image for: best-llc-service-for-multi-state-business
+Prompt: A professional illustration representing: best LLC service for multi-state business...
+Received 1464KB from Gemini API
+  hero-1200.webp: 68KB
+  hero-800.webp: 40KB
+  hero-400.webp: 16KB
+  og.jpg: 126KB
+[2026-05-31 15:46:02] Hero image generated: /blog/best-llc-service-for-multi-state-business/hero
+[2026-05-31 15:46:02] Injected featuredImage into frontmatter
+[2026-05-31 15:46:02] Progress updated. Next index: 130
+[2026-05-31 15:46:02] Article published at: /blog/best-llc-service-for-multi-state-business/
+[2026-05-31 15:46:02] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   168dd3e..338ddef  main -> main
+[2026-05-31 15:46:04] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-05-31 15:46:05] Submitted to Google Indexing API: /blog/best-llc-service-for-multi-state-business/
+[2026-06-01 09:00:02] Next keyword index: 130
+[2026-06-01 09:00:02] Generating article for: how to start an LLC in South Dakota (Category: State Formation, Intent: Transactional)
+[2026-06-01 09:00:03] Calling Claude CLI to generate article...
+[2026-06-01 09:02:33] morning scheduled-task: launchd daemon (com.topbestllcservice.generate-article, PID 52396) already generating index 130 "how to start an LLC in South Dakota" via claude CLI (PID 53083). Exiting without action to avoid race/duplicate index advance.
+[2026-06-01 09:04:50] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-south-dakota.mdx
+[2026-06-01 09:04:50] Generating hero image for: how-to-start-an-llc-in-south-dakota
+Generating image for: how-to-start-an-llc-in-south-dakota
+Prompt: A professional illustration representing: how to start an LLC in South Dakota...
+Received 1292KB from Gemini API
+  hero-1200.webp: 47KB
+  hero-800.webp: 28KB
+  hero-400.webp: 12KB
+  og.jpg: 93KB
+[2026-06-01 09:05:07] Hero image generated: /blog/how-to-start-an-llc-in-south-dakota/hero
+[2026-06-01 09:05:07] Injected featuredImage into frontmatter
+[2026-06-01 09:05:07] Progress updated. Next index: 131
+[2026-06-01 09:05:07] Article published at: /blog/how-to-start-an-llc-in-south-dakota/
+[2026-06-01 09:05:07] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   338ddef..af9ca8e  main -> main
+[2026-06-01 09:05:09] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-01 09:05:11] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-south-dakota/
+[2026-06-01 15:00:02] Next keyword index: 131
+[2026-06-01 15:00:02] Generating article for: how to start an LLC in North Dakota (Category: State Formation, Intent: Transactional)
+[2026-06-01 15:00:02] Calling Claude CLI to generate article...
+[2026-06-01 15:01:41] Afternoon task: launchd 3PM daemon (PID 92227) already generating index 131 (how to start an LLC in North Dakota) — deferring to avoid race/duplicate. Exiting without action.
+[2026-06-01 15:03:56] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-north-dakota.mdx
+[2026-06-01 15:03:56] Generating hero image for: how-to-start-an-llc-in-north-dakota
+Generating image for: how-to-start-an-llc-in-north-dakota
+Prompt: A professional illustration representing: how to start an LLC in North Dakota...
+Received 1363KB from Gemini API
+  hero-1200.webp: 60KB
+  hero-800.webp: 35KB
+  hero-400.webp: 15KB
+  og.jpg: 111KB
+[2026-06-01 15:04:13] Hero image generated: /blog/how-to-start-an-llc-in-north-dakota/hero
+[2026-06-01 15:04:13] Injected featuredImage into frontmatter
+[2026-06-01 15:04:13] Progress updated. Next index: 132
+[2026-06-01 15:04:13] Article published at: /blog/how-to-start-an-llc-in-north-dakota/
+[2026-06-01 15:04:13] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   af9ca8e..8875dad  main -> main
+[2026-06-01 15:04:15] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-01 15:04:17] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-north-dakota/
+[2026-06-02 09:00:05] Next keyword index: 132
+[2026-06-02 09:00:06] Generating article for: how to start an LLC in Vermont (Category: State Formation, Intent: Transactional)
+[2026-06-02 09:00:06] Calling Claude CLI to generate article...
+[2026-06-02 09:03:49] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-vermont.mdx
+[2026-06-02 09:03:49] Generating hero image for: how-to-start-an-llc-in-vermont
+Generating image for: how-to-start-an-llc-in-vermont
+Prompt: A professional illustration representing: how to start an LLC in Vermont...
+Received 1325KB from Gemini API
+  hero-1200.webp: 59KB
+  hero-800.webp: 36KB
+  hero-400.webp: 15KB
+  og.jpg: 111KB
+[2026-06-02 09:04:08] Hero image generated: /blog/how-to-start-an-llc-in-vermont/hero
+[2026-06-02 09:04:08] Injected featuredImage into frontmatter
+[2026-06-02 09:04:08] Progress updated. Next index: 133
+[2026-06-02 09:04:08] Article published at: /blog/how-to-start-an-llc-in-vermont/
+[2026-06-02 09:04:08] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   8875dad..8037b30  main -> main
+[2026-06-02 09:04:11] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-02 09:04:12] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-vermont/
+[2026-06-02 09:05:53] START morning run: picked index 133 keyword='LLC for accounting firm'
+[2026-06-02 09:08:16] Article written + validated: llc-for-accounting-firm.mdx
+[2026-06-02 09:08:39] WARN hero image generation failed (non-fatal)
+[2026-06-02 09:08:52] progress.json advanced to next_index=134
+[2026-06-02 09:09:14] Committed + pushed to main
+[2026-06-02 09:09:29] WARN Google indexing submission failed (non-fatal)
+[2026-06-02 09:09:29] DONE morning run: index=133 slug=llc-for-accounting-firm url=https://topbestllcservice.com/blog/llc-for-accounting-firm/ next_index=134
+[2026-06-02 15:11:58] Next keyword index: 134
+[2026-06-02 15:11:58] Generating article for: BetterLegal review (Category: Comparison, Intent: Commercial)
+[2026-06-02 15:11:59] Calling Claude CLI to generate article...
+[2026-06-02 15:30:14] AFTERNOON RUN: launchd daemon (com.topbestllcservice.generate-article, PID 54011) already processing index 134 (BetterLegal review) — claude CLI mid-generation, betterlegal-review.mdx placeholder present, next_index still 134. Detected race; exiting without action to avoid duplicate/corruption. Daemon owns this slot.
+[2026-06-02 15:38:49] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/betterlegal-review.mdx
+[2026-06-02 15:38:49] Generating hero image for: betterlegal-review
+Generating image for: betterlegal-review
+Prompt: A professional illustration representing: BetterLegal review...
+Received 1450KB from Gemini API
+  hero-1200.webp: 62KB
+  hero-800.webp: 36KB
+  hero-400.webp: 14KB
+  og.jpg: 118KB
+[2026-06-02 15:39:07] Hero image generated: /blog/betterlegal-review/hero
+[2026-06-02 15:39:07] Injected featuredImage into frontmatter
+[2026-06-02 15:39:07] Progress updated. Next index: 135
+[2026-06-02 15:39:07] Article published at: /blog/betterlegal-review/
+[2026-06-02 15:39:07] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   24dd071..1d9d2d7  main -> main
+[2026-06-02 15:39:09] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-02 15:39:10] Submitted to Google Indexing API: /blog/betterlegal-review/
+[2026-06-03 09:00:02] Next keyword index: 135
+[2026-06-03 09:00:03] Generating article for: how to start an LLC in Alaska (Category: State Formation, Intent: Transactional)
+[2026-06-03 09:00:03] Calling Claude CLI to generate article...
+[2026-06-03 09:03:46] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-alaska.mdx
+[2026-06-03 09:03:46] Generating hero image for: how-to-start-an-llc-in-alaska
+Generating image for: how-to-start-an-llc-in-alaska
+Prompt: A professional illustration representing: how to start an LLC in Alaska...
+Received 1422KB from Gemini API
+  hero-1200.webp: 72KB
+  hero-800.webp: 43KB
+  hero-400.webp: 17KB
+  og.jpg: 135KB
+[2026-06-03 09:04:00] Hero image generated: /blog/how-to-start-an-llc-in-alaska/hero
+[2026-06-03 09:04:00] Injected featuredImage into frontmatter
+[2026-06-03 09:04:00] Progress updated. Next index: 136
+[2026-06-03 09:04:00] Article published at: /blog/how-to-start-an-llc-in-alaska/
+[2026-06-03 09:04:00] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   1d9d2d7..f89460b  main -> main
+[2026-06-03 09:04:02] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-03 09:04:03] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-alaska/
+[2026-06-03 09:05:47] Morning pipeline start: keyword #136 'Harvard Business Services review (Delaware)'
+[2026-06-03 09:07:49] Article written and validated: src/content/blog/harvard-business-services-review-delaware.mdx
+[2026-06-03 09:08:27] progress.json updated: next_index=137
