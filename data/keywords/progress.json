@@ -1,5 +1,5 @@
 {
-  "next_index": 135,
+  "next_index": 136,
   "completed": [
     {
       "index": 1,
@@ -958,6 +958,13 @@
       "keyword": "BetterLegal review",
       "slug": "betterlegal-review",
       "date": "2026-06-02",
+      "skipped": false
+    },
+    {
+      "index": 135,
+      "keyword": "how to start an LLC in Alaska",
+      "slug": "how-to-start-an-llc-in-alaska",
+      "date": "2026-06-03",
       "skipped": false
     }
   ]
