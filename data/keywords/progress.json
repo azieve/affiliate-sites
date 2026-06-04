@@ -1,5 +1,5 @@
 {
-  "next_index": 138,
+  "next_index": 139,
   "completed": [
     {
       "index": 1,
@@ -979,6 +979,13 @@
       "keyword": "how to get an EIN for your LLC (free IRS method)",
       "slug": "how-to-get-an-ein-for-your-llc-free-irs-method",
       "date": "2026-06-03",
+      "skipped": false
+    },
+    {
+      "index": 138,
+      "keyword": "FinCEN beneficial ownership reporting guide [year]",
+      "slug": "fincen-beneficial-ownership-reporting-guide-2026",
+      "date": "2026-06-04",
       "skipped": false
     }
   ]
