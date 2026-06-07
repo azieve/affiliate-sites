@@ -1,5 +1,5 @@
 {
-  "next_index": 139,
+  "next_index": 143,
   "completed": [
     {
       "index": 1,
@@ -986,6 +986,34 @@
       "keyword": "FinCEN beneficial ownership reporting guide [year]",
       "slug": "fincen-beneficial-ownership-reporting-guide-2026",
       "date": "2026-06-04",
+      "skipped": false
+    },
+    {
+      "index": 139,
+      "keyword": "LLC bank account how to open one",
+      "slug": "llc-bank-account-how-to-open-one",
+      "date": "2026-06-04",
+      "skipped": false
+    },
+    {
+      "index": 140,
+      "keyword": "Texas LLC cost and fees breakdown",
+      "slug": "texas-llc-cost-and-fees-breakdown",
+      "date": "2026-06-05",
+      "skipped": false
+    },
+    {
+      "index": 141,
+      "keyword": "LLC for rental property investors",
+      "slug": "llc-for-rental-property-investors",
+      "date": "2026-06-05",
+      "skipped": false
+    },
+    {
+      "index": 142,
+      "keyword": "how to start an LLC in Illinois",
+      "slug": "how-to-start-an-llc-in-illinois",
+      "date": "2026-06-07",
       "skipped": false
     }
   ]
