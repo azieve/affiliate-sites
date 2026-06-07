@@ -1,5 +1,5 @@
 {
-  "next_index": 143,
+  "next_index": 144,
   "completed": [
     {
       "index": 1,
@@ -1013,6 +1013,13 @@
       "index": 142,
       "keyword": "how to start an LLC in Illinois",
       "slug": "how-to-start-an-llc-in-illinois",
+      "date": "2026-06-07",
+      "skipped": false
+    },
+    {
+      "index": 143,
+      "keyword": "best registered agent services [year]",
+      "slug": "best-registered-agent-services-2026",
       "date": "2026-06-07",
       "skipped": false
     }
