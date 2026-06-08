@@ -1,5 +1,5 @@
 {
-  "next_index": 145,
+  "next_index": 146,
   "completed": [
     {
       "index": 1,
@@ -1027,6 +1027,13 @@
       "index": 144,
       "keyword": "LLC for freelancers and independent contractors",
       "slug": "llc-for-freelancers-and-independent-contractors",
+      "date": "2026-06-08",
+      "skipped": false
+    },
+    {
+      "index": 145,
+      "keyword": "how to start an LLC in Ohio",
+      "slug": "how-to-start-an-llc-in-ohio",
       "date": "2026-06-08",
       "skipped": false
     }
