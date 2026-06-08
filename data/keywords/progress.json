@@ -1,5 +1,5 @@
 {
-  "next_index": 144,
+  "next_index": 145,
   "completed": [
     {
       "index": 1,
@@ -1021,6 +1021,13 @@
       "keyword": "best registered agent services [year]",
       "slug": "best-registered-agent-services-2026",
       "date": "2026-06-07",
+      "skipped": false
+    },
+    {
+      "index": 144,
+      "keyword": "LLC for freelancers and independent contractors",
+      "slug": "llc-for-freelancers-and-independent-contractors",
+      "date": "2026-06-08",
       "skipped": false
     }
   ]
