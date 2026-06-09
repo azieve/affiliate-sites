@@ -1,5 +1,5 @@
 {
-  "next_index": 146,
+  "next_index": 147,
   "completed": [
     {
       "index": 1,
@@ -1035,6 +1035,13 @@
       "keyword": "how to start an LLC in Ohio",
       "slug": "how-to-start-an-llc-in-ohio",
       "date": "2026-06-08",
+      "skipped": false
+    },
+    {
+      "index": 146,
+      "keyword": "California LLC cost and fees breakdown",
+      "slug": "california-llc-cost-and-fees-breakdown",
+      "date": "2026-06-09",
       "skipped": false
     }
   ]
