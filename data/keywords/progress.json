@@ -1,5 +1,5 @@
 {
-  "next_index": 147,
+  "next_index": 149,
   "completed": [
     {
       "index": 1,
@@ -1042,6 +1042,20 @@
       "keyword": "California LLC cost and fees breakdown",
       "slug": "california-llc-cost-and-fees-breakdown",
       "date": "2026-06-09",
+      "skipped": false
+    },
+    {
+      "index": 147,
+      "keyword": "LegalZoom review [year]",
+      "slug": "legalzoom-review-2026",
+      "date": "2026-06-09",
+      "skipped": false
+    },
+    {
+      "index": 148,
+      "keyword": "single member LLC vs multi-member LLC",
+      "slug": "single-member-llc-vs-multi-member-llc",
+      "date": "2026-06-10",
       "skipped": false
     }
   ]
