@@ -1,5 +1,5 @@
 {
-  "next_index": 150,
+  "next_index": 151,
   "completed": [
     {
       "index": 1,
@@ -1063,6 +1063,13 @@
       "keyword": "how to start an LLC in North Carolina",
       "slug": "how-to-start-an-llc-in-north-carolina",
       "date": "2026-06-10",
+      "skipped": false
+    },
+    {
+      "index": 150,
+      "keyword": "Florida LLC cost and fees breakdown",
+      "slug": "florida-llc-cost-and-fees-breakdown",
+      "date": "2026-06-11",
       "skipped": false
     }
   ]
