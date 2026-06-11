@@ -1,5 +1,5 @@
 {
-  "next_index": 151,
+  "next_index": 152,
   "completed": [
     {
       "index": 1,
@@ -1069,6 +1069,13 @@
       "index": 150,
       "keyword": "Florida LLC cost and fees breakdown",
       "slug": "florida-llc-cost-and-fees-breakdown",
+      "date": "2026-06-11",
+      "skipped": false
+    },
+    {
+      "index": 151,
+      "keyword": "LLC for online business and ecommerce",
+      "slug": "llc-for-online-business-and-ecommerce",
       "date": "2026-06-11",
       "skipped": false
     }
