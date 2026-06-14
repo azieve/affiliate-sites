@@ -1,5 +1,5 @@
 {
-  "next_index": 153,
+  "next_index": 154,
   "completed": [
     {
       "index": 1,
@@ -1083,6 +1083,13 @@
       "index": 152,
       "keyword": "LLC pros and cons complete list",
       "slug": "llc-pros-and-cons-complete-list",
+      "date": "2026-06-14",
+      "skipped": false
+    },
+    {
+      "index": 153,
+      "keyword": "Florida LLC annual report requirements",
+      "slug": "florida-llc-annual-report-requirements",
       "date": "2026-06-14",
       "skipped": false
     }
