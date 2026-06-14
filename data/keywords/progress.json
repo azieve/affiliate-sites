@@ -1,5 +1,5 @@
 {
-  "next_index": 152,
+  "next_index": 153,
   "completed": [
     {
       "index": 1,
@@ -1077,6 +1077,13 @@
       "keyword": "LLC for online business and ecommerce",
       "slug": "llc-for-online-business-and-ecommerce",
       "date": "2026-06-11",
+      "skipped": false
+    },
+    {
+      "index": 152,
+      "keyword": "LLC pros and cons complete list",
+      "slug": "llc-pros-and-cons-complete-list",
+      "date": "2026-06-14",
       "skipped": false
     }
   ]
