@@ -1,5 +1,5 @@
 {
-  "next_index": 155,
+  "next_index": 156,
   "completed": [
     {
       "index": 1,
@@ -1097,6 +1097,13 @@
       "index": 154,
       "keyword": "anonymous LLC how to form one",
       "slug": "anonymous-llc-how-to-form-one",
+      "date": "2026-06-15",
+      "skipped": false
+    },
+    {
+      "index": 155,
+      "keyword": "how to dissolve an LLC",
+      "slug": "how-to-dissolve-an-llc",
       "date": "2026-06-15",
       "skipped": false
     }
