@@ -1,5 +1,5 @@
 {
-  "next_index": 154,
+  "next_index": 155,
   "completed": [
     {
       "index": 1,
@@ -1091,6 +1091,13 @@
       "keyword": "Florida LLC annual report requirements",
       "slug": "florida-llc-annual-report-requirements",
       "date": "2026-06-14",
+      "skipped": false
+    },
+    {
+      "index": 154,
+      "keyword": "anonymous LLC how to form one",
+      "slug": "anonymous-llc-how-to-form-one",
+      "date": "2026-06-15",
       "skipped": false
     }
   ]
