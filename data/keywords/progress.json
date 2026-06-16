@@ -1,5 +1,5 @@
 {
-  "next_index": 156,
+  "next_index": 157,
   "completed": [
     {
       "index": 1,
@@ -1105,6 +1105,13 @@
       "keyword": "how to dissolve an LLC",
       "slug": "how-to-dissolve-an-llc",
       "date": "2026-06-15",
+      "skipped": false
+    },
+    {
+      "index": 156,
+      "keyword": "how to start an LLC in Wyoming",
+      "slug": "how-to-start-an-llc-in-wyoming",
+      "date": "2026-06-16",
       "skipped": false
     }
   ]
