@@ -1,5 +1,5 @@
 {
-  "next_index": 157,
+  "next_index": 158,
   "completed": [
     {
       "index": 1,
@@ -1112,6 +1112,13 @@
       "keyword": "how to start an LLC in Wyoming",
       "slug": "how-to-start-an-llc-in-wyoming",
       "date": "2026-06-16",
+      "skipped": false
+    },
+    {
+      "index": 157,
+      "keyword": "self-employment tax for LLC owners",
+      "slug": "self-employment-tax-for-llc-owners",
+      "date": "2026-06-17",
       "skipped": false
     }
   ]
