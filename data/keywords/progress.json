@@ -1,5 +1,5 @@
 {
-  "next_index": 159,
+  "next_index": 160,
   "completed": [
     {
       "index": 1,
@@ -1125,6 +1125,13 @@
       "index": 158,
       "keyword": "how to start an LLC in Virginia",
       "slug": "how-to-start-an-llc-in-virginia",
+      "date": "2026-06-18",
+      "skipped": false
+    },
+    {
+      "index": 159,
+      "keyword": "how to start an LLC in Washington",
+      "slug": "how-to-start-an-llc-in-washington",
       "date": "2026-06-18",
       "skipped": false
     }
