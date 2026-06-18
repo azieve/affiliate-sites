@@ -1,5 +1,5 @@
 {
-  "next_index": 158,
+  "next_index": 159,
   "completed": [
     {
       "index": 1,
@@ -1119,6 +1119,13 @@
       "keyword": "self-employment tax for LLC owners",
       "slug": "self-employment-tax-for-llc-owners",
       "date": "2026-06-17",
+      "skipped": false
+    },
+    {
+      "index": 158,
+      "keyword": "how to start an LLC in Virginia",
+      "slug": "how-to-start-an-llc-in-virginia",
+      "date": "2026-06-18",
       "skipped": false
     }
   ]
