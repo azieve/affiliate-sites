@@ -1,5 +1,5 @@
 {
-  "next_index": 160,
+  "next_index": 161,
   "completed": [
     {
       "index": 1,
@@ -1133,6 +1133,13 @@
       "keyword": "how to start an LLC in Washington",
       "slug": "how-to-start-an-llc-in-washington",
       "date": "2026-06-18",
+      "skipped": false
+    },
+    {
+      "index": 160,
+      "keyword": "New York LLC cost and fees breakdown",
+      "slug": "new-york-llc-cost-and-fees-breakdown",
+      "date": "2026-06-19",
       "skipped": false
     }
   ]

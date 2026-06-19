@@ -1870,3 +1870,553 @@ WARNING: Google sitemap submission failed: No module named 'google'
 [2026-06-03 09:05:47] Morning pipeline start: keyword #136 'Harvard Business Services review (Delaware)'
 [2026-06-03 09:07:49] Article written and validated: src/content/blog/harvard-business-services-review-delaware.mdx
 [2026-06-03 09:08:27] progress.json updated: next_index=137
+[2026-06-03 09:08:53] Pushed to origin/main (cd071c0)
+[2026-06-03 09:08:54] DONE: keyword=Harvard Business Services review (Delaware) slug=harvard-business-services-review-delaware url=https://topbestllcservice.com/blog/harvard-business-services-review-delaware/ next_index=137
+[2026-06-03 15:00:05] Next keyword index: 137
+[2026-06-03 15:00:05] Generating article for: how to get an EIN for your LLC (free IRS method) (Category: Educational, Intent: Informational)
+[2026-06-03 15:00:06] Calling Claude CLI to generate article...
+[2026-06-03 15:02:02] Afternoon scheduled task: detected launchd 3PM daemon (PID 30724, started 15:00:05) actively generating index 137 "how to get an EIN for your LLC (free IRS method)". Exiting without action to avoid duplicate/race per known pipeline-race issue.
+[2026-06-03 15:03:32] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-get-an-ein-for-your-llc-free-irs-method.mdx
+[2026-06-03 15:03:32] Generating hero image for: how-to-get-an-ein-for-your-llc-free-irs-method
+Generating image for: how-to-get-an-ein-for-your-llc-free-irs-method
+Prompt: A professional illustration representing: how to get an EIN for your LLC (free IRS method)...
+Received 1103KB from Gemini API
+  hero-1200.webp: 37KB
+  hero-800.webp: 23KB
+  hero-400.webp: 11KB
+  og.jpg: 76KB
+[2026-06-03 15:03:54] Hero image generated: /blog/how-to-get-an-ein-for-your-llc-free-irs-method/hero
+[2026-06-03 15:03:54] Injected featuredImage into frontmatter
+[2026-06-03 15:03:54] Progress updated. Next index: 138
+[2026-06-03 15:03:54] Article published at: /blog/how-to-get-an-ein-for-your-llc-free-irs-method/
+[2026-06-03 15:03:54] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   cd071c0..8f5b03d  main -> main
+[2026-06-03 15:03:57] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-03 15:03:58] Submitted to Google Indexing API: /blog/how-to-get-an-ein-for-your-llc-free-irs-method/
+[2026-06-04 09:07:28] Next keyword index: 138
+[2026-06-04 09:07:29] Generating article for: FinCEN beneficial ownership reporting guide [year] (Category: FinCEN, Intent: Informational)
+[2026-06-04 09:07:30] Calling Claude CLI to generate article...
+[2026-06-04 09:09:26] Morning scheduled task: detected launchd daemon (generate-article.sh + Claude CLI PID 54967, started 09:07:29) actively generating index 138 "FinCEN beneficial ownership reporting guide [year]". 0-byte placeholder MDX present = generation in flight. Exiting without action to avoid duplicate/race per known pipeline-race issue. Not advancing progress.next_index (daemon owns it).
+[2026-06-04 09:12:34] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/fincen-beneficial-ownership-reporting-guide-2026.mdx
+[2026-06-04 09:12:34] Generating hero image for: fincen-beneficial-ownership-reporting-guide-2026
+Generating image for: fincen-beneficial-ownership-reporting-guide-2026
+Prompt: A professional illustration representing: FinCEN beneficial ownership reporting guide 2026...
+Received 1272KB from Gemini API
+  hero-1200.webp: 54KB
+  hero-800.webp: 33KB
+  hero-400.webp: 15KB
+  og.jpg: 104KB
+[2026-06-04 09:12:54] Hero image generated: /blog/fincen-beneficial-ownership-reporting-guide-2026/hero
+[2026-06-04 09:12:54] Injected featuredImage into frontmatter
+[2026-06-04 09:12:54] Progress updated. Next index: 139
+[2026-06-04 09:12:54] Article published at: /blog/fincen-beneficial-ownership-reporting-guide-2026/
+[2026-06-04 09:12:54] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   8f5b03d..f084ed6  main -> main
+[2026-06-04 09:12:57] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-04 09:12:59] Submitted to Google Indexing API: /blog/fincen-beneficial-ownership-reporting-guide-2026/
+[2026-06-04 15:00:02] Next keyword index: 139
+[2026-06-04 15:00:03] Generating article for: LLC bank account how to open one (Category: Educational, Intent: Informational)
+[2026-06-04 15:00:03] Calling Claude CLI to generate article...
+[2026-06-04 15:01:47] afternoon scheduled task: launchd daemon (PID 63215) already active on index 139 (LLC bank account how to open one) — standing down, no action taken.
+[2026-06-04 15:03:33] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-bank-account-how-to-open-one.mdx
+[2026-06-04 15:03:33] Generating hero image for: llc-bank-account-how-to-open-one
+Generating image for: llc-bank-account-how-to-open-one
+Prompt: A professional illustration representing: LLC bank account how to open one...
+ERROR: Imagen API returned 429: {
+  "error": {
+    "code": 429,
+    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+    "status": "RESOURCE_EXHAUSTED"
+  }
+}
+
+[2026-06-04 15:03:34] WARNING: Image generation failed (non-fatal). Article will publish without image.
+[2026-06-04 15:03:34] Progress updated. Next index: 140
+[2026-06-04 15:03:34] Article published at: /blog/llc-bank-account-how-to-open-one/
+[2026-06-04 15:03:34] SID registry refreshed.
+[2026-06-05 09:00:55] Next keyword index: 140
+[2026-06-05 09:00:56] Generating article for: Texas LLC cost and fees breakdown (Category: State Cost, Intent: Commercial)
+[2026-06-05 09:00:56] Calling Claude CLI to generate article...
+[2026-06-05 11:49:32] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/texas-llc-cost-and-fees-breakdown.mdx
+[2026-06-05 11:49:33] Generating hero image for: texas-llc-cost-and-fees-breakdown
+Generating image for: texas-llc-cost-and-fees-breakdown
+Prompt: A professional illustration representing: Texas LLC cost and fees breakdown...
+ERROR: Imagen API returned 429: {
+  "error": {
+    "code": 429,
+    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+    "status": "RESOURCE_EXHAUSTED"
+  }
+}
+
+[2026-06-05 11:49:33] WARNING: Image generation failed (non-fatal). Article will publish without image.
+[2026-06-05 11:49:33] Progress updated. Next index: 141
+[2026-06-05 11:49:33] Article published at: /blog/texas-llc-cost-and-fees-breakdown/
+[2026-06-05 11:49:33] SID registry refreshed.
+[2026-06-05 15:00:01] Next keyword index: 141
+[2026-06-05 15:00:01] Generating article for: LLC for rental property investors (Category: Profession, Intent: Commercial)
+[2026-06-05 15:00:02] Calling Claude CLI to generate article...
+[2026-06-05 15:01:58] Afternoon task: detected launchd 3PM daemon already active on index 141 (started 15:00:01, still running). Index 140 published today 11:49:33. Exiting without action to avoid duplicate/race per known pipeline-race guard.
+[2026-06-05 15:03:22] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-rental-property-investors.mdx
+[2026-06-05 15:03:22] Generating hero image for: llc-for-rental-property-investors
+Generating image for: llc-for-rental-property-investors
+Prompt: A professional illustration representing: LLC for rental property investors...
+ERROR: Imagen API returned 429: {
+  "error": {
+    "code": 429,
+    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+    "status": "RESOURCE_EXHAUSTED"
+  }
+}
+
+[2026-06-05 15:03:23] WARNING: Image generation failed (non-fatal). Article will publish without image.
+[2026-06-05 15:03:23] Progress updated. Next index: 142
+[2026-06-05 15:03:23] Article published at: /blog/llc-for-rental-property-investors/
+[2026-06-05 15:03:23] SID registry refreshed.
+[2026-06-06 09:06:13] Next keyword index: 142
+[2026-06-06 09:06:13] Generating article for: how to start an LLC in Illinois (Category: State Formation, Intent: Transactional)
+[2026-06-06 09:06:15] Calling Claude CLI to generate article...
+[2026-06-06 14:38:10] ERROR: Claude CLI failed for keyword: how to start an LLC in Illinois
+[2026-06-06 15:08:44] Next keyword index: 142
+[2026-06-06 15:08:45] Generating article for: how to start an LLC in Illinois (Category: State Formation, Intent: Transactional)
+[2026-06-06 15:08:46] Calling Claude CLI to generate article...
+[2026-06-06 20:16:44] ERROR: Claude CLI failed for keyword: how to start an LLC in Illinois
+[2026-06-07 09:00:03] Next keyword index: 142
+[2026-06-07 09:00:03] Generating article for: how to start an LLC in Illinois (Category: State Formation, Intent: Transactional)
+[2026-06-07 09:00:04] Calling Claude CLI to generate article...
+[2026-06-07 09:06:01] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-illinois.mdx
+[2026-06-07 09:06:01] Generating hero image for: how-to-start-an-llc-in-illinois
+Generating image for: how-to-start-an-llc-in-illinois
+Prompt: A professional illustration representing: how to start an LLC in Illinois...
+Received 1113KB from Gemini API
+  hero-1200.webp: 52KB
+  hero-800.webp: 32KB
+  hero-400.webp: 13KB
+  og.jpg: 100KB
+[2026-06-07 09:06:15] Hero image generated: /blog/how-to-start-an-llc-in-illinois/hero
+[2026-06-07 09:06:15] Injected featuredImage into frontmatter
+[2026-06-07 09:06:15] Progress updated. Next index: 143
+[2026-06-07 09:06:15] Article published at: /blog/how-to-start-an-llc-in-illinois/
+[2026-06-07 09:06:15] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   f084ed6..2f329f6  main -> main
+[2026-06-07 09:06:17] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-07 09:06:18] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-illinois/
+[2026-06-07 09:07:18] Morning task: taking over stuck keyword 142 (Illinois) after daemon crash; building prompt
+[2026-06-07 09:08:48] Detected daemon already generated valid article (mod 09:06:15, 2871 words) but crashed before commit. Not regenerating; resuming deploy steps.
+[2026-06-07 09:10:34] CORRECTION: launchd daemon completed full pipeline at 09:06:18 (no crash). Index 142 fully published, committed (2f329f6), pushed, Google-submitted. Morning scheduled task took no write action — race detected, exited cleanly.
+[2026-06-07 15:00:02] Next keyword index: 143
+[2026-06-07 15:00:02] Generating article for: best registered agent services [year] (Category: Comparison, Intent: Commercial)
+[2026-06-07 15:00:03] Calling Claude CLI to generate article...
+[2026-06-07 15:02:02] Afternoon scheduled task: launchd daemon (PID 25556, claude --print) is ACTIVELY mid-generation of index 143 (best registered agent services 2026) since 15:00:03; progress.json still next_index=143, no commit for slug yet. Race detected — daemon owns the 3PM slot. Exited without action (no regenerate, no progress advance, no push).
+[2026-06-07 15:05:52] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/best-registered-agent-services-2026.mdx
+[2026-06-07 15:05:52] Generating hero image for: best-registered-agent-services-2026
+Generating image for: best-registered-agent-services-2026
+Prompt: A professional illustration representing: best registered agent services 2026...
+Received 1202KB from Gemini API
+  hero-1200.webp: 45KB
+  hero-800.webp: 29KB
+  hero-400.webp: 13KB
+  og.jpg: 100KB
+[2026-06-07 15:06:07] Hero image generated: /blog/best-registered-agent-services-2026/hero
+[2026-06-07 15:06:07] Injected featuredImage into frontmatter
+[2026-06-07 15:06:07] Progress updated. Next index: 144
+[2026-06-07 15:06:07] Article published at: /blog/best-registered-agent-services-2026/
+[2026-06-07 15:06:07] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   2f329f6..475b5d1  main -> main
+[2026-06-07 15:06:09] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-07 15:06:11] Submitted to Google Indexing API: /blog/best-registered-agent-services-2026/
+[2026-06-08 09:06:02] Next keyword index: 144
+[2026-06-08 09:06:02] Generating article for: LLC for freelancers and independent contractors (Category: Profession, Intent: Commercial)
+[2026-06-08 09:06:04] Calling Claude CLI to generate article...
+[2026-06-08 10:26:04] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-freelancers-and-independent-contractors.mdx
+[2026-06-08 10:26:04] Generating hero image for: llc-for-freelancers-and-independent-contractors
+Generating image for: llc-for-freelancers-and-independent-contractors
+Prompt: A professional illustration representing: LLC for freelancers and independent contractors...
+Received 1499KB from Gemini API
+  hero-1200.webp: 78KB
+  hero-800.webp: 43KB
+  hero-400.webp: 15KB
+  og.jpg: 130KB
+[2026-06-08 10:26:22] Hero image generated: /blog/llc-for-freelancers-and-independent-contractors/hero
+[2026-06-08 10:26:22] Injected featuredImage into frontmatter
+[2026-06-08 10:26:22] Progress updated. Next index: 145
+[2026-06-08 10:26:22] Article published at: /blog/llc-for-freelancers-and-independent-contractors/
+[2026-06-08 10:26:22] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   475b5d1..a17bbb6  main -> main
+[2026-06-08 10:26:25] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-08 10:26:26] Submitted to Google Indexing API: /blog/llc-for-freelancers-and-independent-contractors/
+[2026-06-08 15:00:06] Next keyword index: 145
+[2026-06-08 15:00:06] Generating article for: how to start an LLC in Ohio (Category: State Formation, Intent: Transactional)
+[2026-06-08 15:00:11] Calling Claude CLI to generate article...
+[2026-06-08 15:01:20] Afternoon task: daemon already generated today's article (index 144, date 2026-06-08, slug llc-for-freelancers-and-independent-contractors). Exiting without action to avoid duplicate/race.
+[2026-06-08 15:05:09] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-ohio.mdx
+[2026-06-08 15:05:09] Generating hero image for: how-to-start-an-llc-in-ohio
+Generating image for: how-to-start-an-llc-in-ohio
+Prompt: A professional illustration representing: how to start an LLC in Ohio...
+Received 1142KB from Gemini API
+  hero-1200.webp: 39KB
+  hero-800.webp: 25KB
+  hero-400.webp: 11KB
+  og.jpg: 86KB
+[2026-06-08 15:05:26] Hero image generated: /blog/how-to-start-an-llc-in-ohio/hero
+[2026-06-08 15:05:26] Injected featuredImage into frontmatter
+[2026-06-08 15:05:26] Progress updated. Next index: 146
+[2026-06-08 15:05:26] Article published at: /blog/how-to-start-an-llc-in-ohio/
+[2026-06-08 15:05:26] SID registry refreshed.
+remote: Permission to azieve/affiliate-sites.git denied to alon-apeiros.
+fatal: unable to access 'https://github.com/azieve/affiliate-sites.git/': The requested URL returned error: 403
+[2026-06-08 15:05:27] ERROR: git push failed. Article committed locally but not deployed.
+[2026-06-09 09:00:05] Next keyword index: 146
+[2026-06-09 09:00:05] Generating article for: California LLC cost and fees breakdown (Category: State Cost, Intent: Commercial)
+[2026-06-09 09:00:05] Calling Claude CLI to generate article...
+[2026-06-09 09:05:28] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/california-llc-cost-and-fees-breakdown.mdx
+[2026-06-09 09:05:29] Generating hero image for: california-llc-cost-and-fees-breakdown
+Generating image for: california-llc-cost-and-fees-breakdown
+Prompt: A professional illustration representing: California LLC cost and fees breakdown...
+Received 1184KB from Gemini API
+  hero-1200.webp: 50KB
+  hero-800.webp: 31KB
+  hero-400.webp: 13KB
+  og.jpg: 98KB
+[2026-06-09 09:05:49] Hero image generated: /blog/california-llc-cost-and-fees-breakdown/hero
+[2026-06-09 09:05:49] Injected featuredImage into frontmatter
+[2026-06-09 09:05:49] Progress updated. Next index: 147
+[2026-06-09 09:05:49] Article published at: /blog/california-llc-cost-and-fees-breakdown/
+[2026-06-09 09:05:49] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   a17bbb6..55e2979  main -> main
+[2026-06-09 09:05:51] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-09 09:05:55] Submitted to Google Indexing API: /blog/california-llc-cost-and-fees-breakdown/
+[2026-06-09 09:10:49] Morning scheduled task: launchd daemon already completed index 146 (California LLC cost and fees breakdown) at 09:05:55 — generated, committed (55e2979), pushed, progress at next_index 147. No action taken to avoid duplicate/race.
+[2026-06-09 15:00:03] Next keyword index: 147
+[2026-06-09 15:00:03] Generating article for: LegalZoom review [year] (Category: Comparison, Intent: Commercial)
+[2026-06-09 15:00:04] Calling Claude CLI to generate article...
+[2026-06-09 15:03:09] Afternoon scheduled task: launchd 3PM daemon is mid-generation of index 147 (LegalZoom review [year]) — process PID 43946 running, output file legalzoom-review-2026.mdx exists as 0-byte placeholder, next_index still 147. Exiting without action to avoid duplicate/race. Daemon will finish, commit, and advance progress itself.
+[2026-06-09 15:04:18] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/legalzoom-review-2026.mdx
+[2026-06-09 15:04:19] Generating hero image for: legalzoom-review-2026
+Generating image for: legalzoom-review-2026
+Prompt: A professional illustration representing: LegalZoom review 2026...
+ERROR: Imagen API returned 429: {
+  "error": {
+    "code": 429,
+    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+    "status": "RESOURCE_EXHAUSTED"
+  }
+}
+
+[2026-06-09 15:04:19] WARNING: Image generation failed (non-fatal). Article will publish without image.
+[2026-06-09 15:04:19] Progress updated. Next index: 148
+[2026-06-09 15:04:19] Article published at: /blog/legalzoom-review-2026/
+[2026-06-09 15:04:20] SID registry refreshed.
+[2026-06-10 09:00:59] Next keyword index: 148
+[2026-06-10 09:00:59] Generating article for: single member LLC vs multi-member LLC (Category: Educational, Intent: Informational)
+[2026-06-10 09:01:01] Calling Claude CLI to generate article...
+[2026-06-10 09:05:35] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/single-member-llc-vs-multi-member-llc.mdx
+[2026-06-10 09:05:35] Generating hero image for: single-member-llc-vs-multi-member-llc
+Generating image for: single-member-llc-vs-multi-member-llc
+Prompt: A professional illustration representing: single member LLC vs multi-member LLC...
+Received 1371KB from Gemini API
+  hero-1200.webp: 62KB
+  hero-800.webp: 37KB
+  hero-400.webp: 15KB
+  og.jpg: 116KB
+[2026-06-10 09:05:49] Hero image generated: /blog/single-member-llc-vs-multi-member-llc/hero
+[2026-06-10 09:05:49] Injected featuredImage into frontmatter
+[2026-06-10 09:05:49] Progress updated. Next index: 149
+[2026-06-10 09:05:49] Article published at: /blog/single-member-llc-vs-multi-member-llc/
+[2026-06-10 09:05:49] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   55e2979..a061ac2  main -> main
+[2026-06-10 09:05:51] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-10 09:05:53] Submitted to Google Indexing API: /blog/single-member-llc-vs-multi-member-llc/
+[2026-06-10 09:08:31] Morning task: index 148 (single member LLC vs multi-member LLC) already completed by concurrent launchd daemon (commit a061ac2, article generated/committed/pushed/Google-submitted, progress.json advanced to next_index=149). No action taken — exited cleanly to avoid duplicate/race.
+[2026-06-10 15:00:03] Next keyword index: 149
+[2026-06-10 15:00:03] Generating article for: how to start an LLC in North Carolina (Category: State Formation, Intent: Transactional)
+[2026-06-10 15:00:04] Calling Claude CLI to generate article...
+[2026-06-10 15:01:30] Afternoon task: index 149 (how to start an LLC in North Carolina) already in-flight by concurrent launchd 3PM daemon (PID 94911, claude --print running since 15:00, progress.json still next_index=149). No action taken — exited cleanly to avoid duplicate/race.
+[2026-06-10 15:04:37] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-north-carolina.mdx
+[2026-06-10 15:04:37] Generating hero image for: how-to-start-an-llc-in-north-carolina
+Generating image for: how-to-start-an-llc-in-north-carolina
+Prompt: A professional illustration representing: how to start an LLC in North Carolina...
+Received 1306KB from Gemini API
+  hero-1200.webp: 61KB
+  hero-800.webp: 38KB
+  hero-400.webp: 16KB
+  og.jpg: 115KB
+[2026-06-10 15:04:51] Hero image generated: /blog/how-to-start-an-llc-in-north-carolina/hero
+[2026-06-10 15:04:51] Injected featuredImage into frontmatter
+[2026-06-10 15:04:51] Progress updated. Next index: 150
+[2026-06-10 15:04:51] Article published at: /blog/how-to-start-an-llc-in-north-carolina/
+[2026-06-10 15:04:51] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   a061ac2..55cc96c  main -> main
+[2026-06-10 15:04:53] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-10 15:04:54] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-north-carolina/
+[2026-06-11 09:03:22] Next keyword index: 150
+[2026-06-11 09:03:22] Generating article for: Florida LLC cost and fees breakdown (Category: State Cost, Intent: Commercial)
+[2026-06-11 09:03:24] Calling Claude CLI to generate article...
+[2026-06-11 09:04:44] Morning scheduled task: launchd daemon already active on index 150 (Florida LLC cost and fees breakdown) — placeholder MDX created 09:03, generation process running. Exiting without action to avoid clobbering/duplication. progress.json untouched.
+[2026-06-11 09:08:15] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/florida-llc-cost-and-fees-breakdown.mdx
+[2026-06-11 09:08:15] Generating hero image for: florida-llc-cost-and-fees-breakdown
+Generating image for: florida-llc-cost-and-fees-breakdown
+Prompt: A professional illustration representing: Florida LLC cost and fees breakdown...
+Received 1302KB from Gemini API
+  hero-1200.webp: 58KB
+  hero-800.webp: 36KB
+  hero-400.webp: 15KB
+  og.jpg: 115KB
+[2026-06-11 09:08:37] Hero image generated: /blog/florida-llc-cost-and-fees-breakdown/hero
+[2026-06-11 09:08:37] Injected featuredImage into frontmatter
+[2026-06-11 09:08:37] Progress updated. Next index: 151
+[2026-06-11 09:08:37] Article published at: /blog/florida-llc-cost-and-fees-breakdown/
+[2026-06-11 09:08:37] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   55cc96c..bdf0f88  main -> main
+[2026-06-11 09:08:39] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-11 09:08:42] Submitted to Google Indexing API: /blog/florida-llc-cost-and-fees-breakdown/
+[2026-06-11 15:00:02] Next keyword index: 151
+[2026-06-11 15:00:03] Generating article for: LLC for online business and ecommerce (Category: Profession, Intent: Commercial)
+[2026-06-11 15:00:03] Calling Claude CLI to generate article...
+[2026-06-11 15:01:40] afternoon scheduled-task: launchd daemon (PID 22977 + claude PID 23802) already owns index 151 slot (llc-for-online-business-and-ecommerce, mid-generation, 0-byte placeholder). Exiting without action to avoid duplicate/race.
+[2026-06-11 15:03:36] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-for-online-business-and-ecommerce.mdx
+[2026-06-11 15:03:36] Generating hero image for: llc-for-online-business-and-ecommerce
+Generating image for: llc-for-online-business-and-ecommerce
+Prompt: A professional illustration representing: LLC for online business and ecommerce...
+Received 1402KB from Gemini API
+  hero-1200.webp: 62KB
+  hero-800.webp: 40KB
+  hero-400.webp: 17KB
+  og.jpg: 120KB
+[2026-06-11 15:04:00] Hero image generated: /blog/llc-for-online-business-and-ecommerce/hero
+[2026-06-11 15:04:00] Injected featuredImage into frontmatter
+[2026-06-11 15:04:00] Progress updated. Next index: 152
+[2026-06-11 15:04:00] Article published at: /blog/llc-for-online-business-and-ecommerce/
+[2026-06-11 15:04:00] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   bdf0f88..9cf14a2  main -> main
+[2026-06-11 15:04:02] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-11 15:04:03] Submitted to Google Indexing API: /blog/llc-for-online-business-and-ecommerce/
+[2026-06-12 09:07:39] Next keyword index: 152
+[2026-06-12 09:07:39] Generating article for: LLC pros and cons complete list (Category: Educational, Intent: Informational)
+[2026-06-12 09:07:40] Calling Claude CLI to generate article...
+[2026-06-12 15:45:59] ERROR: Claude CLI failed for keyword: LLC pros and cons complete list
+[2026-06-13 09:05:52] Next keyword index: 152
+[2026-06-13 09:05:53] Generating article for: LLC pros and cons complete list (Category: Educational, Intent: Informational)
+[2026-06-13 09:05:53] Calling Claude CLI to generate article...
+[2026-06-13 09:06:33] Step 1: picked index 152 — 'LLC pros and cons complete list'
+[2026-06-13 13:26:36] ERROR: Claude CLI failed for keyword: LLC pros and cons complete list
+[2026-06-13 15:07:32] Next keyword index: 152
+[2026-06-13 15:07:32] Generating article for: LLC pros and cons complete list (Category: Educational, Intent: Informational)
+[2026-06-13 15:07:33] Calling Claude CLI to generate article...
+[2026-06-13 21:43:58] AFTERNOON-TASK: launchd 3PM daemon (PID 50635) still actively generating index 152 ("LLC pros and cons complete list") — child claude PID 51513 mid-run. Exiting without action to avoid racing/duplicating the daemon. No changes made to progress.json, content, or git.
+[2026-06-13 22:33:32] ERROR: Claude CLI failed for keyword: LLC pros and cons complete list
+[2026-06-14 09:14:31] Next keyword index: 152
+[2026-06-14 09:14:31] Generating article for: LLC pros and cons complete list (Category: Educational, Intent: Informational)
+[2026-06-14 09:14:32] Calling Claude CLI to generate article...
+[2026-06-14 09:32:00] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/llc-pros-and-cons-complete-list.mdx
+[2026-06-14 09:32:00] Generating hero image for: llc-pros-and-cons-complete-list
+Generating image for: llc-pros-and-cons-complete-list
+Prompt: A professional illustration representing: LLC pros and cons complete list...
+Received 1314KB from Gemini API
+  hero-1200.webp: 66KB
+  hero-800.webp: 39KB
+  hero-400.webp: 16KB
+  og.jpg: 122KB
+[2026-06-14 09:32:16] Hero image generated: /blog/llc-pros-and-cons-complete-list/hero
+[2026-06-14 09:32:16] Injected featuredImage into frontmatter
+[2026-06-14 09:32:16] Progress updated. Next index: 153
+[2026-06-14 09:32:16] Article published at: /blog/llc-pros-and-cons-complete-list/
+[2026-06-14 09:32:16] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   9cf14a2..0a32d98  main -> main
+[2026-06-14 09:32:18] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-14 09:32:19] Submitted to Google Indexing API: /blog/llc-pros-and-cons-complete-list/
+[2026-06-14 15:00:04] Next keyword index: 153
+[2026-06-14 15:00:04] Generating article for: Florida LLC annual report requirements (Category: State Compliance, Intent: Informational)
+[2026-06-14 15:00:04] Calling Claude CLI to generate article...
+[2026-06-14 15:02:23] AFTERNOON-TASK: launchd daemon com.topbestllcservice.generate-article (pid 66182) is mid-flight on index 153 (florida-llc-annual-report-requirements) — standing down to avoid race/duplicate. No action taken.
+[2026-06-14 15:04:18] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/florida-llc-annual-report-requirements.mdx
+[2026-06-14 15:04:18] Generating hero image for: florida-llc-annual-report-requirements
+Generating image for: florida-llc-annual-report-requirements
+Prompt: A professional illustration representing: Florida LLC annual report requirements...
+Received 1188KB from Gemini API
+  hero-1200.webp: 49KB
+  hero-800.webp: 31KB
+  hero-400.webp: 13KB
+  og.jpg: 94KB
+[2026-06-14 15:04:32] Hero image generated: /blog/florida-llc-annual-report-requirements/hero
+[2026-06-14 15:04:32] Injected featuredImage into frontmatter
+[2026-06-14 15:04:32] Progress updated. Next index: 154
+[2026-06-14 15:04:32] Article published at: /blog/florida-llc-annual-report-requirements/
+[2026-06-14 15:04:32] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   0a32d98..ee62bbb  main -> main
+[2026-06-14 15:04:34] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-14 15:04:36] Submitted to Google Indexing API: /blog/florida-llc-annual-report-requirements/
+[2026-06-15 09:00:02] Next keyword index: 154
+[2026-06-15 09:00:02] Generating article for: anonymous LLC how to form one (Category: Educational, Intent: Informational)
+[2026-06-15 09:00:03] Calling Claude CLI to generate article...
+[2026-06-15 09:06:25] Morning task STAND-DOWN: launchd daemon (generate-article.sh PID 98391, claude CLI PID 99198, started 09:00:03) is actively generating index 154 "anonymous LLC how to form one". 0-byte placeholder is the daemon's. Exiting without action to avoid racing/duplicating — daemon will finish, write file, and advance progress.json.
+[2026-06-15 09:06:27] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/anonymous-llc-how-to-form-one.mdx
+[2026-06-15 09:06:27] Generating hero image for: anonymous-llc-how-to-form-one
+Generating image for: anonymous-llc-how-to-form-one
+Prompt: A professional illustration representing: anonymous LLC how to form one...
+Received 1425KB from Gemini API
+  hero-1200.webp: 67KB
+  hero-800.webp: 41KB
+  hero-400.webp: 17KB
+  og.jpg: 122KB
+[2026-06-15 09:06:41] Hero image generated: /blog/anonymous-llc-how-to-form-one/hero
+[2026-06-15 09:06:41] Injected featuredImage into frontmatter
+[2026-06-15 09:06:41] Progress updated. Next index: 155
+[2026-06-15 09:06:41] Article published at: /blog/anonymous-llc-how-to-form-one/
+[2026-06-15 09:06:41] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   ee62bbb..66c643e  main -> main
+[2026-06-15 09:06:43] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-15 09:06:45] Submitted to Google Indexing API: /blog/anonymous-llc-how-to-form-one/
+[2026-06-15 15:00:02] Next keyword index: 155
+[2026-06-15 15:00:02] Generating article for: how to dissolve an LLC (Category: Educational, Intent: Informational)
+[2026-06-15 15:00:03] Calling Claude CLI to generate article...
+[2026-06-15 15:01:40] Afternoon task STAND-DOWN: launchd daemon (generate-article.sh PID 4170, claude CLI PID 4987, started 15:00:02) is actively generating index 155 "how to dissolve an LLC". Exiting without action to avoid racing/duplicating — daemon will finish, write file, generate image, advance progress.json, commit, and push.
+[2026-06-15 15:04:28] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-dissolve-an-llc.mdx
+[2026-06-15 15:04:28] Generating hero image for: how-to-dissolve-an-llc
+Generating image for: how-to-dissolve-an-llc
+Prompt: A professional illustration representing: how to dissolve an LLC...
+Received 1257KB from Gemini API
+  hero-1200.webp: 60KB
+  hero-800.webp: 36KB
+  hero-400.webp: 15KB
+  og.jpg: 117KB
+[2026-06-15 15:04:45] Hero image generated: /blog/how-to-dissolve-an-llc/hero
+[2026-06-15 15:04:45] Injected featuredImage into frontmatter
+[2026-06-15 15:04:45] Progress updated. Next index: 156
+[2026-06-15 15:04:45] Article published at: /blog/how-to-dissolve-an-llc/
+[2026-06-15 15:04:45] SID registry refreshed.
+remote: Permission to azieve/affiliate-sites.git denied to alon-apeiros.
+fatal: unable to access 'https://github.com/azieve/affiliate-sites.git/': The requested URL returned error: 403
+[2026-06-15 15:04:46] ERROR: git push failed. Article committed locally but not deployed.
+[2026-06-16 09:01:32] Next keyword index: 156
+[2026-06-16 09:01:32] Generating article for: how to start an LLC in Wyoming (Category: State Formation, Intent: Transactional)
+[2026-06-16 09:01:33] Calling Claude CLI to generate article...
+[2026-06-16 09:05:02] ERROR: Claude CLI failed for keyword: how to start an LLC in Wyoming
+[2026-06-16 15:00:01] Next keyword index: 156
+[2026-06-16 15:00:01] Generating article for: how to start an LLC in Wyoming (Category: State Formation, Intent: Transactional)
+[2026-06-16 15:00:02] Calling Claude CLI to generate article...
+[2026-06-16 15:02:52] Afternoon task: launchd 3PM daemon already running for index 156 (how to start an LLC in Wyoming) — generate-article.sh PID 31277, claude CLI PID 32096 in flight. Exiting without action to avoid race/duplicate.
+[2026-06-16 15:05:06] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-wyoming.mdx
+[2026-06-16 15:05:06] Generating hero image for: how-to-start-an-llc-in-wyoming
+Generating image for: how-to-start-an-llc-in-wyoming
+Prompt: A professional illustration representing: how to start an LLC in Wyoming...
+Received 1210KB from Gemini API
+  hero-1200.webp: 58KB
+  hero-800.webp: 35KB
+  hero-400.webp: 15KB
+  og.jpg: 107KB
+[2026-06-16 15:05:31] Hero image generated: /blog/how-to-start-an-llc-in-wyoming/hero
+[2026-06-16 15:05:32] Injected featuredImage into frontmatter
+[2026-06-16 15:05:32] Progress updated. Next index: 157
+[2026-06-16 15:05:32] Article published at: /blog/how-to-start-an-llc-in-wyoming/
+[2026-06-16 15:05:32] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   66c643e..6cc50b4  main -> main
+[2026-06-16 15:05:34] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-16 15:05:35] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-wyoming/
+[2026-06-17 09:09:40] Next keyword index: 157
+[2026-06-17 09:09:40] Generating article for: self-employment tax for LLC owners (Category: Educational, Intent: Informational)
+[2026-06-17 09:09:43] Calling Claude CLI to generate article...
+[2026-06-17 09:55:50] ERROR: Claude CLI failed for keyword: self-employment tax for LLC owners
+[2026-06-17 15:00:05] Next keyword index: 157
+[2026-06-17 15:00:05] Generating article for: self-employment tax for LLC owners (Category: Educational, Intent: Informational)
+[2026-06-17 15:00:06] Calling Claude CLI to generate article...
+[2026-06-17 15:01:45] Afternoon scheduled task: launchd 3PM daemon (PID 88381) is already generating index 157 (self-employment tax for LLC owners) — exiting without action to avoid duplicate/race on the same article slot.
+[2026-06-17 15:03:12] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/self-employment-tax-for-llc-owners.mdx
+[2026-06-17 15:03:12] Generating hero image for: self-employment-tax-for-llc-owners
+Generating image for: self-employment-tax-for-llc-owners
+Prompt: A professional illustration representing: self-employment tax for LLC owners...
+Received 1316KB from Gemini API
+  hero-1200.webp: 49KB
+  hero-800.webp: 30KB
+  hero-400.webp: 12KB
+  og.jpg: 99KB
+[2026-06-17 15:03:25] Hero image generated: /blog/self-employment-tax-for-llc-owners/hero
+[2026-06-17 15:03:25] Injected featuredImage into frontmatter
+[2026-06-17 15:03:25] Progress updated. Next index: 158
+[2026-06-17 15:03:25] Article published at: /blog/self-employment-tax-for-llc-owners/
+[2026-06-17 15:03:25] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   6cc50b4..9f08103  main -> main
+[2026-06-17 15:03:27] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-17 15:03:28] Submitted to Google Indexing API: /blog/self-employment-tax-for-llc-owners/
+[2026-06-18 09:11:51] Next keyword index: 158
+[2026-06-18 09:11:51] Generating article for: how to start an LLC in Virginia (Category: State Formation, Intent: Transactional)
+[2026-06-18 09:11:52] Calling Claude CLI to generate article...
+[2026-06-18 09:33:39] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-virginia.mdx
+[2026-06-18 09:33:39] Generating hero image for: how-to-start-an-llc-in-virginia
+Generating image for: how-to-start-an-llc-in-virginia
+Prompt: A professional illustration representing: how to start an LLC in Virginia...
+Received 1285KB from Gemini API
+  hero-1200.webp: 57KB
+  hero-800.webp: 34KB
+  hero-400.webp: 14KB
+  og.jpg: 108KB
+[2026-06-18 09:33:53] Hero image generated: /blog/how-to-start-an-llc-in-virginia/hero
+[2026-06-18 09:33:53] Injected featuredImage into frontmatter
+[2026-06-18 09:33:53] Progress updated. Next index: 159
+[2026-06-18 09:33:53] Article published at: /blog/how-to-start-an-llc-in-virginia/
+[2026-06-18 09:33:53] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   9f08103..d44ecfa  main -> main
+[2026-06-18 09:33:56] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-18 09:33:58] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-virginia/
+[2026-06-18 15:00:03] Next keyword index: 159
+[2026-06-18 15:00:04] Generating article for: how to start an LLC in Washington (Category: State Formation, Intent: Transactional)
+[2026-06-18 15:00:04] Calling Claude CLI to generate article...
+[2026-06-18 15:02:40] Afternoon scheduled task: launchd 3PM daemon already claimed index 159 ("how to start an LLC in Washington") at 15:00:04 and is mid-generation. Exiting without action to avoid duplicate/race on the same article slot.
+[2026-06-18 15:04:48] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-washington.mdx
+[2026-06-18 15:04:48] Generating hero image for: how-to-start-an-llc-in-washington
+Generating image for: how-to-start-an-llc-in-washington
+Prompt: A professional illustration representing: how to start an LLC in Washington...
+Received 1334KB from Gemini API
+  hero-1200.webp: 58KB
+  hero-800.webp: 35KB
+  hero-400.webp: 15KB
+  og.jpg: 110KB
+[2026-06-18 15:05:07] Hero image generated: /blog/how-to-start-an-llc-in-washington/hero
+[2026-06-18 15:05:07] Injected featuredImage into frontmatter
+[2026-06-18 15:05:07] Progress updated. Next index: 160
+[2026-06-18 15:05:07] Article published at: /blog/how-to-start-an-llc-in-washington/
+[2026-06-18 15:05:07] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   d44ecfa..f80a421  main -> main
+[2026-06-18 15:05:09] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-18 15:05:10] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-washington/
+[2026-06-19 09:14:35] Next keyword index: 160
+[2026-06-19 09:14:35] Generating article for: New York LLC cost and fees breakdown (Category: State Cost, Intent: Commercial)
+[2026-06-19 09:14:36] Calling Claude CLI to generate article...
+[2026-06-19 09:47:02] ERROR: Claude CLI failed for keyword: New York LLC cost and fees breakdown
+[2026-06-19 09:55:32] Generating article (Claude-native) for: New York LLC cost and fees breakdown (index 160)
+[2026-06-19 09:55:42] Generating hero image for new-york-llc-cost-and-fees-breakdown
+[2026-06-19 09:56:25] Article written + validated. Next keyword index: 161
