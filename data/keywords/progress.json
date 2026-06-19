@@ -1,5 +1,5 @@
 {
-  "next_index": 161,
+  "next_index": 162,
   "completed": [
     {
       "index": 1,
@@ -1139,6 +1139,13 @@
       "index": 160,
       "keyword": "New York LLC cost and fees breakdown",
       "slug": "new-york-llc-cost-and-fees-breakdown",
+      "date": "2026-06-19",
+      "skipped": false
+    },
+    {
+      "index": 161,
+      "keyword": "Northwest Registered Agent vs LegalZoom",
+      "slug": "northwest-registered-agent-vs-legalzoom",
       "date": "2026-06-19",
       "skipped": false
     }
