@@ -1,5 +1,5 @@
 {
-  "next_index": 162,
+  "next_index": 163,
   "completed": [
     {
       "index": 1,
@@ -1147,6 +1147,13 @@
       "keyword": "Northwest Registered Agent vs LegalZoom",
       "slug": "northwest-registered-agent-vs-legalzoom",
       "date": "2026-06-19",
+      "skipped": false
+    },
+    {
+      "index": 162,
+      "keyword": "how to start an LLC in Arizona",
+      "slug": "how-to-start-an-llc-in-arizona",
+      "date": "2026-06-20",
       "skipped": false
     }
   ]

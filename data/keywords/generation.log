@@ -2420,3 +2420,26 @@ WARNING: Google sitemap submission failed: No module named 'google'
 [2026-06-19 09:55:32] Generating article (Claude-native) for: New York LLC cost and fees breakdown (index 160)
 [2026-06-19 09:55:42] Generating hero image for new-york-llc-cost-and-fees-breakdown
 [2026-06-19 09:56:25] Article written + validated. Next keyword index: 161
+[2026-06-19 09:56:58] DONE index 160: https://topbestllcservice.com/blog/new-york-llc-cost-and-fees-breakdown/ published, pushed to main, next_index=161
+[2026-06-19 15:03:58] Next keyword index: 161
+[2026-06-19 15:03:58] Generating article for: Northwest Registered Agent vs LegalZoom (Category: Comparison, Intent: Commercial)
+[2026-06-19 15:03:59] Calling Claude CLI to generate article...
+[2026-06-19 16:48:49] ERROR: Claude CLI failed for keyword: Northwest Registered Agent vs LegalZoom
+[2026-06-19 18:12:54] [afternoon-fallback] 3PM daemon failed CLI at 16:48:49; file missing, next_index=161. Proceeding with Claude-native generation for: Northwest Registered Agent vs LegalZoom
+[2026-06-19 18:15:24] Article written + validated. Northwest Registered Agent vs LegalZoom (index 161)
+[2026-06-19 18:15:36] Generating hero image for northwest-registered-agent-vs-legalzoom
+[2026-06-19 18:16:06] Progress updated. Next index: 162
+[2026-06-19 18:16:39] Submitted to Google Indexing API: /blog/northwest-registered-agent-vs-legalzoom/
+[2026-06-19 18:16:39] DONE index 161: https://topbestllcservice.com/blog/northwest-registered-agent-vs-legalzoom/ published, pushed to main, next_index=162
+[2026-06-20 09:11:34] Next keyword index: 162
+[2026-06-20 09:11:34] Generating article for: how to start an LLC in Arizona (Category: State Formation, Intent: Transactional)
+[2026-06-20 09:11:36] Calling Claude CLI to generate article...
+[2026-06-20 14:13:17] ERROR: Claude CLI failed for keyword: how to start an LLC in Arizona
+[2026-06-20 15:16:38] Next keyword index: 162
+[2026-06-20 15:16:39] Generating article for: how to start an LLC in Arizona (Category: State Formation, Intent: Transactional)
+[2026-06-20 15:16:40] Calling Claude CLI to generate article...
+[2026-06-20 15:26:30] [morning-task] Daemon CLI failed at 14:13 (index 162, empty stub left, progress not advanced). Taking over with Claude-native generation for: how to start an LLC in Arizona
+[2026-06-20 18:47:21] ERROR: Claude CLI failed for keyword: how to start an LLC in Arizona
+[2026-06-20 20:46:09] Article written + validated. how to start an LLC in Arizona (index 162)
+[2026-06-20 20:46:09] Generating hero image for how-to-start-an-llc-in-arizona
+[2026-06-20 20:46:48] Progress updated. Next index: 163
