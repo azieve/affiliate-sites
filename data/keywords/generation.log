@@ -2443,3 +2443,57 @@ WARNING: Google sitemap submission failed: No module named 'google'
 [2026-06-20 20:46:09] Article written + validated. how to start an LLC in Arizona (index 162)
 [2026-06-20 20:46:09] Generating hero image for how-to-start-an-llc-in-arizona
 [2026-06-20 20:46:48] Progress updated. Next index: 163
+[2026-06-20 20:47:28] WARNING: Google Indexing submission returned non-zero () for /blog/how-to-start-an-llc-in-arizona/
+[2026-06-20 20:47:28] DONE index 162: https://topbestllcservice.com/blog/how-to-start-an-llc-in-arizona/ published, pushed to main, next_index=163
+[2026-06-21 09:00:03] Next keyword index: 163
+[2026-06-21 09:00:03] Generating article for: how to start an LLC in Colorado (Category: State Formation, Intent: Transactional)
+[2026-06-21 09:00:04] Calling Claude CLI to generate article...
+[2026-06-21 10:30:03] ERROR: Claude CLI failed for keyword: how to start an LLC in Colorado
+[2026-06-21 15:00:03] Next keyword index: 163
+[2026-06-21 15:00:03] Generating article for: how to start an LLC in Colorado (Category: State Formation, Intent: Transactional)
+[2026-06-21 15:00:04] Calling Claude CLI to generate article...
+[2026-06-21 15:02:37] [afternoon-task] Stood down: launchd daemon (PID 49248 + claude child PID 50099) actively mid-generation of index 163 "how to start an LLC in Colorado" (0-byte stub @15:00:04, next_index still 163). Daemon owns the 3PM slot — no regenerate, no progress change, no commit/push.
+[2026-06-21 15:08:12] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-colorado.mdx
+[2026-06-21 15:08:12] Generating hero image for: how-to-start-an-llc-in-colorado
+Generating image for: how-to-start-an-llc-in-colorado
+Prompt: A professional illustration representing: how to start an LLC in Colorado...
+Received 1263KB from Gemini API
+  hero-1200.webp: 50KB
+  hero-800.webp: 32KB
+  hero-400.webp: 13KB
+  og.jpg: 97KB
+[2026-06-21 15:08:28] Hero image generated: /blog/how-to-start-an-llc-in-colorado/hero
+[2026-06-21 15:08:28] Injected featuredImage into frontmatter
+[2026-06-21 15:08:28] Progress updated. Next index: 164
+[2026-06-21 15:08:28] Article published at: /blog/how-to-start-an-llc-in-colorado/
+[2026-06-21 15:08:28] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   a3f46a5..da240a1  main -> main
+[2026-06-21 15:08:30] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-21 15:08:32] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-colorado/
+[2026-06-22 09:00:02] Next keyword index: 164
+[2026-06-22 09:00:02] Generating article for: how to start an LLC in Tennessee (Category: State Formation, Intent: Transactional)
+[2026-06-22 09:00:03] Calling Claude CLI to generate article...
+[2026-06-22 09:03:53] Article generated successfully: /Users/alonzieve/affiliate-sites/company-formation/src/content/blog/how-to-start-an-llc-in-tennessee.mdx
+[2026-06-22 09:03:53] Generating hero image for: how-to-start-an-llc-in-tennessee
+Generating image for: how-to-start-an-llc-in-tennessee
+Prompt: A professional illustration representing: how to start an LLC in Tennessee...
+Received 1424KB from Gemini API
+  hero-1200.webp: 64KB
+  hero-800.webp: 37KB
+  hero-400.webp: 14KB
+  og.jpg: 118KB
+[2026-06-22 09:04:10] Hero image generated: /blog/how-to-start-an-llc-in-tennessee/hero
+[2026-06-22 09:04:10] Injected featuredImage into frontmatter
+[2026-06-22 09:04:10] Progress updated. Next index: 165
+[2026-06-22 09:04:10] Article published at: /blog/how-to-start-an-llc-in-tennessee/
+[2026-06-22 09:04:10] SID registry refreshed.
+To https://github.com/azieve/affiliate-sites.git
+   da240a1..2b01975  main -> main
+[2026-06-22 09:04:12] Pushed to GitHub — Vercel auto-deploy triggered.
+WARNING: Google sitemap submission failed: No module named 'google'
+[2026-06-22 09:04:14] Submitted to Google Indexing API: /blog/how-to-start-an-llc-in-tennessee/
+[2026-06-22 09:05:03] Morning run start. next_index=165, keyword='how to start an LLC in Michigan', slug=how-to-start-an-llc-in-michigan
+[2026-06-22 09:07:25] Article written and validated: src/content/blog/how-to-start-an-llc-in-michigan.mdx
+[2026-06-22 09:07:55] progress.json advanced to next_index=166

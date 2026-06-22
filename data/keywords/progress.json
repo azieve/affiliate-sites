@@ -1,5 +1,5 @@
 {
-  "next_index": 165,
+  "next_index": 166,
   "completed": [
     {
       "index": 1,
@@ -1167,6 +1167,13 @@
       "index": 164,
       "keyword": "how to start an LLC in Tennessee",
       "slug": "how-to-start-an-llc-in-tennessee",
+      "date": "2026-06-22",
+      "skipped": false
+    },
+    {
+      "index": 165,
+      "keyword": "how to start an LLC in Michigan",
+      "slug": "how-to-start-an-llc-in-michigan",
       "date": "2026-06-22",
       "skipped": false
     }
