@@ -1,5 +1,5 @@
 {
-  "next_index": 164,
+  "next_index": 165,
   "completed": [
     {
       "index": 1,
@@ -1161,6 +1161,13 @@
       "keyword": "how to start an LLC in Colorado",
       "slug": "how-to-start-an-llc-in-colorado",
       "date": "2026-06-21",
+      "skipped": false
+    },
+    {
+      "index": 164,
+      "keyword": "how to start an LLC in Tennessee",
+      "slug": "how-to-start-an-llc-in-tennessee",
+      "date": "2026-06-22",
       "skipped": false
     }
   ]
