@@ -1,5 +1,5 @@
 {
-  "next_index": 168,
+  "next_index": 169,
   "completed": [
     {
       "index": 1,
@@ -1188,6 +1188,13 @@
       "index": 167,
       "keyword": "how to start an LLC in New Jersey",
       "slug": "how-to-start-an-llc-in-new-jersey",
+      "date": "2026-06-23",
+      "skipped": false
+    },
+    {
+      "index": 168,
+      "keyword": "ZenBusiness vs Bizee (formerly Incfile)",
+      "slug": "zenbusiness-vs-bizee-formerly-incfile",
       "date": "2026-06-23",
       "skipped": false
     }
