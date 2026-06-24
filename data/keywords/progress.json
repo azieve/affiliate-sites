@@ -1,5 +1,5 @@
 {
-  "next_index": 170,
+  "next_index": 171,
   "completed": [
     {
       "index": 1,
@@ -1202,6 +1202,13 @@
       "index": 169,
       "keyword": "LLC vs DBA (doing business as) differences",
       "slug": "llc-vs-dba-doing-business-as-differences",
+      "date": "2026-06-24",
+      "skipped": false
+    },
+    {
+      "index": 170,
+      "keyword": "Delaware LLC cost and fees breakdown",
+      "slug": "delaware-llc-cost-and-fees-breakdown",
       "date": "2026-06-24",
       "skipped": false
     }
