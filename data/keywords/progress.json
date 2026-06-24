@@ -1,5 +1,5 @@
 {
-  "next_index": 169,
+  "next_index": 170,
   "completed": [
     {
       "index": 1,
@@ -1196,6 +1196,13 @@
       "keyword": "ZenBusiness vs Bizee (formerly Incfile)",
       "slug": "zenbusiness-vs-bizee-formerly-incfile",
       "date": "2026-06-23",
+      "skipped": false
+    },
+    {
+      "index": 169,
+      "keyword": "LLC vs DBA (doing business as) differences",
+      "slug": "llc-vs-dba-doing-business-as-differences",
+      "date": "2026-06-24",
       "skipped": false
     }
   ]
