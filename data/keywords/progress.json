@@ -1,5 +1,5 @@
 {
-  "next_index": 171,
+  "next_index": 172,
   "completed": [
     {
       "index": 1,
@@ -1210,6 +1210,13 @@
       "keyword": "Delaware LLC cost and fees breakdown",
       "slug": "delaware-llc-cost-and-fees-breakdown",
       "date": "2026-06-24",
+      "skipped": false
+    },
+    {
+      "index": 171,
+      "keyword": "Bizee review [year]",
+      "slug": "bizee-review-2026",
+      "date": "2026-06-25",
       "skipped": false
     }
   ]
