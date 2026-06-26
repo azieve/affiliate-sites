@@ -1,5 +1,5 @@
 {
-  "next_index": 174,
+  "next_index": 175,
   "completed": [
     {
       "index": 1,
@@ -1230,6 +1230,13 @@
       "index": 173,
       "keyword": "how to start an LLC in Maryland",
       "slug": "how-to-start-an-llc-in-maryland",
+      "date": "2026-06-26",
+      "skipped": false
+    },
+    {
+      "index": 174,
+      "keyword": "how to start an LLC in Massachusetts",
+      "slug": "how-to-start-an-llc-in-massachusetts",
       "date": "2026-06-26",
       "skipped": false
     }
