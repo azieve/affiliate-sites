@@ -1,5 +1,5 @@
 {
-  "next_index": 175,
+  "next_index": 176,
   "completed": [
     {
       "index": 1,
@@ -1238,6 +1238,13 @@
       "keyword": "how to start an LLC in Massachusetts",
       "slug": "how-to-start-an-llc-in-massachusetts",
       "date": "2026-06-26",
+      "skipped": false
+    },
+    {
+      "index": 175,
+      "keyword": "how to start an LLC in Nevada",
+      "slug": "how-to-start-an-llc-in-nevada",
+      "date": "2026-06-28",
       "skipped": false
     }
   ]
