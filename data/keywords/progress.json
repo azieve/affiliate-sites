@@ -1,5 +1,5 @@
 {
-  "next_index": 176,
+  "next_index": 177,
   "completed": [
     {
       "index": 1,
@@ -1244,6 +1244,13 @@
       "index": 175,
       "keyword": "how to start an LLC in Nevada",
       "slug": "how-to-start-an-llc-in-nevada",
+      "date": "2026-06-28",
+      "skipped": false
+    },
+    {
+      "index": 176,
+      "keyword": "Georgia LLC cost and fees breakdown",
+      "slug": "georgia-llc-cost-and-fees-breakdown",
       "date": "2026-06-28",
       "skipped": false
     }
