@@ -1,5 +1,5 @@
 {
-  "next_index": 177,
+  "next_index": 178,
   "completed": [
     {
       "index": 1,
@@ -1252,6 +1252,13 @@
       "keyword": "Georgia LLC cost and fees breakdown",
       "slug": "georgia-llc-cost-and-fees-breakdown",
       "date": "2026-06-28",
+      "skipped": false
+    },
+    {
+      "index": 177,
+      "keyword": "California LLC $800 franchise tax",
+      "slug": "california-llc-800-franchise-tax",
+      "date": "2026-06-29",
       "skipped": false
     }
   ]
