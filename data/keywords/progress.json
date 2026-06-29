@@ -1,5 +1,5 @@
 {
-  "next_index": 178,
+  "next_index": 179,
   "completed": [
     {
       "index": 1,
@@ -1258,6 +1258,13 @@
       "index": 177,
       "keyword": "California LLC $800 franchise tax",
       "slug": "california-llc-800-franchise-tax",
+      "date": "2026-06-29",
+      "skipped": false
+    },
+    {
+      "index": 178,
+      "keyword": "Bizee vs LegalZoom",
+      "slug": "bizee-vs-legalzoom",
       "date": "2026-06-29",
       "skipped": false
     }
