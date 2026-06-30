@@ -1,5 +1,5 @@
 {
-  "next_index": 180,
+  "next_index": 181,
   "completed": [
     {
       "index": 1,
@@ -1272,6 +1272,13 @@
       "index": 179,
       "keyword": "cheapest way to form an LLC",
       "slug": "cheapest-way-to-form-an-llc",
+      "date": "2026-06-30",
+      "skipped": false
+    },
+    {
+      "index": 180,
+      "keyword": "how to convert sole proprietorship to LLC",
+      "slug": "how-to-convert-sole-proprietorship-to-llc",
       "date": "2026-06-30",
       "skipped": false
     }
