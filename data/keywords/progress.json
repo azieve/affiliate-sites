@@ -1,5 +1,5 @@
 {
-  "next_index": 179,
+  "next_index": 180,
   "completed": [
     {
       "index": 1,
@@ -1266,6 +1266,13 @@
       "keyword": "Bizee vs LegalZoom",
       "slug": "bizee-vs-legalzoom",
       "date": "2026-06-29",
+      "skipped": false
+    },
+    {
+      "index": 179,
+      "keyword": "cheapest way to form an LLC",
+      "slug": "cheapest-way-to-form-an-llc",
+      "date": "2026-06-30",
       "skipped": false
     }
   ]
