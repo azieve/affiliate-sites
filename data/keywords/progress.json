@@ -1,5 +1,5 @@
 {
-  "next_index": 182,
+  "next_index": 183,
   "completed": [
     {
       "index": 1,
@@ -1286,6 +1286,13 @@
       "index": 181,
       "keyword": "how to start an LLC in Missouri",
       "slug": "how-to-start-an-llc-in-missouri",
+      "date": "2026-07-01",
+      "skipped": false
+    },
+    {
+      "index": 182,
+      "keyword": "how to start an LLC in Minnesota",
+      "slug": "how-to-start-an-llc-in-minnesota",
       "date": "2026-07-01",
       "skipped": false
     }
