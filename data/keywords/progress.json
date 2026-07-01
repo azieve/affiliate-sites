@@ -1,5 +1,5 @@
 {
-  "next_index": 181,
+  "next_index": 182,
   "completed": [
     {
       "index": 1,
@@ -1280,6 +1280,13 @@
       "keyword": "how to convert sole proprietorship to LLC",
       "slug": "how-to-convert-sole-proprietorship-to-llc",
       "date": "2026-06-30",
+      "skipped": false
+    },
+    {
+      "index": 181,
+      "keyword": "how to start an LLC in Missouri",
+      "slug": "how-to-start-an-llc-in-missouri",
+      "date": "2026-07-01",
       "skipped": false
     }
   ]
