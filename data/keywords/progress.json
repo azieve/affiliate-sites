@@ -1,5 +1,5 @@
 {
-  "next_index": 185,
+  "next_index": 186,
   "completed": [
     {
       "index": 1,
@@ -1308,6 +1308,13 @@
       "keyword": "how to start an LLC in Oregon",
       "slug": "how-to-start-an-llc-in-oregon",
       "date": "2026-07-03",
+      "skipped": false
+    },
+    {
+      "index": 185,
+      "keyword": "Illinois LLC cost and fees breakdown",
+      "slug": "illinois-llc-cost-and-fees-breakdown",
+      "date": "2026-07-05",
       "skipped": false
     }
   ]
