@@ -1,5 +1,5 @@
 {
-  "next_index": 186,
+  "next_index": 187,
   "completed": [
     {
       "index": 1,
@@ -1314,6 +1314,13 @@
       "index": 185,
       "keyword": "Illinois LLC cost and fees breakdown",
       "slug": "illinois-llc-cost-and-fees-breakdown",
+      "date": "2026-07-05",
+      "skipped": false
+    },
+    {
+      "index": 186,
+      "keyword": "LegalZoom alternatives for LLC",
+      "slug": "legalzoom-alternatives-for-llc",
       "date": "2026-07-05",
       "skipped": false
     }
