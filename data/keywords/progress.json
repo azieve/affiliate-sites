@@ -1,5 +1,5 @@
 {
-  "next_index": 187,
+  "next_index": 188,
   "completed": [
     {
       "index": 1,
@@ -1322,6 +1322,13 @@
       "keyword": "LegalZoom alternatives for LLC",
       "slug": "legalzoom-alternatives-for-llc",
       "date": "2026-07-05",
+      "skipped": false
+    },
+    {
+      "index": 187,
+      "keyword": "best LLC service for small business",
+      "slug": "best-llc-service-for-small-business",
+      "date": "2026-07-06",
       "skipped": false
     }
   ]
