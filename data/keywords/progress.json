@@ -1,5 +1,5 @@
 {
-  "next_index": 188,
+  "next_index": 189,
   "completed": [
     {
       "index": 1,
@@ -1329,6 +1329,13 @@
       "keyword": "best LLC service for small business",
       "slug": "best-llc-service-for-small-business",
       "date": "2026-07-06",
+      "skipped": false
+    },
+    {
+      "index": 188,
+      "keyword": "how to start an LLC in South Carolina",
+      "slug": "how-to-start-an-llc-in-south-carolina",
+      "date": "2026-07-07",
       "skipped": false
     }
   ]
