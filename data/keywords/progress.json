@@ -1,5 +1,5 @@
 {
-  "next_index": 190,
+  "next_index": 191,
   "completed": [
     {
       "index": 1,
@@ -1343,6 +1343,13 @@
       "keyword": "how to start an LLC in Alabama",
       "slug": "how-to-start-an-llc-in-alabama",
       "date": "2026-07-07",
+      "skipped": false
+    },
+    {
+      "index": 190,
+      "keyword": "how to start an LLC in Louisiana",
+      "slug": "how-to-start-an-llc-in-louisiana",
+      "date": "2026-07-08",
       "skipped": false
     }
   ]
