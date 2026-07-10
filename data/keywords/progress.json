@@ -1,5 +1,5 @@
 {
-  "next_index": 191,
+  "next_index": 193,
   "completed": [
     {
       "index": 1,
@@ -1350,6 +1350,20 @@
       "keyword": "how to start an LLC in Louisiana",
       "slug": "how-to-start-an-llc-in-louisiana",
       "date": "2026-07-08",
+      "skipped": false
+    },
+    {
+      "index": 191,
+      "keyword": "how to start an LLC in Kentucky",
+      "slug": "how-to-start-an-llc-in-kentucky",
+      "date": "2026-07-09",
+      "skipped": false
+    },
+    {
+      "index": 192,
+      "keyword": "LegalZoom vs Rocket Lawyer for LLC",
+      "slug": "legalzoom-vs-rocket-lawyer-for-llc",
+      "date": "2026-07-10",
       "skipped": false
     }
   ]
