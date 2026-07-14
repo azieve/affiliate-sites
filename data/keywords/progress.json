@@ -1,5 +1,5 @@
 {
-  "next_index": 194,
+  "next_index": 195,
   "completed": [
     {
       "index": 1,
@@ -1371,6 +1371,13 @@
       "keyword": "how to start an LLC in Connecticut",
       "slug": "how-to-start-an-llc-in-connecticut",
       "date": "2026-07-13",
+      "skipped": false
+    },
+    {
+      "index": 194,
+      "keyword": "how to start an LLC in Oklahoma",
+      "slug": "how-to-start-an-llc-in-oklahoma",
+      "date": "2026-07-14",
       "skipped": false
     }
   ]
