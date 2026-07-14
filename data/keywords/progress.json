@@ -1,5 +1,5 @@
 {
-  "next_index": 195,
+  "next_index": 196,
   "completed": [
     {
       "index": 1,
@@ -1377,6 +1377,13 @@
       "index": 194,
       "keyword": "how to start an LLC in Oklahoma",
       "slug": "how-to-start-an-llc-in-oklahoma",
+      "date": "2026-07-14",
+      "skipped": false
+    },
+    {
+      "index": 195,
+      "keyword": "New Jersey LLC cost and fees breakdown",
+      "slug": "new-jersey-llc-cost-and-fees-breakdown",
       "date": "2026-07-14",
       "skipped": false
     }
