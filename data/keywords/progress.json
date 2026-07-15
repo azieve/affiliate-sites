@@ -1,5 +1,5 @@
 {
-  "next_index": 196,
+  "next_index": 197,
   "completed": [
     {
       "index": 1,
@@ -1385,6 +1385,13 @@
       "keyword": "New Jersey LLC cost and fees breakdown",
       "slug": "new-jersey-llc-cost-and-fees-breakdown",
       "date": "2026-07-14",
+      "skipped": false
+    },
+    {
+      "index": 196,
+      "keyword": "how to start an LLC in California",
+      "slug": "how-to-start-an-llc-in-california",
+      "date": "2026-07-15",
       "skipped": false
     }
   ]
