@@ -1,5 +1,5 @@
 {
-  "next_index": 197,
+  "next_index": 198,
   "completed": [
     {
       "index": 1,
@@ -1391,6 +1391,13 @@
       "index": 196,
       "keyword": "how to start an LLC in California",
       "slug": "how-to-start-an-llc-in-california",
+      "date": "2026-07-15",
+      "skipped": false
+    },
+    {
+      "index": 197,
+      "keyword": "LLC taxes how are LLCs taxed",
+      "slug": "llc-taxes-how-are-llcs-taxed",
       "date": "2026-07-15",
       "skipped": false
     }
