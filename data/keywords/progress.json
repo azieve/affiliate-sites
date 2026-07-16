@@ -1,5 +1,5 @@
 {
-  "next_index": 198,
+  "next_index": 199,
   "completed": [
     {
       "index": 1,
@@ -1399,6 +1399,13 @@
       "keyword": "LLC taxes how are LLCs taxed",
       "slug": "llc-taxes-how-are-llcs-taxed",
       "date": "2026-07-15",
+      "skipped": false
+    },
+    {
+      "index": 198,
+      "keyword": "how to start an LLC in New York",
+      "slug": "how-to-start-an-llc-in-new-york",
+      "date": "2026-07-16",
       "skipped": false
     }
   ]
