@@ -1,5 +1,5 @@
 {
-  "next_index": 199,
+  "next_index": 200,
   "completed": [
     {
       "index": 1,
@@ -1405,6 +1405,13 @@
       "index": 198,
       "keyword": "how to start an LLC in New York",
       "slug": "how-to-start-an-llc-in-new-york",
+      "date": "2026-07-16",
+      "skipped": false
+    },
+    {
+      "index": 199,
+      "keyword": "LLC operating agreement template and guide",
+      "slug": "llc-operating-agreement-template-and-guide",
       "date": "2026-07-16",
       "skipped": false
     }
