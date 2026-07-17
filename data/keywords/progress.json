@@ -1,5 +1,5 @@
 {
-  "next_index": 200,
+  "next_index": 201,
   "completed": [
     {
       "index": 1,
@@ -1413,6 +1413,13 @@
       "keyword": "LLC operating agreement template and guide",
       "slug": "llc-operating-agreement-template-and-guide",
       "date": "2026-07-16",
+      "skipped": false
+    },
+    {
+      "index": 200,
+      "keyword": "how to start an LLC in Delaware",
+      "slug": "how-to-start-an-llc-in-delaware",
+      "date": "2026-07-17",
       "skipped": false
     }
   ]
