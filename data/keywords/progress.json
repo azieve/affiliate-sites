@@ -1,5 +1,5 @@
 {
-  "next_index": 201,
+  "next_index": 202,
   "completed": [
     {
       "index": 1,
@@ -1419,6 +1419,13 @@
       "index": 200,
       "keyword": "how to start an LLC in Delaware",
       "slug": "how-to-start-an-llc-in-delaware",
+      "date": "2026-07-17",
+      "skipped": false
+    },
+    {
+      "index": 201,
+      "keyword": "what is a registered agent and do I need one",
+      "slug": "what-is-a-registered-agent-and-do-i-need-one",
       "date": "2026-07-17",
       "skipped": false
     }
