@@ -1,5 +1,5 @@
 {
-  "next_index": 202,
+  "next_index": 204,
   "completed": [
     {
       "index": 1,
@@ -1427,6 +1427,20 @@
       "keyword": "what is a registered agent and do I need one",
       "slug": "what-is-a-registered-agent-and-do-i-need-one",
       "date": "2026-07-17",
+      "skipped": false
+    },
+    {
+      "index": 202,
+      "keyword": "how to start an LLC in Georgia",
+      "slug": "how-to-start-an-llc-in-georgia",
+      "date": "2026-07-18",
+      "skipped": false
+    },
+    {
+      "index": 203,
+      "keyword": "LLC vs corporation which should I choose",
+      "slug": "llc-vs-corporation-which-should-i-choose",
+      "date": "2026-07-18",
       "skipped": false
     }
   ]
