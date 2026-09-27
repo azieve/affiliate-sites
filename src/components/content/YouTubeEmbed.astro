@@ -10,7 +10,7 @@ const { youtubeId, title } = Astro.props;
 const src = youtubeEmbedUrl(youtubeId);
 ---
 
-<figure class="not-prose mb-8 max-w-3xl">
+<figure class="not-prose my-8 max-w-3xl">
   <div class="relative aspect-video overflow-hidden rounded-lg bg-black">
     <iframe
       src={src}

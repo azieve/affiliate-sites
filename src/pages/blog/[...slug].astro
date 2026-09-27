@@ -2,7 +2,6 @@
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '@/layouts/ArticleLayout.astro';
 import HeroImage from '@/components/content/HeroImage.astro';
-import YouTubeEmbed from '@/components/content/YouTubeEmbed.astro';
 import { siteConfig } from '@/data/site';
 import { getCanonicalUrl } from '@/utils/seo';
 import { youtubeEmbedUrl } from '@/utils/video';
@@ -117,7 +116,6 @@ const defaultAuthorBio = `${author} has spent years researching LLC formation se
       <HeroImage basePath={featuredImage} alt={title} />
     </div>
   )}
-  {video && <YouTubeEmbed youtubeId={video.youtubeId} title={video.name} />}
   <div class="prose">
     <Content />
   </div>
