@@ -34,59 +34,30 @@ NEXT_INDEX=$(python3 -c "import json; print(json.load(open('$PROGRESS_FILE'))['n
 log "Next keyword index: $NEXT_INDEX"
 
 # ── Read the keyword row from CSV ──────────────────────────────────
-# CSV columns: Priority #, Phase, Keyword, Est. Monthly Volume, Est. KD,
-#              Difficulty Tier, Search Intent, Article Type, Category, Notes
-TOTAL_ROWS=$(tail -n +2 "$KEYWORDS_CSV" | wc -l | tr -d ' ')
-
-if [ "$NEXT_INDEX" -gt "$TOTAL_ROWS" ]; then
-  log "All $TOTAL_ROWS keywords have been processed. Nothing to do."
+# next-keyword.py looks the row up by its Priority # (not line position) and
+# fails loudly if the numbering is broken, so the index can't drift.
+set +e
+ROW_JSON=$(python3 "$SCRIPT_DIR/next-keyword.py" 2>>"$LOG_FILE")
+ROW_STATUS=$?
+set -e
+if [ "$ROW_STATUS" -eq 3 ]; then
+  log "All keywords have been processed. Nothing to do."
   exit 0
+elif [ "$ROW_STATUS" -ne 0 ]; then
+  log "ERROR: next-keyword.py failed (exit $ROW_STATUS) for index $NEXT_INDEX"
+  exit 1
 fi
 
-# Extract the row (1-indexed, skip header)
-ROW=$(sed -n "$((NEXT_INDEX + 1))p" "$KEYWORDS_CSV")
-
-PRIMARY_KEYWORD=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[2])
-")
-
-CATEGORY=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[8])
-")
-
-SEARCH_INTENT=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[6])
-")
-
-ARTICLE_TYPE=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[7])
-")
-
-PHASE=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[1])
-")
-
-DIFFICULTY=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[5])
-")
-
-NOTES=$(echo "$ROW" | python3 -c "
-import sys, csv
-row = list(csv.reader([sys.stdin.read().strip()]))[0]
-print(row[9] if len(row) > 9 else '')
-")
+field() {
+  echo "$ROW_JSON" | python3 -c "import sys, json; print(json.load(sys.stdin)['$1'])"
+}
+PRIMARY_KEYWORD=$(field keyword)
+CATEGORY=$(field category)
+SEARCH_INTENT=$(field search_intent)
+ARTICLE_TYPE=$(field article_type)
+PHASE=$(field phase)
+DIFFICULTY=$(field difficulty)
+NOTES=$(field notes)
 
 log "Generating article for: $PRIMARY_KEYWORD (Category: $CATEGORY, Intent: $SEARCH_INTENT)"
 

@@ -202,3 +202,302 @@ Priority #,Phase,Keyword,Est. Monthly Volume (US),Est. KD,Difficulty Tier,Search
 201,Phase 2: Long-Tail Daily Articles,what is a registered agent and do I need one,2500,40,Moderate,Informational,Educational Article,Educational,
 202,Phase 2: Long-Tail Daily Articles,how to start an LLC in Georgia,1500,32,Moderate,Transactional,State Guide,State Formation,
 203,Phase 2: Long-Tail Daily Articles,LLC vs corporation which should I choose,1500,35,Moderate,Informational,Educational Article,Educational,
+204,Phase 3: GSC-Informed Long-Tail,how to change LLC name,,,Accessible,Informational,Educational Article,Educational,"Recovered skipped keyword (original CSV row 59, never published). Link to how-to-change-registered-agent and how-to-amend-llc-articles-of-organization if present"
+205,Phase 3: GSC-Informed Long-Tail,Georgia LLC annual registration,,,Quick Win,Informational,State Compliance,State Compliance,"Recovered skipped keyword (original CSV row 52, never published). Link to georgia-llc-cost-and-fees-breakdown and how-to-start-an-llc-in-georgia"
+206,Phase 3: GSC-Informed Long-Tail,husband and wife qualified joint venture vs LLC,,,Accessible,Informational,Educational Article,Educational,"Recovered skipped keyword (original CSV row 46: 'LLC for husband and wife (qualified joint venture)'). Owner wants a SEPARATE article: focus narrowly on the IRS qualified joint venture election — eligibility, two Schedule Cs, community property states, QJV vs multi-member LLC tax filing (1065). Link prominently to llc-for-married-couples-pros-and-cons (a top-performing page); do NOT target 'LLC for married couples' or 'pros and cons' terms"
+207,Phase 3: GSC-Informed Long-Tail,BOI report for single member LLC,,,Accessible,Informational,FinCEN Guide,FinCEN,Recovered skipped keyword (original CSV row 41). Be current: FinCEN's March 2025 interim final rule exempted US-formed companies from BOI reporting — explain what that means for single-member LLCs and when foreign-registered LLCs still file. Link to who-is-exempt-from-boi-reporting and boi-report-changes-and-updates-2026; do not duplicate their content
+208,Phase 3: GSC-Informed Long-Tail,LLC for electricians,,,Accessible,Commercial,Profession Guide,Profession,
+209,Phase 3: GSC-Informed Long-Tail,LegalZoom vs BetterLegal,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 'legalzoom vs betterlegal' 254 impr + 'betterlegal vs legalzoom' 101 + speed-comparison AI queries; link to betterlegal-review and legalzoom-review-2026
+210,Phase 3: GSC-Informed Long-Tail,LLC for plumbers,,,Accessible,Commercial,Profession Guide,Profession,
+211,Phase 3: GSC-Informed Long-Tail,how to remove a member from an LLC,,,Accessible,Informational,Educational Article,Educational,Link to how-to-add-a-member-to-an-llc and how-to-transfer-llc-ownership
+212,Phase 3: GSC-Informed Long-Tail,LLC for HVAC business,,,Accessible,Commercial,Profession Guide,Profession,
+213,Phase 3: GSC-Informed Long-Tail,can a nonprofit own an LLC,,,Accessible,Informational,Educational Article,Educational,GSC: 'can a nonprofit own an llc' 77 + 'can an llc own a nonprofit' 57 + 'sole member nonprofit' 74; link to can-an-llc-be-a-nonprofit and llc-for-nonprofit-organization; do NOT target 'can an llc be a nonprofit'
+214,Phase 3: GSC-Informed Long-Tail,LLC for roofing company,,,Accessible,Commercial,Profession Guide,Profession,"Link to llc-for-construction-company; focus on roofing-specific licensing, bonding, storm-chasing liability"
+215,Phase 3: GSC-Informed Long-Tail,BetterLegal vs ZenBusiness,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 'betterlegal vs zenbusiness vs legalzoom' 48 impr
+216,Phase 3: GSC-Informed Long-Tail,LLC for painting business,,,Accessible,Commercial,Profession Guide,Profession,
+217,Phase 3: GSC-Informed Long-Tail,what happens to an LLC when a member dies,,,Accessible,Informational,Educational Article,Educational,GSC: 'managing member vs successor' 42 impr
+218,Phase 3: GSC-Informed Long-Tail,LLC for flooring installers,,,Accessible,Commercial,Profession Guide,Profession,
+219,Phase 3: GSC-Informed Long-Tail,LLC vs 501(c)(3),,,Accessible,Informational,Educational Article,Educational,GSC: 'llc vs 501c3' 65 impr; comparison framing only
+220,Phase 3: GSC-Informed Long-Tail,LLC for concrete contractors,,,Accessible,Commercial,Profession Guide,Profession,
+221,Phase 3: GSC-Informed Long-Tail,Harbor Compliance review,,,Moderate,Commercial,Comparison/Review,Comparison,
+222,Phase 3: GSC-Informed Long-Tail,LLC for fencing company,,,Accessible,Commercial,Profession Guide,Profession,
+223,Phase 3: GSC-Informed Long-Tail,how to buy out an LLC partner,,,Accessible,Informational,Educational Article,Educational,Link to how-to-transfer-llc-ownership
+224,Phase 3: GSC-Informed Long-Tail,LLC for pool cleaning and pool service business,,,Accessible,Commercial,Profession Guide,Profession,
+225,Phase 3: GSC-Informed Long-Tail,L3C low-profit LLC explained,,,Accessible,Informational,Educational Article,Educational,GSC: 'what states allow non profit llc' 59 impr
+226,Phase 3: GSC-Informed Long-Tail,LLC for pest control business,,,Accessible,Commercial,Profession Guide,Profession,
+227,Phase 3: GSC-Informed Long-Tail,LegalZoom vs Harbor Compliance,,,Moderate,Commercial,Comparison/Review,Comparison,"GSC: 197 impr/6mo, no page targets it"
+228,Phase 3: GSC-Informed Long-Tail,LLC for junk removal business,,,Accessible,Commercial,Profession Guide,Profession,
+229,Phase 3: GSC-Informed Long-Tail,how to change your LLC address,,,Accessible,Informational,Educational Article,Educational,
+230,Phase 3: GSC-Informed Long-Tail,LLC for moving company,,,Accessible,Commercial,Profession Guide,Profession,
+231,Phase 3: GSC-Informed Long-Tail,can a church be an LLC,,,Accessible,Informational,Educational Article,Educational,
+232,Phase 3: GSC-Informed Long-Tail,LLC for tree service business,,,Accessible,Commercial,Profession Guide,Profession,
+233,Phase 3: GSC-Informed Long-Tail,Registered Agents Inc review,,,Moderate,Commercial,Comparison/Review,Comparison,
+234,Phase 3: GSC-Informed Long-Tail,LLC for snow removal business,,,Accessible,Commercial,Profession Guide,Profession,
+235,Phase 3: GSC-Informed Long-Tail,how to amend LLC articles of organization,,,Accessible,Informational,Educational Article,Educational,
+236,Phase 3: GSC-Informed Long-Tail,LLC for home inspectors,,,Accessible,Commercial,Profession Guide,Profession,
+237,Phase 3: GSC-Informed Long-Tail,Form 5472 for foreign-owned single-member LLC,,,Accessible,Informational,Educational Article,Educational,
+238,Phase 3: GSC-Informed Long-Tail,LLC for real estate appraisers,,,Accessible,Commercial,Profession Guide,Profession,
+239,Phase 3: GSC-Informed Long-Tail,LegalZoom vs Registered Agents Inc,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 156 impr/6mo
+240,Phase 3: GSC-Informed Long-Tail,LLC for locksmiths,,,Accessible,Commercial,Profession Guide,Profession,
+241,Phase 3: GSC-Informed Long-Tail,what are articles of organization,,,Accessible,Informational,Educational Article,Educational,Do not target operating agreement terms
+242,Phase 3: GSC-Informed Long-Tail,LLC for solar installers,,,Accessible,Commercial,Profession Guide,Profession,
+243,Phase 3: GSC-Informed Long-Tail,how to get an ITIN as a foreign LLC owner,,,Accessible,Informational,Educational Article,Educational,
+244,Phase 3: GSC-Informed Long-Tail,LLC for welders,,,Accessible,Commercial,Profession Guide,Profession,
+245,Phase 3: GSC-Informed Long-Tail,Northwest Registered Agent vs Registered Agents Inc,,,Moderate,Commercial,Comparison/Review,Comparison,
+246,Phase 3: GSC-Informed Long-Tail,LLC for woodworking and cabinet making business,,,Accessible,Commercial,Profession Guide,Profession,
+247,Phase 3: GSC-Informed Long-Tail,how to pay yourself from an LLC,,,Accessible,Informational,Educational Article,Educational,
+248,Phase 3: GSC-Informed Long-Tail,LLC for auto repair shop,,,Accessible,Commercial,Profession Guide,Profession,
+249,Phase 3: GSC-Informed Long-Tail,how to get an EIN without an SSN,,,Accessible,Informational,Educational Article,Educational,
+250,Phase 3: GSC-Informed Long-Tail,LLC for mobile mechanics,,,Accessible,Commercial,Profession Guide,Profession,
+251,Phase 3: GSC-Informed Long-Tail,LegalZoom vs LegalShield for LLC formation,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 64 impr
+252,Phase 3: GSC-Informed Long-Tail,LLC for towing company,,,Accessible,Commercial,Profession Guide,Profession,
+253,Phase 3: GSC-Informed Long-Tail,reasonable salary for S corp LLC owners,,,Accessible,Informational,Educational Article,Educational,Link to llc-vs-s-corp-which-is-better-for-taxes; do NOT target 'llc vs s corp'
+254,Phase 3: GSC-Informed Long-Tail,LLC for used car dealers,,,Accessible,Commercial,Profession Guide,Profession,
+255,Phase 3: GSC-Informed Long-Tail,US bank account for a foreign-owned LLC,,,Accessible,Informational,Educational Article,Educational,
+256,Phase 3: GSC-Informed Long-Tail,LLC for Turo hosts,,,Accessible,Commercial,Profession Guide,Profession,Car-sharing hosts; distinct from rideshare
+257,Phase 3: GSC-Informed Long-Tail,Swyft Filings vs ZenBusiness,,,Moderate,Commercial,Comparison/Review,Comparison,"GSC: 122 impr, pos 27; link to swyft-filings-review"
+258,Phase 3: GSC-Informed Long-Tail,do DoorDash and Instacart drivers need an LLC,,,Accessible,Commercial,Profession Guide,Profession,"Link to do-uber-and-lyft-drivers-need-an-llc; focus on delivery apps only, do not target rideshare"
+259,Phase 3: GSC-Informed Long-Tail,how to file Form 2553 for an LLC,,,Accessible,Informational,Educational Article,Educational,Procedural only; link to llc-vs-s-corp article
+260,Phase 3: GSC-Informed Long-Tail,LLC for freight brokers,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-trucking-company; broker authority + BMC-84 bond focus; do NOT target 'trucking company/business' terms
+261,Phase 3: GSC-Informed Long-Tail,US LLC for Canadian residents,,,Accessible,Informational,Educational Article,Educational,Link to can-a-foreigner-own-an-llc-in-the-us; country-specific tax treaty/cross-border angle only
+262,Phase 3: GSC-Informed Long-Tail,LLC for truck dispatchers,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-trucking-company; do NOT target 'trucking company/business' terms
+263,Phase 3: GSC-Informed Long-Tail,Tailor Brands vs ZenBusiness,,,Moderate,Commercial,Comparison/Review,Comparison,Link to /reviews/tailor-brands/ and tailor-brands-llc-review; comparison intent only
+264,Phase 3: GSC-Informed Long-Tail,LLC for courier and delivery business,,,Accessible,Commercial,Profession Guide,Profession,Local courier/medical courier; do not target trucking terms
+265,Phase 3: GSC-Informed Long-Tail,late S corp election relief for LLCs,,,Accessible,Informational,Educational Article,Educational,
+266,Phase 3: GSC-Informed Long-Tail,LLC for non-emergency medical transportation (NEMT),,,Accessible,Commercial,Profession Guide,Profession,
+267,Phase 3: GSC-Informed Long-Tail,US LLC for UK residents,,,Accessible,Informational,Educational Article,Educational,Same rule
+268,Phase 3: GSC-Informed Long-Tail,LLC for limo and chauffeur service,,,Accessible,Commercial,Profession Guide,Profession,
+269,Phase 3: GSC-Informed Long-Tail,Tailor Brands vs LegalZoom,,,Moderate,Commercial,Comparison/Review,Comparison,
+270,Phase 3: GSC-Informed Long-Tail,LLC for dentists (PLLC),,,Accessible,Commercial,Profession Guide,Profession,
+271,Phase 3: GSC-Informed Long-Tail,LLC tax deductions list,,,Accessible,Informational,Educational Article,Educational,
+272,Phase 3: GSC-Informed Long-Tail,LLC for chiropractors,,,Accessible,Commercial,Profession Guide,Profession,
+273,Phase 3: GSC-Informed Long-Tail,US LLC for Indian residents,,,Accessible,Informational,Educational Article,Educational,Same rule
+274,Phase 3: GSC-Informed Long-Tail,LLC for physical therapists,,,Accessible,Commercial,Profession Guide,Profession,
+275,Phase 3: GSC-Informed Long-Tail,Inc Authority vs ZenBusiness,,,Moderate,Commercial,Comparison/Review,Comparison,Link to /reviews/inc-authority/
+276,Phase 3: GSC-Informed Long-Tail,LLC for nurse practitioners,,,Accessible,Commercial,Profession Guide,Profession,
+277,Phase 3: GSC-Informed Long-Tail,home office deduction for LLC owners,,,Accessible,Informational,Educational Article,Educational,
+278,Phase 3: GSC-Informed Long-Tail,LLC for travel nurses,,,Accessible,Commercial,Profession Guide,Profession,
+279,Phase 3: GSC-Informed Long-Tail,US LLC for Nigerian residents,,,Accessible,Informational,Educational Article,Educational,Same rule
+280,Phase 3: GSC-Informed Long-Tail,LLC for independent contractor physicians and locum tenens,,,Accessible,Commercial,Profession Guide,Profession,GSC: 'independent contractor physician llc' 62 impr/6mo; link to llc-for-medical-practice (that page = practice owners)
+281,Phase 3: GSC-Informed Long-Tail,Inc Authority vs Northwest Registered Agent,,,Moderate,Commercial,Comparison/Review,Comparison,
+282,Phase 3: GSC-Informed Long-Tail,LLC for CRNAs,,,Accessible,Commercial,Profession Guide,Profession,
+283,Phase 3: GSC-Informed Long-Tail,should I put my car in my LLC,,,Accessible,Informational,Educational Article,Educational,
+284,Phase 3: GSC-Informed Long-Tail,LLC for massage therapists,,,Accessible,Commercial,Profession Guide,Profession,
+285,Phase 3: GSC-Informed Long-Tail,US LLC for Pakistani residents,,,Accessible,Informational,Educational Article,Educational,Same rule
+286,Phase 3: GSC-Informed Long-Tail,LLC for estheticians,,,Accessible,Commercial,Profession Guide,Profession,
+287,Phase 3: GSC-Informed Long-Tail,doola review for non-US founders,,,Moderate,Commercial,Comparison/Review,Comparison,
+288,Phase 3: GSC-Informed Long-Tail,LLC for med spa,,,Accessible,Commercial,Profession Guide,Profession,
+289,Phase 3: GSC-Informed Long-Tail,hiring your kids in your family business LLC,,,Accessible,Informational,Educational Article,Educational,
+290,Phase 3: GSC-Informed Long-Tail,LLC for mobile IV therapy business,,,Accessible,Commercial,Profession Guide,Profession,
+291,Phase 3: GSC-Informed Long-Tail,US LLC for Mexican residents,,,Accessible,Informational,Educational Article,Educational,Same rule
+292,Phase 3: GSC-Informed Long-Tail,LLC for home health care agency,,,Accessible,Commercial,Profession Guide,Profession,
+293,Phase 3: GSC-Informed Long-Tail,Stripe Atlas review,,,Moderate,Commercial,Comparison/Review,Comparison,
+294,Phase 3: GSC-Informed Long-Tail,LLC for non-medical home care business,,,Accessible,Commercial,Profession Guide,Profession,
+295,Phase 3: GSC-Informed Long-Tail,do LLCs get a 1099,,,Accessible,Informational,Educational Article,Educational,
+296,Phase 3: GSC-Informed Long-Tail,LLC for medical billing company,,,Accessible,Commercial,Profession Guide,Profession,
+297,Phase 3: GSC-Informed Long-Tail,US LLC for digital nomads and US expats abroad,,,Accessible,Informational,Educational Article,Educational,
+298,Phase 3: GSC-Informed Long-Tail,LLC for daycare and childcare business,,,Accessible,Commercial,Profession Guide,Profession,
+299,Phase 3: GSC-Informed Long-Tail,Firstbase review,,,Moderate,Commercial,Comparison/Review,Comparison,
+300,Phase 3: GSC-Informed Long-Tail,LLC for group home business,,,Accessible,Commercial,Profession Guide,Profession,
+301,Phase 3: GSC-Informed Long-Tail,how to fill out a W-9 as an LLC,,,Accessible,Informational,Educational Article,Educational,
+302,Phase 3: GSC-Informed Long-Tail,LLC for sober living home,,,Accessible,Commercial,Profession Guide,Profession,
+303,Phase 3: GSC-Informed Long-Tail,North Carolina LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+304,Phase 3: GSC-Informed Long-Tail,LLC for assisted living facility,,,Accessible,Commercial,Profession Guide,Profession,
+305,Phase 3: GSC-Informed Long-Tail,Stripe Atlas vs doola,,,Moderate,Commercial,Comparison/Review,Comparison,
+306,Phase 3: GSC-Informed Long-Tail,LLC for nutritionists and dietitians,,,Accessible,Commercial,Profession Guide,Profession,
+307,Phase 3: GSC-Informed Long-Tail,LLC tax return due dates,,,Accessible,Informational,Educational Article,Educational,
+308,Phase 3: GSC-Informed Long-Tail,LLC for yoga and pilates studios,,,Accessible,Commercial,Profession Guide,Profession,Studio owners; link to llc-for-personal-trainers-and-fitness-coaches (individual trainers)
+309,Phase 3: GSC-Informed Long-Tail,Michigan LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+310,Phase 3: GSC-Informed Long-Tail,LLC for veterinarians,,,Accessible,Commercial,Profession Guide,Profession,
+311,Phase 3: GSC-Informed Long-Tail,MyCompanyWorks review,,,Moderate,Commercial,Comparison/Review,Comparison,
+312,Phase 3: GSC-Informed Long-Tail,LLC for doulas and birth workers,,,Accessible,Commercial,Profession Guide,Profession,
+313,Phase 3: GSC-Informed Long-Tail,do I need to file taxes for an LLC with no income,,,Accessible,Informational,Educational Article,Educational,
+314,Phase 3: GSC-Informed Long-Tail,LLC for speech-language pathologists,,,Accessible,Commercial,Profession Guide,Profession,
+315,Phase 3: GSC-Informed Long-Tail,Colorado LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+316,Phase 3: GSC-Informed Long-Tail,LLC for occupational therapists,,,Accessible,Commercial,Profession Guide,Profession,
+317,Phase 3: GSC-Informed Long-Tail,LegalZoom LLC pricing and hidden fees,,,Moderate,Commercial,Comparison/Review,Comparison,"GSC: 'legalzoom cost/pricing/prices' ~940 impr combined at pos ~60; PRICING ONLY — do not re-review, link to legalzoom-review-2026 + /reviews/legalzoom/"
+318,Phase 3: GSC-Informed Long-Tail,LLC for nail salon,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-hair-salon-and-barbershop; nail-specific
+319,Phase 3: GSC-Informed Long-Tail,does an LLC need a business license,,,Accessible,Informational,Educational Article,Educational,
+320,Phase 3: GSC-Informed Long-Tail,LLC for lash technicians,,,Accessible,Commercial,Profession Guide,Profession,
+321,Phase 3: GSC-Informed Long-Tail,Pennsylvania LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+322,Phase 3: GSC-Informed Long-Tail,LLC for tattoo artists and tattoo shops,,,Accessible,Commercial,Profession Guide,Profession,
+323,Phase 3: GSC-Informed Long-Tail,ZenBusiness pricing plans explained,,,Moderate,Commercial,Comparison/Review,Comparison,Pricing-only; link to zenbusiness-review-2026 + /reviews/zenbusiness/
+324,Phase 3: GSC-Informed Long-Tail,LLC for makeup artists,,,Accessible,Commercial,Profession Guide,Profession,
+325,Phase 3: GSC-Informed Long-Tail,how to check LLC name availability,,,Accessible,Informational,Educational Article,Educational,
+326,Phase 3: GSC-Informed Long-Tail,LLC for artists selling artwork,,,Accessible,Commercial,Profession Guide,Profession,
+327,Phase 3: GSC-Informed Long-Tail,Virginia LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+328,Phase 3: GSC-Informed Long-Tail,LLC for jewelry business,,,Accessible,Commercial,Profession Guide,Profession,
+329,Phase 3: GSC-Informed Long-Tail,Tailor Brands LLC pricing,,,Moderate,Commercial,Comparison/Review,Comparison,"GSC: 'tailor brands pricing' 140 + 'tailor brands llc pricing' 92; pricing-only, link to reviews"
+330,Phase 3: GSC-Informed Long-Tail,LLC for candle business,,,Accessible,Commercial,Profession Guide,Profession,
+331,Phase 3: GSC-Informed Long-Tail,LLC naming rules and restrictions,,,Accessible,Informational,Educational Article,Educational,
+332,Phase 3: GSC-Informed Long-Tail,LLC for clothing brand,,,Accessible,Commercial,Profession Guide,Profession,
+333,Phase 3: GSC-Informed Long-Tail,Washington LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+334,Phase 3: GSC-Informed Long-Tail,LLC for florists,,,Accessible,Commercial,Profession Guide,Profession,
+335,Phase 3: GSC-Informed Long-Tail,Northwest Registered Agent $39 LLC formation explained,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 'northwest registered agent $39' 76 impr; link to northwest review
+336,Phase 3: GSC-Informed Long-Tail,LLC for print on demand business,,,Accessible,Commercial,Profession Guide,Profession,Link to do-i-need-an-llc-for-my-etsy-shop and llc-for-online-business-and-ecommerce
+337,Phase 3: GSC-Informed Long-Tail,can two businesses have the same LLC name,,,Accessible,Informational,Educational Article,Educational,
+338,Phase 3: GSC-Informed Long-Tail,LLC for Twitch streamers,,,Accessible,Commercial,Profession Guide,Profession,"Link to llc-for-youtube-channel-and-content-creators; focus on Twitch/Kick payouts, subs, sponsorships; do NOT target YouTube terms"
+339,Phase 3: GSC-Informed Long-Tail,New Jersey LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+340,Phase 3: GSC-Informed Long-Tail,LLC for OnlyFans creators,,,Accessible,Commercial,Profession Guide,Profession,"GSC: 'llc for cam sites' 44 impr; privacy/anonymous-LLC angle; tasteful, non-explicit; link to anonymous-llc-how-to-form-one"
+341,Phase 3: GSC-Informed Long-Tail,how to cancel LegalZoom subscription,,,Moderate,Commercial,Comparison/Review,Comparison,
+342,Phase 3: GSC-Informed Long-Tail,LLC for voice actors,,,Accessible,Commercial,Profession Guide,Profession,
+343,Phase 3: GSC-Informed Long-Tail,should I trademark my LLC name,,,Accessible,Informational,Educational Article,Educational,
+344,Phase 3: GSC-Informed Long-Tail,LLC for actors (loan-out company),,,Accessible,Commercial,Profession Guide,Profession,
+345,Phase 3: GSC-Informed Long-Tail,Massachusetts LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+346,Phase 3: GSC-Informed Long-Tail,LLC for DJs,,,Accessible,Commercial,Profession Guide,Profession,"Link to llc-for-music-artists-and-producers; DJ-specific (gigs, equipment, venue contracts)"
+347,Phase 3: GSC-Informed Long-Tail,how to cancel ZenBusiness subscription,,,Moderate,Commercial,Comparison/Review,Comparison,
+348,Phase 3: GSC-Informed Long-Tail,LLC for film production company,,,Accessible,Commercial,Profession Guide,Profession,
+349,Phase 3: GSC-Informed Long-Tail,piercing the corporate veil: how to protect your LLC,,,Accessible,Informational,Educational Article,Educational,
+350,Phase 3: GSC-Informed Long-Tail,LLC for web design agency,,,Accessible,Commercial,Profession Guide,Profession,Agency owners; link to llc-for-graphic-designers
+351,Phase 3: GSC-Informed Long-Tail,Tennessee LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+352,Phase 3: GSC-Informed Long-Tail,LLC for digital marketing agency,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-social-media-manager
+353,Phase 3: GSC-Informed Long-Tail,is ZenBusiness Worry-Free Compliance worth it,,,Moderate,Commercial,Comparison/Review,Comparison,
+354,Phase 3: GSC-Informed Long-Tail,LLC for translators and interpreters,,,Accessible,Commercial,Profession Guide,Profession,
+355,Phase 3: GSC-Informed Long-Tail,commingling funds in an LLC,,,Accessible,Informational,Educational Article,Educational,
+356,Phase 3: GSC-Informed Long-Tail,LLC for virtual assistants,,,Accessible,Commercial,Profession Guide,Profession,
+357,Phase 3: GSC-Informed Long-Tail,Indiana LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+358,Phase 3: GSC-Informed Long-Tail,LLC for tax preparers,,,Accessible,Commercial,Profession Guide,Profession,
+359,Phase 3: GSC-Informed Long-Tail,fastest LLC formation service (expedited filing compared),,,Moderate,Commercial,Comparison/Review,Comparison,GSC: several 'which service is fastest' AI-style queries ranking pos 8-9
+360,Phase 3: GSC-Informed Long-Tail,LLC for professional organizers,,,Accessible,Commercial,Profession Guide,Profession,
+361,Phase 3: GSC-Informed Long-Tail,does an LLC protect you from lawsuits,,,Accessible,Informational,Educational Article,Educational,
+362,Phase 3: GSC-Informed Long-Tail,LLC for SaaS startup (LLC vs C corp),,,Accessible,Commercial,Profession Guide,Profession,
+363,Phase 3: GSC-Informed Long-Tail,Minnesota LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+364,Phase 3: GSC-Informed Long-Tail,LLC for drone pilots,,,Accessible,Commercial,Profession Guide,Profession,Part 107 + aviation insurance; link to llc-for-photographers-and-videographers
+365,Phase 3: GSC-Informed Long-Tail,LLC formation services that include a free website,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 'best llc services that come with a free website builder' 50 + 'include free website hosting' 44
+366,Phase 3: GSC-Informed Long-Tail,LLC for 3D printing business,,,Accessible,Commercial,Profession Guide,Profession,
+367,Phase 3: GSC-Informed Long-Tail,do I need business insurance if I have an LLC,,,Accessible,Informational,Educational Article,Educational,
+368,Phase 3: GSC-Informed Long-Tail,LLC for selling digital products,,,Accessible,Commercial,Profession Guide,Profession,
+369,Phase 3: GSC-Informed Long-Tail,Oregon LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+370,Phase 3: GSC-Informed Long-Tail,LLC for online course creators,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-consultants-and-coaches; do not target coach terms
+371,Phase 3: GSC-Informed Long-Tail,LLC formation services with no hidden renewal fees,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 'no hidden fees after the first year' 44 + 'lowest additional fees beyond state filing' 44
+372,Phase 3: GSC-Informed Long-Tail,LLC for indie game developers,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-software-developers-and-freelance-coders; do not target freelance coder terms
+373,Phase 3: GSC-Informed Long-Tail,how to build business credit for a new LLC,,,Accessible,Informational,Educational Article,Educational,
+374,Phase 3: GSC-Informed Long-Tail,LLC for AI automation agency,,,Accessible,Commercial,Profession Guide,Profession,
+375,Phase 3: GSC-Informed Long-Tail,Utah LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+376,Phase 3: GSC-Informed Long-Tail,LLC for IT managed services provider (MSP),,,Accessible,Commercial,Profession Guide,Profession,
+377,Phase 3: GSC-Informed Long-Tail,best LLC service for non-US residents,,,Moderate,Commercial,Comparison/Review,Comparison,Link to can-a-foreigner-own-an-llc-in-the-us
+378,Phase 3: GSC-Informed Long-Tail,LLC for home bakery (cottage food business),,,Accessible,Commercial,Profession Guide,Profession,
+379,Phase 3: GSC-Informed Long-Tail,SBA loans for a new LLC,,,Accessible,Informational,Educational Article,Educational,
+380,Phase 3: GSC-Informed Long-Tail,LLC for catering business,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-restaurant-and-food-business
+381,Phase 3: GSC-Informed Long-Tail,Maryland LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+382,Phase 3: GSC-Informed Long-Tail,LLC for coffee shop,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-restaurant-and-food-business
+383,Phase 3: GSC-Informed Long-Tail,best LLC service with EIN included,,,Moderate,Commercial,Comparison/Review,Comparison,
+384,Phase 3: GSC-Informed Long-Tail,LLC for bar or brewery,,,Accessible,Commercial,Profession Guide,Profession,
+385,Phase 3: GSC-Informed Long-Tail,LLC capital contributions explained,,,Accessible,Informational,Educational Article,Educational,
+386,Phase 3: GSC-Informed Long-Tail,LLC for food product and sauce business,,,Accessible,Commercial,Profession Guide,Profession,
+387,Phase 3: GSC-Informed Long-Tail,Kentucky LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+388,Phase 3: GSC-Informed Long-Tail,LLC for meal prep business,,,Accessible,Commercial,Profession Guide,Profession,
+389,Phase 3: GSC-Informed Long-Tail,best registered agent in Delaware,,,Moderate,Commercial,Comparison/Review,Comparison,Link to best-registered-agent-services-2026; state-specific only
+390,Phase 3: GSC-Informed Long-Tail,LLC for farm and agricultural business,,,Accessible,Commercial,Profession Guide,Profession,
+391,Phase 3: GSC-Informed Long-Tail,LLC profit distribution vs ownership percentage,,,Accessible,Informational,Educational Article,Educational,
+392,Phase 3: GSC-Informed Long-Tail,LLC for private chefs,,,Accessible,Commercial,Profession Guide,Profession,
+393,Phase 3: GSC-Informed Long-Tail,Louisiana LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+394,Phase 3: GSC-Informed Long-Tail,LLC for eBay and Poshmark resellers,,,Accessible,Commercial,Profession Guide,Profession,
+395,Phase 3: GSC-Informed Long-Tail,best registered agent in Wyoming,,,Moderate,Commercial,Comparison/Review,Comparison,
+396,Phase 3: GSC-Informed Long-Tail,LLC for TikTok Shop sellers,,,Accessible,Commercial,Profession Guide,Profession,
+397,Phase 3: GSC-Informed Long-Tail,50/50 LLC partnership deadlock,,,Accessible,Informational,Educational Article,Educational,
+398,Phase 3: GSC-Informed Long-Tail,LLC for Walmart Marketplace sellers,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-amazon-fba-sellers
+399,Phase 3: GSC-Informed Long-Tail,Connecticut LLC annual report requirements,,,Quick Win,Informational,State Compliance,State Compliance,
+400,Phase 3: GSC-Informed Long-Tail,LLC for franchise owners,,,Accessible,Commercial,Profession Guide,Profession,
+401,Phase 3: GSC-Informed Long-Tail,best registered agent in Florida,,,Moderate,Commercial,Comparison/Review,Comparison,
+402,Phase 3: GSC-Informed Long-Tail,LLC for convenience store,,,Accessible,Commercial,Profession Guide,Profession,
+403,Phase 3: GSC-Informed Long-Tail,LLC banking resolution,,,Accessible,Informational,Educational Article,Educational,
+404,Phase 3: GSC-Informed Long-Tail,LLC for laundromat,,,Accessible,Commercial,Profession Guide,Profession,
+405,Phase 3: GSC-Informed Long-Tail,Alabama business privilege tax for LLCs,,,Quick Win,Informational,State Compliance,State Compliance,
+406,Phase 3: GSC-Informed Long-Tail,LLC for car wash,,,Accessible,Commercial,Profession Guide,Profession,
+407,Phase 3: GSC-Informed Long-Tail,best registered agent in Texas,,,Moderate,Commercial,Comparison/Review,Comparison,
+408,Phase 3: GSC-Informed Long-Tail,LLC for self-storage business,,,Accessible,Commercial,Profession Guide,Profession,
+409,Phase 3: GSC-Informed Long-Tail,does an LLC need meeting minutes,,,Accessible,Informational,Educational Article,Educational,
+410,Phase 3: GSC-Informed Long-Tail,LLC for ATM business,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-vending-machine-business
+411,Phase 3: GSC-Informed Long-Tail,California LLC statement of information,,,Quick Win,Informational,State Compliance,State Compliance,Link to california-llc-800-franchise-tax
+412,Phase 3: GSC-Informed Long-Tail,LLC for real estate wholesaling,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-flipping-houses; do NOT target flipping terms
+413,Phase 3: GSC-Informed Long-Tail,best registered agent in California,,,Moderate,Commercial,Comparison/Review,Comparison,
+414,Phase 3: GSC-Informed Long-Tail,LLC for mobile home park investing,,,Accessible,Commercial,Profession Guide,Profession,
+415,Phase 3: GSC-Informed Long-Tail,can I use my home address for my LLC,,,Accessible,Informational,Educational Article,Educational,Link to anonymous-llc-how-to-form-one
+416,Phase 3: GSC-Informed Long-Tail,LLC for land investing,,,Accessible,Commercial,Profession Guide,Profession,
+417,Phase 3: GSC-Informed Long-Tail,New York LLC publication requirement,,,Quick Win,Informational,State Compliance,State Compliance,Link to new-york-llc-biennial-statement and new-york-llc-cost-and-fees-breakdown
+418,Phase 3: GSC-Informed Long-Tail,LLC for mortgage brokers and loan officers,,,Accessible,Commercial,Profession Guide,Profession,
+419,Phase 3: GSC-Informed Long-Tail,best registered agent in New York,,,Moderate,Commercial,Comparison/Review,Comparison,
+420,Phase 3: GSC-Informed Long-Tail,LLC for interior designers,,,Accessible,Commercial,Profession Guide,Profession,
+421,Phase 3: GSC-Informed Long-Tail,how to move an LLC to another state (domestication),,,Accessible,Informational,Educational Article,Educational,Link to foreign-llc-registration-doing-business-in-another-state; do NOT target foreign registration terms
+422,Phase 3: GSC-Informed Long-Tail,LLC for architects,,,Accessible,Commercial,Profession Guide,Profession,
+423,Phase 3: GSC-Informed Long-Tail,Arizona LLC publication requirement,,,Quick Win,Informational,State Compliance,State Compliance,
+424,Phase 3: GSC-Informed Long-Tail,LLC for lawyers (PLLC),,,Accessible,Commercial,Profession Guide,Profession,
+425,Phase 3: GSC-Informed Long-Tail,best LLC service in California,,,Moderate,Commercial,Comparison/Review,Comparison,"GSC: 'best llc service california' 151 impr; commercial — link to how-to-start-an-llc-in-california for steps, don't duplicate them"
+426,Phase 3: GSC-Informed Long-Tail,LLC for engineers (PLLC),,,Accessible,Commercial,Profession Guide,Profession,
+427,Phase 3: GSC-Informed Long-Tail,how to convert an LLC to a C corporation,,,Accessible,Informational,Educational Article,Educational,
+428,Phase 3: GSC-Informed Long-Tail,LLC for financial advisors,,,Accessible,Commercial,Profession Guide,Profession,
+429,Phase 3: GSC-Informed Long-Tail,Pennsylvania LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+430,Phase 3: GSC-Informed Long-Tail,LLC for staffing agency,,,Accessible,Commercial,Profession Guide,Profession,
+431,Phase 3: GSC-Informed Long-Tail,best LLC service in Texas,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to how-to-start-an-llc-in-texas for steps
+432,Phase 3: GSC-Informed Long-Tail,LLC for event venue,,,Accessible,Commercial,Profession Guide,Profession,
+433,Phase 3: GSC-Informed Long-Tail,LLC vs PLLC,,,Accessible,Informational,Educational Article,Educational,GSC: 'pllc vs s corp' 43 impr
+434,Phase 3: GSC-Informed Long-Tail,LLC for security guard company,,,Accessible,Commercial,Profession Guide,Profession,
+435,Phase 3: GSC-Informed Long-Tail,Michigan LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+436,Phase 3: GSC-Informed Long-Tail,LLC for private investigators,,,Accessible,Commercial,Profession Guide,Profession,
+437,Phase 3: GSC-Informed Long-Tail,best LLC service in Florida,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+438,Phase 3: GSC-Informed Long-Tail,LLC for process servers,,,Accessible,Commercial,Profession Guide,Profession,
+439,Phase 3: GSC-Informed Long-Tail,LLC vs LP,,,Accessible,Informational,Educational Article,Educational,
+440,Phase 3: GSC-Informed Long-Tail,LLC for government contractors,,,Accessible,Commercial,Profession Guide,Profession,
+441,Phase 3: GSC-Informed Long-Tail,Massachusetts LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+442,Phase 3: GSC-Informed Long-Tail,LLC for import export business,,,Accessible,Commercial,Profession Guide,Profession,
+443,Phase 3: GSC-Informed Long-Tail,best LLC service in New York,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+444,Phase 3: GSC-Informed Long-Tail,LLC for driving school,,,Accessible,Commercial,Profession Guide,Profession,
+445,Phase 3: GSC-Informed Long-Tail,LLC vs general partnership,,,Accessible,Informational,Educational Article,Educational,
+446,Phase 3: GSC-Informed Long-Tail,LLC for dance studio,,,Accessible,Commercial,Profession Guide,Profession,
+447,Phase 3: GSC-Informed Long-Tail,Tennessee LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+448,Phase 3: GSC-Informed Long-Tail,LLC for martial arts studio,,,Accessible,Commercial,Profession Guide,Profession,
+449,Phase 3: GSC-Informed Long-Tail,best LLC service in Georgia,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+450,Phase 3: GSC-Informed Long-Tail,LLC for dog breeders,,,Accessible,Commercial,Profession Guide,Profession,
+451,Phase 3: GSC-Informed Long-Tail,B corp vs LLC,,,Accessible,Informational,Educational Article,Educational,
+452,Phase 3: GSC-Informed Long-Tail,LLC for dog grooming business,,,Accessible,Commercial,Profession Guide,Profession,Link to llc-for-dog-walking-and-pet-sitting
+453,Phase 3: GSC-Informed Long-Tail,Nevada LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+454,Phase 3: GSC-Informed Long-Tail,LLC for horse and equine business,,,Accessible,Commercial,Profession Guide,Profession,
+455,Phase 3: GSC-Informed Long-Tail,best LLC service in North Carolina,,,Moderate,Commercial,Comparison/Review,Comparison,GSC: 'carolina best llc' 43 impr; link to state guide
+456,Phase 3: GSC-Informed Long-Tail,LLC for hunting land,,,Accessible,Commercial,Profession Guide,Profession,
+457,Phase 3: GSC-Informed Long-Tail,can I have multiple businesses under one LLC,,,Accessible,Informational,Educational Article,Educational,Link to holding-company-llc-structure-explained
+458,Phase 3: GSC-Informed Long-Tail,LLC for college athletes (NIL),,,Accessible,Commercial,Profession Guide,Profession,
+459,Phase 3: GSC-Informed Long-Tail,Maryland LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+460,Phase 3: GSC-Informed Long-Tail,LLC for fishing charter and guide business,,,Accessible,Commercial,Profession Guide,Profession,
+461,Phase 3: GSC-Informed Long-Tail,best LLC service in Pennsylvania,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+462,Phase 3: GSC-Informed Long-Tail,LLC for RV rental business,,,Accessible,Commercial,Profession Guide,Profession,
+463,Phase 3: GSC-Informed Long-Tail,should I form an LLC for my side hustle,,,Accessible,Informational,Educational Article,Educational,Link to do-i-need-an-llc-for-my-business; side-hustle/W-2 employee angle only
+464,Phase 3: GSC-Informed Long-Tail,LLC for glamping and campground business,,,Accessible,Commercial,Profession Guide,Profession,
+465,Phase 3: GSC-Informed Long-Tail,Minnesota LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+466,Phase 3: GSC-Informed Long-Tail,LLC for photo booth business,,,Accessible,Commercial,Profession Guide,Profession,
+467,Phase 3: GSC-Informed Long-Tail,best LLC service in Illinois,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+468,Phase 3: GSC-Informed Long-Tail,LLC for bounce house and party rental business,,,Accessible,Commercial,Profession Guide,Profession,
+469,Phase 3: GSC-Informed Long-Tail,can a minor own an LLC,,,Accessible,Informational,Educational Article,Educational,
+470,Phase 3: GSC-Informed Long-Tail,LLC for professional poker players and sports bettors,,,Accessible,Commercial,Profession Guide,Profession,
+471,Phase 3: GSC-Informed Long-Tail,Indiana LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+472,Phase 3: GSC-Informed Long-Tail,LLC for cannabis business,,,Accessible,Commercial,Profession Guide,Profession,
+473,Phase 3: GSC-Informed Long-Tail,best LLC service in Ohio,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+474,Phase 3: GSC-Informed Long-Tail,LLC for tour guide business,,,Accessible,Commercial,Profession Guide,Profession,
+475,Phase 3: GSC-Informed Long-Tail,can a felon start an LLC,,,Accessible,Informational,Educational Article,Educational,
+476,Phase 3: GSC-Informed Long-Tail,South Carolina LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+477,Phase 3: GSC-Informed Long-Tail,best LLC service in Michigan,,,Moderate,Commercial,Comparison/Review,Comparison,Commercial; link to state guide
+478,Phase 3: GSC-Informed Long-Tail,best virtual address and mailbox services for an LLC,,,Moderate,Commercial,Comparison/Review,Comparison,
+479,Phase 3: GSC-Informed Long-Tail,best business bank accounts for a new LLC,,,Moderate,Commercial,Comparison/Review,Comparison,Comparison of banks; link to llc-bank-account-how-to-open-one (the how-to)
+480,Phase 3: GSC-Informed Long-Tail,can an H-1B visa holder own an LLC,,,Accessible,Informational,Educational Article,Educational,Link to can-a-foreigner-own-an-llc-in-the-us
+481,Phase 3: GSC-Informed Long-Tail,can F-1 students start an LLC,,,Accessible,Informational,Educational Article,Educational,
+482,Phase 3: GSC-Informed Long-Tail,can a green card holder own an LLC,,,Accessible,Informational,Educational Article,Educational,
+483,Phase 3: GSC-Informed Long-Tail,joint venture LLC explained,,,Accessible,Informational,Educational Article,Educational,
+484,Phase 3: GSC-Informed Long-Tail,family LLC for estate planning,,,Accessible,Informational,Educational Article,Educational,Link to holding-company-llc-structure-explained
+485,Phase 3: GSC-Informed Long-Tail,family LLC for a vacation home,,,Accessible,Informational,Educational Article,Educational,
+486,Phase 3: GSC-Informed Long-Tail,LLC for owning a boat,,,Accessible,Informational,Educational Article,Educational,
+487,Phase 3: GSC-Informed Long-Tail,checkbook IRA LLC explained,,,Accessible,Informational,Educational Article,Educational,
+488,Phase 3: GSC-Informed Long-Tail,solo 401k for LLC owners,,,Accessible,Informational,Educational Article,Educational,
+489,Phase 3: GSC-Informed Long-Tail,should I put my patent in an LLC,,,Accessible,Informational,Educational Article,Educational,
+490,Phase 3: GSC-Informed Long-Tail,how long does it take to form an LLC in each state,,,Accessible,Informational,Educational Article,Educational,Informational timeline by state; link to fastest-service article
+491,Phase 3: GSC-Informed Long-Tail,should I form my LLC in December or January,,,Accessible,Informational,Educational Article,Educational,
+492,Phase 3: GSC-Informed Long-Tail,which states charge LLC franchise tax,,,Accessible,Informational,Educational Article,Educational,"Link to california-llc-800-franchise-tax, texas-llc-franchise-tax-no-annual-report, delaware-llc-annual-franchise-tax"
+493,Phase 3: GSC-Informed Long-Tail,states with no LLC annual report requirement,,,Accessible,Informational,Educational Article,Educational,Link to ohio-llc-no-annual-report-what-you-still-need
+494,Phase 3: GSC-Informed Long-Tail,Wyoming vs Delaware LLC,,,Accessible,Informational,Educational Article,Educational,Head-to-head only; link to best-state-to-form-an-llc; do NOT target 'best state' terms
+495,Phase 3: GSC-Informed Long-Tail,Wyoming vs Nevada LLC,,,Accessible,Informational,Educational Article,Educational,Same rule as above
+496,Phase 3: GSC-Informed Long-Tail,Wyoming vs New Mexico LLC for anonymity,,,Accessible,Informational,Educational Article,Educational,Link to anonymous-llc-how-to-form-one
+497,Phase 3: GSC-Informed Long-Tail,Utah LLC cost and fees breakdown,,,Quick Win,Commercial,State Cost Guide,State Cost,
+498,Phase 3: GSC-Informed Long-Tail,how to dissolve an LLC in California,,,Quick Win,Informational,State Compliance,State Compliance,Link to how-to-dissolve-an-llc; state-specific forms/fees only
+499,Phase 3: GSC-Informed Long-Tail,how to dissolve an LLC in Texas,,,Quick Win,Informational,State Compliance,State Compliance,Link to how-to-dissolve-an-llc; state-specific forms/fees only
+500,Phase 3: GSC-Informed Long-Tail,how to dissolve an LLC in Florida,,,Quick Win,Informational,State Compliance,State Compliance,Link to how-to-dissolve-an-llc; state-specific forms/fees only
+501,Phase 3: GSC-Informed Long-Tail,how to dissolve an LLC in New York,,,Quick Win,Informational,State Compliance,State Compliance,Link to how-to-dissolve-an-llc; state-specific forms/fees only
+502,Phase 3: GSC-Informed Long-Tail,how to dissolve an LLC in North Dakota,,,Quick Win,Informational,State Compliance,State Compliance,Link to how-to-dissolve-an-llc; state-specific forms/fees only
