@@ -87,6 +87,16 @@ const blog = defineCollection({
     category: z.string(),
     cluster: z.string().optional(),
     featuredImage: z.string().optional(),
+    video: z
+      .object({
+        youtubeId: z.string().regex(/^[A-Za-z0-9_-]{11}$/),
+        name: z.string().min(1),
+        description: z.string().min(1),
+        uploadDate: z.string().datetime({ offset: true }),
+        duration: z.string().regex(/^PT(?:\d+H)?(?:\d+M)?(?:\d+S)?$/),
+        thumbnail: z.string().min(1),
+      })
+      .optional(),
     draft: z.boolean().default(false),
   }),
 });

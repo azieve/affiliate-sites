@@ -2,8 +2,10 @@
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '@/layouts/ArticleLayout.astro';
 import HeroImage from '@/components/content/HeroImage.astro';
+import YouTubeEmbed from '@/components/content/YouTubeEmbed.astro';
 import { siteConfig } from '@/data/site';
 import { getCanonicalUrl } from '@/utils/seo';
+import { youtubeEmbedUrl } from '@/utils/video';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -27,12 +29,12 @@ const {
   authorBio,
   category,
   featuredImage,
+  video,
 } = entry.data;
 
 const canonicalUrl = getCanonicalUrl(`/blog/${entry.id}`);
 
-const articleSchema = JSON.stringify({
-  '@context': 'https://schema.org',
+const articleNode = {
   '@type': 'Article',
   headline: metaTitle || title,
   description: metaDescription,
@@ -56,7 +58,38 @@ const articleSchema = JSON.stringify({
     name: siteConfig.name,
     url: siteConfig.url,
   },
-});
+};
+
+const articleSchema = JSON.stringify(
+  video
+    ? {
+        '@context': 'https://schema.org',
+        '@graph': [
+          { ...articleNode, video: { '@id': `${canonicalUrl}#video` } },
+          {
+            '@type': 'VideoObject',
+            '@id': `${canonicalUrl}#video`,
+            name: video.name,
+            description: video.description,
+            thumbnailUrl: video.thumbnail.startsWith('http')
+              ? video.thumbnail
+              : `${siteConfig.url}${video.thumbnail}`,
+            uploadDate: video.uploadDate,
+            duration: video.duration,
+            embedUrl: youtubeEmbedUrl(video.youtubeId),
+            creator: {
+              '@type': 'Organization',
+              name: siteConfig.name,
+              url: siteConfig.url,
+            },
+          },
+        ],
+      }
+    : {
+        '@context': 'https://schema.org',
+        ...articleNode,
+      },
+);
 
 const breadcrumbItems = [
   { label: 'Blog', href: '/blog/' },
@@ -84,6 +117,7 @@ const defaultAuthorBio = `${author} has spent years researching LLC formation se
       <HeroImage basePath={featuredImage} alt={title} />
     </div>
   )}
+  {video && <YouTubeEmbed youtubeId={video.youtubeId} title={video.name} />}
   <div class="prose">
     <Content />
   </div>

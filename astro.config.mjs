@@ -13,7 +13,7 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap({
-      filter: (page) => !page.includes('/go/'),
+      filter: (page) => !page.includes('/go/') && !page.includes('/video-sitemap'),
       serialize(item) {
         // Set lastmod to now for all pages — each deploy represents fresh content
         item.lastmod = new Date().toISOString();

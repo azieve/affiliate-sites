@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://topbestllcservice.com/sitemap-index.xml
+Sitemap: https://topbestllcservice.com/video-sitemap.xml
