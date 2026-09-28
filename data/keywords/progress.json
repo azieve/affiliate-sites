@@ -1,5 +1,5 @@
 {
-  "next_index": 205,
+  "next_index": 206,
   "completed": [
     {
       "index": 1,
@@ -1447,6 +1447,13 @@
       "index": 204,
       "keyword": "how to change LLC name",
       "slug": "how-to-change-llc-name",
+      "date": "2026-09-28",
+      "skipped": false
+    },
+    {
+      "index": 205,
+      "keyword": "Georgia LLC annual registration",
+      "slug": "georgia-llc-annual-registration",
       "date": "2026-09-28",
       "skipped": false
     }
