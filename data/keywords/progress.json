@@ -1,5 +1,5 @@
 {
-  "next_index": 204,
+  "next_index": 205,
   "completed": [
     {
       "index": 1,
@@ -1441,6 +1441,13 @@
       "keyword": "LLC vs corporation which should I choose",
       "slug": "llc-vs-corporation-which-should-i-choose",
       "date": "2026-07-18",
+      "skipped": false
+    },
+    {
+      "index": 204,
+      "keyword": "how to change LLC name",
+      "slug": "how-to-change-llc-name",
+      "date": "2026-09-28",
       "skipped": false
     }
   ]
