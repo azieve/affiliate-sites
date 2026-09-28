@@ -65,6 +65,8 @@ def generate_image(api_key, prompt):
         f"{prompt}\n\n"
         "Style: Clean, modern, professional photograph, photorealistic. "
         "IMPORTANT: No watermarks anywhere in the image. "
+        "Do not show any company logos, brand names or trademarks. "
+        "Avoid infographics and dense on-screen text; keep any text minimal. "
         "Use images of business professionals or faces wherever appropriate. "
         "Suitable as a blog hero image for a business/legal website."
     )
