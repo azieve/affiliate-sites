@@ -28,7 +28,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # --- Config ---
-GEMINI_MODEL = "imagen-4.0-ultra-generate-001"
+GEMINI_MODEL = "gemini-3.1-flash-image"  # Imagen 4 shut down 2026-08-17; Google-recommended replacement (~$0.067/1K image)
 ASPECT_RATIO = "16:9"
 DESKTOP_WIDTH = 1200
 TABLET_WIDTH = 800
@@ -57,8 +57,8 @@ def load_api_key():
 
 
 def generate_image(api_key, prompt):
-    """Call Imagen API to generate an image. Returns raw PNG bytes."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:predict?key={api_key}"
+    """Call Gemini image model to generate an image. Returns raw image bytes."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
     # Wrap the user prompt with style guidance for consistent, SEO-friendly images
     styled_prompt = (
@@ -70,34 +70,35 @@ def generate_image(api_key, prompt):
     )
 
     payload = {
-        "instances": [{"prompt": styled_prompt}],
-        "parameters": {
-            "sampleCount": 1,
-            "aspectRatio": ASPECT_RATIO,
+        "contents": [{"parts": [{"text": styled_prompt}]}],
+        "generationConfig": {
+            "responseModalities": ["IMAGE"],
+            "imageConfig": {"aspectRatio": ASPECT_RATIO},
         },
     }
 
     req = urllib.request.Request(
         url,
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
+        headers={"Content-Type": "application/json", "x-goog-api-key": api_key},
     )
 
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=180) as resp:
             data = json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")
-        print(f"ERROR: Imagen API returned {e.code}: {body}", file=sys.stderr)
+        print(f"ERROR: Gemini image API returned {e.code}: {body}", file=sys.stderr)
         sys.exit(1)
 
     # Extract image from response
-    for prediction in data.get("predictions", []):
-        b64 = prediction.get("bytesBase64Encoded")
-        if b64:
-            return base64.b64decode(b64)
+    for candidate in data.get("candidates", []):
+        for part in candidate.get("content", {}).get("parts", []):
+            inline = part.get("inlineData") or part.get("inline_data")
+            if inline and inline.get("data"):
+                return base64.b64decode(inline["data"])
 
-    print("ERROR: No image data in Imagen response", file=sys.stderr)
+    print("ERROR: No image data in Gemini response", file=sys.stderr)
     print(json.dumps(data, indent=2)[:2000], file=sys.stderr)
     sys.exit(1)
 
