@@ -1,5 +1,5 @@
 {
-  "next_index": 207,
+  "next_index": 208,
   "completed": [
     {
       "index": 1,
@@ -1461,6 +1461,13 @@
       "index": 206,
       "keyword": "husband and wife qualified joint venture vs LLC",
       "slug": "husband-and-wife-qualified-joint-venture-vs-llc",
+      "date": "2026-09-29",
+      "skipped": false
+    },
+    {
+      "index": 207,
+      "keyword": "BOI report for single member LLC",
+      "slug": "boi-report-for-single-member-llc",
       "date": "2026-09-29",
       "skipped": false
     }
