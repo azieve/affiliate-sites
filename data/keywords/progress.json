@@ -1,5 +1,5 @@
 {
-  "next_index": 206,
+  "next_index": 207,
   "completed": [
     {
       "index": 1,
@@ -1455,6 +1455,13 @@
       "keyword": "Georgia LLC annual registration",
       "slug": "georgia-llc-annual-registration",
       "date": "2026-09-28",
+      "skipped": false
+    },
+    {
+      "index": 206,
+      "keyword": "husband and wife qualified joint venture vs LLC",
+      "slug": "husband-and-wife-qualified-joint-venture-vs-llc",
+      "date": "2026-09-29",
       "skipped": false
     }
   ]
