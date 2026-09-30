@@ -1,5 +1,5 @@
 {
-  "next_index": 208,
+  "next_index": 209,
   "completed": [
     {
       "index": 1,
@@ -1469,6 +1469,13 @@
       "keyword": "BOI report for single member LLC",
       "slug": "boi-report-for-single-member-llc",
       "date": "2026-09-29",
+      "skipped": false
+    },
+    {
+      "index": 208,
+      "keyword": "LLC for electricians",
+      "slug": "llc-for-electricians",
+      "date": "2026-09-30",
       "skipped": false
     }
   ]
