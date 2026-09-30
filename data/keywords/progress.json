@@ -1,5 +1,5 @@
 {
-  "next_index": 209,
+  "next_index": 210,
   "completed": [
     {
       "index": 1,
@@ -1475,6 +1475,13 @@
       "index": 208,
       "keyword": "LLC for electricians",
       "slug": "llc-for-electricians",
+      "date": "2026-09-30",
+      "skipped": false
+    },
+    {
+      "index": 209,
+      "keyword": "LegalZoom vs BetterLegal",
+      "slug": "legalzoom-vs-betterlegal",
       "date": "2026-09-30",
       "skipped": false
     }
