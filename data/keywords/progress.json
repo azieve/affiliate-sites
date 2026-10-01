@@ -1,5 +1,5 @@
 {
-  "next_index": 210,
+  "next_index": 211,
   "completed": [
     {
       "index": 1,
@@ -1483,6 +1483,13 @@
       "keyword": "LegalZoom vs BetterLegal",
       "slug": "legalzoom-vs-betterlegal",
       "date": "2026-09-30",
+      "skipped": false
+    },
+    {
+      "index": 210,
+      "keyword": "LLC for plumbers",
+      "slug": "llc-for-plumbers",
+      "date": "2026-10-01",
       "skipped": false
     }
   ]
