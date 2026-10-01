@@ -1,5 +1,5 @@
 {
-  "next_index": 211,
+  "next_index": 212,
   "completed": [
     {
       "index": 1,
@@ -1489,6 +1489,13 @@
       "index": 210,
       "keyword": "LLC for plumbers",
       "slug": "llc-for-plumbers",
+      "date": "2026-10-01",
+      "skipped": false
+    },
+    {
+      "index": 211,
+      "keyword": "how to remove a member from an LLC",
+      "slug": "how-to-remove-a-member-from-an-llc",
       "date": "2026-10-01",
       "skipped": false
     }
