@@ -1,5 +1,5 @@
 {
-  "next_index": 212,
+  "next_index": 213,
   "completed": [
     {
       "index": 1,
@@ -1497,6 +1497,13 @@
       "keyword": "how to remove a member from an LLC",
       "slug": "how-to-remove-a-member-from-an-llc",
       "date": "2026-10-01",
+      "skipped": false
+    },
+    {
+      "index": 212,
+      "keyword": "LLC for HVAC business",
+      "slug": "llc-for-hvac-business",
+      "date": "2026-10-02",
       "skipped": false
     }
   ]
