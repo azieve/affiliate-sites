@@ -1,5 +1,5 @@
 {
-  "next_index": 213,
+  "next_index": 214,
   "completed": [
     {
       "index": 1,
@@ -1503,6 +1503,13 @@
       "index": 212,
       "keyword": "LLC for HVAC business",
       "slug": "llc-for-hvac-business",
+      "date": "2026-10-02",
+      "skipped": false
+    },
+    {
+      "index": 213,
+      "keyword": "can a nonprofit own an LLC",
+      "slug": "can-a-nonprofit-own-an-llc",
       "date": "2026-10-02",
       "skipped": false
     }
