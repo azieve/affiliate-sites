@@ -1,5 +1,5 @@
 {
-  "next_index": 214,
+  "next_index": 215,
   "completed": [
     {
       "index": 1,
@@ -1511,6 +1511,13 @@
       "keyword": "can a nonprofit own an LLC",
       "slug": "can-a-nonprofit-own-an-llc",
       "date": "2026-10-02",
+      "skipped": false
+    },
+    {
+      "index": 214,
+      "keyword": "LLC for roofing company",
+      "slug": "llc-for-roofing-company",
+      "date": "2026-10-04",
       "skipped": false
     }
   ]
