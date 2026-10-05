@@ -1,5 +1,5 @@
 {
-  "next_index": 215,
+  "next_index": 216,
   "completed": [
     {
       "index": 1,
@@ -1518,6 +1518,13 @@
       "keyword": "LLC for roofing company",
       "slug": "llc-for-roofing-company",
       "date": "2026-10-04",
+      "skipped": false
+    },
+    {
+      "index": 215,
+      "keyword": "BetterLegal vs ZenBusiness",
+      "slug": "betterlegal-vs-zenbusiness",
+      "date": "2026-10-05",
       "skipped": false
     }
   ]
