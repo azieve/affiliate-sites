@@ -1,5 +1,5 @@
 {
-  "next_index": 216,
+  "next_index": 217,
   "completed": [
     {
       "index": 1,
@@ -1524,6 +1524,13 @@
       "index": 215,
       "keyword": "BetterLegal vs ZenBusiness",
       "slug": "betterlegal-vs-zenbusiness",
+      "date": "2026-10-05",
+      "skipped": false
+    },
+    {
+      "index": 216,
+      "keyword": "LLC for painting business",
+      "slug": "llc-for-painting-business",
       "date": "2026-10-05",
       "skipped": false
     }
