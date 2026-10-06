@@ -1,5 +1,5 @@
 {
-  "next_index": 217,
+  "next_index": 218,
   "completed": [
     {
       "index": 1,
@@ -1532,6 +1532,13 @@
       "keyword": "LLC for painting business",
       "slug": "llc-for-painting-business",
       "date": "2026-10-05",
+      "skipped": false
+    },
+    {
+      "index": 217,
+      "keyword": "what happens to an LLC when a member dies",
+      "slug": "what-happens-to-an-llc-when-a-member-dies",
+      "date": "2026-10-06",
       "skipped": false
     }
   ]
