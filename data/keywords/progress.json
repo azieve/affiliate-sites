@@ -1,5 +1,5 @@
 {
-  "next_index": 218,
+  "next_index": 219,
   "completed": [
     {
       "index": 1,
@@ -1538,6 +1538,13 @@
       "index": 217,
       "keyword": "what happens to an LLC when a member dies",
       "slug": "what-happens-to-an-llc-when-a-member-dies",
+      "date": "2026-10-06",
+      "skipped": false
+    },
+    {
+      "index": 218,
+      "keyword": "LLC for flooring installers",
+      "slug": "llc-for-flooring-installers",
       "date": "2026-10-06",
       "skipped": false
     }
