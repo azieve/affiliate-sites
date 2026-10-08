@@ -1,5 +1,5 @@
 {
-  "next_index": 221,
+  "next_index": 222,
   "completed": [
     {
       "index": 1,
@@ -1559,6 +1559,13 @@
       "index": 220,
       "keyword": "LLC for concrete contractors",
       "slug": "llc-for-concrete-contractors",
+      "date": "2026-10-08",
+      "skipped": false
+    },
+    {
+      "index": 221,
+      "keyword": "Harbor Compliance review",
+      "slug": "harbor-compliance-review",
       "date": "2026-10-08",
       "skipped": false
     }
