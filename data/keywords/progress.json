@@ -1,5 +1,5 @@
 {
-  "next_index": 220,
+  "next_index": 221,
   "completed": [
     {
       "index": 1,
@@ -1553,6 +1553,13 @@
       "keyword": "LLC vs 501(c)(3)",
       "slug": "llc-vs-501-c-3",
       "date": "2026-10-07",
+      "skipped": false
+    },
+    {
+      "index": 220,
+      "keyword": "LLC for concrete contractors",
+      "slug": "llc-for-concrete-contractors",
+      "date": "2026-10-08",
       "skipped": false
     }
   ]
