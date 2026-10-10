@@ -1,5 +1,5 @@
 {
-  "next_index": 223,
+  "next_index": 224,
   "completed": [
     {
       "index": 1,
@@ -1574,6 +1574,13 @@
       "keyword": "LLC for fencing company",
       "slug": "llc-for-fencing-company",
       "date": "2026-10-09",
+      "skipped": false
+    },
+    {
+      "index": 223,
+      "keyword": "how to buy out an LLC partner",
+      "slug": "how-to-buy-out-an-llc-partner",
+      "date": "2026-10-10",
       "skipped": false
     }
   ]
