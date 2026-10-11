@@ -1,5 +1,5 @@
 {
-  "next_index": 224,
+  "next_index": 225,
   "completed": [
     {
       "index": 1,
@@ -1581,6 +1581,13 @@
       "keyword": "how to buy out an LLC partner",
       "slug": "how-to-buy-out-an-llc-partner",
       "date": "2026-10-10",
+      "skipped": false
+    },
+    {
+      "index": 224,
+      "keyword": "LLC for pool cleaning and pool service business",
+      "slug": "llc-for-pool-cleaning-and-pool-service-business",
+      "date": "2026-10-11",
       "skipped": false
     }
   ]
