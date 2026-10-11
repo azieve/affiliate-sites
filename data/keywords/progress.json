@@ -1,5 +1,5 @@
 {
-  "next_index": 225,
+  "next_index": 226,
   "completed": [
     {
       "index": 1,
@@ -1587,6 +1587,13 @@
       "index": 224,
       "keyword": "LLC for pool cleaning and pool service business",
       "slug": "llc-for-pool-cleaning-and-pool-service-business",
+      "date": "2026-10-11",
+      "skipped": false
+    },
+    {
+      "index": 225,
+      "keyword": "L3C low-profit LLC explained",
+      "slug": "l3c-low-profit-llc-explained",
       "date": "2026-10-11",
       "skipped": false
     }
