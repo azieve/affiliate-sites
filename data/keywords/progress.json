@@ -1,5 +1,5 @@
 {
-  "next_index": 226,
+  "next_index": 227,
   "completed": [
     {
       "index": 1,
@@ -1595,6 +1595,13 @@
       "keyword": "L3C low-profit LLC explained",
       "slug": "l3c-low-profit-llc-explained",
       "date": "2026-10-11",
+      "skipped": false
+    },
+    {
+      "index": 226,
+      "keyword": "LLC for pest control business",
+      "slug": "llc-for-pest-control-business",
+      "date": "2026-10-12",
       "skipped": false
     }
   ]
