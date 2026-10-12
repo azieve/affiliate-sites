@@ -1,5 +1,5 @@
 {
-  "next_index": 227,
+  "next_index": 228,
   "completed": [
     {
       "index": 1,
@@ -1601,6 +1601,13 @@
       "index": 226,
       "keyword": "LLC for pest control business",
       "slug": "llc-for-pest-control-business",
+      "date": "2026-10-12",
+      "skipped": false
+    },
+    {
+      "index": 227,
+      "keyword": "LegalZoom vs Harbor Compliance",
+      "slug": "legalzoom-vs-harbor-compliance",
       "date": "2026-10-12",
       "skipped": false
     }
