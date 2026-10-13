@@ -1,5 +1,5 @@
 {
-  "next_index": 229,
+  "next_index": 230,
   "completed": [
     {
       "index": 1,
@@ -1615,6 +1615,13 @@
       "index": 228,
       "keyword": "LLC for junk removal business",
       "slug": "llc-for-junk-removal-business",
+      "date": "2026-10-13",
+      "skipped": false
+    },
+    {
+      "index": 229,
+      "keyword": "how to change your LLC address",
+      "slug": "how-to-change-your-llc-address",
       "date": "2026-10-13",
       "skipped": false
     }
