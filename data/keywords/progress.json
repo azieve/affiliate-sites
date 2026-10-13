@@ -1,5 +1,5 @@
 {
-  "next_index": 228,
+  "next_index": 229,
   "completed": [
     {
       "index": 1,
@@ -1609,6 +1609,13 @@
       "keyword": "LegalZoom vs Harbor Compliance",
       "slug": "legalzoom-vs-harbor-compliance",
       "date": "2026-10-12",
+      "skipped": false
+    },
+    {
+      "index": 228,
+      "keyword": "LLC for junk removal business",
+      "slug": "llc-for-junk-removal-business",
+      "date": "2026-10-13",
       "skipped": false
     }
   ]
