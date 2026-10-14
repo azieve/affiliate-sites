@@ -1,5 +1,5 @@
 {
-  "next_index": 230,
+  "next_index": 231,
   "completed": [
     {
       "index": 1,
@@ -1623,6 +1623,13 @@
       "keyword": "how to change your LLC address",
       "slug": "how-to-change-your-llc-address",
       "date": "2026-10-13",
+      "skipped": false
+    },
+    {
+      "index": 230,
+      "keyword": "LLC for moving company",
+      "slug": "llc-for-moving-company",
+      "date": "2026-10-14",
       "skipped": false
     }
   ]
