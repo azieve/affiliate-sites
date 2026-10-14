@@ -1,5 +1,5 @@
 {
-  "next_index": 231,
+  "next_index": 232,
   "completed": [
     {
       "index": 1,
@@ -1629,6 +1629,13 @@
       "index": 230,
       "keyword": "LLC for moving company",
       "slug": "llc-for-moving-company",
+      "date": "2026-10-14",
+      "skipped": false
+    },
+    {
+      "index": 231,
+      "keyword": "can a church be an LLC",
+      "slug": "can-a-church-be-an-llc",
       "date": "2026-10-14",
       "skipped": false
     }
