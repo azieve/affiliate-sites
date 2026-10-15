@@ -1,5 +1,5 @@
 {
-  "next_index": 233,
+  "next_index": 234,
   "completed": [
     {
       "index": 1,
@@ -1643,6 +1643,13 @@
       "index": 232,
       "keyword": "LLC for tree service business",
       "slug": "llc-for-tree-service-business",
+      "date": "2026-10-15",
+      "skipped": false
+    },
+    {
+      "index": 233,
+      "keyword": "Registered Agents Inc review",
+      "slug": "registered-agents-inc-review",
       "date": "2026-10-15",
       "skipped": false
     }
