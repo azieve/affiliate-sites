@@ -1,5 +1,5 @@
 {
-  "next_index": 232,
+  "next_index": 233,
   "completed": [
     {
       "index": 1,
@@ -1637,6 +1637,13 @@
       "keyword": "can a church be an LLC",
       "slug": "can-a-church-be-an-llc",
       "date": "2026-10-14",
+      "skipped": false
+    },
+    {
+      "index": 232,
+      "keyword": "LLC for tree service business",
+      "slug": "llc-for-tree-service-business",
+      "date": "2026-10-15",
       "skipped": false
     }
   ]
