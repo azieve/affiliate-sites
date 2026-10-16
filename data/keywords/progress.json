@@ -1,5 +1,5 @@
 {
-  "next_index": 234,
+  "next_index": 235,
   "completed": [
     {
       "index": 1,
@@ -1651,6 +1651,13 @@
       "keyword": "Registered Agents Inc review",
       "slug": "registered-agents-inc-review",
       "date": "2026-10-15",
+      "skipped": false
+    },
+    {
+      "index": 234,
+      "keyword": "LLC for snow removal business",
+      "slug": "llc-for-snow-removal-business",
+      "date": "2026-10-16",
       "skipped": false
     }
   ]
