@@ -1,5 +1,5 @@
 {
-  "next_index": 235,
+  "next_index": 236,
   "completed": [
     {
       "index": 1,
@@ -1657,6 +1657,13 @@
       "index": 234,
       "keyword": "LLC for snow removal business",
       "slug": "llc-for-snow-removal-business",
+      "date": "2026-10-16",
+      "skipped": false
+    },
+    {
+      "index": 235,
+      "keyword": "how to amend LLC articles of organization",
+      "slug": "how-to-amend-llc-articles-of-organization",
       "date": "2026-10-16",
       "skipped": false
     }
