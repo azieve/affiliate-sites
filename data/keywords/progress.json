@@ -1,5 +1,5 @@
 {
-  "next_index": 237,
+  "next_index": 238,
   "completed": [
     {
       "index": 1,
@@ -1671,6 +1671,13 @@
       "index": 236,
       "keyword": "LLC for home inspectors",
       "slug": "llc-for-home-inspectors",
+      "date": "2026-10-17",
+      "skipped": false
+    },
+    {
+      "index": 237,
+      "keyword": "Form 5472 for foreign-owned single-member LLC",
+      "slug": "form-5472-for-foreign-owned-single-member-llc",
       "date": "2026-10-17",
       "skipped": false
     }
