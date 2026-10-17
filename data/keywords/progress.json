@@ -1,5 +1,5 @@
 {
-  "next_index": 236,
+  "next_index": 237,
   "completed": [
     {
       "index": 1,
@@ -1665,6 +1665,13 @@
       "keyword": "how to amend LLC articles of organization",
       "slug": "how-to-amend-llc-articles-of-organization",
       "date": "2026-10-16",
+      "skipped": false
+    },
+    {
+      "index": 236,
+      "keyword": "LLC for home inspectors",
+      "slug": "llc-for-home-inspectors",
+      "date": "2026-10-17",
       "skipped": false
     }
   ]
