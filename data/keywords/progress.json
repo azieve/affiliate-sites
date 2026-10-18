@@ -1,5 +1,5 @@
 {
-  "next_index": 239,
+  "next_index": 240,
   "completed": [
     {
       "index": 1,
@@ -1685,6 +1685,13 @@
       "index": 238,
       "keyword": "LLC for real estate appraisers",
       "slug": "llc-for-real-estate-appraisers",
+      "date": "2026-10-18",
+      "skipped": false
+    },
+    {
+      "index": 239,
+      "keyword": "LegalZoom vs Registered Agents Inc",
+      "slug": "legalzoom-vs-registered-agents-inc",
       "date": "2026-10-18",
       "skipped": false
     }
