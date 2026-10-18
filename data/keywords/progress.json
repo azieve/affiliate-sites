@@ -1,5 +1,5 @@
 {
-  "next_index": 238,
+  "next_index": 239,
   "completed": [
     {
       "index": 1,
@@ -1679,6 +1679,13 @@
       "keyword": "Form 5472 for foreign-owned single-member LLC",
       "slug": "form-5472-for-foreign-owned-single-member-llc",
       "date": "2026-10-17",
+      "skipped": false
+    },
+    {
+      "index": 238,
+      "keyword": "LLC for real estate appraisers",
+      "slug": "llc-for-real-estate-appraisers",
+      "date": "2026-10-18",
       "skipped": false
     }
   ]
