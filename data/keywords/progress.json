@@ -1,5 +1,5 @@
 {
-  "next_index": 241,
+  "next_index": 242,
   "completed": [
     {
       "index": 1,
@@ -1700,6 +1700,13 @@
       "keyword": "LLC for locksmiths",
       "slug": "llc-for-locksmiths",
       "date": "2026-10-19",
+      "skipped": false
+    },
+    {
+      "index": 241,
+      "keyword": "what are articles of organization",
+      "slug": "what-are-articles-of-organization",
+      "date": "2026-10-20",
       "skipped": false
     }
   ]
