@@ -1,5 +1,5 @@
 {
-  "next_index": 242,
+  "next_index": 243,
   "completed": [
     {
       "index": 1,
@@ -1707,6 +1707,13 @@
       "keyword": "what are articles of organization",
       "slug": "what-are-articles-of-organization",
       "date": "2026-10-20",
+      "skipped": false
+    },
+    {
+      "index": 242,
+      "keyword": "LLC for solar installers",
+      "slug": "llc-for-solar-installers",
+      "date": "2026-10-21",
       "skipped": false
     }
   ]
