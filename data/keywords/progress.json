@@ -1,5 +1,5 @@
 {
-  "next_index": 243,
+  "next_index": 244,
   "completed": [
     {
       "index": 1,
@@ -1713,6 +1713,13 @@
       "index": 242,
       "keyword": "LLC for solar installers",
       "slug": "llc-for-solar-installers",
+      "date": "2026-10-21",
+      "skipped": false
+    },
+    {
+      "index": 243,
+      "keyword": "how to get an ITIN as a foreign LLC owner",
+      "slug": "how-to-get-an-itin-as-a-foreign-llc-owner",
       "date": "2026-10-21",
       "skipped": false
     }
