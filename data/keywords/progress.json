@@ -1,5 +1,5 @@
 {
-  "next_index": 245,
+  "next_index": 246,
   "completed": [
     {
       "index": 1,
@@ -1727,6 +1727,13 @@
       "index": 244,
       "keyword": "LLC for welders",
       "slug": "llc-for-welders",
+      "date": "2026-10-22",
+      "skipped": false
+    },
+    {
+      "index": 245,
+      "keyword": "Northwest Registered Agent vs Registered Agents Inc",
+      "slug": "northwest-registered-agent-vs-registered-agents-inc",
       "date": "2026-10-22",
       "skipped": false
     }
