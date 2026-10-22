@@ -1,5 +1,5 @@
 {
-  "next_index": 244,
+  "next_index": 245,
   "completed": [
     {
       "index": 1,
@@ -1721,6 +1721,13 @@
       "keyword": "how to get an ITIN as a foreign LLC owner",
       "slug": "how-to-get-an-itin-as-a-foreign-llc-owner",
       "date": "2026-10-21",
+      "skipped": false
+    },
+    {
+      "index": 244,
+      "keyword": "LLC for welders",
+      "slug": "llc-for-welders",
+      "date": "2026-10-22",
       "skipped": false
     }
   ]
