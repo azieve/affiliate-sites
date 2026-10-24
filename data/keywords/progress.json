@@ -1,5 +1,5 @@
 {
-  "next_index": 247,
+  "next_index": 248,
   "completed": [
     {
       "index": 1,
@@ -1742,6 +1742,13 @@
       "keyword": "LLC for woodworking and cabinet making business",
       "slug": "llc-for-woodworking-and-cabinet-making-business",
       "date": "2026-10-23",
+      "skipped": false
+    },
+    {
+      "index": 247,
+      "keyword": "how to pay yourself from an LLC",
+      "slug": "how-to-pay-yourself-from-an-llc",
+      "date": "2026-10-24",
       "skipped": false
     }
   ]
