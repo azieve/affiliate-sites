@@ -1,5 +1,5 @@
 {
-  "next_index": 248,
+  "next_index": 249,
   "completed": [
     {
       "index": 1,
@@ -1748,6 +1748,13 @@
       "index": 247,
       "keyword": "how to pay yourself from an LLC",
       "slug": "how-to-pay-yourself-from-an-llc",
+      "date": "2026-10-24",
+      "skipped": false
+    },
+    {
+      "index": 248,
+      "keyword": "LLC for auto repair shop",
+      "slug": "llc-for-auto-repair-shop",
       "date": "2026-10-24",
       "skipped": false
     }
