@@ -1,5 +1,5 @@
 {
-  "next_index": 250,
+  "next_index": 251,
   "completed": [
     {
       "index": 1,
@@ -1762,6 +1762,13 @@
       "index": 249,
       "keyword": "how to get an EIN without an SSN",
       "slug": "how-to-get-an-ein-without-an-ssn",
+      "date": "2026-10-25",
+      "skipped": false
+    },
+    {
+      "index": 250,
+      "keyword": "LLC for mobile mechanics",
+      "slug": "llc-for-mobile-mechanics",
       "date": "2026-10-25",
       "skipped": false
     }
