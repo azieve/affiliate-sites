@@ -1,5 +1,5 @@
 {
-  "next_index": 249,
+  "next_index": 250,
   "completed": [
     {
       "index": 1,
@@ -1756,6 +1756,13 @@
       "keyword": "LLC for auto repair shop",
       "slug": "llc-for-auto-repair-shop",
       "date": "2026-10-24",
+      "skipped": false
+    },
+    {
+      "index": 249,
+      "keyword": "how to get an EIN without an SSN",
+      "slug": "how-to-get-an-ein-without-an-ssn",
+      "date": "2026-10-25",
       "skipped": false
     }
   ]
