@@ -1,5 +1,5 @@
 {
-  "next_index": 251,
+  "next_index": 252,
   "completed": [
     {
       "index": 1,
@@ -1770,6 +1770,13 @@
       "keyword": "LLC for mobile mechanics",
       "slug": "llc-for-mobile-mechanics",
       "date": "2026-10-25",
+      "skipped": false
+    },
+    {
+      "index": 251,
+      "keyword": "LegalZoom vs LegalShield for LLC formation",
+      "slug": "legalzoom-vs-legalshield-for-llc-formation",
+      "date": "2026-10-26",
       "skipped": false
     }
   ]
