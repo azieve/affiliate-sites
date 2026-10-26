@@ -1,5 +1,5 @@
 {
-  "next_index": 252,
+  "next_index": 253,
   "completed": [
     {
       "index": 1,
@@ -1776,6 +1776,13 @@
       "index": 251,
       "keyword": "LegalZoom vs LegalShield for LLC formation",
       "slug": "legalzoom-vs-legalshield-for-llc-formation",
+      "date": "2026-10-26",
+      "skipped": false
+    },
+    {
+      "index": 252,
+      "keyword": "LLC for towing company",
+      "slug": "llc-for-towing-company",
       "date": "2026-10-26",
       "skipped": false
     }
