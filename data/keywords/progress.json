@@ -1,5 +1,5 @@
 {
-  "next_index": 253,
+  "next_index": 254,
   "completed": [
     {
       "index": 1,
@@ -1784,6 +1784,13 @@
       "keyword": "LLC for towing company",
       "slug": "llc-for-towing-company",
       "date": "2026-10-26",
+      "skipped": false
+    },
+    {
+      "index": 253,
+      "keyword": "reasonable salary for S corp LLC owners",
+      "slug": "reasonable-salary-for-s-corp-llc-owners",
+      "date": "2026-10-27",
       "skipped": false
     }
   ]
