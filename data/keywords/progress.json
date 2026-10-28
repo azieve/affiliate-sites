@@ -1,5 +1,5 @@
 {
-  "next_index": 254,
+  "next_index": 255,
   "completed": [
     {
       "index": 1,
@@ -1791,6 +1791,13 @@
       "keyword": "reasonable salary for S corp LLC owners",
       "slug": "reasonable-salary-for-s-corp-llc-owners",
       "date": "2026-10-27",
+      "skipped": false
+    },
+    {
+      "index": 254,
+      "keyword": "LLC for used car dealers",
+      "slug": "llc-for-used-car-dealers",
+      "date": "2026-10-28",
       "skipped": false
     }
   ]
