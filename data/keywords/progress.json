@@ -1,5 +1,5 @@
 {
-  "next_index": 255,
+  "next_index": 256,
   "completed": [
     {
       "index": 1,
@@ -1797,6 +1797,13 @@
       "index": 254,
       "keyword": "LLC for used car dealers",
       "slug": "llc-for-used-car-dealers",
+      "date": "2026-10-28",
+      "skipped": false
+    },
+    {
+      "index": 255,
+      "keyword": "US bank account for a foreign-owned LLC",
+      "slug": "us-bank-account-for-a-foreign-owned-llc",
       "date": "2026-10-28",
       "skipped": false
     }
