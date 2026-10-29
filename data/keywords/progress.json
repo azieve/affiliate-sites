@@ -1,5 +1,5 @@
 {
-  "next_index": 257,
+  "next_index": 258,
   "completed": [
     {
       "index": 1,
@@ -1811,6 +1811,13 @@
       "index": 256,
       "keyword": "LLC for Turo hosts",
       "slug": "llc-for-turo-hosts",
+      "date": "2026-10-29",
+      "skipped": false
+    },
+    {
+      "index": 257,
+      "keyword": "Swyft Filings vs ZenBusiness",
+      "slug": "swyft-filings-vs-zenbusiness",
       "date": "2026-10-29",
       "skipped": false
     }
