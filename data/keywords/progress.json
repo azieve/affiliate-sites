@@ -1,5 +1,5 @@
 {
-  "next_index": 256,
+  "next_index": 257,
   "completed": [
     {
       "index": 1,
@@ -1805,6 +1805,13 @@
       "keyword": "US bank account for a foreign-owned LLC",
       "slug": "us-bank-account-for-a-foreign-owned-llc",
       "date": "2026-10-28",
+      "skipped": false
+    },
+    {
+      "index": 256,
+      "keyword": "LLC for Turo hosts",
+      "slug": "llc-for-turo-hosts",
+      "date": "2026-10-29",
       "skipped": false
     }
   ]
