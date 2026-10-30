@@ -1,5 +1,5 @@
 {
-  "next_index": 258,
+  "next_index": 259,
   "completed": [
     {
       "index": 1,
@@ -1819,6 +1819,13 @@
       "keyword": "Swyft Filings vs ZenBusiness",
       "slug": "swyft-filings-vs-zenbusiness",
       "date": "2026-10-29",
+      "skipped": false
+    },
+    {
+      "index": 258,
+      "keyword": "do DoorDash and Instacart drivers need an LLC",
+      "slug": "do-doordash-and-instacart-drivers-need-an-llc",
+      "date": "2026-10-30",
       "skipped": false
     }
   ]
