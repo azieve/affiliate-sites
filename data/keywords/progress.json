@@ -1,5 +1,5 @@
 {
-  "next_index": 259,
+  "next_index": 260,
   "completed": [
     {
       "index": 1,
@@ -1825,6 +1825,13 @@
       "index": 258,
       "keyword": "do DoorDash and Instacart drivers need an LLC",
       "slug": "do-doordash-and-instacart-drivers-need-an-llc",
+      "date": "2026-10-30",
+      "skipped": false
+    },
+    {
+      "index": 259,
+      "keyword": "how to file Form 2553 for an LLC",
+      "slug": "how-to-file-form-2553-for-an-llc",
       "date": "2026-10-30",
       "skipped": false
     }
