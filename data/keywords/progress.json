@@ -1,5 +1,5 @@
 {
-  "next_index": 262,
+  "next_index": 263,
   "completed": [
     {
       "index": 1,
@@ -1846,6 +1846,13 @@
       "index": 261,
       "keyword": "US LLC for Canadian residents",
       "slug": "us-llc-for-canadian-residents",
+      "date": "2026-11-01",
+      "skipped": false
+    },
+    {
+      "index": 262,
+      "keyword": "LLC for truck dispatchers",
+      "slug": "llc-for-truck-dispatchers",
       "date": "2026-11-01",
       "skipped": false
     }
