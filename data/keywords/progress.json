@@ -1,5 +1,5 @@
 {
-  "next_index": 260,
+  "next_index": 261,
   "completed": [
     {
       "index": 1,
@@ -1833,6 +1833,13 @@
       "keyword": "how to file Form 2553 for an LLC",
       "slug": "how-to-file-form-2553-for-an-llc",
       "date": "2026-10-30",
+      "skipped": false
+    },
+    {
+      "index": 260,
+      "keyword": "LLC for freight brokers",
+      "slug": "llc-for-freight-brokers",
+      "date": "2026-11-01",
       "skipped": false
     }
   ]
