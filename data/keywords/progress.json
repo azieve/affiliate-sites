@@ -1,5 +1,5 @@
 {
-  "next_index": 261,
+  "next_index": 262,
   "completed": [
     {
       "index": 1,
@@ -1839,6 +1839,13 @@
       "index": 260,
       "keyword": "LLC for freight brokers",
       "slug": "llc-for-freight-brokers",
+      "date": "2026-11-01",
+      "skipped": false
+    },
+    {
+      "index": 261,
+      "keyword": "US LLC for Canadian residents",
+      "slug": "us-llc-for-canadian-residents",
       "date": "2026-11-01",
       "skipped": false
     }
