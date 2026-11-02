@@ -1,5 +1,5 @@
 {
-  "next_index": 264,
+  "next_index": 265,
   "completed": [
     {
       "index": 1,
@@ -1860,6 +1860,13 @@
       "index": 263,
       "keyword": "Tailor Brands vs ZenBusiness",
       "slug": "tailor-brands-vs-zenbusiness",
+      "date": "2026-11-02",
+      "skipped": false
+    },
+    {
+      "index": 264,
+      "keyword": "LLC for courier and delivery business",
+      "slug": "llc-for-courier-and-delivery-business",
       "date": "2026-11-02",
       "skipped": false
     }
