@@ -1,5 +1,5 @@
 {
-  "next_index": 263,
+  "next_index": 264,
   "completed": [
     {
       "index": 1,
@@ -1854,6 +1854,13 @@
       "keyword": "LLC for truck dispatchers",
       "slug": "llc-for-truck-dispatchers",
       "date": "2026-11-01",
+      "skipped": false
+    },
+    {
+      "index": 263,
+      "keyword": "Tailor Brands vs ZenBusiness",
+      "slug": "tailor-brands-vs-zenbusiness",
+      "date": "2026-11-02",
       "skipped": false
     }
   ]
