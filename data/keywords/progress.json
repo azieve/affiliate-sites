@@ -1,5 +1,5 @@
 {
-  "next_index": 265,
+  "next_index": 266,
   "completed": [
     {
       "index": 1,
@@ -1868,6 +1868,13 @@
       "keyword": "LLC for courier and delivery business",
       "slug": "llc-for-courier-and-delivery-business",
       "date": "2026-11-02",
+      "skipped": false
+    },
+    {
+      "index": 265,
+      "keyword": "late S corp election relief for LLCs",
+      "slug": "late-s-corp-election-relief-for-llcs",
+      "date": "2026-11-03",
       "skipped": false
     }
   ]
