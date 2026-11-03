@@ -1,5 +1,5 @@
 {
-  "next_index": 266,
+  "next_index": 267,
   "completed": [
     {
       "index": 1,
@@ -1874,6 +1874,13 @@
       "index": 265,
       "keyword": "late S corp election relief for LLCs",
       "slug": "late-s-corp-election-relief-for-llcs",
+      "date": "2026-11-03",
+      "skipped": false
+    },
+    {
+      "index": 266,
+      "keyword": "LLC for non-emergency medical transportation (NEMT)",
+      "slug": "llc-for-non-emergency-medical-transportation-nemt",
       "date": "2026-11-03",
       "skipped": false
     }
