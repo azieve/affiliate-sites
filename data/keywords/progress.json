@@ -1,5 +1,5 @@
 {
-  "next_index": 268,
+  "next_index": 269,
   "completed": [
     {
       "index": 1,
@@ -1888,6 +1888,13 @@
       "index": 267,
       "keyword": "US LLC for UK residents",
       "slug": "us-llc-for-uk-residents",
+      "date": "2026-11-04",
+      "skipped": false
+    },
+    {
+      "index": 268,
+      "keyword": "LLC for limo and chauffeur service",
+      "slug": "llc-for-limo-and-chauffeur-service",
       "date": "2026-11-04",
       "skipped": false
     }
