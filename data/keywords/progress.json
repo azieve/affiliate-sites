@@ -1,5 +1,5 @@
 {
-  "next_index": 267,
+  "next_index": 268,
   "completed": [
     {
       "index": 1,
@@ -1882,6 +1882,13 @@
       "keyword": "LLC for non-emergency medical transportation (NEMT)",
       "slug": "llc-for-non-emergency-medical-transportation-nemt",
       "date": "2026-11-03",
+      "skipped": false
+    },
+    {
+      "index": 267,
+      "keyword": "US LLC for UK residents",
+      "slug": "us-llc-for-uk-residents",
+      "date": "2026-11-04",
       "skipped": false
     }
   ]
