@@ -1,5 +1,5 @@
 {
-  "next_index": 269,
+  "next_index": 270,
   "completed": [
     {
       "index": 1,
@@ -1896,6 +1896,13 @@
       "keyword": "LLC for limo and chauffeur service",
       "slug": "llc-for-limo-and-chauffeur-service",
       "date": "2026-11-04",
+      "skipped": false
+    },
+    {
+      "index": 269,
+      "keyword": "Tailor Brands vs LegalZoom",
+      "slug": "tailor-brands-vs-legalzoom",
+      "date": "2026-11-05",
       "skipped": false
     }
   ]
