@@ -1,5 +1,5 @@
 {
-  "next_index": 270,
+  "next_index": 271,
   "completed": [
     {
       "index": 1,
@@ -1903,6 +1903,13 @@
       "keyword": "Tailor Brands vs LegalZoom",
       "slug": "tailor-brands-vs-legalzoom",
       "date": "2026-11-05",
+      "skipped": false
+    },
+    {
+      "index": 270,
+      "keyword": "LLC for dentists (PLLC)",
+      "slug": "llc-for-dentists-pllc",
+      "date": "2026-11-06",
       "skipped": false
     }
   ]
