@@ -1,5 +1,5 @@
 {
-  "next_index": 271,
+  "next_index": 272,
   "completed": [
     {
       "index": 1,
@@ -1910,6 +1910,13 @@
       "keyword": "LLC for dentists (PLLC)",
       "slug": "llc-for-dentists-pllc",
       "date": "2026-11-06",
+      "skipped": false
+    },
+    {
+      "index": 271,
+      "keyword": "LLC tax deductions list",
+      "slug": "llc-tax-deductions-list",
+      "date": "2026-11-07",
       "skipped": false
     }
   ]
