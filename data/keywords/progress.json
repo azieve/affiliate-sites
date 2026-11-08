@@ -1,5 +1,5 @@
 {
-  "next_index": 273,
+  "next_index": 274,
   "completed": [
     {
       "index": 1,
@@ -1923,6 +1923,13 @@
       "index": 272,
       "keyword": "LLC for chiropractors",
       "slug": "llc-for-chiropractors",
+      "date": "2026-11-08",
+      "skipped": false
+    },
+    {
+      "index": 273,
+      "keyword": "US LLC for Indian residents",
+      "slug": "us-llc-for-indian-residents",
       "date": "2026-11-08",
       "skipped": false
     }
