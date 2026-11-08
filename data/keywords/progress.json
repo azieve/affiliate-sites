@@ -1,5 +1,5 @@
 {
-  "next_index": 272,
+  "next_index": 273,
   "completed": [
     {
       "index": 1,
@@ -1917,6 +1917,13 @@
       "keyword": "LLC tax deductions list",
       "slug": "llc-tax-deductions-list",
       "date": "2026-11-07",
+      "skipped": false
+    },
+    {
+      "index": 272,
+      "keyword": "LLC for chiropractors",
+      "slug": "llc-for-chiropractors",
+      "date": "2026-11-08",
       "skipped": false
     }
   ]
