@@ -1,5 +1,5 @@
 {
-  "next_index": 275,
+  "next_index": 276,
   "completed": [
     {
       "index": 1,
@@ -1937,6 +1937,13 @@
       "index": 274,
       "keyword": "LLC for physical therapists",
       "slug": "llc-for-physical-therapists",
+      "date": "2026-11-09",
+      "skipped": false
+    },
+    {
+      "index": 275,
+      "keyword": "Inc Authority vs ZenBusiness",
+      "slug": "inc-authority-vs-zenbusiness",
       "date": "2026-11-09",
       "skipped": false
     }
