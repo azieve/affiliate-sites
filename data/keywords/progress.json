@@ -1,5 +1,5 @@
 {
-  "next_index": 274,
+  "next_index": 275,
   "completed": [
     {
       "index": 1,
@@ -1931,6 +1931,13 @@
       "keyword": "US LLC for Indian residents",
       "slug": "us-llc-for-indian-residents",
       "date": "2026-11-08",
+      "skipped": false
+    },
+    {
+      "index": 274,
+      "keyword": "LLC for physical therapists",
+      "slug": "llc-for-physical-therapists",
+      "date": "2026-11-09",
       "skipped": false
     }
   ]
