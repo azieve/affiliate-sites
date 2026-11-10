@@ -1,5 +1,5 @@
 {
-  "next_index": 276,
+  "next_index": 277,
   "completed": [
     {
       "index": 1,
@@ -1945,6 +1945,13 @@
       "keyword": "Inc Authority vs ZenBusiness",
       "slug": "inc-authority-vs-zenbusiness",
       "date": "2026-11-09",
+      "skipped": false
+    },
+    {
+      "index": 276,
+      "keyword": "LLC for nurse practitioners",
+      "slug": "llc-for-nurse-practitioners",
+      "date": "2026-11-10",
       "skipped": false
     }
   ]
