@@ -1,5 +1,5 @@
 {
-  "next_index": 277,
+  "next_index": 278,
   "completed": [
     {
       "index": 1,
@@ -1951,6 +1951,13 @@
       "index": 276,
       "keyword": "LLC for nurse practitioners",
       "slug": "llc-for-nurse-practitioners",
+      "date": "2026-11-10",
+      "skipped": false
+    },
+    {
+      "index": 277,
+      "keyword": "home office deduction for LLC owners",
+      "slug": "home-office-deduction-for-llc-owners",
       "date": "2026-11-10",
       "skipped": false
     }
