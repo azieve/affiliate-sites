@@ -1,5 +1,5 @@
 {
-  "next_index": 279,
+  "next_index": 280,
   "completed": [
     {
       "index": 1,
@@ -1965,6 +1965,13 @@
       "index": 278,
       "keyword": "LLC for travel nurses",
       "slug": "llc-for-travel-nurses",
+      "date": "2026-11-11",
+      "skipped": false
+    },
+    {
+      "index": 279,
+      "keyword": "US LLC for Nigerian residents",
+      "slug": "us-llc-for-nigerian-residents",
       "date": "2026-11-11",
       "skipped": false
     }
