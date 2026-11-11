@@ -1,5 +1,5 @@
 {
-  "next_index": 278,
+  "next_index": 279,
   "completed": [
     {
       "index": 1,
@@ -1959,6 +1959,13 @@
       "keyword": "home office deduction for LLC owners",
       "slug": "home-office-deduction-for-llc-owners",
       "date": "2026-11-10",
+      "skipped": false
+    },
+    {
+      "index": 278,
+      "keyword": "LLC for travel nurses",
+      "slug": "llc-for-travel-nurses",
+      "date": "2026-11-11",
       "skipped": false
     }
   ]
