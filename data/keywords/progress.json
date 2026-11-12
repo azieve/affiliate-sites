@@ -1,5 +1,5 @@
 {
-  "next_index": 280,
+  "next_index": 281,
   "completed": [
     {
       "index": 1,
@@ -1973,6 +1973,13 @@
       "keyword": "US LLC for Nigerian residents",
       "slug": "us-llc-for-nigerian-residents",
       "date": "2026-11-11",
+      "skipped": false
+    },
+    {
+      "index": 280,
+      "keyword": "LLC for independent contractor physicians and locum tenens",
+      "slug": "llc-for-independent-contractor-physicians-and-locum-tenens",
+      "date": "2026-11-12",
       "skipped": false
     }
   ]
