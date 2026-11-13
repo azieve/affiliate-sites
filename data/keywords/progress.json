@@ -1,5 +1,5 @@
 {
-  "next_index": 282,
+  "next_index": 283,
   "completed": [
     {
       "index": 1,
@@ -1986,6 +1986,13 @@
       "index": 281,
       "keyword": "Inc Authority vs Northwest Registered Agent",
       "slug": "inc-authority-vs-northwest-registered-agent",
+      "date": "2026-11-13",
+      "skipped": false
+    },
+    {
+      "index": 282,
+      "keyword": "LLC for CRNAs",
+      "slug": "llc-for-crnas",
       "date": "2026-11-13",
       "skipped": false
     }
