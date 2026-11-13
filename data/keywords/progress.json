@@ -1,5 +1,5 @@
 {
-  "next_index": 281,
+  "next_index": 282,
   "completed": [
     {
       "index": 1,
@@ -1980,6 +1980,13 @@
       "keyword": "LLC for independent contractor physicians and locum tenens",
       "slug": "llc-for-independent-contractor-physicians-and-locum-tenens",
       "date": "2026-11-12",
+      "skipped": false
+    },
+    {
+      "index": 281,
+      "keyword": "Inc Authority vs Northwest Registered Agent",
+      "slug": "inc-authority-vs-northwest-registered-agent",
+      "date": "2026-11-13",
       "skipped": false
     }
   ]
