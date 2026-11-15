@@ -1,5 +1,5 @@
 {
-  "next_index": 285,
+  "next_index": 286,
   "completed": [
     {
       "index": 1,
@@ -2007,6 +2007,13 @@
       "index": 284,
       "keyword": "LLC for massage therapists",
       "slug": "llc-for-massage-therapists",
+      "date": "2026-11-15",
+      "skipped": false
+    },
+    {
+      "index": 285,
+      "keyword": "US LLC for Pakistani residents",
+      "slug": "us-llc-for-pakistani-residents",
       "date": "2026-11-15",
       "skipped": false
     }
