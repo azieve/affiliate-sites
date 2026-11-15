@@ -1,5 +1,5 @@
 {
-  "next_index": 283,
+  "next_index": 284,
   "completed": [
     {
       "index": 1,
@@ -1994,6 +1994,13 @@
       "keyword": "LLC for CRNAs",
       "slug": "llc-for-crnas",
       "date": "2026-11-13",
+      "skipped": false
+    },
+    {
+      "index": 283,
+      "keyword": "should I put my car in my LLC",
+      "slug": "should-i-put-my-car-in-my-llc",
+      "date": "2026-11-15",
       "skipped": false
     }
   ]
