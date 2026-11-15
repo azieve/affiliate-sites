@@ -1,5 +1,5 @@
 {
-  "next_index": 284,
+  "next_index": 285,
   "completed": [
     {
       "index": 1,
@@ -2000,6 +2000,13 @@
       "index": 283,
       "keyword": "should I put my car in my LLC",
       "slug": "should-i-put-my-car-in-my-llc",
+      "date": "2026-11-15",
+      "skipped": false
+    },
+    {
+      "index": 284,
+      "keyword": "LLC for massage therapists",
+      "slug": "llc-for-massage-therapists",
       "date": "2026-11-15",
       "skipped": false
     }
