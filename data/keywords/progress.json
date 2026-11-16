@@ -1,5 +1,5 @@
 {
-  "next_index": 287,
+  "next_index": 288,
   "completed": [
     {
       "index": 1,
@@ -2021,6 +2021,13 @@
       "index": 286,
       "keyword": "LLC for estheticians",
       "slug": "llc-for-estheticians",
+      "date": "2026-11-16",
+      "skipped": false
+    },
+    {
+      "index": 287,
+      "keyword": "doola review for non-US founders",
+      "slug": "doola-review-for-non-us-founders",
       "date": "2026-11-16",
       "skipped": false
     }
