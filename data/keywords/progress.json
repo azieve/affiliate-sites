@@ -1,5 +1,5 @@
 {
-  "next_index": 288,
+  "next_index": 289,
   "completed": [
     {
       "index": 1,
@@ -2029,6 +2029,13 @@
       "keyword": "doola review for non-US founders",
       "slug": "doola-review-for-non-us-founders",
       "date": "2026-11-16",
+      "skipped": false
+    },
+    {
+      "index": 288,
+      "keyword": "LLC for med spa",
+      "slug": "llc-for-med-spa",
+      "date": "2026-11-17",
       "skipped": false
     }
   ]
