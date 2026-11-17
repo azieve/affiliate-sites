@@ -1,5 +1,5 @@
 {
-  "next_index": 289,
+  "next_index": 290,
   "completed": [
     {
       "index": 1,
@@ -2035,6 +2035,13 @@
       "index": 288,
       "keyword": "LLC for med spa",
       "slug": "llc-for-med-spa",
+      "date": "2026-11-17",
+      "skipped": false
+    },
+    {
+      "index": 289,
+      "keyword": "hiring your kids in your family business LLC",
+      "slug": "hiring-your-kids-in-your-family-business-llc",
       "date": "2026-11-17",
       "skipped": false
     }
