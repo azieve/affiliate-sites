@@ -1,5 +1,5 @@
 {
-  "next_index": 291,
+  "next_index": 292,
   "completed": [
     {
       "index": 1,
@@ -2049,6 +2049,13 @@
       "index": 290,
       "keyword": "LLC for mobile IV therapy business",
       "slug": "llc-for-mobile-iv-therapy-business",
+      "date": "2026-11-18",
+      "skipped": false
+    },
+    {
+      "index": 291,
+      "keyword": "US LLC for Mexican residents",
+      "slug": "us-llc-for-mexican-residents",
       "date": "2026-11-18",
       "skipped": false
     }
