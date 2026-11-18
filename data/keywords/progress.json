@@ -1,5 +1,5 @@
 {
-  "next_index": 290,
+  "next_index": 291,
   "completed": [
     {
       "index": 1,
@@ -2043,6 +2043,13 @@
       "keyword": "hiring your kids in your family business LLC",
       "slug": "hiring-your-kids-in-your-family-business-llc",
       "date": "2026-11-17",
+      "skipped": false
+    },
+    {
+      "index": 290,
+      "keyword": "LLC for mobile IV therapy business",
+      "slug": "llc-for-mobile-iv-therapy-business",
+      "date": "2026-11-18",
       "skipped": false
     }
   ]
