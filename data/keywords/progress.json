@@ -1,5 +1,5 @@
 {
-  "next_index": 293,
+  "next_index": 294,
   "completed": [
     {
       "index": 1,
@@ -2063,6 +2063,13 @@
       "index": 292,
       "keyword": "LLC for home health care agency",
       "slug": "llc-for-home-health-care-agency",
+      "date": "2026-11-19",
+      "skipped": false
+    },
+    {
+      "index": 293,
+      "keyword": "Stripe Atlas review",
+      "slug": "stripe-atlas-review",
       "date": "2026-11-19",
       "skipped": false
     }
