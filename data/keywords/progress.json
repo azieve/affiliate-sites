@@ -1,5 +1,5 @@
 {
-  "next_index": 292,
+  "next_index": 293,
   "completed": [
     {
       "index": 1,
@@ -2057,6 +2057,13 @@
       "keyword": "US LLC for Mexican residents",
       "slug": "us-llc-for-mexican-residents",
       "date": "2026-11-18",
+      "skipped": false
+    },
+    {
+      "index": 292,
+      "keyword": "LLC for home health care agency",
+      "slug": "llc-for-home-health-care-agency",
+      "date": "2026-11-19",
       "skipped": false
     }
   ]
