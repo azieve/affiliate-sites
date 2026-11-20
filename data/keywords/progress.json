@@ -1,5 +1,5 @@
 {
-  "next_index": 295,
+  "next_index": 296,
   "completed": [
     {
       "index": 1,
@@ -2077,6 +2077,13 @@
       "index": 294,
       "keyword": "LLC for non-medical home care business",
       "slug": "llc-for-non-medical-home-care-business",
+      "date": "2026-11-20",
+      "skipped": false
+    },
+    {
+      "index": 295,
+      "keyword": "do LLCs get a 1099",
+      "slug": "do-llcs-get-a-1099",
       "date": "2026-11-20",
       "skipped": false
     }
