@@ -1,5 +1,5 @@
 {
-  "next_index": 297,
+  "next_index": 298,
   "completed": [
     {
       "index": 1,
@@ -2091,6 +2091,13 @@
       "index": 296,
       "keyword": "LLC for medical billing company",
       "slug": "llc-for-medical-billing-company",
+      "date": "2026-11-22",
+      "skipped": false
+    },
+    {
+      "index": 297,
+      "keyword": "US LLC for digital nomads and US expats abroad",
+      "slug": "us-llc-for-digital-nomads-and-us-expats-abroad",
       "date": "2026-11-22",
       "skipped": false
     }
