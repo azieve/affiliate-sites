@@ -1,5 +1,5 @@
 {
-  "next_index": 299,
+  "next_index": 300,
   "completed": [
     {
       "index": 1,
@@ -2105,6 +2105,13 @@
       "index": 298,
       "keyword": "LLC for daycare and childcare business",
       "slug": "llc-for-daycare-and-childcare-business",
+      "date": "2026-11-23",
+      "skipped": false
+    },
+    {
+      "index": 299,
+      "keyword": "Firstbase review",
+      "slug": "firstbase-review",
       "date": "2026-11-23",
       "skipped": false
     }
