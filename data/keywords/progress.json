@@ -1,5 +1,5 @@
 {
-  "next_index": 298,
+  "next_index": 299,
   "completed": [
     {
       "index": 1,
@@ -2099,6 +2099,13 @@
       "keyword": "US LLC for digital nomads and US expats abroad",
       "slug": "us-llc-for-digital-nomads-and-us-expats-abroad",
       "date": "2026-11-22",
+      "skipped": false
+    },
+    {
+      "index": 298,
+      "keyword": "LLC for daycare and childcare business",
+      "slug": "llc-for-daycare-and-childcare-business",
+      "date": "2026-11-23",
       "skipped": false
     }
   ]
