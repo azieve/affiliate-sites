@@ -1,5 +1,5 @@
 {
-  "next_index": 300,
+  "next_index": 301,
   "completed": [
     {
       "index": 1,
@@ -2113,6 +2113,13 @@
       "keyword": "Firstbase review",
       "slug": "firstbase-review",
       "date": "2026-11-23",
+      "skipped": false
+    },
+    {
+      "index": 300,
+      "keyword": "LLC for group home business",
+      "slug": "llc-for-group-home-business",
+      "date": "2026-11-24",
       "skipped": false
     }
   ]
