@@ -1,5 +1,5 @@
 {
-  "next_index": 301,
+  "next_index": 302,
   "completed": [
     {
       "index": 1,
@@ -2119,6 +2119,13 @@
       "index": 300,
       "keyword": "LLC for group home business",
       "slug": "llc-for-group-home-business",
+      "date": "2026-11-24",
+      "skipped": false
+    },
+    {
+      "index": 301,
+      "keyword": "how to fill out a W-9 as an LLC",
+      "slug": "how-to-fill-out-a-w-9-as-an-llc",
       "date": "2026-11-24",
       "skipped": false
     }
