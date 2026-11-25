@@ -1,5 +1,5 @@
 {
-  "next_index": 303,
+  "next_index": 304,
   "completed": [
     {
       "index": 1,
@@ -2133,6 +2133,13 @@
       "index": 302,
       "keyword": "LLC for sober living home",
       "slug": "llc-for-sober-living-home",
+      "date": "2026-11-25",
+      "skipped": false
+    },
+    {
+      "index": 303,
+      "keyword": "North Carolina LLC annual report requirements",
+      "slug": "north-carolina-llc-annual-report-requirements",
       "date": "2026-11-25",
       "skipped": false
     }
