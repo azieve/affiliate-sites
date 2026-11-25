@@ -1,5 +1,5 @@
 {
-  "next_index": 302,
+  "next_index": 303,
   "completed": [
     {
       "index": 1,
@@ -2127,6 +2127,13 @@
       "keyword": "how to fill out a W-9 as an LLC",
       "slug": "how-to-fill-out-a-w-9-as-an-llc",
       "date": "2026-11-24",
+      "skipped": false
+    },
+    {
+      "index": 302,
+      "keyword": "LLC for sober living home",
+      "slug": "llc-for-sober-living-home",
+      "date": "2026-11-25",
       "skipped": false
     }
   ]
