@@ -1,5 +1,5 @@
 {
-  "next_index": 305,
+  "next_index": 306,
   "completed": [
     {
       "index": 1,
@@ -2147,6 +2147,13 @@
       "index": 304,
       "keyword": "LLC for assisted living facility",
       "slug": "llc-for-assisted-living-facility",
+      "date": "2026-11-26",
+      "skipped": false
+    },
+    {
+      "index": 305,
+      "keyword": "Stripe Atlas vs doola",
+      "slug": "stripe-atlas-vs-doola",
       "date": "2026-11-26",
       "skipped": false
     }
