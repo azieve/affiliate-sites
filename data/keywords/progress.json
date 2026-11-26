@@ -1,5 +1,5 @@
 {
-  "next_index": 304,
+  "next_index": 305,
   "completed": [
     {
       "index": 1,
@@ -2141,6 +2141,13 @@
       "keyword": "North Carolina LLC annual report requirements",
       "slug": "north-carolina-llc-annual-report-requirements",
       "date": "2026-11-25",
+      "skipped": false
+    },
+    {
+      "index": 304,
+      "keyword": "LLC for assisted living facility",
+      "slug": "llc-for-assisted-living-facility",
+      "date": "2026-11-26",
       "skipped": false
     }
   ]
