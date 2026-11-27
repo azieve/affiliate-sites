@@ -1,5 +1,5 @@
 {
-  "next_index": 306,
+  "next_index": 307,
   "completed": [
     {
       "index": 1,
@@ -2155,6 +2155,13 @@
       "keyword": "Stripe Atlas vs doola",
       "slug": "stripe-atlas-vs-doola",
       "date": "2026-11-26",
+      "skipped": false
+    },
+    {
+      "index": 306,
+      "keyword": "LLC for nutritionists and dietitians",
+      "slug": "llc-for-nutritionists-and-dietitians",
+      "date": "2026-11-27",
       "skipped": false
     }
   ]
